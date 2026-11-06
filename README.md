@@ -1,9 +1,6 @@
-# Fashion Check Bot v4 — один режим: Квиз
+# Fashion Check Bot v5
+Файлы на GitHub: `bot.py`, `questions.json`, `requirements.txt`.
+Railway: `BOT_TOKEN`, `DB_PATH` (Volume, напр. `/data/fashion.db`), `ADMIN_IDS` (твой ID из /myid), `REMINDER_HOUR`.
 
-Загрузи на GitHub с заменой: `bot.py`, `questions.json`, `requirements.txt`.
-Переменные Railway: `BOT_TOKEN`, `DB_PATH` (например `/data/fashion.db` + Volume), `REMINDER_HOUR` (UTC, по умолчанию 9).
-
-- 202 текстовых вопроса, 4 варианта, без фото.
-- Сложность: Авто / Лёгкая / Средняя / Сложная / Нишевый.
-- XP, 12 рангов, серии, наборы, коллекции, достижения, рейтинг.
-- Контент редактируется в папке `content/` и собирается скриптом `build_content.py`.
+Уровни: 🟢 Лёгкий (61), 🟡 Средний (79), ⚫ Нишевый (62) + 21 вопрос с логотипами.
+Вопросы-логотипы появляются в игре только после того, как админ отправит боту картинку с подписью `logo Название бренда`. Список — /logos и logo_tasks.csv.

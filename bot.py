@@ -10,33 +10,31 @@ from aiogram.types import BotCommand, CallbackQuery, Message
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 BASE = Path(__file__).parent
+ADMIN_IDS = {int(x) for x in os.getenv("ADMIN_IDS", "").replace(" ", "").split(",") if x.isdigit()}
 DB_PATH = Path(os.getenv("DB_PATH", BASE / "fashion.db"))
 REMINDER_HOUR = int(os.getenv("REMINDER_HOUR", "9"))  # по UTC; 9 = 12:00 по Москве
 QUESTIONS = {x["id"]: x for x in json.loads((BASE / "questions.json").read_text(encoding="utf-8"))}
 
-FAME = {1: "🟢 Популярный", 2: "🟡 Средний", 3: "🔴 Сложный", 4: "⚫ Нишевый"}
-FAME_ICON = {1: "🟢", 2: "🟡", 3: "🔴", 4: "⚫"}
+FAME = {1: "🟢 Лёгкий", 2: "🟡 Средний", 3: "⚫ Нишевый"}  # уровни
 CX = {1: "лёгкий", 2: "средний", 3: "сложный"}
 BASE_XP = {1: 10, 2: 25, 3: 50}
-FAME_MULT = {1: 1.0, 2: 1.2, 3: 1.5, 4: 2.0}
+FAME_MULT = {1: 1.0, 2: 1.5, 3: 2.0}
 
 RANKS = [  # (порог XP, название, описание)
-    (0, "Новичок гардероба", "Первые шаги: популярные бренды."),
+    (0, "Новичок гардероба", "Первые шаги: лёгкий уровень."),
     (250, "Уличный наблюдатель", "Замечаешь, что носят вокруг."),
-    (700, "Охотник за кроссовками", "Открыты сложные популярные вопросы."),
-    (1500, "Знаток денима", "Открыт средний уровень известности целиком."),
-    (2600, "Модный детектив", "Открыты сложные бренды."),
-    (4000, "Стилист-аналитик", "Открыты самые трудные вопросы про сложные бренды."),
-    (5800, "Охотник за архивом", "Открыт нишевый уровень (лёгкие и средние)."),
-    (8000, "Куратор винтажа", "Нишевые вопросы любой сложности."),
-    (10500, "Архивист моды", "Открыты архивные нишевые вещи."),
-    (14000, "Мастер нишевых имён", "Титул мастера: вся база открыта."),
+    (700, "Охотник за кроссовками", "Открыт средний уровень."),
+    (1500, "Знаток денима", "Средний уровень — твой."),
+    (2600, "Модный детектив", "Ты узнаёшь бренды по деталям."),
+    (4000, "Стилист-аналитик", "Скоро нишевый уровень."),
+    (5800, "Охотник за архивом", "Открыт нишевый уровень."),
+    (8000, "Куратор винтажа", "Открыты архивные нишевые вещи."),
+    (10500, "Архивист моды", "Ты разбираешься в архиве."),
+    (14000, "Мастер нишевых имён", "Титул мастера."),
     (19000, "Легенда подиума", "Почётный титул."),
     (26000, "Хранитель архива", "Высший ранг."),
 ]
-UNLOCK_TEXT = {1: "🟢 лёгкие", 2: "🟢 средние", 3: "🟢 сложные, 🟡 лёгкие/средние",
-               4: "🟡 все", 5: "🔴 лёгкие/средние", 6: "🔴 все", 7: "⚫ лёгкие/средние",
-               8: "⚫ все (без архива)", 9: "⚫ архив"}
+UNLOCK_TEXT = {1: "🟢 лёгкий уровень", 3: "🟡 средний уровень", 6: "⚫ нишевый уровень", 8: "🕰 нишевый архив"}
 
 SETS = {  # название набора -> (тег, подпись)
     "sneakers": "👟 Кроссовки", "jpdenim": "🧵 Японский деним", "luxury": "💎 Люкс",
@@ -84,9 +82,11 @@ def init_db():
         q("ALTER TABLE u3 ADD COLUMN diff INTEGER DEFAULT 0", fetch=None)
     except sqlite3.OperationalError:
         pass
+    q("UPDATE u3 SET diff=0 WHERE diff>3", fetch=None)
+    q("CREATE TABLE IF NOT EXISTS logos3(brand TEXT PRIMARY KEY, file_id TEXT)", fetch=None)
 
 
-DIFF_NAMES = {0: "🎲 Авто (по рангу)", 1: "🟢 Лёгкая", 2: "🟡 Средняя", 3: "🔴 Сложная", 4: "⚫ Нишевый"}
+DIFF_NAMES = {0: "🎲 Авто (по рангу)", 1: "🟢 Лёгкий", 2: "🟡 Средний", 3: "⚫ Нишевый"}
 
 
 def get_diff(uid):
@@ -129,14 +129,11 @@ def touch(uid: int) -> str:
 
 # ---------- доступ по рангу ----------
 def allowed(rank: int, x: dict) -> bool:
-    f, c = x["fame"], x["cx"]
-    if f == 1: return rank >= (1 if c == 1 else 2 if c == 2 else 3)
-    if f == 2: return rank >= (3 if c <= 2 else 4) if rank >= 3 else False
-    if f == 3: return rank >= (5 if c <= 2 else 6)
-    if f == 4:
-        if x["archive"]: return rank >= 9
-        return rank >= (7 if c <= 2 else 8)
-    return False
+    """Авто-режим: уровни открываются по рангу (явный выбор уровня рангом не ограничен)."""
+    lv = x["level"]
+    if lv == 1: return True
+    if lv == 2: return rank >= 3
+    return rank >= (8 if x["archive"] else 6)
 
 
 # ---------- XP ----------
@@ -159,7 +156,7 @@ def award(uid: int, x: dict, frac: float, elapsed: float):
         if run >= 5: bonus += 0.5; notes.append("🔥 серия ×1.5")
         if elapsed <= 10 and ok: bonus += 0.2; notes.append("⚡ скорость +20%")
         if x["archive"]: bonus += 0.2; notes.append("🕰 архив +20%")
-        v = BASE_XP[x["cx"]] * FAME_MULT[x["fame"]] * (1 + bonus) * frac
+        v = BASE_XP[x["cx"]] * FAME_MULT[x["level"]] * (1 + bonus) * frac
         if prior: v *= 0.5; notes.append("♻️ повтор −50%")
         dm = 1 + min(0.25, 0.05 * (day - 1))
         if dm > 1: notes.append(f"📅 дни подряд +{round((dm - 1) * 100)}%")
@@ -248,22 +245,22 @@ def menu_text(uid, note=""):
 
 
 # ---------- вопросы ----------
-def pick(uid, mode, tag=None):
+def logo_brands():
+    return {r["brand"] for r in q("SELECT brand FROM logos3")}
+
+
+def pick(uid, mode="g", tag=None):
     u = q("SELECT xp FROM u3 WHERE uid=?", (uid,), "one")
     rank = rank_of(u["xp"])
     seen = {r["qid"] for r in q("SELECT qid FROM seen3 WHERE uid=?", (uid,))}
-    pool = [x for x in QUESTIONS.values() if x["mode"] == mode and allowed(rank, x) and (not tag or tag in x["cats"])]
+    lb = logo_brands()
+    base = [x for x in QUESTIONS.values() if (x["mode"] == "g" or x["brand"] in lb) and (not tag or tag in x["cats"])]
     d = get_diff(uid)
-    if d == 4:  # нишевый: только ⚫, без ограничения рангом
-        pool = [x for x in QUESTIONS.values() if x["mode"] == mode and x["fame"] == 4 and (not tag or tag in x["cats"])]
-    elif d:
-        byd = [x for x in pool if x["cx"] == d]
-        pool = byd or pool
+    pool = [x for x in base if x["level"] == d] if d else [x for x in base if allowed(rank, x)]
     fresh = [x for x in pool if x["id"] not in seen]
     if fresh:
-        # чаще берём вопросы с самых высоких открытых уровней
-        top = max(x["fame"] for x in fresh)
-        w = [3 if x["fame"] == top else 1 for x in fresh]
+        top = max(x["level"] for x in fresh)
+        w = [3 if x["level"] == top else 1 for x in fresh]
         return random.choices(fresh, w)[0]
     return random.choice(pool) if pool else None
 
@@ -274,13 +271,19 @@ async def ask(msg: Message, uid: int, mode: str = "g", tag=None, x=None):
         await msg.answer("В этом наборе пока нет доступных вопросов. Прокачай ранг или смени сложность!")
         return
     sess[uid] = {"qid": x["id"], "t0": time.time(), "mode": "g", "tag": tag}
-    head = f"{FAME[x['fame']]} · {CX[x['cx']]} вопрос"
+    head = f"{FAME[x['level']]}" + (" · 🖼 логотип" if x["mode"] == "l" else f" · {CX[x['cx']]} вопрос")
     if x["archive"]: head += " · 🕰 архив"
     kb = InlineKeyboardBuilder()
     for i, o in enumerate(x["opts"]):
         kb.button(text=f"{'ABCD'[i]}) {o}", callback_data=f"a:{x['id']}:{i}")
     kb.adjust(1)
-    await msg.answer(f"<b>{head}</b>\n\n❓ {html.escape(x['q'])}", reply_markup=kb.as_markup())
+    text = f"<b>{head}</b>\n\n❓ {html.escape(x['q'])}"
+    if x["mode"] == "l":
+        fid = q("SELECT file_id FROM logos3 WHERE brand=?", (x["brand"],), "one")
+        if fid:
+            await msg.answer_photo(fid["file_id"], caption=text, reply_markup=kb.as_markup())
+            return
+    await msg.answer(text, reply_markup=kb.as_markup())
 
 
 def next_kb(uid):
@@ -307,6 +310,36 @@ async def start(m: Message):
     ensure_user(m)
     note = touch(m.from_user.id)
     await m.answer(menu_text(m.from_user.id, note), reply_markup=menu_kb(m.from_user.id))
+
+
+@router.message(Command("myid"))
+async def myid(m: Message):
+    await m.answer(f"Твой ID: <code>{m.from_user.id}</code>")
+
+
+@router.message(Command("logos"))
+async def logos_cmd(m: Message):
+    if m.from_user.id not in ADMIN_IDS:
+        await m.answer("Нужна переменная ADMIN_IDS в Railway. Твой ID: /myid"); return
+    allb = sorted({x["brand"] for x in QUESTIONS.values() if x["mode"] == "l"})
+    have = logo_brands()
+    await m.answer("<b>Логотипы</b>\nЕсть: " + (", ".join(b for b in allb if b in have) or "—") +
+                   "\nНе хватает: " + (", ".join(b for b in allb if b not in have) or "—") +
+                   "\n\nОтправь картинку логотипа с подписью: <code>logo Название бренда</code>")
+
+
+@router.message(F.photo)
+async def logo_upload(m: Message):
+    if m.from_user.id not in ADMIN_IDS: return
+    cap = (m.caption or "").strip()
+    if not cap.lower().startswith("logo "):
+        await m.answer("Подпись должна быть: logo Название бренда (список: /logos)"); return
+    name = cap[5:].strip().lower()
+    for b in {x["brand"] for x in QUESTIONS.values() if x["mode"] == "l"}:
+        if b.lower() == name:
+            q("INSERT OR REPLACE INTO logos3 VALUES(?,?)", (b, m.photo[-1].file_id), fetch=None)
+            await m.answer(f"✅ Логотип «{b}» сохранён."); return
+    await m.answer("Такого бренда нет в списке. Посмотри /logos.")
 
 
 @router.callback_query(F.data.startswith("m:"))
@@ -353,10 +386,10 @@ async def menus(c: CallbackQuery):
         for k, v in DIFF_NAMES.items():
             kb.button(text=("✅ " if k == get_diff(uid) else "") + v, callback_data=f"diff:{k}")
         kb.adjust(1)
-        await c.message.answer("<b>⚙️ Сложность</b>\n🟢 Лёгкая: очевидные факты (бренд, страна).\n"
-                               "🟡 Средняя: история, детали, логотипы.\n🔴 Сложная: годы, основатели, редкие факты.\n"
-                               "⚫ Нишевый: японские и авангардные бренды, открыт сразу, XP ×2.\n"
-                               "🎲 Авто: растёт вместе с рангом.", reply_markup=kb.as_markup())
+        await c.message.answer("<b>⚙️ Сложность</b>\n🟢 Лёгкий: популярные бренды, очевидные факты.\n"
+                               "🟡 Средний: известные и люксовые бренды, годы, основатели.\n"
+                               "⚫ Нишевый: японские бренды, авангард, архив и логотипы. XP ×2.\n"
+                               "🎲 Авто: уровни открываются с ростом ранга.\nВыбранный уровень доступен сразу.", reply_markup=kb.as_markup())
     elif what == "rem":
         q("UPDATE u3 SET remind=1-remind WHERE uid=?", (uid,), fetch=None)
         await c.message.answer("Настройка обновлена.", reply_markup=menu_kb(uid))
@@ -468,7 +501,7 @@ async def main():
     bot = Bot(token, default=DefaultBotProperties(parse_mode="HTML"))
     dp = Dispatcher()
     dp.include_router(router)
-    await bot.set_my_commands([BotCommand(command="start", description="Меню")])
+    await bot.set_my_commands([BotCommand(command="start", description="Меню"), BotCommand(command="myid", description="Мой ID")])
     asyncio.create_task(daily_reminder(bot))
     await dp.start_polling(bot)
 

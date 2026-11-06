@@ -19,6 +19,7 @@
 ],
 "ex": "Красная вкладка Red Tab появилась у Levi's в 1936 году, чтобы отличать их джинсы от подделок.",
 "archive_note": "",
+"level": 1,
 "id": 1,
 "correct": 0
 },
@@ -43,6 +44,7 @@
 ],
 "ex": "Три полоски — знак Adidas.",
 "archive_note": "",
+"level": 1,
 "id": 2,
 "correct": 1
 },
@@ -67,6 +69,7 @@
 ],
 "ex": "Галочка Swoosh — знак Nike, её нарисовала студентка Кэролин Дэвидсон.",
 "archive_note": "",
+"level": 1,
 "id": 3,
 "correct": 2
 },
@@ -91,6 +94,7 @@
 ],
 "ex": "Прыгающая пума — эмблема Puma.",
 "archive_note": "",
+"level": 1,
 "id": 4,
 "correct": 3
 },
@@ -115,6 +119,7 @@
 ],
 "ex": "Стёганая сумка на цепочке — визитная карточка Chanel.",
 "archive_note": "",
+"level": 1,
 "id": 5,
 "correct": 0
 },
@@ -139,6 +144,7 @@
 ],
 "ex": "Монограмму Louis Vuitton придумал Жорж Вюиттон в 1896 году.",
 "archive_note": "",
+"level": 1,
 "id": 6,
 "correct": 1
 },
@@ -163,6 +169,7 @@
 ],
 "ex": "Зелёно-красно-зелёная полоса — знак Gucci.",
 "archive_note": "",
+"level": 1,
 "id": 7,
 "correct": 2
 },
@@ -187,6 +194,7 @@
 ],
 "ex": "Uniqlo — японская сеть базовой одежды из Хиросимы.",
 "archive_note": "",
+"level": 1,
 "id": 8,
 "correct": 3
 },
@@ -210,6 +218,7 @@
 ],
 "ex": "Zara славится тем, что новинки в магазинах появляются почти каждую неделю.",
 "archive_note": "",
+"level": 1,
 "id": 9,
 "correct": 0
 },
@@ -233,6 +242,7 @@
 ],
 "ex": "Крокодил — знак теннисиста Рене Лакоста.",
 "archive_note": "",
+"level": 1,
 "id": 10,
 "correct": 1
 },
@@ -256,6 +266,7 @@
 ],
 "ex": "Chanel No. 5 появились в 1921 году.",
 "archive_note": "",
+"level": 1,
 "id": 11,
 "correct": 2
 },
@@ -280,6 +291,7 @@
 ],
 "ex": "Air Jordan 1 вышла в 1985 году.",
 "archive_note": "",
+"level": 1,
 "id": 12,
 "correct": 3
 },
@@ -304,6 +316,7 @@
 ],
 "ex": "Теннисная модель Stan Smith — одна из самых продаваемых в истории.",
 "archive_note": "",
+"level": 1,
 "id": 13,
 "correct": 0
 },
@@ -327,6 +340,7 @@
 ],
 "ex": "Puma Suede появилась в 1968 году и стала любимой кроссовкой хип-хопа и скейта.",
 "archive_note": "1968 год: замшевая классика Puma, популярная до сих пор.",
+"level": 1,
 "id": 14,
 "correct": 1
 },
@@ -351,6 +365,7 @@
 ],
 "ex": "Куртка Type III стала известна как Trucker Jacket.",
 "archive_note": "",
+"level": 1,
 "id": 15,
 "correct": 2
 },
@@ -374,6 +389,7 @@
 ],
 "ex": "Твидовый жакет без воротника — классика Chanel.",
 "archive_note": "",
+"level": 1,
 "id": 16,
 "correct": 3
 },
@@ -398,6 +414,7 @@
 ],
 "ex": "Для Одри Хепбёрн сделали уменьшенную Speedy.",
 "archive_note": "",
+"level": 1,
 "id": 17,
 "correct": 0
 },
@@ -422,6 +439,7 @@
 ],
 "ex": "Horsebit появился в 1953 году и до сих пор в коллекции.",
 "archive_note": "",
+"level": 1,
 "id": 18,
 "correct": 1
 },
@@ -445,6 +463,7 @@
 ],
 "ex": "Zara основал Амансио Ортега в 1975 году в Ла-Корунье.",
 "archive_note": "",
+"level": 1,
 "id": 19,
 "correct": 2
 },
@@ -468,6 +487,7 @@
 ],
 "ex": "H&M x Karl Lagerfeld (2004) стала первой в серии дизайнерских коллабораций.",
 "archive_note": "",
+"level": 1,
 "id": 20,
 "correct": 3
 },
@@ -492,6 +512,7 @@
 ],
 "ex": "HeatTech согревает за счёт тепла тела и влаги.",
 "archive_note": "",
+"level": 1,
 "id": 21,
 "correct": 0
 },
@@ -516,6 +537,7 @@
 ],
 "ex": "Рудольф Дасслер основал Puma в 1948 году, его брат Адольф — Adidas.",
 "archive_note": "",
+"level": 1,
 "id": 22,
 "correct": 1
 },
@@ -539,6 +561,7 @@
 ],
 "ex": "Nike Cortez появились в 1972 году.",
 "archive_note": "",
+"level": 1,
 "id": 23,
 "correct": 2
 },
@@ -563,6 +586,7 @@
 ],
 "ex": "Superstar вышла в 1969 году. В 1986 Run-D.M.C. подписали контракт с Adidas.",
 "archive_note": "",
+"level": 1,
 "id": 24,
 "correct": 3
 },
@@ -587,6 +611,7 @@
 ],
 "ex": "2.55 — февраль 1955 года. Boy, Gabrielle и 19 появились намного позже.",
 "archive_note": "",
+"level": 1,
 "id": 25,
 "correct": 0
 },
@@ -611,6 +636,7 @@
 ],
 "ex": "Первый вафельный прототип — 1971 год, Waffle Trainer вышел в 1974 году.",
 "archive_note": "1970-е, до технологии Air: ранняя беговая модель Nike.",
+"level": 1,
 "id": 26,
 "correct": 1
 },
@@ -635,6 +661,7 @@
 ],
 "ex": "Тинкер Хэтфилд придумал видимую камеру Air Max 1 (1987) под впечатлением от Центра Помпиду.",
 "archive_note": "",
+"level": 1,
 "id": 27,
 "correct": 2
 },
@@ -659,6 +686,7 @@
 ],
 "ex": "Гуччо Гуччи работал в отеле Savoy, где увидел багаж богатых путешественников.",
 "archive_note": "",
+"level": 1,
 "id": 28,
 "correct": 3
 },
@@ -683,6 +711,7 @@
 ],
 "ex": "Права на три полоски Adidas выкупил у финской Karhu.",
 "archive_note": "",
+"level": 1,
 "id": 29,
 "correct": 0
 },
@@ -706,6 +735,7 @@
 ],
 "ex": "Первый магазин назвали Zorba, потом поменяли букву.",
 "archive_note": "",
+"level": 1,
 "id": 30,
 "correct": 1
 },
@@ -730,6 +760,7 @@
 ],
 "ex": "Цветная монограмма Multicolore — коллаборация Марка Джейкобса и Такаши Мураками.",
 "archive_note": "",
+"level": 1,
 "id": 31,
 "correct": 2
 },
@@ -753,6 +784,7 @@
 ],
 "ex": "Chuck Taylor All Star — главная модель Converse.",
 "archive_note": "",
+"level": 1,
 "id": 32,
 "correct": 3
 },
@@ -777,6 +809,7 @@
 ],
 "ex": "Шахматная клетка — один из символов Vans.",
 "archive_note": "",
+"level": 1,
 "id": 33,
 "correct": 0
 },
@@ -800,6 +833,7 @@
 ],
 "ex": "Логотип The North Face вдохновлён скалой Half Dome в Йосемити.",
 "archive_note": "",
+"level": 1,
 "id": 34,
 "correct": 1
 },
@@ -823,6 +857,7 @@
 ],
 "ex": "Dr. Martens — британская обувь с толстой подошвой и жёлтой строчкой.",
 "archive_note": "",
+"level": 1,
 "id": 35,
 "correct": 2
 },
@@ -846,6 +881,7 @@
 ],
 "ex": "Игрок в поло — знак Polo Ralph Lauren.",
 "archive_note": "",
+"level": 1,
 "id": 36,
 "correct": 3
 },
@@ -869,6 +905,7 @@
 ],
 "ex": "574 вышла в 1988 году и стала самой узнаваемой моделью бренда.",
 "archive_note": "",
+"level": 2,
 "id": 37,
 "correct": 0
 },
@@ -892,6 +929,7 @@
 ],
 "ex": "Old Skool — первая модель Vans с боковой полоской.",
 "archive_note": "",
+"level": 2,
 "id": 38,
 "correct": 1
 },
@@ -915,6 +953,7 @@
 ],
 "ex": "Nike приобрёл Converse в 2003 году.",
 "archive_note": "",
+"level": 2,
 "id": 39,
 "correct": 2
 },
@@ -938,6 +977,7 @@
 ],
 "ex": "Nuptse появилась в 1992 году и стала культовой в уличной моде.",
 "archive_note": "",
+"level": 2,
 "id": 40,
 "correct": 3
 },
@@ -961,6 +1001,7 @@
 ],
 "ex": "После выступления Snoop Dogg одежда Tommy Hilfiger стала популярной среди хип-хоп-исполнителей.",
 "archive_note": "",
+"level": 2,
 "id": 41,
 "correct": 0
 },
@@ -984,6 +1025,7 @@
 ],
 "ex": "Ральф Лорен родился как Ральф Лифшиц.",
 "archive_note": "",
+"level": 2,
 "id": 42,
 "correct": 1
 },
@@ -1008,6 +1050,7 @@
 ],
 "ex": "Human Made основал Ниго, основатель A Bathing Ape.",
 "archive_note": "",
+"level": 2,
 "id": 43,
 "correct": 2
 },
@@ -1031,6 +1074,7 @@
 ],
 "ex": "1460 — это 1.4.60: дата выхода первой модели.",
 "archive_note": "",
+"level": 2,
 "id": 44,
 "correct": 3
 },
@@ -1054,6 +1098,7 @@
 ],
 "ex": "Модель появилась в 1917 году, имя баскетболиста Чака Тейлора добавили позже.",
 "archive_note": "1917 год: баскетбольные кеды, ставшие уличной классикой.",
+"level": 2,
 "id": 45,
 "correct": 0
 },
@@ -1078,6 +1123,7 @@
 ],
 "ex": "Шахматные слипоны в этом фильме сделали их знаменитыми.",
 "archive_note": "",
+"level": 2,
 "id": 46,
 "correct": 1
 },
@@ -1101,6 +1147,7 @@
 ],
 "ex": "New Balance основан в Бостоне в 1906 году.",
 "archive_note": "",
+"level": 2,
 "id": 47,
 "correct": 2
 },
@@ -1124,6 +1171,7 @@
 ],
 "ex": "Дуглас Томпкинс основал The North Face в 1966 году и позже стал сооснователем Esprit.",
 "archive_note": "",
+"level": 2,
 "id": 48,
 "correct": 3
 },
@@ -1147,6 +1195,7 @@
 ],
 "ex": "CK One вышел в 1994 году.",
 "archive_note": "",
+"level": 2,
 "id": 49,
 "correct": 0
 },
@@ -1170,6 +1219,7 @@
 ],
 "ex": "Tommy Hilfiger основан в 1985 году.",
 "archive_note": "",
+"level": 2,
 "id": 50,
 "correct": 1
 },
@@ -1193,6 +1243,7 @@
 ],
 "ex": "Ральф Лорен создал мужские костюмы для «Великого Гэтсби» (1974).",
 "archive_note": "",
+"level": 2,
 "id": 51,
 "correct": 2
 },
@@ -1216,6 +1267,7 @@
 ],
 "ex": "Подошву придумал врач Клаус Мартенс после травмы ноги.",
 "archive_note": "",
+"level": 2,
 "id": 52,
 "correct": 3
 },
@@ -1239,6 +1291,7 @@
 ],
 "ex": "Carhartt основан в Детройте Гамильтоном Кархарттом.",
 "archive_note": "",
+"level": 2,
 "id": 53,
 "correct": 0
 },
@@ -1263,6 +1316,7 @@
 ],
 "ex": "Компас Stone Island крепится на рукаве.",
 "archive_note": "",
+"level": 2,
 "id": 54,
 "correct": 1
 },
@@ -1286,6 +1340,7 @@
 ],
 "ex": "Смайлик Face — знак Acne Studios.",
 "archive_note": "",
+"level": 2,
 "id": 55,
 "correct": 2
 },
@@ -1310,6 +1365,7 @@
 ],
 "ex": "Таби Margiela появились в 1988 году по мотивам японских носков.",
 "archive_note": "",
+"level": 3,
 "id": 56,
 "correct": 3
 },
@@ -1334,6 +1390,7 @@
 ],
 "ex": "Intrecciato — плетение полос кожи, знак бренда.",
 "archive_note": "",
+"level": 2,
 "id": 57,
 "correct": 0
 },
@@ -1358,6 +1415,7 @@
 ],
 "ex": "Рик Оуэнс начал в Лос-Анджелесе, а потом переехал в Париж.",
 "archive_note": "",
+"level": 3,
 "id": 58,
 "correct": 1
 },
@@ -1381,6 +1439,7 @@
 ],
 "ex": "Bumster стали знаком раннего Маккуина.",
 "archive_note": "",
+"level": 2,
 "id": 59,
 "correct": 2
 },
@@ -1404,6 +1463,7 @@
 ],
 "ex": "Loro Piana известна работой с шерстью викуньи.",
 "archive_note": "",
+"level": 2,
 "id": 60,
 "correct": 3
 },
@@ -1428,6 +1488,7 @@
 ],
 "ex": "Le Chiquito — одна из самых маленьких сумок бренда.",
 "archive_note": "",
+"level": 2,
 "id": 61,
 "correct": 0
 },
@@ -1452,6 +1513,7 @@
 ],
 "ex": "Salomon основан в 1947 году в Анси, Франция.",
 "archive_note": "",
+"level": 2,
 "id": 62,
 "correct": 1
 },
@@ -1476,6 +1538,7 @@
 ],
 "ex": "Логотип Arc'teryx — окаменелость археоптерикса.",
 "archive_note": "",
+"level": 2,
 "id": 63,
 "correct": 2
 },
@@ -1499,6 +1562,7 @@
 ],
 "ex": "Четыре белых стежка — знак Margiela.",
 "archive_note": "",
+"level": 3,
 "id": 64,
 "correct": 3
 },
@@ -1523,6 +1587,7 @@
 ],
 "ex": "Moncler — сокращение от Monestier-de-Clermont, где в 1952 году основали бренд.",
 "archive_note": "",
+"level": 2,
 "id": 65,
 "correct": 0
 },
@@ -1547,6 +1612,7 @@
 ],
 "ex": "Массимо Ости создал Stone Island, Карло Риветти позже стал владельцем.",
 "archive_note": "",
+"level": 2,
 "id": 66,
 "correct": 1
 },
@@ -1571,6 +1637,7 @@
 ],
 "ex": "Tela Stella — ткань из брезента, который использовали для грузовых тентов.",
 "archive_note": "",
+"level": 2,
 "id": 67,
 "correct": 2
 },
@@ -1594,6 +1661,7 @@
 ],
 "ex": "Acne расшифровывается как Ambition to Create Novel Expressions.",
 "archive_note": "",
+"level": 2,
 "id": 68,
 "correct": 3
 },
@@ -1618,6 +1686,7 @@
 ],
 "ex": "«Когда достаточно собственных инициалов» — рекламный лозунг Bottega Veneta.",
 "archive_note": "",
+"level": 2,
 "id": 69,
 "correct": 0
 },
@@ -1641,6 +1710,7 @@
 ],
 "ex": "Маккуин возглавил Givenchy в 1996 году.",
 "archive_note": "",
+"level": 2,
 "id": 70,
 "correct": 1
 },
@@ -1665,6 +1735,7 @@
 ],
 "ex": "Mille Miglia — куртка с очками в капюшоне, появилась в 1988 году.",
 "archive_note": "",
+"level": 2,
 "id": 71,
 "correct": 2
 },
@@ -1688,6 +1759,7 @@
 ],
 "ex": "LVMH приобрёл 80% акций Loro Piana в 2013 году.",
 "archive_note": "",
+"level": 2,
 "id": 72,
 "correct": 3
 },
@@ -1712,6 +1784,7 @@
 ],
 "ex": "Исси Мияке создал Pleats Please в 1993 году.",
 "archive_note": "",
+"level": 3,
 "id": 73,
 "correct": 0
 },
@@ -1736,6 +1809,7 @@
 ],
 "ex": "BAPE основал Ниго в 1993 году в Харадзюку.",
 "archive_note": "",
+"level": 3,
 "id": 74,
 "correct": 1
 },
@@ -1761,6 +1835,7 @@
 ],
 "ex": "Чайка на заднем кармане — знак Evisu.",
 "archive_note": "",
+"level": 3,
 "id": 75,
 "correct": 2
 },
@@ -1785,6 +1860,7 @@
 ],
 "ex": "Kapital родом из Коджимы, префектура Окаяма — центра японского денима.",
 "archive_note": "",
+"level": 3,
 "id": 76,
 "correct": 3
 },
@@ -1809,6 +1885,7 @@
 ],
 "ex": "Visvim основан Хироки Накамурой в Токио.",
 "archive_note": "",
+"level": 3,
 "id": 77,
 "correct": 0
 },
@@ -1833,6 +1910,7 @@
 ],
 "ex": "Дзюн Такахаси основал Undercover в Токио.",
 "archive_note": "",
+"level": 3,
 "id": 78,
 "correct": 1
 },
@@ -1857,6 +1935,7 @@
 ],
 "ex": "Дзюнъя Ватанабэ работал в Comme des Garçons и основал свою линию в 1992 году.",
 "archive_note": "",
+"level": 3,
 "id": 79,
 "correct": 2
 },
@@ -1881,6 +1960,7 @@
 ],
 "ex": "Sacai Читосэ Абэ соединяет две вещи в одну.",
 "archive_note": "",
+"level": 3,
 "id": 80,
 "correct": 3
 },
@@ -1905,6 +1985,7 @@
 ],
 "ex": "Neighborhood основан в 1994 году Синскэ Такидзавой.",
 "archive_note": "",
+"level": 3,
 "id": 81,
 "correct": 0
 },
@@ -1929,6 +2010,7 @@
 ],
 "ex": "Череп — знак mastermind JAPAN.",
 "archive_note": "",
+"level": 3,
 "id": 82,
 "correct": 1
 },
@@ -1953,6 +2035,7 @@
 ],
 "ex": "Number (N)ine основан в 1997 году и закрылся в 2009-м.",
 "archive_note": "Бренд работал в 1997–2009 годах и считается архивным.",
+"level": 3,
 "id": 83,
 "correct": 2
 },
@@ -1977,6 +2060,7 @@
 ],
 "ex": "A-POC расшифровывается как A Piece Of Cloth.",
 "archive_note": "1997 год: проект Issey Miyake про одежду из цельной ткани.",
+"level": 3,
 "id": 84,
 "correct": 3
 },
@@ -2001,6 +2085,7 @@
 ],
 "ex": "Коллекция известна как «Lumps and Bumps».",
 "archive_note": "Весна-лето 1997: считается одной из самых влиятельных авангардных коллекций.",
+"level": 3,
 "id": 85,
 "correct": 0
 },
@@ -2025,6 +2110,7 @@
 ],
 "ex": "Йоджи Ямамото и Рей Кавакубо показали коллекции в Париже в 1981 году.",
 "archive_note": "1981 год: парижский дебют, изменивший представления о моде.",
+"level": 3,
 "id": 86,
 "correct": 1
 },
@@ -2050,6 +2136,7 @@
 ],
 "ex": "Y-3 появилась в 2002 году.",
 "archive_note": "",
+"level": 3,
 "id": 87,
 "correct": 2
 },
@@ -2075,6 +2162,7 @@
 ],
 "ex": "Gyakusou (逆走) — «бег в обратную сторону».",
 "archive_note": "",
+"level": 3,
 "id": 88,
 "correct": 3
 },
@@ -2099,6 +2187,7 @@
 ],
 "ex": "Shark Hoodie стал самой узнаваемой вещью BAPE.",
 "archive_note": "2004 год: самая известная вещь BAPE.",
+"level": 3,
 "id": 89,
 "correct": 0
 },
@@ -2123,6 +2212,7 @@
 ],
 "ex": "Bapesta появились в 2001 году.",
 "archive_note": "2001 год: ранняя модель BAPE.",
+"level": 3,
 "id": 90,
 "correct": 1
 },
@@ -2147,6 +2237,7 @@
 ],
 "ex": "Kapital основал Тосикиё Хирата в Коджиме.",
 "archive_note": "",
+"level": 3,
 "id": 91,
 "correct": 2
 },
@@ -2171,6 +2262,7 @@
 ],
 "ex": "Visvim основан в 2000 году Хироки Накамурой.",
 "archive_note": "",
+"level": 3,
 "id": 92,
 "correct": 3
 },
@@ -2195,6 +2287,7 @@
 ],
 "ex": "Нобухико Китамура основал Hysteric Glamour в 1984 году.",
 "archive_note": "",
+"level": 3,
 "id": 93,
 "correct": 0
 },
@@ -2219,6 +2312,7 @@
 ],
 "ex": "Такахиро Миясита закрыл Number (N)ine в 2009 году и запустил TheSoloist.",
 "archive_note": "Бренд 1997–2009 годов: архивные вещи ценятся коллекционерами.",
+"level": 3,
 "id": 94,
 "correct": 1
 },
@@ -2243,6 +2337,7 @@
 ],
 "ex": "Название-дата 2047年11月20日.",
 "archive_note": "Харадзюку 1990-х, сюрреализм и деконструкция.",
+"level": 3,
 "id": 95,
 "correct": 2
 },
@@ -2267,6 +2362,7 @@
 ],
 "ex": "Бренд работал в 1992–2003 годах.",
 "archive_note": "Харадзюку 1990-х.",
+"level": 3,
 "id": 96,
 "correct": 3
 },
@@ -2291,6 +2387,7 @@
 ],
 "ex": "Среди «шестёрки» — Ann Demeulemeester, Dries Van Noten, Walter Van Beirendonck.",
 "archive_note": "",
+"level": 3,
 "id": 97,
 "correct": 0
 },
@@ -2315,6 +2412,7 @@
 ],
 "ex": "Раф Симонс возглавлял Dior в 2012–2015 годах.",
 "archive_note": "",
+"level": 3,
 "id": 98,
 "correct": 1
 },
@@ -2339,6 +2437,7 @@
 ],
 "ex": "Dries Van Noten основал бренд в 1986 году.",
 "archive_note": "",
+"level": 3,
 "id": 99,
 "correct": 2
 },
@@ -2363,6 +2462,7 @@
 ],
 "ex": "Bikkembergs известен коллекциями, вдохновлёнными футболом.",
 "archive_note": "",
+"level": 3,
 "id": 100,
 "correct": 3
 },
@@ -2387,6 +2487,7 @@
 ],
 "ex": "W.&L.T. — Wild and Lethal Trash.",
 "archive_note": "",
+"level": 3,
 "id": 101,
 "correct": 0
 },
@@ -2411,6 +2512,7 @@
 ],
 "ex": "Хельмут Ланг родом из Вены.",
 "archive_note": "",
+"level": 3,
 "id": 102,
 "correct": 1
 },
@@ -2435,6 +2537,7 @@
 ],
 "ex": "Первый показ Margiela прошёл на детской площадке в парижском районе.",
 "archive_note": "1989 год: показ в неформальном месте, ставший легендой.",
+"level": 3,
 "id": 103,
 "correct": 2
 },
@@ -2459,6 +2562,7 @@
 ],
 "ex": "Poell известен окраской готовых вещей целиком.",
 "archive_note": "",
+"level": 3,
 "id": 104,
 "correct": 3
 },
@@ -2483,6 +2587,7 @@
 ],
 "ex": "Isaac Sellam известен вещами из кожи.",
 "archive_note": "",
+"level": 3,
 "id": 105,
 "correct": 0
 },
@@ -2507,6 +2612,7 @@
 ],
 "ex": "Рик Оуэнс переехал в Париж в 2003 году.",
 "archive_note": "",
+"level": 3,
 "id": 106,
 "correct": 1
 },
@@ -2531,6 +2637,7 @@
 ],
 "ex": "Четыре цветные полосы — знак Thom Browne.",
 "archive_note": "",
+"level": 3,
 "id": 107,
 "correct": 2
 },
@@ -2555,6 +2662,7 @@
 ],
 "ex": "Ozweego вышла в 2017 году.",
 "archive_note": "",
+"level": 3,
 "id": 108,
 "correct": 3
 },
@@ -2579,6 +2687,7 @@
 ],
 "ex": "Haider Ackermann родился в Боготе и учился в Антверпене.",
 "archive_note": "",
+"level": 3,
 "id": 109,
 "correct": 0
 },
@@ -2603,6 +2712,7 @@
 ],
 "ex": "Ann Demeulemeester основан в 1985 году в Антверпене.",
 "archive_note": "",
+"level": 3,
 "id": 110,
 "correct": 1
 },
@@ -2626,6 +2736,7 @@
 ],
 "ex": "Ника — богиня победы; название Nike компания взяла в 1971 году.",
 "archive_note": "",
+"level": 1,
 "id": 111,
 "correct": 2
 },
@@ -2649,6 +2760,7 @@
 ],
 "ex": "Blue Ribbon Sports основали Фил Найт и Билл Бауэрман в 1964 году.",
 "archive_note": "",
+"level": 1,
 "id": 112,
 "correct": 3
 },
@@ -2672,6 +2784,7 @@
 ],
 "ex": "Название Adidas — от имени Adolf «Adi» Dassler.",
 "archive_note": "",
+"level": 1,
 "id": 113,
 "correct": 0
 },
@@ -2695,6 +2808,7 @@
 ],
 "ex": "Рудольф Дасслер — старший брат Ади, основателя Adidas.",
 "archive_note": "",
+"level": 1,
 "id": 114,
 "correct": 1
 },
@@ -2718,6 +2832,7 @@
 ],
 "ex": "Патент на заклёпки на карманах — 20 мая 1873 года.",
 "archive_note": "",
+"level": 1,
 "id": 115,
 "correct": 2
 },
@@ -2741,6 +2856,7 @@
 ],
 "ex": "Gucci основан во Флоренции в 1921 году.",
 "archive_note": "",
+"level": 1,
 "id": 116,
 "correct": 3
 },
@@ -2764,6 +2880,7 @@
 ],
 "ex": "Полное имя — Габриэль Бонёр Шанель.",
 "archive_note": "",
+"level": 1,
 "id": 117,
 "correct": 0
 },
@@ -2787,6 +2904,7 @@
 ],
 "ex": "Zara входит в группу Inditex, основанную Амансио Ортегой.",
 "archive_note": "",
+"level": 1,
 "id": 118,
 "correct": 1
 },
@@ -2810,6 +2928,7 @@
 ],
 "ex": "H&M основан в 1947 году в Вестеросе, Швеция.",
 "archive_note": "",
+"level": 1,
 "id": 119,
 "correct": 2
 },
@@ -2833,6 +2952,7 @@
 ],
 "ex": "Uniqlo принадлежит японской компании Fast Retailing.",
 "archive_note": "",
+"level": 1,
 "id": 120,
 "correct": 3
 },
@@ -2857,6 +2977,7 @@
 ],
 "ex": "Первый магазин Louis Vuitton открылся в 1854 году.",
 "archive_note": "",
+"level": 1,
 "id": 121,
 "correct": 0
 },
@@ -2880,6 +3001,7 @@
 ],
 "ex": "Adidas и Puma родом из Херцогенаураха.",
 "archive_note": "",
+"level": 1,
 "id": 122,
 "correct": 1
 },
@@ -2903,6 +3025,7 @@
 ],
 "ex": "Levi's 501 — легендарная классическая модель.",
 "archive_note": "",
+"level": 1,
 "id": 123,
 "correct": 2
 },
@@ -2926,6 +3049,7 @@
 ],
 "ex": "Chanel №5 вышли в 1921 году.",
 "archive_note": "",
+"level": 1,
 "id": 124,
 "correct": 3
 },
@@ -2949,6 +3073,7 @@
 ],
 "ex": "Дом Dior открылся в 1946 году, первая коллекция — в 1947-м.",
 "archive_note": "",
+"level": 1,
 "id": 125,
 "correct": 0
 },
@@ -2972,6 +3097,7 @@
 ],
 "ex": "GG — инициалы основателя, Гуччо Гуччи.",
 "archive_note": "",
+"level": 1,
 "id": 126,
 "correct": 1
 },
@@ -2995,6 +3121,7 @@
 ],
 "ex": "Zara основана в 1975 году в Ла-Корунье.",
 "archive_note": "",
+"level": 1,
 "id": 127,
 "correct": 2
 },
@@ -3019,6 +3146,7 @@
 ],
 "ex": "Air Max 1 — первая модель с видимой воздушной подушкой.",
 "archive_note": "1987 год: первая модель линейки Air Max и культовый кроссовок.",
+"level": 1,
 "id": 128,
 "correct": 3
 },
@@ -3043,6 +3171,7 @@
 ],
 "ex": "Бауэрман — легендарный тренер Университета Орегона.",
 "archive_note": "",
+"level": 1,
 "id": 129,
 "correct": 0
 },
@@ -3067,6 +3196,7 @@
 ],
 "ex": "Vans основан Полом Ван Дореном в Анахайме.",
 "archive_note": "",
+"level": 2,
 "id": 130,
 "correct": 1
 },
@@ -3091,6 +3221,7 @@
 ],
 "ex": "All Star изначально были баскетбольными кедами.",
 "archive_note": "",
+"level": 1,
 "id": 131,
 "correct": 2
 },
@@ -3114,6 +3245,7 @@
 ],
 "ex": "The North Face основан в Сан-Франциско.",
 "archive_note": "",
+"level": 2,
 "id": 132,
 "correct": 3
 },
@@ -3137,6 +3269,7 @@
 ],
 "ex": "Ивон Шуинар — альпинист и основатель Patagonia.",
 "archive_note": "",
+"level": 2,
 "id": 133,
 "correct": 0
 },
@@ -3161,6 +3294,7 @@
 ],
 "ex": "Carhartt WIP — европейская линия бренда.",
 "archive_note": "",
+"level": 2,
 "id": 134,
 "correct": 1
 },
@@ -3184,6 +3318,7 @@
 ],
 "ex": "Dr. Martens стали знаком британской панк-сцены.",
 "archive_note": "",
+"level": 2,
 "id": 135,
 "correct": 2
 },
@@ -3207,6 +3342,7 @@
 ],
 "ex": "Calvin Klein основан в Нью-Йорке.",
 "archive_note": "",
+"level": 2,
 "id": 136,
 "correct": 3
 },
@@ -3230,6 +3366,7 @@
 ],
 "ex": "Он выпустил широкие галстуки под маркой Polo.",
 "archive_note": "",
+"level": 2,
 "id": 137,
 "correct": 0
 },
@@ -3253,6 +3390,7 @@
 ],
 "ex": "Рене Лакост получил прозвище «Крокодил».",
 "archive_note": "",
+"level": 2,
 "id": 138,
 "correct": 1
 },
@@ -3276,6 +3414,7 @@
 ],
 "ex": "Модель 990 стала флагманом серии Made in USA.",
 "archive_note": "1982 год: первая 990, символ американского производства.",
+"level": 2,
 "id": 139,
 "correct": 2
 },
@@ -3299,6 +3438,7 @@
 ],
 "ex": "Fila основан в 1911 году в Италии.",
 "archive_note": "",
+"level": 2,
 "id": 140,
 "correct": 3
 },
@@ -3322,6 +3462,7 @@
 ],
 "ex": "Reebok основан в Болтоне, Англия.",
 "archive_note": "",
+"level": 2,
 "id": 141,
 "correct": 0
 },
@@ -3346,6 +3487,7 @@
 ],
 "ex": "ASICS — аббревиатура латинской фразы Anima Sana In Corpore Sano.",
 "archive_note": "",
+"level": 2,
 "id": 142,
 "correct": 1
 },
@@ -3370,6 +3512,7 @@
 ],
 "ex": "Жёлтые водонепроницаемые ботинки Timberland вышли в 1973 году.",
 "archive_note": "1973 год: первая культовая модель, ставшая основой хип-хоп-моды.",
+"level": 2,
 "id": 143,
 "correct": 2
 },
@@ -3393,6 +3536,7 @@
 ],
 "ex": "Supreme открылся в Нью-Йорке на Лафайетт-стрит.",
 "archive_note": "",
+"level": 2,
 "id": 144,
 "correct": 3
 },
@@ -3416,6 +3560,7 @@
 ],
 "ex": "Шон Стюсси начал с досок для сёрфинга в Калифорнии.",
 "archive_note": "",
+"level": 2,
 "id": 145,
 "correct": 0
 },
@@ -3439,6 +3584,7 @@
 ],
 "ex": "Вирджил Абло запустил Off-White в 2013 году.",
 "archive_note": "",
+"level": 2,
 "id": 146,
 "correct": 1
 },
@@ -3462,6 +3608,7 @@
 ],
 "ex": "Логотип вдохновлён работами Барбары Крюгер.",
 "archive_note": "",
+"level": 2,
 "id": 147,
 "correct": 2
 },
@@ -3485,6 +3632,7 @@
 ],
 "ex": "Lacoste основан Рене Лакостом в 1933 году.",
 "archive_note": "",
+"level": 2,
 "id": 148,
 "correct": 3
 },
@@ -3508,6 +3656,7 @@
 ],
 "ex": "Лавровый венок — знак бренда.",
 "archive_note": "",
+"level": 1,
 "id": 149,
 "correct": 0
 },
@@ -3531,6 +3680,7 @@
 ],
 "ex": "Birkenstock — немецкая обувь.",
 "archive_note": "",
+"level": 1,
 "id": 150,
 "correct": 1
 },
@@ -3554,6 +3704,7 @@
 ],
 "ex": "Under Armour основан в 1996 году.",
 "archive_note": "",
+"level": 2,
 "id": 151,
 "correct": 2
 },
@@ -3578,6 +3729,7 @@
 ],
 "ex": "Габардин — прочная ткань для тренчей Burberry.",
 "archive_note": "",
+"level": 2,
 "id": 152,
 "correct": 3
 },
@@ -3601,6 +3753,7 @@
 ],
 "ex": "Gap основан в Сан-Франциско.",
 "archive_note": "",
+"level": 2,
 "id": 153,
 "correct": 0
 },
@@ -3624,6 +3777,7 @@
 ],
 "ex": "Бренд назван в честь британского теннисиста.",
 "archive_note": "",
+"level": 1,
 "id": 154,
 "correct": 1
 },
@@ -3648,6 +3802,7 @@
 ],
 "ex": "ASICS основан в 1949 году в Кобе.",
 "archive_note": "",
+"level": 1,
 "id": 155,
 "correct": 2
 },
@@ -3671,6 +3826,7 @@
 ],
 "ex": "Supreme родом из нью-йоркской скейт-сцены.",
 "archive_note": "",
+"level": 1,
 "id": 156,
 "correct": 3
 },
@@ -3695,6 +3851,7 @@
 ],
 "ex": "Ice Jacket использует термочувствительное покрытие.",
 "archive_note": "",
+"level": 2,
 "id": 157,
 "correct": 0
 },
@@ -3719,6 +3876,7 @@
 ],
 "ex": "Ремо Руффини купил Moncler в 2003 году.",
 "archive_note": "",
+"level": 2,
 "id": 158,
 "correct": 1
 },
@@ -3743,6 +3901,7 @@
 ],
 "ex": "Дэниел Ли сделал бренд очень модным.",
 "archive_note": "",
+"level": 2,
 "id": 159,
 "correct": 2
 },
@@ -3766,6 +3925,7 @@
 ],
 "ex": "Сара Бёртон возглавляла бренд с 2010 года.",
 "archive_note": "",
+"level": 2,
 "id": 160,
 "correct": 3
 },
@@ -3790,6 +3950,7 @@
 ],
 "ex": "Мартин Маржела покинул бренд в 2009 году.",
 "archive_note": "",
+"level": 3,
 "id": 161,
 "correct": 0
 },
@@ -3814,6 +3975,7 @@
 ],
 "ex": "Мишель Лами — партнёр и соавтор бренда.",
 "archive_note": "",
+"level": 3,
 "id": 162,
 "correct": 1
 },
@@ -3838,6 +4000,7 @@
 ],
 "ex": "Он назвал бренд в память о матери.",
 "archive_note": "",
+"level": 2,
 "id": 163,
 "correct": 2
 },
@@ -3861,6 +4024,7 @@
 ],
 "ex": "Loro Piana родом из Кварони в Пьемонте.",
 "archive_note": "",
+"level": 2,
 "id": 164,
 "correct": 3
 },
@@ -3884,6 +4048,7 @@
 ],
 "ex": "Acne Studios основан в Стокгольме в 1996 году.",
 "archive_note": "",
+"level": 2,
 "id": 165,
 "correct": 0
 },
@@ -3908,6 +4073,7 @@
 ],
 "ex": "Arc'teryx основан в 1989 году в Ванкувере.",
 "archive_note": "",
+"level": 2,
 "id": 166,
 "correct": 1
 },
@@ -3932,6 +4098,7 @@
 ],
 "ex": "C.P. — Chester Perry, 1971 год.",
 "archive_note": "",
+"level": 2,
 "id": 167,
 "correct": 2
 },
@@ -3956,6 +4123,7 @@
 ],
 "ex": "Серый укороченный костюм стал символом бренда.",
 "archive_note": "",
+"level": 3,
 "id": 168,
 "correct": 3
 },
@@ -3980,6 +4148,7 @@
 ],
 "ex": "Prada приобрела долю Helmut Lang в 1999 году.",
 "archive_note": "",
+"level": 3,
 "id": 169,
 "correct": 0
 },
@@ -4004,6 +4173,7 @@
 ],
 "ex": "Он работал в Berluti в 2016–2018 годах.",
 "archive_note": "",
+"level": 3,
 "id": 170,
 "correct": 1
 },
@@ -4028,6 +4198,7 @@
 ],
 "ex": "Раф Симонс возглавлял Calvin Klein в 2016–2018 годах.",
 "archive_note": "",
+"level": 3,
 "id": 171,
 "correct": 2
 },
@@ -4052,6 +4223,7 @@
 ],
 "ex": "Puig купила бренд в 2018 году.",
 "archive_note": "",
+"level": 3,
 "id": 172,
 "correct": 3
 },
@@ -4075,6 +4247,7 @@
 ],
 "ex": "Prada основан Марио Прада в Милане.",
 "archive_note": "",
+"level": 2,
 "id": 173,
 "correct": 0
 },
@@ -4099,6 +4272,7 @@
 ],
 "ex": "Нейлоновый рюкзак стал знаком Prada.",
 "archive_note": "1984 год: нейлоновый рюкзак, ставший символом бренда.",
+"level": 2,
 "id": 174,
 "correct": 1
 },
@@ -4122,6 +4296,7 @@
 ],
 "ex": "Демна возглавлял бренд в 2015–2025 годах.",
 "archive_note": "",
+"level": 2,
 "id": 175,
 "correct": 2
 },
@@ -4145,6 +4320,7 @@
 ],
 "ex": "Кристобаль Баленсиага родился в Испании.",
 "archive_note": "",
+"level": 2,
 "id": 176,
 "correct": 3
 },
@@ -4168,6 +4344,7 @@
 ],
 "ex": "Фиби Файло ушла из Céline в 2018 году.",
 "archive_note": "",
+"level": 2,
 "id": 177,
 "correct": 0
 },
@@ -4191,6 +4368,7 @@
 ],
 "ex": "Yves Saint Laurent стал Saint Laurent Paris.",
 "archive_note": "",
+"level": 2,
 "id": 178,
 "correct": 1
 },
@@ -4214,6 +4392,7 @@
 ],
 "ex": "Лагерфельд работал в Fendi более 50 лет.",
 "archive_note": "",
+"level": 2,
 "id": 179,
 "correct": 2
 },
@@ -4237,6 +4416,7 @@
 ],
 "ex": "Донателла — сестра Джанни.",
 "archive_note": "",
+"level": 2,
 "id": 180,
 "correct": 3
 },
@@ -4261,6 +4441,7 @@
 ],
 "ex": "Макларен позже менеджерил Sex Pistols.",
 "archive_note": "",
+"level": 3,
 "id": 181,
 "correct": 0
 },
@@ -4284,6 +4465,7 @@
 ],
 "ex": "Оливье Рустен стал директором в 2011 году.",
 "archive_note": "",
+"level": 2,
 "id": 182,
 "correct": 1
 },
@@ -4307,6 +4489,7 @@
 ],
 "ex": "Loewe основан в Мадриде в 1846 году.",
 "archive_note": "",
+"level": 2,
 "id": 183,
 "correct": 2
 },
@@ -4331,6 +4514,7 @@
 ],
 "ex": "Джил Зандер родилась в Германии.",
 "archive_note": "",
+"level": 3,
 "id": 184,
 "correct": 3
 },
@@ -4355,6 +4539,7 @@
 ],
 "ex": "Сумку придумали после встречи Жана-Луи Дюма с Джейн Биркин.",
 "archive_note": "",
+"level": 2,
 "id": 185,
 "correct": 0
 },
@@ -4379,6 +4564,7 @@
 ],
 "ex": "Сумка названа в честь Грейс Келли.",
 "archive_note": "",
+"level": 2,
 "id": 186,
 "correct": 1
 },
@@ -4403,6 +4589,7 @@
 ],
 "ex": "Lady Dior появилась в 1995 году.",
 "archive_note": "",
+"level": 2,
 "id": 187,
 "correct": 2
 },
@@ -4426,6 +4613,7 @@
 ],
 "ex": "«Highland Rape» — одна из самых известных ранних коллекций.",
 "archive_note": "1995 год: ранняя скандальная коллекция Маккуина.",
+"level": 2,
 "id": 188,
 "correct": 3
 },
@@ -4450,6 +4638,7 @@
 ],
 "ex": "Baguette придумала Сильвия Вентурини Фенди.",
 "archive_note": "1997 год: первая «it-bag» нового времени.",
+"level": 2,
 "id": 189,
 "correct": 0
 },
@@ -4474,6 +4663,7 @@
 ],
 "ex": "Saddle bag — одна из самых узнаваемых сумок Dior.",
 "archive_note": "2000 год: сумка эпохи Гальяно, снова ставшая модной.",
+"level": 2,
 "id": 190,
 "correct": 1
 },
@@ -4498,6 +4688,7 @@
 ],
 "ex": "Ura-Harajuku — родина бренда BAPE и многих других.",
 "archive_note": "",
+"level": 3,
 "id": 191,
 "correct": 2
 },
@@ -4522,6 +4713,7 @@
 ],
 "ex": "Evisu основан в Осаке.",
 "archive_note": "",
+"level": 3,
 "id": 192,
 "correct": 3
 },
@@ -4546,6 +4738,7 @@
 ],
 "ex": "Evisu — один из старейших японских брендов selvedge-денима.",
 "archive_note": "",
+"level": 3,
 "id": 193,
 "correct": 0
 },
@@ -4570,6 +4763,7 @@
 ],
 "ex": "TheSoloist запущен в 2010 году.",
 "archive_note": "",
+"level": 3,
 "id": 194,
 "correct": 1
 },
@@ -4594,6 +4788,7 @@
 ],
 "ex": "Sacai основан в 1999 году в Токио.",
 "archive_note": "",
+"level": 3,
 "id": 195,
 "correct": 2
 },
@@ -4618,6 +4813,7 @@
 ],
 "ex": "Автор сердца — польский художник Филип Паговский.",
 "archive_note": "",
+"level": 3,
 "id": 196,
 "correct": 3
 },
@@ -4642,6 +4838,7 @@
 ],
 "ex": "DSM основала Рей Кавакубо.",
 "archive_note": "",
+"level": 3,
 "id": 197,
 "correct": 0
 },
@@ -4666,6 +4863,7 @@
 ],
 "ex": "DRKSHDW — линия более повседневной одежды.",
 "archive_note": "",
+"level": 3,
 "id": 198,
 "correct": 1
 },
@@ -4690,6 +4888,7 @@
 ],
 "ex": "Академия художеств в Антверпене выпустила «шестёрку».",
 "archive_note": "",
+"level": 3,
 "id": 199,
 "correct": 2
 },
@@ -4714,6 +4913,7 @@
 ],
 "ex": "Nowhere — первый магазин BAPE.",
 "archive_note": "1993 год: стартовая точка стритвир-сцены Ura-Harajuku.",
+"level": 3,
 "id": 200,
 "correct": 3
 },
@@ -4738,6 +4938,7 @@
 ],
 "ex": "Чёрный цвет и деконструкция шокировали парижскую публику.",
 "archive_note": "1981 год: парижский дебют, «Hiroshima chic».",
+"level": 3,
 "id": 201,
 "correct": 0
 },
@@ -4762,7 +4963,533 @@
 ],
 "ex": "«Riot Riot Riot» — одна из самых известных коллекций Раф Симонса.",
 "archive_note": "2001 год: молодёжный бунтарский период Раф Симонса.",
+"level": 3,
 "id": 202,
 "correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "Visvim",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Visvim logo",
+"q": "Чей это логотип?",
+"opts": [
+"Neighborhood",
+"Junya Watanabe",
+"Visvim",
+"Né-net"
+],
+"ex": "Японский бренд Хироки Накамуры, основан в 2000 году.",
+"archive_note": "",
+"id": 203,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "Kapital",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Kapital logo",
+"q": "Чей это логотип?",
+"opts": [
+"20471120",
+"Visvim",
+"Undercover",
+"Kapital"
+],
+"ex": "Kapital родом из Коджимы (Окаяма) — центра японского денима.",
+"archive_note": "",
+"id": 204,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "Undercover",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Undercover logo",
+"q": "Чей это логотип?",
+"opts": [
+"Undercover",
+"A Bathing Ape",
+"Hysteric Glamour",
+"Kapital"
+],
+"ex": "Бренд Дзюна Такахаси, из Токио.",
+"archive_note": "",
+"id": 205,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "Junya Watanabe",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Junya Watanabe logo",
+"q": "Чей это логотип?",
+"opts": [
+"Neighborhood",
+"Junya Watanabe",
+"Number (N)ine",
+"Visvim"
+],
+"ex": "Дзюнъя Ватанабэ — протеже Рей Кавакубо, своя линия с 1992 года.",
+"archive_note": "",
+"id": 206,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "Sacai",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Sacai logo",
+"q": "Чей это логотип?",
+"opts": [
+"Hysteric Glamour",
+"Junya Watanabe",
+"Sacai",
+"Visvim"
+],
+"ex": "Sacai основала Читосэ Абэ в 1999 году.",
+"archive_note": "",
+"id": 207,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "Issey Miyake",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Issey Miyake logo",
+"q": "Чей это логотип?",
+"opts": [
+"Kapital",
+"Né-net",
+"Yohji Yamamoto",
+"Issey Miyake"
+],
+"ex": "Дом Исси Мияке, известен плиссе Pleats Please (1993).",
+"archive_note": "",
+"id": 208,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "Neighborhood",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Neighborhood logo",
+"q": "Чей это логотип?",
+"opts": [
+"Neighborhood",
+"Kapital",
+"Junya Watanabe",
+"A Bathing Ape"
+],
+"ex": "Основан в 1994 году Синскэ Такидзавой.",
+"archive_note": "",
+"id": 209,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "Né-net",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Né-net logo",
+"q": "Чей это логотип?",
+"opts": [
+"Hysteric Glamour",
+"Né-net",
+"Neighborhood",
+"Visvim"
+],
+"ex": "Японский бренд из нишевой уличной сцены.",
+"archive_note": "",
+"id": 210,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "mastermind JAPAN",
+"archive": false,
+"photo_desc": "",
+"photo_query": "mastermind JAPAN logo",
+"q": "Чей это логотип?",
+"opts": [
+"A Bathing Ape",
+"Number (N)ine",
+"mastermind JAPAN",
+"Kapital"
+],
+"ex": "Знак бренда — череп; основатель Масааки Хомма.",
+"archive_note": "",
+"id": 211,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "Hysteric Glamour",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Hysteric Glamour logo",
+"q": "Чей это логотип?",
+"opts": [
+"Junya Watanabe",
+"20471120",
+"Yohji Yamamoto",
+"Hysteric Glamour"
+],
+"ex": "Основан Нобухико Китамурой в 1984 году.",
+"archive_note": "",
+"id": 212,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "Number (N)ine",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Number (N)ine logo",
+"q": "Чей это логотип?",
+"opts": [
+"Number (N)ine",
+"Hysteric Glamour",
+"Visvim",
+"A Bathing Ape"
+],
+"ex": "Бренд Такахиро Мияситы, 1997–2009 годы.",
+"archive_note": "",
+"id": 213,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "20471120",
+"archive": false,
+"photo_desc": "",
+"photo_query": "20471120 logo",
+"q": "Чей это логотип?",
+"opts": [
+"Hysteric Glamour",
+"20471120",
+"Neighborhood",
+"Visvim"
+],
+"ex": "Японский архивный бренд 1992–2003 годов, название — дата.",
+"archive_note": "",
+"id": 214,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "Comme des Garçons",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Comme des Garçons logo",
+"q": "Чей это логотип?",
+"opts": [
+"Junya Watanabe",
+"Visvim",
+"Comme des Garçons",
+"mastermind JAPAN"
+],
+"ex": "Основан Рей Кавакубо в 1969 году.",
+"archive_note": "",
+"id": 215,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "Yohji Yamamoto",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Yohji Yamamoto logo",
+"q": "Чей это логотип?",
+"opts": [
+"A Bathing Ape",
+"Undercover",
+"Sacai",
+"Yohji Yamamoto"
+],
+"ex": "Йоджи Ямамото дебютировал в Париже в 1981 году.",
+"archive_note": "",
+"id": 216,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"japan"
+],
+"brand": "A Bathing Ape",
+"archive": false,
+"photo_desc": "",
+"photo_query": "A Bathing Ape logo",
+"q": "Чей это логотип?",
+"opts": [
+"A Bathing Ape",
+"Neighborhood",
+"Undercover",
+"mastermind JAPAN"
+],
+"ex": "BAPE основал Ниго в 1993 году.",
+"archive_note": "",
+"id": 217,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"west"
+],
+"brand": "Isaac Sellam",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Isaac Sellam logo",
+"q": "Чей это логотип?",
+"opts": [
+"Carol Christian Poell",
+"Isaac Sellam",
+"Walter Van Beirendonck",
+"Dirk Bikkembergs"
+],
+"ex": "Французский бренд, известный вещами из кожи.",
+"archive_note": "",
+"id": 218,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"west"
+],
+"brand": "Carol Christian Poell",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Carol Christian Poell logo",
+"q": "Чей это логотип?",
+"opts": [
+"Ann Demeulemeester",
+"Isaac Sellam",
+"Carol Christian Poell",
+"Walter Van Beirendonck"
+],
+"ex": "Итальянский авангардный дизайнер, известен окраской готовых вещей.",
+"archive_note": "",
+"id": 219,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"west"
+],
+"brand": "Ann Demeulemeester",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Ann Demeulemeester logo",
+"q": "Чей это логотип?",
+"opts": [
+"Rick Owens",
+"Carol Christian Poell",
+"Dirk Bikkembergs",
+"Ann Demeulemeester"
+],
+"ex": "Бельгийский бренд, основан в 1985 году в Антверпене.",
+"archive_note": "",
+"id": 220,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"west"
+],
+"brand": "Walter Van Beirendonck",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Walter Van Beirendonck logo",
+"q": "Чей это логотип?",
+"opts": [
+"Walter Van Beirendonck",
+"Isaac Sellam",
+"Rick Owens",
+"Ann Demeulemeester"
+],
+"ex": "Бельгийский дизайнер, член «антверпенской шестёрки».",
+"archive_note": "",
+"id": 221,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"west"
+],
+"brand": "Dirk Bikkembergs",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Dirk Bikkembergs logo",
+"q": "Чей это логотип?",
+"opts": [
+"Isaac Sellam",
+"Dirk Bikkembergs",
+"Carol Christian Poell",
+"Walter Van Beirendonck"
+],
+"ex": "Бельгийский дизайнер, известен коллекциями про футбол.",
+"archive_note": "",
+"id": 222,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo",
+"west"
+],
+"brand": "Rick Owens",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Rick Owens logo",
+"q": "Чей это логотип?",
+"opts": [
+"Dirk Bikkembergs",
+"Walter Van Beirendonck",
+"Rick Owens",
+"Carol Christian Poell"
+],
+"ex": "Рик Оуэнс основал бренд в Лос-Анджелесе в 1994 году.",
+"archive_note": "",
+"id": 223,
+"correct": 2
 }
 ]
