@@ -83,6 +83,18 @@ def init_db():
         "CREATE TABLE IF NOT EXISTS photos3(qid INTEGER PRIMARY KEY, file_id TEXT)",
     ]:
         q(s, fetch=None)
+    try:
+        q("ALTER TABLE u3 ADD COLUMN diff INTEGER DEFAULT 0", fetch=None)
+    except sqlite3.OperationalError:
+        pass
+
+
+DIFF_NAMES = {0: "🎲 Авто (по рангу)", 1: "🟢 Лёгкая", 2: "🟡 Средняя", 3: "🔴 Сложная"}
+
+
+def get_diff(uid):
+    r = q("SELECT diff FROM u3 WHERE uid=?", (uid,), "one")
+    return (r["diff"] or 0) if r else 0
 
 
 def ensure_user(m) -> sqlite3.Row:
@@ -246,13 +258,15 @@ ACH_TITLES = {"first": "🌟 Первый верный ответ", "run10": "�
 def menu_kb(uid):
     rank = rank_of(q("SELECT xp FROM u3 WHERE uid=?", (uid,), "one")["xp"])
     kb = InlineKeyboardBuilder()
-    kb.button(text="👗 Угадай вещь", callback_data="play:g")
+    kb.button(text="📸 Угадай одежду (фото)", callback_data="play:p")
+    kb.button(text="🧠 Квиз", callback_data="play:g")
     kb.button(text="🕵️ Модный детектив" + ("" if rank >= 3 else " 🔒"), callback_data="play:d")
     kb.button(text="📚 Наборы", callback_data="m:sets")
     kb.button(text="👤 Профиль", callback_data="m:prof")
     kb.button(text="🗂 Коллекции", callback_data="m:coll")
     kb.button(text="🏆 Рейтинг", callback_data="m:top")
-    kb.adjust(1, 1, 2, 2)
+    kb.button(text=f"⚙️ Сложность: {DIFF_NAMES[get_diff(uid)]}", callback_data="m:diff")
+    kb.adjust(1, 1, 1, 2, 2, 1)
     return kb.as_markup()
 
 
@@ -272,6 +286,10 @@ def pick(uid, mode, tag=None):
     rank = rank_of(u["xp"])
     seen = {r["qid"] for r in q("SELECT qid FROM seen3 WHERE uid=?", (uid,))}
     pool = [x for x in QUESTIONS.values() if x["mode"] == mode and allowed(rank, x) and (not tag or tag in x["cats"])]
+    d = get_diff(uid)
+    if d:
+        byd = [x for x in pool if x["cx"] == d]
+        pool = byd or pool
     fresh = [x for x in pool if x["id"] not in seen]
     if fresh:
         # чаще берём вопросы с самых высоких открытых уровней
@@ -287,11 +305,11 @@ async def ask(msg: Message, uid: int, mode: str, tag=None, x=None):
         await msg.answer("В этом наборе пока нет доступных вопросов. Прокачай ранг!")
         return
     sess[uid] = {"qid": x["id"], "t0": time.time(), "mode": mode, "tag": tag}
-    head = f"{FAME[x['fame']]} · вопрос {CX[x['cx']]} · {'Угадай вещь' if mode == 'g' else 'Детектив'}"
+    head = f"{FAME[x['fame']]} · вопрос {CX[x['cx']]} · {'Квиз' if mode == 'g' else 'Детектив'}"
     if x["archive"]: head += " · 🕰 архив"
     fid = q("SELECT file_id FROM photos3 WHERE qid=?", (x["id"],), "one")
     body = f"<b>{head}</b>\n"
-    if not fid: body += f"📸 <i>Фото-улика (описание): {html.escape(x['photo_desc'])}</i>\n"
+    if not fid and mode == "d": body += f"📸 <i>Фото-улика (описание): {html.escape(x['photo_desc'])}</i>\n"
     body += f"\n❓ {html.escape(x['q'])}"
     if x["archive"] and x["archive_note"]: body += "\n\n<i>Подсказка: вещь из архива.</i>"
     kb = InlineKeyboardBuilder()
@@ -387,6 +405,14 @@ async def menus(c: CallbackQuery):
         kb.button(text="🏠 Меню", callback_data="m:menu")
         kb.adjust(1)
         await c.message.answer(s, reply_markup=kb.as_markup())
+    elif what == "diff":
+        kb = InlineKeyboardBuilder()
+        for k, v in DIFF_NAMES.items():
+            kb.button(text=("✅ " if k == get_diff(uid) else "") + v, callback_data=f"diff:{k}")
+        kb.adjust(1)
+        await c.message.answer("<b>⚙️ Сложность</b>\n🟢 Лёгкая: в фото-игре угадываешь бренд, в квизе лёгкие вопросы.\n"
+                               "🟡 Средняя: в фото-игре — название модели.\n🔴 Сложная: модель среди очень похожих вариантов.\n"
+                               "🎲 Авто: растёт вместе с рангом.\nДоступность бренда всё равно зависит от ранга.", reply_markup=kb.as_markup())
     elif what == "rem":
         q("UPDATE u3 SET remind=1-remind WHERE uid=?", (uid,), fetch=None)
         await c.message.answer("Настройка обновлена.", reply_markup=menu_kb(uid))
@@ -407,6 +433,14 @@ async def menus(c: CallbackQuery):
         await c.message.answer(s, reply_markup=kb.as_markup())
 
 
+@router.callback_query(F.data.startswith("diff:"))
+async def set_diff(c: CallbackQuery):
+    ensure_user(c)
+    q("UPDATE u3 SET diff=? WHERE uid=?", (int(c.data[5:]), c.from_user.id), fetch=None)
+    await c.answer("Сохранено")
+    await c.message.answer(menu_text(c.from_user.id), reply_markup=menu_kb(c.from_user.id))
+
+
 @router.callback_query(F.data.startswith("play:"))
 async def play(c: CallbackQuery):
     ensure_user(c)
@@ -416,7 +450,10 @@ async def play(c: CallbackQuery):
     if mode == "d" and rank < 3:
         await c.message.answer("🔒 «Модный детектив» откроется на ранге 3 — «Охотник за кроссовками».")
         return
-    await ask(c.message, uid, mode)
+    if mode == "p":
+        await ask_photo(c.message, uid)
+    else:
+        await ask(c.message, uid, mode)
 
 
 @router.callback_query(F.data.startswith("set:"))
@@ -440,7 +477,10 @@ async def nxt(c: CallbackQuery):
     uid = c.from_user.id
     await c.answer()
     s = sess.get(uid, {"mode": "g", "tag": None})
-    await ask(c.message, uid, s["mode"], s.get("tag"))
+    if s["mode"] == "p":
+        await ask_photo(c.message, uid)
+    else:
+        await ask(c.message, uid, s["mode"], s.get("tag"))
 
 
 async def strip_kb(c: CallbackQuery):
@@ -507,6 +547,144 @@ async def answer_d(m: Message):
     frac_xp = frac if frac >= 0.5 else 0.0
     gain, notes = award(uid, x, frac_xp, elapsed)
     await m.answer(result_text(x, head, gain, notes), reply_markup=next_kb(uid))
+
+
+# ---------- «Угадай одежду»: фото + бренд / модель ----------
+GENERIC = {"jacket", "suit", "polo", "sneaker", "sneakers", "shoes", "shoe", "jeans", "denim", "bag", "show", "archive",
+           "hoodie", "tee", "coat", "boots", "designers", "mini", "leather", "label", "patch", "shirt", "stripe", "logo",
+           "store", "window", "vintage", "stripes", "perfume", "bottle", "canvas", "pocket", "tab", "camo", "heart", "embroidery",
+           "puffer", "mountain", "skate", "cardigan", "loafer", "mocassin", "moccasin", "fleece", "wool", "stitching", "raw", "drapery", "drape"}
+MODEL_OK = {"Adidas Stan Smith", "Puma Suede", "Louis Vuitton Speedy", "Nike Cortez", "Adidas Superstar", "Chanel 2.55",
+    "Nike Waffle Trainer", "Nike Air Max 1", "Louis Vuitton Multicolore", "Adidas Samba", "Nike Air Force 1",
+    "Converse Chuck Taylor", "New Balance 574", "Vans Old Skool", "The North Face Nuptse", "Dr. Martens 1460",
+    "Jacquemus Le Chiquito", "Issey Miyake Pleats Please", "Issey Miyake A-POC", "Raf Simons Ozweego",
+    "Comme des Garçons Lumps and Bumps", "Comme des Garçons Body Meets Dress", "Uniqlo ultra light down",
+    "Vans Slip-On checkerboard", "Acne Studios face"}
+FOTO = []
+for _x in QUESTIONS.values():
+    _b = _x["brand"]
+    _pq = _x["photo_query"]
+    if _pq.lower().startswith(_b.lower()) and _x["mode"] in ("g", "d"):
+        _model = _pq[len(_b):].strip()
+        _ok = _pq in MODEL_OK
+        FOTO.append({"id": _x["id"], "brand": _b, "fame": _x["fame"], "cats": _x["cats"], "archive": _x["archive"],
+                     "query": _pq, "model": _model if _ok else "", "desc": _x["photo_desc"], "ex": _x["ex"]})
+_seen_pq = set()
+FOTO = [f for f in FOTO if not (f["query"] in _seen_pq or _seen_pq.add(f["query"]))]
+
+
+def photo_level(uid, rank):
+    d = get_diff(uid)
+    if d == 0:
+        d = 1 if rank < 4 else 2 if rank < 7 else 3
+    return d
+
+
+def make_photo_task(uid):
+    rank = rank_of(q("SELECT xp FROM u3 WHERE uid=?", (uid,), "one")["xp"])
+    lvl = photo_level(uid, rank)
+    ok_f = lambda f: allowed(rank, {"mode": "g", "fame": f["fame"], "cx": 1, "archive": f["archive"]})
+    pool = [f for f in FOTO if ok_f(f) and (lvl == 1 or f["model"])] or [f for f in FOTO if f["fame"] == 1]
+    seen = {r["qid"] for r in q("SELECT qid FROM seen3 WHERE uid=?", (uid,))}
+    fresh = [f for f in pool if 10000 + f["id"] not in seen] or pool
+    f = random.choice(fresh)
+    if lvl == 1:
+        right = f["brand"]
+        others = list({g["brand"] for g in FOTO if g["brand"] != right and g["fame"] == f["fame"]})
+        if len(others) < 3: others = list({g["brand"] for g in FOTO if g["brand"] != right})
+        text = "Какой это бренд?"
+    else:
+        right = f["query"]
+        same = [g["query"] for g in FOTO if g["brand"] == f["brand"] and g["query"] != right and g["model"]]
+        cat = [g["query"] for g in FOTO if g["query"] != right and g["model"] and set(g["cats"]) & set(f["cats"])]
+        rest = [g["query"] for g in FOTO if g["query"] != right and g["model"]]
+        if lvl == 3: cand = list(dict.fromkeys(same + cat + rest))
+        else: cand = list(dict.fromkeys([g for g in cat if g not in same] + rest))
+        others = cand[:6] if lvl == 3 else cand
+        text = "Какая это модель?" if lvl == 2 else "Какая это модель? Варианты очень похожи."
+    if lvl == 3:
+        ds = others[:3]
+    else:
+        ds = random.sample(others, 3)
+    opts = ds + [right]
+    random.shuffle(opts)
+    return f, lvl, text, opts, opts.index(right)
+
+
+async def fetch_commons(query):
+    import aiohttp
+    params = {"action": "query", "format": "json", "generator": "search", "gsrnamespace": "6", "gsrsearch": query,
+              "gsrlimit": "8", "prop": "imageinfo", "iiprop": "url|mime", "iiurlwidth": "800"}
+    hdr = {"User-Agent": "FashionCheckBot/3.0 (telegram quiz bot)"}
+    try:
+        async with aiohttp.ClientSession(headers=hdr, timeout=aiohttp.ClientTimeout(total=10)) as s:
+            async with s.get("https://commons.wikimedia.org/w/api.php", params=params) as r:
+                data = await r.json()
+        pages = sorted(data.get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 99))
+        for p in pages:
+            ii = (p.get("imageinfo") or [{}])[0]
+            if ii.get("mime") in ("image/jpeg", "image/png") and ii.get("thumburl"):
+                return ii["thumburl"]
+    except Exception:
+        logging.exception("commons fetch failed")
+    return None
+
+
+async def ask_photo(msg: Message, uid: int):
+    f, lvl, text, opts, ci = make_photo_task(uid)
+    sess[uid] = {"qid": None, "pid": f["id"], "t0": time.time(), "mode": "p", "tag": None,
+                 "opts": opts, "ci": ci, "lvl": lvl, "f": f}
+    kb = InlineKeyboardBuilder()
+    for i, o in enumerate(opts):
+        kb.button(text=f"{'ABCD'[i]}) {o}", callback_data=f"pa:{f['id']}:{i}")
+    kb.adjust(1)
+    head = f"<b>{FAME[f['fame']]} · {'бренд' if lvl == 1 else 'модель'} · 📸 Угадай одежду</b>"
+    if f["archive"]: head += " · 🕰 архив"
+    cap = f"{head}\n\n❓ {text}"
+    cached = q("SELECT file_id FROM photos3 WHERE qid=?", (f["id"],), "one")
+    try:
+        if cached:
+            await msg.answer_photo(cached["file_id"], caption=cap, reply_markup=kb.as_markup())
+            return
+        url = await fetch_commons(f["query"])
+        if url:
+            sent = await msg.answer_photo(url, caption=cap, reply_markup=kb.as_markup())
+            q("INSERT OR IGNORE INTO photos3 VALUES(?,?)", (f["id"], sent.photo[-1].file_id), fetch=None)
+            return
+    except Exception:
+        logging.exception("photo send failed")
+    await msg.answer(cap + f"\n\n📸 <i>Фото не загрузилось. Описание: {html.escape(f['desc'])}</i>", reply_markup=kb.as_markup())
+
+
+@router.callback_query(F.data.startswith("pa:"))
+async def answer_p(c: CallbackQuery):
+    uid = c.from_user.id
+    _, pid, i = c.data.split(":")
+    s = sess.get(uid)
+    if not s or s.get("mode") != "p" or s.get("pid") != int(pid):
+        await c.answer("Этот вопрос уже закрыт."); return
+    f, lvl = s["f"], s["lvl"]
+    sess[uid] = {**s, "pid": None}
+    ok = int(i) == s["ci"]
+    synth = {"id": 10000 + f["id"], "mode": "g", "cx": 1 if lvl == 1 else 2 if lvl == 2 else 3, "fame": f["fame"],
+             "archive": f["archive"]}
+    gain, notes = award(uid, synth, 1.0 if ok else 0.0, time.time() - s["t0"])
+    await c.answer(); await strip_kb(c)
+    right = f"{'ABCD'[s['ci']]}) {html.escape(s['opts'][s['ci']])}"
+    head = "✅ <b>Верно!</b>" if ok else f"❌ <b>Неверно.</b> Правильный ответ: <b>{right}</b>"
+    body = head + f"\n\n💡 {html.escape(f['ex'])}"
+    if gain: body += f"\n\n<b>+{gain} XP</b>"
+    if notes: body += "\n" + "\n".join(notes)
+    await c.message.answer(body, reply_markup=next_kb(uid))
+
+
+@router.message(Command("resetphoto"))
+async def resetphoto(m: Message):
+    if m.from_user.id not in ADMIN_IDS: return
+    arg = (m.text or "").split()[1:]
+    if arg and arg[0].isdigit():
+        q("DELETE FROM photos3 WHERE qid=?", (int(arg[0]),), fetch=None)
+        await m.answer("Фото сброшено, при следующем показе бот найдёт другое. Или пришли своё фото с подписью-номером.")
 
 
 # ---------- напоминание ----------
