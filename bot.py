@@ -6,7 +6,7 @@ from pathlib import Path
 from aiogram import Bot, Dispatcher, F, Router
 from aiogram.client.default import DefaultBotProperties
 from aiogram.filters import Command, CommandStart
-from aiogram.types import BotCommand, CallbackQuery, Message
+from aiogram.types import BotCommand, CallbackQuery, BufferedInputFile, Message
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 BASE = Path(__file__).parent
@@ -245,8 +245,26 @@ def menu_text(uid, note=""):
 
 
 # ---------- вопросы ----------
+import base64
+try:
+    LOGO_FILES = json.loads((BASE / "logos_data.json").read_text(encoding="utf-8"))
+except Exception:
+    LOGO_FILES = {}
+
+
 def logo_brands():
-    return {r["brand"] for r in q("SELECT brand FROM logos3")}
+    return set(LOGO_FILES)
+
+
+async def send_logo(msg: Message, brand: str, kind: str, caption: str = "", kb=None):
+    """kind: q — фрагмент логотипа, full — полный. file_id кэшируется."""
+    key = f"{brand}|{kind}"
+    row = q("SELECT file_id FROM logos3 WHERE brand=?", (key,), "one")
+    if row:
+        return await msg.answer_photo(row["file_id"], caption=caption, reply_markup=kb)
+    sent = await msg.answer_photo(BufferedInputFile(base64.b64decode(LOGO_FILES[brand][kind]), filename=f"{kind}.jpg"), caption=caption, reply_markup=kb)
+    q("INSERT OR REPLACE INTO logos3 VALUES(?,?)", (key, sent.photo[-1].file_id), fetch=None)
+    return sent
 
 
 def pick(uid, mode="g", tag=None):
@@ -278,11 +296,9 @@ async def ask(msg: Message, uid: int, mode: str = "g", tag=None, x=None):
         kb.button(text=f"{'ABCD'[i]}) {o}", callback_data=f"a:{x['id']}:{i}")
     kb.adjust(1)
     text = f"<b>{head}</b>\n\n❓ {html.escape(x['q'])}"
-    if x["mode"] == "l":
-        fid = q("SELECT file_id FROM logos3 WHERE brand=?", (x["brand"],), "one")
-        if fid:
-            await msg.answer_photo(fid["file_id"], caption=text, reply_markup=kb.as_markup())
-            return
+    if x["mode"] == "l" and x["brand"] in LOGO_FILES:
+        await send_logo(msg, x["brand"], "q", text, kb.as_markup())
+        return
     await msg.answer(text, reply_markup=kb.as_markup())
 
 
@@ -315,31 +331,6 @@ async def start(m: Message):
 @router.message(Command("myid"))
 async def myid(m: Message):
     await m.answer(f"Твой ID: <code>{m.from_user.id}</code>")
-
-
-@router.message(Command("logos"))
-async def logos_cmd(m: Message):
-    if m.from_user.id not in ADMIN_IDS:
-        await m.answer("Нужна переменная ADMIN_IDS в Railway. Твой ID: /myid"); return
-    allb = sorted({x["brand"] for x in QUESTIONS.values() if x["mode"] == "l"})
-    have = logo_brands()
-    await m.answer("<b>Логотипы</b>\nЕсть: " + (", ".join(b for b in allb if b in have) or "—") +
-                   "\nНе хватает: " + (", ".join(b for b in allb if b not in have) or "—") +
-                   "\n\nОтправь картинку логотипа с подписью: <code>logo Название бренда</code>")
-
-
-@router.message(F.photo)
-async def logo_upload(m: Message):
-    if m.from_user.id not in ADMIN_IDS: return
-    cap = (m.caption or "").strip()
-    if not cap.lower().startswith("logo "):
-        await m.answer("Подпись должна быть: logo Название бренда (список: /logos)"); return
-    name = cap[5:].strip().lower()
-    for b in {x["brand"] for x in QUESTIONS.values() if x["mode"] == "l"}:
-        if b.lower() == name:
-            q("INSERT OR REPLACE INTO logos3 VALUES(?,?)", (b, m.photo[-1].file_id), fetch=None)
-            await m.answer(f"✅ Логотип «{b}» сохранён."); return
-    await m.answer("Такого бренда нет в списке. Посмотри /logos.")
 
 
 @router.callback_query(F.data.startswith("m:"))
@@ -473,7 +464,10 @@ async def answer_g(c: CallbackQuery):
     await strip_kb(c)
     right = f"{'ABCD'[x['correct']]}) {html.escape(x['opts'][x['correct']])}"
     head = "✅ <b>Верно!</b>" if ok else f"❌ <b>Неверно.</b> Правильный ответ: <b>{right}</b>"
-    await c.message.answer(result_text(x, head, gain, notes), reply_markup=next_kb(uid))
+    if x["mode"] == "l" and x["brand"] in LOGO_FILES:
+        await send_logo(c.message, x["brand"], "full", result_text(x, head, gain, notes), next_kb(uid))
+    else:
+        await c.message.answer(result_text(x, head, gain, notes), reply_markup=next_kb(uid))
 
 
 # ---------- напоминание ----------

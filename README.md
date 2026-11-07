@@ -1,6 +1,5 @@
-# Fashion Check Bot v5
-Файлы на GitHub: `bot.py`, `questions.json`, `requirements.txt`.
-Railway: `BOT_TOKEN`, `DB_PATH` (Volume, напр. `/data/fashion.db`), `ADMIN_IDS` (твой ID из /myid), `REMINDER_HOUR`.
-
-Уровни: 🟢 Лёгкий (61), 🟡 Средний (79), ⚫ Нишевый (62) + 21 вопрос с логотипами.
-Вопросы-логотипы появляются в игре только после того, как админ отправит боту картинку с подписью `logo Название бренда`. Список — /logos и logo_tasks.csv.
+# Fashion Check Bot v6
+Загрузи на GitHub: `bot.py`, `questions.json`, `requirements.txt` и `logos_data.json` (логотипы).
+Railway: `BOT_TOKEN`, `DB_PATH` (Volume), `REMINDER_HOUR`.
+Уровни: 🟢 Лёгкий, 🟡 Средний, ⚫ Нишевый. Вопросы «Чей это логотип?» показывают фрагмент логотипа в круглых окнах; после ответа — полный логотип.
+Сборка: `python build_content.py` (вопросы) и `python make_logos.py <папка с img-000.jpg…>` (логотипы).

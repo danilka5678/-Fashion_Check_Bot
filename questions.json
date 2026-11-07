@@ -4968,28 +4968,1104 @@
 "correct": 1
 },
 {
-"mode": "l",
-"fame": 4,
-"level": 3,
-"cx": 1,
+"mode": "g",
+"fame": 3,
+"cx": 2,
 "cats": [
-"logo",
-"japan"
+"luxury"
 ],
-"brand": "Visvim",
+"brand": "Balmain",
 "archive": false,
 "photo_desc": "",
-"photo_query": "Visvim logo",
-"q": "Чей это логотип?",
+"photo_query": "Balmain",
+"q": "В каком году Пьер Бальмен основал дом Balmain?",
 "opts": [
-"Neighborhood",
-"Junya Watanabe",
-"Visvim",
-"Né-net"
+"1925",
+"1960",
+"1945",
+"1985"
 ],
-"ex": "Японский бренд Хироки Накамуры, основан в 2000 году.",
+"ex": "Balmain основан в Париже в 1945 году.",
 "archive_note": "",
+"level": 2,
 "id": 203,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 2,
+"cats": [
+"street",
+"luxury"
+],
+"brand": "Dsquared2",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Dsquared2",
+"q": "Из какой страны родом основатели Dsquared2, близнецы Дин и Дэн Кейтен?",
+"opts": [
+"Италия",
+"США",
+"Великобритания",
+"Канада"
+],
+"ex": "Братья Кейтен родом из Канады, бренд основан в 1995 году, а базируется в Милане.",
+"archive_note": "",
+"level": 2,
+"id": 204,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 1,
+"cats": [
+"street",
+"luxury"
+],
+"brand": "Dsquared2",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Dsquared2",
+"q": "Какой символ изображён на логотипе Dsquared2?",
+"opts": [
+"Кленовый лист",
+"Звезда",
+"Корона",
+"Орёл"
+],
+"ex": "Кленовый лист напоминает о канадских корнях основателей.",
+"archive_note": "",
+"level": 2,
+"id": 205,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 2,
+"cats": [
+"street",
+"luxury"
+],
+"brand": "Amiri",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Amiri",
+"q": "В каком городе основан Amiri?",
+"opts": [
+"Нью-Йорк",
+"Лос-Анджелес",
+"Лондон",
+"Париж"
+],
+"ex": "Amiri основал Майк Амири в Лос-Анджелесе.",
+"archive_note": "",
+"level": 2,
+"id": 206,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 3,
+"cats": [
+"luxury",
+"west"
+],
+"brand": "John Galliano",
+"archive": false,
+"photo_desc": "",
+"photo_query": "John Galliano",
+"q": "Какой дом Джон Гальяно возглавил в 1996 году?",
+"opts": [
+"Chanel",
+"Gucci",
+"Dior",
+"Prada"
+],
+"ex": "Гальяно возглавлял Dior в 1996–2011 годах.",
+"archive_note": "",
+"level": 2,
+"id": 207,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 2,
+"cats": [
+"luxury",
+"west"
+],
+"brand": "John Galliano",
+"archive": false,
+"photo_desc": "",
+"photo_query": "John Galliano",
+"q": "В каком городе родился Джон Гальяно?",
+"opts": [
+"Лондон",
+"Париж",
+"Мадрид",
+"Гибралтар"
+],
+"ex": "Гальяно родился в Гибралтаре и вырос в Лондоне.",
+"archive_note": "",
+"level": 2,
+"id": 208,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 2,
+"cats": [
+"sneakers",
+"luxury"
+],
+"brand": "Golden Goose",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Golden Goose",
+"q": "Какой эффект сделал знаменитыми кроссовки Golden Goose?",
+"opts": [
+"Намеренно потёртый, состаренный вид",
+"Светящаяся подошва",
+"Прозрачный верх",
+"Кожа с принтом"
+],
+"ex": "Кроссовки продаются уже «потрёпанными».",
+"archive_note": "",
+"level": 2,
+"id": 209,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 1,
+"cats": [
+"sneakers",
+"luxury"
+],
+"brand": "Golden Goose",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Golden Goose",
+"q": "Из какой страны родом Golden Goose?",
+"opts": [
+"Испания",
+"Италия",
+"Франция",
+"Португалия"
+],
+"ex": "Бренд основан в 2000 году в Венеции.",
+"archive_note": "",
+"level": 2,
+"id": 210,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 3,
+"cats": [
+"street",
+"luxury"
+],
+"brand": "Palm Angels",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Palm Angels",
+"q": "Кто основал Palm Angels в 2015 году?",
+"opts": [
+"Вирджил Абло",
+"Демна Гвасалия",
+"Франческо Рагацци",
+"Симон Порт Жакмюс"
+],
+"ex": "Франческо Рагацци — итальянский дизайнер и фотограф.",
+"archive_note": "",
+"level": 2,
+"id": 211,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 2,
+"cats": [
+"luxury"
+],
+"brand": "Roberto Cavalli",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Roberto Cavalli",
+"q": "Какой принт — фирменный у Roberto Cavalli?",
+"opts": [
+"Шахматная клетка",
+"Полоска",
+"Камуфляж",
+"Анималистичный"
+],
+"ex": "Cavalli известен леопардовыми и змеиными принтами.",
+"archive_note": "",
+"level": 2,
+"id": 212,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 2,
+"cats": [
+"luxury"
+],
+"brand": "Moschino",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Moschino",
+"q": "В каком году основан Moschino?",
+"opts": [
+"1983",
+"1965",
+"1998",
+"2005"
+],
+"ex": "Moschino основал Франко Москино в Милане.",
+"archive_note": "",
+"level": 2,
+"id": 213,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 2,
+"cats": [
+"luxury"
+],
+"brand": "Dolce & Gabbana",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Dolce & Gabbana",
+"q": "Кто основал Dolce & Gabbana?",
+"opts": [
+"Джанни и Донателла Версаче",
+"Доменико Дольче и Стефано Габбана",
+"Миучча Прада и Патрицио Берт",
+"Джорджо Армани и Серджио Галеотти"
+],
+"ex": "Бренд основан в Милане в 1985 году.",
+"archive_note": "",
+"level": 2,
+"id": 214,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 3,
+"cats": [
+"luxury"
+],
+"brand": "Tom Ford",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Tom Ford",
+"q": "В каком году Том Форд запустил собственный бренд?",
+"opts": [
+"1994",
+"1999",
+"2005",
+"2012"
+],
+"ex": "Tom Ford основан в 2005 году.",
+"archive_note": "",
+"level": 2,
+"id": 215,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 2,
+"cats": [
+"luxury"
+],
+"brand": "Tom Ford",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Tom Ford",
+"q": "Какой дом Том Форд возглавлял в 1990-х и начале 2000-х?",
+"opts": [
+"Chanel",
+"Hermès",
+"Prada",
+"Gucci"
+],
+"ex": "Том Форд работал креативным директором Gucci.",
+"archive_note": "",
+"level": 2,
+"id": 216,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 4,
+"cx": 3,
+"cats": [
+"west",
+"sneakers"
+],
+"brand": "Kiko Kostadinov",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Kiko Kostadinov",
+"q": "С каким спортивным брендом Kiko Kostadinov регулярно делает коллаборации?",
+"opts": [
+"ASICS",
+"Nike",
+"New Balance",
+"Puma"
+],
+"ex": "ASICS × Kiko Kostadinov — известные кроссовки.",
+"archive_note": "",
+"level": 3,
+"id": 217,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 1,
+"cats": [
+"luxury"
+],
+"brand": "Philipp Plein",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Philipp Plein",
+"q": "Из какой страны родом Philipp Plein?",
+"opts": [
+"Италия",
+"Германия",
+"Франция",
+"Швеция"
+],
+"ex": "Philipp Plein родом из Германии.",
+"archive_note": "",
+"level": 2,
+"id": 218,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 3,
+"cats": [
+"street",
+"luxury"
+],
+"brand": "Vetements",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Vetements",
+"q": "Кто основал Vetements вместе с братом Гурамом?",
+"opts": [
+"Раф Симонс",
+"Хеди Слиман",
+"Демна Гвасалия",
+"Алессандро Микеле"
+],
+"ex": "Vetements основан в Париже в 2014 году.",
+"archive_note": "",
+"level": 2,
+"id": 219,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 1,
+"cats": [
+"street",
+"luxury"
+],
+"brand": "Off-White",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Off-White",
+"q": "Что изображено на логотипе Off-White?",
+"opts": [
+"Звезда",
+"Корона",
+"Треугольник",
+"Перекрещённые стрелки"
+],
+"ex": "Перекрещённые стрелки — знак Off-White.",
+"archive_note": "",
+"level": 2,
+"id": 220,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 2,
+"cx": 3,
+"cats": [
+"luxury"
+],
+"brand": "Miu Miu",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Miu Miu",
+"q": "Что означает название Miu Miu?",
+"opts": [
+"Прозвище Миуччи Прада",
+"Название города",
+"Имя основателя",
+"Слово на латыни"
+],
+"ex": "Miu Miu — детское прозвище Миуччи Прада; бренд основан в 1993 году.",
+"archive_note": "",
+"level": 2,
+"id": 221,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 2,
+"cx": 1,
+"cats": [
+"luxury",
+"bags"
+],
+"brand": "Coach",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Coach",
+"q": "В каком городе основан Coach?",
+"opts": [
+"Лос-Анджелес",
+"Нью-Йорк",
+"Чикаго",
+"Бостон"
+],
+"ex": "Coach основан в Нью-Йорке в 1941 году.",
+"archive_note": "",
+"level": 1,
+"id": 222,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 3,
+"cats": [
+"luxury"
+],
+"brand": "Céline",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Céline",
+"q": "Кто возглавил Céline в 2018 году?",
+"opts": [
+"Фиби Файло",
+"Стелла Маккартни",
+"Хеди Слиман",
+"Деми Мур"
+],
+"ex": "Хеди Слиман возглавил бренд в 2018 году.",
+"archive_note": "",
+"level": 2,
+"id": 223,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 2,
+"cx": 1,
+"cats": [
+"street"
+],
+"brand": "Massimo Dutti",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Massimo Dutti",
+"q": "Какой группе принадлежит Massimo Dutti?",
+"opts": [
+"H&M Group",
+"Fast Retailing",
+"Gap Inc.",
+"Inditex"
+],
+"ex": "Massimo Dutti входит в группу Inditex, как и Zara.",
+"archive_note": "",
+"level": 1,
+"id": 224,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 2,
+"cats": [
+"luxury",
+"bags"
+],
+"brand": "Hermès",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Hermès",
+"q": "В каком году основан Hermès?",
+"opts": [
+"1837",
+"1854",
+"1913",
+"1921"
+],
+"ex": "Тьерри Эрмес основал дом в Париже в 1837 году.",
+"archive_note": "",
+"level": 2,
+"id": 225,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 3,
+"cats": [
+"luxury",
+"bags"
+],
+"brand": "Hermès",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Hermès",
+"q": "С какого ремесла начинал Hermès?",
+"opts": [
+"Ювелирное дело",
+"Шорное дело: сбруя и сёдла",
+"Часовое дело",
+"Парфюмерия"
+],
+"ex": "Hermès начинался как мастерская конской сбруи.",
+"archive_note": "",
+"level": 2,
+"id": 226,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 2,
+"cx": 3,
+"cats": [
+"street"
+],
+"brand": "Supreme",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Supreme",
+"q": "Какая компания купила Supreme в 2020 году?",
+"opts": [
+"LVMH",
+"Nike",
+"VF Corporation",
+"Kering"
+],
+"ex": "VF Corporation купила Supreme в 2020 году.",
+"archive_note": "",
+"level": 2,
+"id": 227,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 2,
+"cx": 1,
+"cats": [
+"street"
+],
+"brand": "Palace",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Palace",
+"q": "Из какого города родом Palace Skateboards?",
+"opts": [
+"Нью-Йорк",
+"Лос-Анджелес",
+"Токио",
+"Лондон"
+],
+"ex": "Palace основан в Лондоне в 2010 году.",
+"archive_note": "",
+"level": 1,
+"id": 228,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 2,
+"cx": 1,
+"cats": [
+"street"
+],
+"brand": "Palace",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Palace",
+"q": "Какая фигура — логотип Palace?",
+"opts": [
+"Треугольник",
+"Круг",
+"Квадрат",
+"Звезда"
+],
+"ex": "Знак Palace — треугольник Tri-Ferg.",
+"archive_note": "",
+"level": 1,
+"id": 229,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 2,
+"cx": 2,
+"cats": [
+"street"
+],
+"brand": "Fear of God",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Fear of God",
+"q": "Кто основал Fear of God?",
+"opts": [
+"Вирджил Абло",
+"Джерри Лоренцо",
+"Канье Уэст",
+"Фаррелл Уильямс"
+],
+"ex": "Джерри Лоренцо основал бренд в Лос-Анджелесе в 2013 году.",
+"archive_note": "",
+"level": 2,
+"id": 230,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 2,
+"cx": 3,
+"cats": [
+"street"
+],
+"brand": "Fear of God",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Fear of God",
+"q": "Как называется доступная линия Fear of God, запущенная в 2018 году?",
+"opts": [
+"Basics",
+"Core",
+"Essentials",
+"Essence"
+],
+"ex": "Fear of God Essentials — линия базовых вещей.",
+"archive_note": "",
+"level": 2,
+"id": 231,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 2,
+"cx": 2,
+"cats": [
+"street",
+"outerwear"
+],
+"brand": "Burberry",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Burberry",
+"q": "В каком году основан Burberry?",
+"opts": [
+"1879",
+"1901",
+"1923",
+"1856"
+],
+"ex": "Томас Бёрберри основал бренд в 1856 году.",
+"archive_note": "",
+"level": 2,
+"id": 232,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 2,
+"cx": 3,
+"cats": [
+"street"
+],
+"brand": "Billionaire Boys Club",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Billionaire Boys Club",
+"q": "Кто основал Billionaire Boys Club вместе с Фарреллом Уильямсом?",
+"opts": [
+"Ниго",
+"Вирджил Абло",
+"Джеймс Джеббиа",
+"Шон Стюсси"
+],
+"ex": "BBC основали Фаррелл Уильямс и Ниго в 2003 году.",
+"archive_note": "",
+"level": 2,
+"id": 233,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 2,
+"cx": 2,
+"cats": [
+"street"
+],
+"brand": "Corteiz",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Corteiz",
+"q": "Какой слоган на логотипе Corteiz?",
+"opts": [
+"Never Give Up",
+"Rules The World",
+"Be Different",
+"Street Kings"
+],
+"ex": "Rules The World — слоган бренда.",
+"archive_note": "",
+"level": 2,
+"id": 234,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 2,
+"cx": 2,
+"cats": [
+"street"
+],
+"brand": "Corteiz",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Corteiz",
+"q": "Из какого города родом Corteiz?",
+"opts": [
+"Манчестер",
+"Париж",
+"Лондон",
+"Нью-Йорк"
+],
+"ex": "Corteiz — британский уличный бренд из Лондона.",
+"archive_note": "",
+"level": 2,
+"id": 235,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 4,
+"cx": 2,
+"cats": [
+"street"
+],
+"brand": "424",
+"archive": false,
+"photo_desc": "",
+"photo_query": "424",
+"q": "В каком городе основан бренд 424 (FourTwoFour)?",
+"opts": [
+"Нью-Йорк",
+"Лондон",
+"Чикаго",
+"Лос-Анджелес"
+],
+"ex": "424 основал Гильермо Андраде.",
+"archive_note": "",
+"level": 3,
+"id": 236,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 2,
+"cx": 2,
+"cats": [
+"outerwear"
+],
+"brand": "Carhartt",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Carhartt",
+"q": "В каком году основан Carhartt?",
+"opts": [
+"1889",
+"1911",
+"1935",
+"1972"
+],
+"ex": "Carhartt основан в Детройте Гамильтоном Кархарттом.",
+"archive_note": "",
+"level": 2,
+"id": 237,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 4,
+"cx": 3,
+"cats": [
+"street"
+],
+"brand": "C2H4",
+"archive": false,
+"photo_desc": "",
+"photo_query": "C2H4",
+"q": "Из какой страны родом бренд C2H4?",
+"opts": [
+"Япония",
+"Китай",
+"Южная Корея",
+"Тайвань"
+],
+"ex": "C2H4 — китайский бренд из Шанхая.",
+"archive_note": "",
+"level": 3,
+"id": 238,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 3,
+"cats": [
+"outerwear",
+"sport"
+],
+"brand": "Arc'teryx",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Arc'teryx",
+"q": "Какая китайская компания возглавила покупку Amer Sports, владельца Arc'teryx, в 2019 году?",
+"opts": [
+"Li-Ning",
+"Xtep",
+"Anta Sports",
+"Peak Sport"
+],
+"ex": "Консорциум во главе с Anta купил Amer Sports в 2019 году.",
+"archive_note": "",
+"level": 2,
+"id": 239,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 3,
+"cx": 3,
+"cats": [
+"outerwear",
+"sport"
+],
+"brand": "Salomon",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Salomon",
+"q": "С производства чего Salomon начал в 1947 году?",
+"opts": [
+"Кроссовки",
+"Рюкзаки",
+"Часы",
+"Стальные канты для лыж"
+],
+"ex": "Salomon начался с лыжного снаряжения в Анси.",
+"archive_note": "",
+"level": 2,
+"id": 240,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 2,
+"cx": 2,
+"cats": [
+"outerwear"
+],
+"brand": "Patagonia",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Patagonia",
+"q": "Какая реклама Patagonia 2011 года призывала не покупать куртку?",
+"opts": [
+"Don't Buy This Jacket",
+"Buy Less, Choose Well",
+"Wear It Longer",
+"Less Is More"
+],
+"ex": "Реклама вышла на Чёрную пятницу в New York Times.",
+"archive_note": "",
+"level": 2,
+"id": 241,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 4,
+"cx": 2,
+"cats": [
+"japan",
+"street"
+],
+"brand": "Doublet",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Doublet",
+"q": "Кто основал японский бренд Doublet?",
+"opts": [
+"Дзюн Такахаси",
+"Масаюки Ино",
+"Читосэ Абэ",
+"Ниго"
+],
+"ex": "Doublet известен игривым подходом и юмором.",
+"archive_note": "",
+"level": 3,
+"id": 242,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 4,
+"cx": 3,
+"cats": [
+"japan",
+"street"
+],
+"brand": "Doublet",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Doublet",
+"q": "Какую награду получил Doublet в 2018 году?",
+"opts": [
+"Премию CFDA",
+"Приз «Золотая игла»",
+"Гран-при LVMH Prize",
+"Премию BFC"
+],
+"ex": "Doublet выиграл LVMH Prize в 2018 году.",
+"archive_note": "",
+"level": 3,
+"id": 243,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 4,
+"cx": 2,
+"cats": [
+"street"
+],
+"brand": "MSCHF",
+"archive": false,
+"photo_desc": "",
+"photo_query": "MSCHF",
+"q": "Из какого города родом художественный коллектив MSCHF?",
+"opts": [
+"Лос-Анджелес",
+"Лондон",
+"Токио",
+"Нью-Йорк (Бруклин)"
+],
+"ex": "MSCHF — бруклинский коллектив.",
+"archive_note": "",
+"level": 3,
+"id": 244,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 4,
+"cx": 3,
+"cats": [
+"street"
+],
+"brand": "MSCHF",
+"archive": false,
+"photo_desc": "",
+"photo_query": "MSCHF",
+"q": "Как называются вирусные красные ботинки MSCHF 2023 года?",
+"opts": [
+"Big Red Boots",
+"Little Red Boots",
+"Red Wing Boots",
+"Rocket Boots"
+],
+"ex": "Big Red Boots стали интернет-мемом.",
+"archive_note": "",
+"level": 3,
+"id": 245,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 4,
+"cx": 2,
+"cats": [
+"japan",
+"street"
+],
+"brand": "TAKAHIROMIYASHITA TheSoloist",
+"archive": false,
+"photo_desc": "",
+"photo_query": "TAKAHIROMIYASHITA TheSoloist",
+"q": "Кто дизайнер бренда TAKAHIROMIYASHITA TheSoloist?",
+"opts": [
+"Дзюн Такахаси",
+"Такахиро Миясита",
+"Хироки Накамура",
+"Синскэ Такидзава"
+],
+"ex": "Миясита ранее основал Number (N)ine.",
+"archive_note": "",
+"level": 3,
+"id": 246,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 4,
+"cx": 3,
+"cats": [
+"japan",
+"street"
+],
+"brand": "Hysteric Glamour",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Hysteric Glamour",
+"q": "В каком году основан Hysteric Glamour?",
+"opts": [
+"1971",
+"1992",
+"1984",
+"2001"
+],
+"ex": "Hysteric Glamour основал Нобухико Китамура.",
+"archive_note": "",
+"level": 3,
+"id": 247,
 "correct": 2
 },
 {
@@ -4998,23 +6074,22 @@
 "level": 3,
 "cx": 1,
 "cats": [
-"logo",
-"japan"
+"logo"
 ],
-"brand": "Kapital",
+"brand": "TAKAHIROMIYASHITA TheSoloist",
 "archive": false,
 "photo_desc": "",
-"photo_query": "Kapital logo",
+"photo_query": "TAKAHIROMIYASHITA TheSoloist logo",
 "q": "Чей это логотип?",
 "opts": [
-"20471120",
+"Sacai",
 "Visvim",
-"Undercover",
-"Kapital"
+"Issey Miyake",
+"TAKAHIROMIYASHITA TheSoloist"
 ],
-"ex": "Kapital родом из Коджимы (Окаяма) — центра японского денима.",
+"ex": "Бренд Такахиро Мияситы, основателя Number (N)ine.",
 "archive_note": "",
-"id": 204,
+"id": 248,
 "correct": 3
 },
 {
@@ -5023,23 +6098,22 @@
 "level": 3,
 "cx": 1,
 "cats": [
-"logo",
-"japan"
+"logo"
 ],
-"brand": "Undercover",
+"brand": "Hysteric Glamour",
 "archive": false,
 "photo_desc": "",
-"photo_query": "Undercover logo",
+"photo_query": "Hysteric Glamour logo",
 "q": "Чей это логотип?",
 "opts": [
-"Undercover",
-"A Bathing Ape",
 "Hysteric Glamour",
-"Kapital"
+"Walter Van Beirendonck",
+"TAKAHIROMIYASHITA TheSoloist",
+"mastermind JAPAN"
 ],
-"ex": "Бренд Дзюна Такахаси, из Токио.",
+"ex": "Основан Нобухико Китамурой в 1984 году.",
 "archive_note": "",
-"id": 205,
+"id": 249,
 "correct": 0
 },
 {
@@ -5048,23 +6122,22 @@
 "level": 3,
 "cx": 1,
 "cats": [
-"logo",
-"japan"
+"logo"
 ],
-"brand": "Junya Watanabe",
+"brand": "mastermind JAPAN",
 "archive": false,
 "photo_desc": "",
-"photo_query": "Junya Watanabe logo",
+"photo_query": "mastermind JAPAN logo",
 "q": "Чей это логотип?",
 "opts": [
-"Neighborhood",
-"Junya Watanabe",
-"Number (N)ine",
-"Visvim"
+"Isaac Sellam",
+"mastermind JAPAN",
+"Né-net",
+"Hysteric Glamour"
 ],
-"ex": "Дзюнъя Ватанабэ — протеже Рей Кавакубо, своя линия с 1992 года.",
+"ex": "Знак бренда — череп со скрещёнными костями.",
 "archive_note": "",
-"id": 206,
+"id": 250,
 "correct": 1
 },
 {
@@ -5073,8 +6146,79 @@
 "level": 3,
 "cx": 1,
 "cats": [
-"logo",
-"japan"
+"logo"
+],
+"brand": "Visvim",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Visvim logo",
+"q": "Чей это логотип?",
+"opts": [
+"Sacai",
+"Number (N)ine",
+"Visvim",
+"TAKAHIROMIYASHITA TheSoloist"
+],
+"ex": "Японский бренд Хироки Накамуры, основан в 2000 году.",
+"archive_note": "",
+"id": 251,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Undercover",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Undercover logo",
+"q": "Чей это логотип?",
+"opts": [
+"Né-net",
+"Visvim",
+"TAKAHIROMIYASHITA TheSoloist",
+"Undercover"
+],
+"ex": "Бренд Дзюна Такахаси, Токио.",
+"archive_note": "",
+"id": 252,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Junya Watanabe",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Junya Watanabe logo",
+"q": "Чей это логотип?",
+"opts": [
+"Junya Watanabe",
+"Hysteric Glamour",
+"Issey Miyake",
+"Carol Christian Poell"
+],
+"ex": "Дзюнъя Ватанабэ — протеже Рей Кавакубо, своя линия с 1992 года.",
+"archive_note": "",
+"id": 253,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo"
 ],
 "brand": "Sacai",
 "archive": false,
@@ -5083,14 +6227,14 @@
 "q": "Чей это логотип?",
 "opts": [
 "Hysteric Glamour",
-"Junya Watanabe",
 "Sacai",
-"Visvim"
+"Visvim",
+"Isaac Sellam"
 ],
 "ex": "Sacai основала Читосэ Абэ в 1999 году.",
 "archive_note": "",
-"id": 207,
-"correct": 2
+"id": 254,
+"correct": 1
 },
 {
 "mode": "l",
@@ -5098,8 +6242,7 @@
 "level": 3,
 "cx": 1,
 "cats": [
-"logo",
-"japan"
+"logo"
 ],
 "brand": "Issey Miyake",
 "archive": false,
@@ -5107,15 +6250,15 @@
 "photo_query": "Issey Miyake logo",
 "q": "Чей это логотип?",
 "opts": [
-"Kapital",
 "Né-net",
-"Yohji Yamamoto",
-"Issey Miyake"
+"Sacai",
+"Issey Miyake",
+"TAKAHIROMIYASHITA TheSoloist"
 ],
 "ex": "Дом Исси Мияке, известен плиссе Pleats Please (1993).",
 "archive_note": "",
-"id": 208,
-"correct": 3
+"id": 255,
+"correct": 2
 },
 {
 "mode": "l",
@@ -5123,8 +6266,7 @@
 "level": 3,
 "cx": 1,
 "cats": [
-"logo",
-"japan"
+"logo"
 ],
 "brand": "Neighborhood",
 "archive": false,
@@ -5132,15 +6274,15 @@
 "photo_query": "Neighborhood logo",
 "q": "Чей это логотип?",
 "opts": [
-"Neighborhood",
-"Kapital",
-"Junya Watanabe",
-"A Bathing Ape"
+"Isaac Sellam",
+"Number (N)ine",
+"Hysteric Glamour",
+"Neighborhood"
 ],
 "ex": "Основан в 1994 году Синскэ Такидзавой.",
 "archive_note": "",
-"id": 209,
-"correct": 0
+"id": 256,
+"correct": 3
 },
 {
 "mode": "l",
@@ -5148,8 +6290,7 @@
 "level": 3,
 "cx": 1,
 "cats": [
-"logo",
-"japan"
+"logo"
 ],
 "brand": "Né-net",
 "archive": false,
@@ -5157,15 +6298,15 @@
 "photo_query": "Né-net logo",
 "q": "Чей это логотип?",
 "opts": [
-"Hysteric Glamour",
 "Né-net",
-"Neighborhood",
-"Visvim"
+"Visvim",
+"Walter Van Beirendonck",
+"Carol Christian Poell"
 ],
 "ex": "Японский бренд из нишевой уличной сцены.",
 "archive_note": "",
-"id": 210,
-"correct": 1
+"id": 257,
+"correct": 0
 },
 {
 "mode": "l",
@@ -5173,58 +6314,7 @@
 "level": 3,
 "cx": 1,
 "cats": [
-"logo",
-"japan"
-],
-"brand": "mastermind JAPAN",
-"archive": false,
-"photo_desc": "",
-"photo_query": "mastermind JAPAN logo",
-"q": "Чей это логотип?",
-"opts": [
-"A Bathing Ape",
-"Number (N)ine",
-"mastermind JAPAN",
-"Kapital"
-],
-"ex": "Знак бренда — череп; основатель Масааки Хомма.",
-"archive_note": "",
-"id": 211,
-"correct": 2
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 3,
-"cx": 1,
-"cats": [
-"logo",
-"japan"
-],
-"brand": "Hysteric Glamour",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Hysteric Glamour logo",
-"q": "Чей это логотип?",
-"opts": [
-"Junya Watanabe",
-"20471120",
-"Yohji Yamamoto",
-"Hysteric Glamour"
-],
-"ex": "Основан Нобухико Китамурой в 1984 году.",
-"archive_note": "",
-"id": 212,
-"correct": 3
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 3,
-"cx": 1,
-"cats": [
-"logo",
-"japan"
+"logo"
 ],
 "brand": "Number (N)ine",
 "archive": false,
@@ -5232,39 +6322,14 @@
 "photo_query": "Number (N)ine logo",
 "q": "Чей это логотип?",
 "opts": [
+"Né-net",
 "Number (N)ine",
-"Hysteric Glamour",
-"Visvim",
-"A Bathing Ape"
+"TAKAHIROMIYASHITA TheSoloist",
+"Isaac Sellam"
 ],
 "ex": "Бренд Такахиро Мияситы, 1997–2009 годы.",
 "archive_note": "",
-"id": 213,
-"correct": 0
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 3,
-"cx": 1,
-"cats": [
-"logo",
-"japan"
-],
-"brand": "20471120",
-"archive": false,
-"photo_desc": "",
-"photo_query": "20471120 logo",
-"q": "Чей это логотип?",
-"opts": [
-"Hysteric Glamour",
-"20471120",
-"Neighborhood",
-"Visvim"
-],
-"ex": "Японский архивный бренд 1992–2003 годов, название — дата.",
-"archive_note": "",
-"id": 214,
+"id": 258,
 "correct": 1
 },
 {
@@ -5273,158 +6338,7 @@
 "level": 3,
 "cx": 1,
 "cats": [
-"logo",
-"japan"
-],
-"brand": "Comme des Garçons",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Comme des Garçons logo",
-"q": "Чей это логотип?",
-"opts": [
-"Junya Watanabe",
-"Visvim",
-"Comme des Garçons",
-"mastermind JAPAN"
-],
-"ex": "Основан Рей Кавакубо в 1969 году.",
-"archive_note": "",
-"id": 215,
-"correct": 2
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 3,
-"cx": 1,
-"cats": [
-"logo",
-"japan"
-],
-"brand": "Yohji Yamamoto",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Yohji Yamamoto logo",
-"q": "Чей это логотип?",
-"opts": [
-"A Bathing Ape",
-"Undercover",
-"Sacai",
-"Yohji Yamamoto"
-],
-"ex": "Йоджи Ямамото дебютировал в Париже в 1981 году.",
-"archive_note": "",
-"id": 216,
-"correct": 3
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 3,
-"cx": 1,
-"cats": [
-"logo",
-"japan"
-],
-"brand": "A Bathing Ape",
-"archive": false,
-"photo_desc": "",
-"photo_query": "A Bathing Ape logo",
-"q": "Чей это логотип?",
-"opts": [
-"A Bathing Ape",
-"Neighborhood",
-"Undercover",
-"mastermind JAPAN"
-],
-"ex": "BAPE основал Ниго в 1993 году.",
-"archive_note": "",
-"id": 217,
-"correct": 0
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 3,
-"cx": 1,
-"cats": [
-"logo",
-"west"
-],
-"brand": "Isaac Sellam",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Isaac Sellam logo",
-"q": "Чей это логотип?",
-"opts": [
-"Carol Christian Poell",
-"Isaac Sellam",
-"Walter Van Beirendonck",
-"Dirk Bikkembergs"
-],
-"ex": "Французский бренд, известный вещами из кожи.",
-"archive_note": "",
-"id": 218,
-"correct": 1
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 3,
-"cx": 1,
-"cats": [
-"logo",
-"west"
-],
-"brand": "Carol Christian Poell",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Carol Christian Poell logo",
-"q": "Чей это логотип?",
-"opts": [
-"Ann Demeulemeester",
-"Isaac Sellam",
-"Carol Christian Poell",
-"Walter Van Beirendonck"
-],
-"ex": "Итальянский авангардный дизайнер, известен окраской готовых вещей.",
-"archive_note": "",
-"id": 219,
-"correct": 2
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 3,
-"cx": 1,
-"cats": [
-"logo",
-"west"
-],
-"brand": "Ann Demeulemeester",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Ann Demeulemeester logo",
-"q": "Чей это логотип?",
-"opts": [
-"Rick Owens",
-"Carol Christian Poell",
-"Dirk Bikkembergs",
-"Ann Demeulemeester"
-],
-"ex": "Бельгийский бренд, основан в 1985 году в Антверпене.",
-"archive_note": "",
-"id": 220,
-"correct": 3
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 3,
-"cx": 1,
-"cats": [
-"logo",
-"west"
+"logo"
 ],
 "brand": "Walter Van Beirendonck",
 "archive": false,
@@ -5432,14 +6346,62 @@
 "photo_query": "Walter Van Beirendonck logo",
 "q": "Чей это логотип?",
 "opts": [
+"Né-net",
+"Sacai",
 "Walter Van Beirendonck",
-"Isaac Sellam",
-"Rick Owens",
-"Ann Demeulemeester"
+"TAKAHIROMIYASHITA TheSoloist"
 ],
 "ex": "Бельгийский дизайнер, член «антверпенской шестёрки».",
 "archive_note": "",
-"id": 221,
+"id": 259,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Ann Demeulemeester",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Ann Demeulemeester logo",
+"q": "Чей это логотип?",
+"opts": [
+"Visvim",
+"TAKAHIROMIYASHITA TheSoloist",
+"Neighborhood",
+"Ann Demeulemeester"
+],
+"ex": "Бельгийский бренд, основан в 1985 году в Антверпене.",
+"archive_note": "",
+"id": 260,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 3,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Carol Christian Poell",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Carol Christian Poell logo",
+"q": "Чей это логотип?",
+"opts": [
+"Carol Christian Poell",
+"Isaac Sellam",
+"mastermind JAPAN",
+"Undercover"
+],
+"ex": "Итальянский авангардный дизайнер, известен окраской готовых вещей.",
+"archive_note": "",
+"id": 261,
 "correct": 0
 },
 {
@@ -5448,48 +6410,574 @@
 "level": 3,
 "cx": 1,
 "cats": [
-"logo",
-"west"
+"logo"
 ],
-"brand": "Dirk Bikkembergs",
+"brand": "Isaac Sellam",
 "archive": false,
 "photo_desc": "",
-"photo_query": "Dirk Bikkembergs logo",
+"photo_query": "Isaac Sellam logo",
 "q": "Чей это логотип?",
 "opts": [
+"Sacai",
 "Isaac Sellam",
-"Dirk Bikkembergs",
-"Carol Christian Poell",
-"Walter Van Beirendonck"
+"mastermind JAPAN",
+"Neighborhood"
 ],
-"ex": "Бельгийский дизайнер, известен коллекциями про футбол.",
+"ex": "Французский бренд, известный вещами из кожи.",
 "archive_note": "",
-"id": 222,
+"id": 262,
 "correct": 1
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 3,
+"fame": 3,
+"level": 2,
 "cx": 1,
 "cats": [
-"logo",
-"west"
+"logo"
 ],
-"brand": "Rick Owens",
+"brand": "Off-White",
 "archive": false,
 "photo_desc": "",
-"photo_query": "Rick Owens logo",
+"photo_query": "Off-White logo",
 "q": "Чей это логотип?",
 "opts": [
-"Dirk Bikkembergs",
-"Walter Van Beirendonck",
-"Rick Owens",
-"Carol Christian Poell"
+"Dsquared2",
+"Miu Miu",
+"Off-White",
+"Billionaire Boys Club"
 ],
-"ex": "Рик Оуэнс основал бренд в Лос-Анджелесе в 1994 году.",
+"ex": "Бренд Вирджила Абло, знак — перекрещённые стрелки.",
 "archive_note": "",
-"id": 223,
+"id": 263,
 "correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 2,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Palace",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Palace logo",
+"q": "Чей это логотип?",
+"opts": [
+"Patagonia",
+"Moschino",
+"Vetements",
+"Palace"
+],
+"ex": "Лондонский скейт-бренд, знак — треугольник.",
+"archive_note": "",
+"id": 264,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 2,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Palm Angels",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Palm Angels logo",
+"q": "Чей это логотип?",
+"opts": [
+"Palm Angels",
+"Dsquared2",
+"Miu Miu",
+"Tom Ford"
+],
+"ex": "Бренд Франческо Рагацци, основан в 2015 году.",
+"archive_note": "",
+"id": 265,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 2,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Amiri",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Amiri logo",
+"q": "Чей это логотип?",
+"opts": [
+"Philipp Plein",
+"Amiri",
+"Corteiz",
+"Dsquared2"
+],
+"ex": "Бренд Майка Амири из Лос-Анджелеса.",
+"archive_note": "",
+"id": 266,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 2,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Dsquared2",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Dsquared2 logo",
+"q": "Чей это логотип?",
+"opts": [
+"Patagonia",
+"Palm Angels",
+"Dsquared2",
+"Miu Miu"
+],
+"ex": "Основан братьями Дином и Дэном Кейтен из Канады.",
+"archive_note": "",
+"id": 267,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 2,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Golden Goose",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Golden Goose logo",
+"q": "Чей это логотип?",
+"opts": [
+"Palace",
+"Balmain",
+"Philipp Plein",
+"Golden Goose"
+],
+"ex": "Итальянский бренд, известен намеренно потёртыми кроссовками.",
+"archive_note": "",
+"id": 268,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 2,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Vetements",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Vetements logo",
+"q": "Чей это логотип?",
+"opts": [
+"Vetements",
+"Coach",
+"Moschino",
+"Patagonia"
+],
+"ex": "Основан Демной Гвасалией и его братом в 2014 году.",
+"archive_note": "",
+"id": 269,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 2,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Philipp Plein",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Philipp Plein logo",
+"q": "Чей это логотип?",
+"opts": [
+"Avavav",
+"Philipp Plein",
+"Arc'teryx",
+"Hermès"
+],
+"ex": "Немецкий дизайнер Филипп Плейн.",
+"archive_note": "",
+"id": 270,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 2,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Roberto Cavalli",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Roberto Cavalli logo",
+"q": "Чей это логотип?",
+"opts": [
+"Miu Miu",
+"Hermès",
+"Roberto Cavalli",
+"Corteiz"
+],
+"ex": "Итальянский дом, известен анималистичными принтами.",
+"archive_note": "",
+"id": 271,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 2,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "John Galliano",
+"archive": false,
+"photo_desc": "",
+"photo_query": "John Galliano logo",
+"q": "Чей это логотип?",
+"opts": [
+"Billionaire Boys Club",
+"Philipp Plein",
+"Golden Goose",
+"John Galliano"
+],
+"ex": "Гальяно возглавлял Dior в 1996–2011 годах.",
+"archive_note": "",
+"id": 272,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 2,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Billionaire Boys Club",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Billionaire Boys Club logo",
+"q": "Чей это логотип?",
+"opts": [
+"Billionaire Boys Club",
+"Philipp Plein",
+"Palm Angels",
+"Miu Miu"
+],
+"ex": "Основан Фарреллом Уильямсом и Ниго в 2003 году.",
+"archive_note": "",
+"id": 273,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 2,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Arc'teryx",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Arc'teryx logo",
+"q": "Чей это логотип?",
+"opts": [
+"John Galliano",
+"Arc'teryx",
+"Céline",
+"Coach"
+],
+"ex": "Назван в честь археоптерикса.",
+"archive_note": "",
+"id": 274,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 2,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Corteiz",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Corteiz logo",
+"q": "Чей это логотип?",
+"opts": [
+"Billionaire Boys Club",
+"Hermès",
+"Corteiz",
+"John Galliano"
+],
+"ex": "Лондонский бренд со слоганом Rules The World.",
+"archive_note": "",
+"id": 275,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 2,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Kiko Kostadinov",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Kiko Kostadinov logo",
+"q": "Чей это логотип?",
+"opts": [
+"Balmain",
+"Palm Angels",
+"Amiri",
+"Kiko Kostadinov"
+],
+"ex": "Лондонский дизайнер, известен коллаборациями с ASICS.",
+"archive_note": "",
+"id": 276,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 2,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Avavav",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Avavav logo",
+"q": "Чей это логотип?",
+"opts": [
+"Avavav",
+"Céline",
+"Kiko Kostadinov",
+"Golden Goose"
+],
+"ex": "Нишевый бренд современной уличной моды.",
+"archive_note": "",
+"id": 277,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 2,
+"level": 1,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Hermès",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Hermès logo",
+"q": "Чей это логотип?",
+"opts": [
+"Billionaire Boys Club",
+"Hermès",
+"Dsquared2",
+"Coach"
+],
+"ex": "Парижский дом, основан в 1837 году; на логотипе — карета с лошадью.",
+"archive_note": "",
+"id": 278,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 2,
+"level": 1,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Coach",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Coach logo",
+"q": "Чей это логотип?",
+"opts": [
+"Kiko Kostadinov",
+"Palace",
+"Coach",
+"Moschino"
+],
+"ex": "Нью-йоркский бренд кожаных изделий, основан в 1941 году.",
+"archive_note": "",
+"id": 279,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 2,
+"level": 1,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Céline",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Céline logo",
+"q": "Чей это логотип?",
+"opts": [
+"Palm Angels",
+"Patagonia",
+"Miu Miu",
+"Céline"
+],
+"ex": "Французский дом, основан в 1945 году.",
+"archive_note": "",
+"id": 280,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 2,
+"level": 1,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Patagonia",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Patagonia logo",
+"q": "Чей это логотип?",
+"opts": [
+"Patagonia",
+"Billionaire Boys Club",
+"Arc'teryx",
+"Balmain"
+],
+"ex": "Основан Ивоном Шуинаром в 1973 году.",
+"archive_note": "",
+"id": 281,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 2,
+"level": 1,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Miu Miu",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Miu Miu logo",
+"q": "Чей это логотип?",
+"opts": [
+"Hermès",
+"Miu Miu",
+"Patagonia",
+"Avavav"
+],
+"ex": "Второй бренд Миуччи Прада, основан в 1993 году.",
+"archive_note": "",
+"id": 282,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 2,
+"level": 1,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Balmain",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Balmain logo",
+"q": "Чей это логотип?",
+"opts": [
+"Palm Angels",
+"Roberto Cavalli",
+"Balmain",
+"Hermès"
+],
+"ex": "Основан Пьером Бальменом в Париже в 1945 году.",
+"archive_note": "",
+"id": 283,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 2,
+"level": 1,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Tom Ford",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Tom Ford logo",
+"q": "Чей это логотип?",
+"opts": [
+"Moschino",
+"Palm Angels",
+"Palace",
+"Tom Ford"
+],
+"ex": "Бренд Тома Форда, запущен в 2005 году.",
+"archive_note": "",
+"id": 284,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 2,
+"level": 1,
+"cx": 1,
+"cats": [
+"logo"
+],
+"brand": "Moschino",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Moschino logo",
+"q": "Чей это логотип?",
+"opts": [
+"Moschino",
+"John Galliano",
+"Balmain",
+"Patagonia"
+],
+"ex": "Основан Франко Москино в Милане в 1983 году.",
+"archive_note": "",
+"id": 285,
+"correct": 0
 }
 ]
