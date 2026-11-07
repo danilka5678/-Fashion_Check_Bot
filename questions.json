@@ -11852,5 +11852,109 @@
 "archive_note": "",
 "id": 469,
 "correct": 0
+},
+{
+"mode": "l",
+"fame": 2,
+"level": 2,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Calvin Klein",
+"img": "Calvin Klein (фото 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Для какого бренда снята эта рекламная кампания?",
+"opts": [
+"Tommy Hilfiger",
+"Calvin Klein",
+"Diesel",
+"Hugo Boss"
+],
+"ex": "Чёрно-белая реклама белья и джинсов Calvin Klein 1990-х.",
+"archive_note": "",
+"plain": false,
+"id": 470,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Calvin Klein",
+"img": "Calvin Klein (фото 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой актёр снялся в этой рекламе Calvin Klein 1990-х?",
+"opts": [
+"Уилл Смит",
+"Вин Дизель",
+"Марк Уолберг",
+"Дуэйн Джонсон"
+],
+"ex": "В рекламе Calvin Klein 1990-х снялся Марк Уолберг.",
+"archive_note": "",
+"plain": false,
+"id": 471,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 2,
+"level": 2,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Paco Rabanne",
+"img": "Paco Rabanne 1 Million (фото 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Для какого аромата снята эта рекламная кампания?",
+"opts": [
+"Dior Sauvage",
+"Bleu de Chanel",
+"Versace Eros",
+"Paco Rabanne 1 Million"
+],
+"ex": "Реклама аромата Paco Rabanne 1 Million.",
+"archive_note": "",
+"plain": true,
+"id": 472,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Paco Rabanne",
+"img": "Paco Rabanne 1 Million (фото 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой австралийский манекенщик снялся в этой рекламе Paco Rabanne 1 Million?",
+"opts": [
+"Джордан Барретт",
+"Дэвид Ганди",
+"Гаспар Ульель",
+"Тайсон Баллоу"
+],
+"ex": "В рекламе снялся Джордан Барретт.",
+"archive_note": "",
+"plain": true,
+"id": 473,
+"correct": 0
 }
 ]

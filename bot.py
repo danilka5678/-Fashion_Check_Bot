@@ -274,7 +274,7 @@ def pick(uid, mode="g", tag=None):
     rank = rank_of(u["xp"])
     seen = {r["qid"] for r in q("SELECT qid FROM seen3 WHERE uid=?", (uid,))}
     lb = logo_brands()
-    base = [x for x in QUESTIONS.values() if (x["mode"] == "g" or x["brand"] in lb) and (not tag or tag in x["cats"])]
+    base = [x for x in QUESTIONS.values() if (x["mode"] == "g" or x.get("img", x["brand"]) in lb) and (not tag or tag in x["cats"])]
     d = get_diff(uid)
     pool = [x for x in base if x["level"] == d] if d else [x for x in base if allowed(rank, x)]
     fresh = [x for x in pool if x["id"] not in seen]
@@ -291,17 +291,21 @@ async def ask(msg: Message, uid: int, mode: str = "g", tag=None, x=None):
         await msg.answer("В этом наборе пока нет доступных вопросов. Прокачай ранг или смени сложность!")
         return
     sess[uid] = {"qid": x["id"], "t0": time.time(), "mode": "g", "tag": tag, "stage": 1}
-    head = f"{FAME[x['level']]}" + (" · 🖼 логотип" if x["mode"] == "l" else "")
+    head = f"{FAME[x['level']]}" + ((" · 📸 фото" if x.get("img") else " · 🖼 логотип") if x["mode"] == "l" else "")
     if x["archive"]: head += " · 🕰 архив"
     kb = InlineKeyboardBuilder()
     for i, o in enumerate(x["opts"]):
         kb.button(text=f"{'ABCD'[i]}) {o}", callback_data=f"a:{x['id']}:{i}")
     kb.adjust(1)
     text = f"<b>{head}</b>\n\n❓ {html.escape(x['q'])}"
-    if x["mode"] == "l" and x["brand"] in LOGO_FILES:
+    if x["mode"] == "l" and x.get("img", x["brand"]) in LOGO_FILES:
+        if x.get("plain"):
+            kb.adjust(1)
+            await send_logo(msg, x.get("img", x["brand"]), "full", text, kb.as_markup())
+            return
         kb.button(text="💡 Подсказка (меньше XP)", callback_data=f"h:{x['id']}")
         kb.adjust(1)
-        await send_logo(msg, x["brand"], "q1", text, kb.as_markup())
+        await send_logo(msg, x.get("img", x["brand"]), "q1", text, kb.as_markup())
         return
     await msg.answer(text, reply_markup=kb.as_markup())
 
@@ -461,7 +465,7 @@ async def hint_logo(c: CallbackQuery):
         await c.answer("Этот вопрос уже закрыт."); return
     x = QUESTIONS[qid]
     st = s.get("stage", 1)
-    if st >= 3 or x["brand"] not in LOGO_FILES:
+    if st >= 3 or x.get("img", x["brand"]) not in LOGO_FILES:
         await c.answer("Подсказок больше нет."); return
     st += 1
     sess[uid] = {**s, "stage": st}
@@ -474,8 +478,8 @@ async def hint_logo(c: CallbackQuery):
         kb.button(text="💡 Ещё подсказка", callback_data=f"h:{x['id']}")
     kb.adjust(1)
     pen = {2: "×0.7", 3: "×0.4"}[st]
-    head = f"{FAME[x['level']]} · 🖼 логотип · 💡 подсказка {st - 1}/2 (XP {pen})"
-    await send_logo(c.message, x["brand"], f"q{st}", f"<b>{head}</b>\n\n❓ {html.escape(x['q'])}", kb.as_markup())
+    head = f"{FAME[x['level']]} · {'📸 фото' if x.get('img') else '🖼 логотип'} · 💡 подсказка {st - 1}/2 (XP {pen})"
+    await send_logo(c.message, x.get("img", x["brand"]), f"q{st}", f"<b>{head}</b>\n\n❓ {html.escape(x['q'])}", kb.as_markup())
 
 
 @router.callback_query(F.data.startswith("a:"))
@@ -496,8 +500,8 @@ async def answer_g(c: CallbackQuery):
     await strip_kb(c)
     right = f"{'ABCD'[x['correct']]}) {html.escape(x['opts'][x['correct']])}"
     head = "✅ <b>Верно!</b>" if ok else f"❌ <b>Неверно.</b> Правильный ответ: <b>{right}</b>"
-    if x["mode"] == "l" and x["brand"] in LOGO_FILES:
-        await send_logo(c.message, x["brand"], "full", result_text(x, head, gain, notes), next_kb(uid))
+    if x["mode"] == "l" and x.get("img", x["brand"]) in LOGO_FILES and not x.get("plain"):
+        await send_logo(c.message, x.get("img", x["brand"]), "full", result_text(x, head, gain, notes), next_kb(uid))
     else:
         await c.message.answer(result_text(x, head, gain, notes), reply_markup=next_kb(uid))
 
