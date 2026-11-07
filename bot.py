@@ -15,10 +15,10 @@ DB_PATH = Path(os.getenv("DB_PATH", BASE / "fashion.db"))
 REMINDER_HOUR = int(os.getenv("REMINDER_HOUR", "9"))  # по UTC; 9 = 12:00 по Москве
 QUESTIONS = {x["id"]: x for x in json.loads((BASE / "questions.json").read_text(encoding="utf-8"))}
 
-FAME = {1: "🟢 Лёгкий", 2: "🟡 Средний", 3: "⚫ Нишевый"}  # уровни
+FAME = {1: "🟢 Лёгкий", 2: "🟡 Средний", 3: "🔴 Сложный", 4: "⚫ Нишевый"}  # уровни
 CX = {1: "лёгкий", 2: "средний", 3: "сложный"}
 BASE_XP = {1: 10, 2: 25, 3: 50}
-FAME_MULT = {1: 1.0, 2: 1.5, 3: 2.0}
+FAME_MULT = {1: 1.0, 2: 1.3, 3: 1.7, 4: 2.0}
 
 RANKS = [  # (порог XP, название, описание)
     (0, "Новичок гардероба", "Первые шаги: лёгкий уровень."),
@@ -26,15 +26,15 @@ RANKS = [  # (порог XP, название, описание)
     (700, "Охотник за кроссовками", "Открыт средний уровень."),
     (1500, "Знаток денима", "Средний уровень — твой."),
     (2600, "Модный детектив", "Ты узнаёшь бренды по деталям."),
-    (4000, "Стилист-аналитик", "Скоро нишевый уровень."),
-    (5800, "Охотник за архивом", "Открыт нишевый уровень."),
-    (8000, "Куратор винтажа", "Открыты архивные нишевые вещи."),
-    (10500, "Архивист моды", "Ты разбираешься в архиве."),
+    (4000, "Стилист-аналитик", "Открыт сложный уровень."),
+    (5800, "Охотник за архивом", "Скоро нишевый уровень."),
+    (8000, "Куратор винтажа", "Открыт нишевый уровень."),
+    (10500, "Архивист моды", "Открыты архивные нишевые вещи."),
     (14000, "Мастер нишевых имён", "Титул мастера."),
     (19000, "Легенда подиума", "Почётный титул."),
     (26000, "Хранитель архива", "Высший ранг."),
 ]
-UNLOCK_TEXT = {1: "🟢 лёгкий уровень", 3: "🟡 средний уровень", 6: "⚫ нишевый уровень", 8: "🕰 нишевый архив"}
+UNLOCK_TEXT = {1: "🟢 лёгкий", 3: "🟡 средний", 5: "🔴 сложный", 7: "⚫ нишевый", 9: "🕰 нишевый архив"}
 
 SETS = {  # название набора -> (тег, подпись)
     "sneakers": "👟 Кроссовки", "jpdenim": "🧵 Японский деним", "luxury": "💎 Люкс",
@@ -82,11 +82,11 @@ def init_db():
         q("ALTER TABLE u3 ADD COLUMN diff INTEGER DEFAULT 0", fetch=None)
     except sqlite3.OperationalError:
         pass
-    q("UPDATE u3 SET diff=0 WHERE diff>3", fetch=None)
+    q("UPDATE u3 SET diff=0 WHERE diff>4", fetch=None)
     q("CREATE TABLE IF NOT EXISTS logos3(brand TEXT PRIMARY KEY, file_id TEXT)", fetch=None)
 
 
-DIFF_NAMES = {0: "🎲 Авто (по рангу)", 1: "🟢 Лёгкий", 2: "🟡 Средний", 3: "⚫ Нишевый"}
+DIFF_NAMES = {0: "🎲 Авто (по рангу)", 1: "🟢 Лёгкий", 2: "🟡 Средний", 3: "🔴 Сложный", 4: "⚫ Нишевый"}
 
 
 def get_diff(uid):
@@ -133,7 +133,8 @@ def allowed(rank: int, x: dict) -> bool:
     lv = x["level"]
     if lv == 1: return True
     if lv == 2: return rank >= 3
-    return rank >= (8 if x["archive"] else 6)
+    if lv == 3: return rank >= 5
+    return rank >= (9 if x["archive"] else 7)
 
 
 # ---------- XP ----------
@@ -202,7 +203,7 @@ def check_progress(uid):
         "run10": ("🔥 10 верных подряд", u["best_run"] >= 10),
         "jp10": ("🇯🇵 10 японских брендов", len(jp) >= 10),
         "arch10": ("🕰 10 архивных вещей", sum(1 for x in rows if x["archive"]) >= 10),
-        "brands20": ("🏛 Коллекция из 20 брендов", len({x["brand"] for x in rows}) >= 20),
+        "brands20": ("🏛 Коллекция из 20 брендов", len({x["brand"] for x in rows if x["brand"] != "Общее"}) >= 20),
         "rank5": ("💎 Ранг «Модный детектив»", rank_of(u["xp"]) >= 5),
     }
     for k, (title, cond) in ach.items():
@@ -289,7 +290,7 @@ async def ask(msg: Message, uid: int, mode: str = "g", tag=None, x=None):
         await msg.answer("В этом наборе пока нет доступных вопросов. Прокачай ранг или смени сложность!")
         return
     sess[uid] = {"qid": x["id"], "t0": time.time(), "mode": "g", "tag": tag}
-    head = f"{FAME[x['level']]}" + (" · 🖼 логотип" if x["mode"] == "l" else f" · {CX[x['cx']]} вопрос")
+    head = f"{FAME[x['level']]}" + (" · 🖼 логотип" if x["mode"] == "l" else "")
     if x["archive"]: head += " · 🕰 архив"
     kb = InlineKeyboardBuilder()
     for i, o in enumerate(x["opts"]):
@@ -377,16 +378,17 @@ async def menus(c: CallbackQuery):
         for k, v in DIFF_NAMES.items():
             kb.button(text=("✅ " if k == get_diff(uid) else "") + v, callback_data=f"diff:{k}")
         kb.adjust(1)
-        await c.message.answer("<b>⚙️ Сложность</b>\n🟢 Лёгкий: популярные бренды, очевидные факты.\n"
-                               "🟡 Средний: известные и люксовые бренды, годы, основатели.\n"
-                               "⚫ Нишевый: японские бренды, авангард, архив и логотипы. XP ×2.\n"
+        await c.message.answer("<b>⚙️ Сложность</b>\n🟢 Лёгкий: очевидные факты — знаковые детали, страны.\n"
+                               "🟡 Средний: модели, истории брендов, значения названий.\n"
+                               "🔴 Сложный: годы, основатели, креативные директора, сделки.\n"
+                               "⚫ Нишевый: японские бренды, авангард, архив, логотипы. XP ×2.\n"
                                "🎲 Авто: уровни открываются с ростом ранга.\nВыбранный уровень доступен сразу.", reply_markup=kb.as_markup())
     elif what == "rem":
         q("UPDATE u3 SET remind=1-remind WHERE uid=?", (uid,), fetch=None)
         await c.message.answer("Настройка обновлена.", reply_markup=menu_kb(uid))
     elif what == "coll":
         rows = correct_rows(uid)
-        brands = sorted({x["brand"] for x in rows})
+        brands = sorted({x["brand"] for x in rows if x["brand"] != "Общее"})
         arch = [x for x in rows if x["archive"]]
         s = (f"<b>🗂 Коллекции</b>\n\n🏛 Бренды: {len(brands)}/20\n"
              f"{html.escape(', '.join(brands[:40])) if brands else 'пока пусто'}\n\n"
