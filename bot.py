@@ -138,7 +138,7 @@ def allowed(rank: int, x: dict) -> bool:
 
 
 # ---------- XP ----------
-def award(uid: int, x: dict, frac: float, elapsed: float):
+def award(uid: int, x: dict, frac: float, elapsed: float, mult: float = 1.0):
     """frac: доля правильного (1 — верно). Возвращает (xp, заметки)."""
     u = q("SELECT * FROM u3 WHERE uid=?", (uid,), "one")
     prior = q("SELECT ok FROM seen3 WHERE uid=? AND qid=?", (uid, x["id"]), "one")
@@ -158,6 +158,7 @@ def award(uid: int, x: dict, frac: float, elapsed: float):
         if elapsed <= 10 and ok: bonus += 0.2; notes.append("⚡ скорость +20%")
         if x["archive"]: bonus += 0.2; notes.append("🕰 архив +20%")
         v = BASE_XP[x["cx"]] * FAME_MULT[x["level"]] * (1 + bonus) * frac
+        if mult < 1: v *= mult; notes.append(f"💡 подсказка ×{mult}")
         if prior: v *= 0.5; notes.append("♻️ повтор −50%")
         dm = 1 + min(0.25, 0.05 * (day - 1))
         if dm > 1: notes.append(f"📅 дни подряд +{round((dm - 1) * 100)}%")
@@ -289,7 +290,7 @@ async def ask(msg: Message, uid: int, mode: str = "g", tag=None, x=None):
     if not x:
         await msg.answer("В этом наборе пока нет доступных вопросов. Прокачай ранг или смени сложность!")
         return
-    sess[uid] = {"qid": x["id"], "t0": time.time(), "mode": "g", "tag": tag}
+    sess[uid] = {"qid": x["id"], "t0": time.time(), "mode": "g", "tag": tag, "stage": 1}
     head = f"{FAME[x['level']]}" + (" · 🖼 логотип" if x["mode"] == "l" else "")
     if x["archive"]: head += " · 🕰 архив"
     kb = InlineKeyboardBuilder()
@@ -298,7 +299,9 @@ async def ask(msg: Message, uid: int, mode: str = "g", tag=None, x=None):
     kb.adjust(1)
     text = f"<b>{head}</b>\n\n❓ {html.escape(x['q'])}"
     if x["mode"] == "l" and x["brand"] in LOGO_FILES:
-        await send_logo(msg, x["brand"], "q", text, kb.as_markup())
+        kb.button(text="💡 Подсказка (меньше XP)", callback_data=f"h:{x['id']}")
+        kb.adjust(1)
+        await send_logo(msg, x["brand"], "q1", text, kb.as_markup())
         return
     await msg.answer(text, reply_markup=kb.as_markup())
 
@@ -449,6 +452,32 @@ async def strip_kb(c: CallbackQuery):
     except Exception: pass
 
 
+@router.callback_query(F.data.startswith("h:"))
+async def hint_logo(c: CallbackQuery):
+    uid = c.from_user.id
+    qid = int(c.data.split(":")[1])
+    s = sess.get(uid)
+    if not s or s["qid"] != qid:
+        await c.answer("Этот вопрос уже закрыт."); return
+    x = QUESTIONS[qid]
+    st = s.get("stage", 1)
+    if st >= 3 or x["brand"] not in LOGO_FILES:
+        await c.answer("Подсказок больше нет."); return
+    st += 1
+    sess[uid] = {**s, "stage": st}
+    await c.answer("Открыл больше логотипа")
+    await strip_kb(c)
+    kb = InlineKeyboardBuilder()
+    for i, o in enumerate(x["opts"]):
+        kb.button(text=f"{'ABCD'[i]}) {o}", callback_data=f"a:{x['id']}:{i}")
+    if st < 3:
+        kb.button(text="💡 Ещё подсказка", callback_data=f"h:{x['id']}")
+    kb.adjust(1)
+    pen = {2: "×0.7", 3: "×0.4"}[st]
+    head = f"{FAME[x['level']]} · 🖼 логотип · 💡 подсказка {st - 1}/2 (XP {pen})"
+    await send_logo(c.message, x["brand"], f"q{st}", f"<b>{head}</b>\n\n❓ {html.escape(x['q'])}", kb.as_markup())
+
+
 @router.callback_query(F.data.startswith("a:"))
 async def answer_g(c: CallbackQuery):
     uid = c.from_user.id
@@ -461,7 +490,8 @@ async def answer_g(c: CallbackQuery):
     elapsed = time.time() - s["t0"]
     sess[uid] = {**s, "qid": None}
     ok = i == x["correct"]
-    gain, notes = award(uid, x, 1.0 if ok else 0.0, elapsed)
+    mult = {1: 1.0, 2: 0.7, 3: 0.4}[s.get("stage", 1)] if x["mode"] == "l" else 1.0
+    gain, notes = award(uid, x, 1.0 if ok else 0.0, elapsed, mult)
     await c.answer()
     await strip_kb(c)
     right = f"{'ABCD'[x['correct']]}) {html.escape(x['opts'][x['correct']])}"
