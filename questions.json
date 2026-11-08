@@ -12490,8 +12490,8 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
@@ -12571,8 +12571,8 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
@@ -12841,8 +12841,8 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
@@ -12895,8 +12895,8 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
@@ -13219,8 +13219,8 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
@@ -13246,8 +13246,8 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
@@ -13300,8 +13300,8 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
@@ -13489,8 +13489,8 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
@@ -13543,8 +13543,8 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
@@ -13577,7 +13577,7 @@
 "photo"
 ],
 "brand": "Comme des Garçons",
-"img": "Comme des Garçons (фото 1)",
+"img": "Comme des Garçons (снимок 1)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13604,7 +13604,7 @@
 "photo"
 ],
 "brand": "A Bathing Ape",
-"img": "A Bathing Ape (фото 2)",
+"img": "A Bathing Ape (снимок 2)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13631,7 +13631,7 @@
 "photo"
 ],
 "brand": "Cav Empt",
-"img": "Cav Empt (фото 3)",
+"img": "Cav Empt (снимок 3)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13658,7 +13658,7 @@
 "photo"
 ],
 "brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (фото 4)",
+"img": "Hysteric Glamour (снимок 4)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13685,7 +13685,7 @@
 "photo"
 ],
 "brand": "Comme des Garçons",
-"img": "Comme des Garçons (фото 5)",
+"img": "Comme des Garçons (снимок 5)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13712,7 +13712,7 @@
 "photo"
 ],
 "brand": "Comme des Garçons",
-"img": "Comme des Garçons (фото 6)",
+"img": "Comme des Garçons (снимок 6)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13732,14 +13732,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Off-White",
-"img": "Off-White (фото 7)",
+"img": "Off-White (снимок 7)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13759,14 +13759,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Off-White",
-"img": "Off-White (фото 8)",
+"img": "Off-White (снимок 8)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13786,14 +13786,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Off-White",
-"img": "Off-White (фото 9)",
+"img": "Off-White (снимок 9)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13813,14 +13813,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Gucci",
-"img": "Gucci (фото 10)",
+"img": "Gucci (снимок 10)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13847,7 +13847,7 @@
 "photo"
 ],
 "brand": "Jean Paul Gaultier",
-"img": "Jean Paul Gaultier (фото 11)",
+"img": "Jean Paul Gaultier (снимок 11)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13874,7 +13874,7 @@
 "photo"
 ],
 "brand": "Alexander McQueen",
-"img": "Alexander McQueen (фото 12)",
+"img": "Alexander McQueen (снимок 12)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13901,7 +13901,7 @@
 "photo"
 ],
 "brand": "TakahiroMiyashita TheSoloist",
-"img": "TakahiroMiyashita TheSoloist (фото 13)",
+"img": "TakahiroMiyashita TheSoloist (снимок 13)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13928,7 +13928,7 @@
 "photo"
 ],
 "brand": "Yohji Yamamoto",
-"img": "Yohji Yamamoto (фото 14)",
+"img": "Yohji Yamamoto (снимок 14)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13955,7 +13955,7 @@
 "photo"
 ],
 "brand": "Undercover",
-"img": "Undercover (фото 15)",
+"img": "Undercover (снимок 15)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -13982,7 +13982,7 @@
 "photo"
 ],
 "brand": "1017 ALYX 9SM",
-"img": "1017 ALYX 9SM (фото 16)",
+"img": "1017 ALYX 9SM (снимок 16)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14009,7 +14009,7 @@
 "photo"
 ],
 "brand": "1017 ALYX 9SM",
-"img": "1017 ALYX 9SM (фото 17)",
+"img": "1017 ALYX 9SM (снимок 17)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14036,7 +14036,7 @@
 "photo"
 ],
 "brand": "Yohji Yamamoto",
-"img": "Yohji Yamamoto (фото 18)",
+"img": "Yohji Yamamoto (снимок 18)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14063,7 +14063,7 @@
 "photo"
 ],
 "brand": "Y-3",
-"img": "Y-3 (фото 19)",
+"img": "Y-3 (снимок 19)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14090,7 +14090,7 @@
 "photo"
 ],
 "brand": "Yohji Yamamoto",
-"img": "Yohji Yamamoto (фото 20)",
+"img": "Yohji Yamamoto (снимок 20)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14117,7 +14117,7 @@
 "photo"
 ],
 "brand": "Human Made",
-"img": "Human Made (фото 21)",
+"img": "Human Made (снимок 21)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14144,7 +14144,7 @@
 "photo"
 ],
 "brand": "Beauty:Beast",
-"img": "Beauty:Beast (фото 22)",
+"img": "Beauty:Beast (снимок 22)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14171,7 +14171,7 @@
 "photo"
 ],
 "brand": "Vivienne Westwood",
-"img": "Vivienne Westwood (фото 23)",
+"img": "Vivienne Westwood (снимок 23)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14198,7 +14198,7 @@
 "photo"
 ],
 "brand": "Yohji Yamamoto",
-"img": "Yohji Yamamoto (фото 24)",
+"img": "Yohji Yamamoto (снимок 24)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14225,7 +14225,7 @@
 "photo"
 ],
 "brand": "Yohji Yamamoto",
-"img": "Yohji Yamamoto (фото 25)",
+"img": "Yohji Yamamoto (снимок 25)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14252,7 +14252,7 @@
 "photo"
 ],
 "brand": "Mihara Yasuhiro",
-"img": "Mihara Yasuhiro (фото 26)",
+"img": "Mihara Yasuhiro (снимок 26)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14279,7 +14279,7 @@
 "photo"
 ],
 "brand": "Alexander McQueen",
-"img": "Alexander McQueen (фото 27)",
+"img": "Alexander McQueen (снимок 27)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14306,7 +14306,7 @@
 "photo"
 ],
 "brand": "Alexander McQueen",
-"img": "Alexander McQueen (фото 28)",
+"img": "Alexander McQueen (снимок 28)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14333,7 +14333,7 @@
 "photo"
 ],
 "brand": "Alexander McQueen",
-"img": "Alexander McQueen (фото 29)",
+"img": "Alexander McQueen (снимок 29)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14353,14 +14353,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Armani",
-"img": "Armani (фото 30)",
+"img": "Armani (снимок 30)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14387,7 +14387,7 @@
 "photo"
 ],
 "brand": "Helmut Lang",
-"img": "Helmut Lang (фото 31)",
+"img": "Helmut Lang (снимок 31)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14414,7 +14414,7 @@
 "photo"
 ],
 "brand": "Helmut Lang",
-"img": "Helmut Lang (фото 32)",
+"img": "Helmut Lang (снимок 32)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14441,7 +14441,7 @@
 "photo"
 ],
 "brand": "Y-3",
-"img": "Y-3 (фото 33)",
+"img": "Y-3 (снимок 33)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14461,14 +14461,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Calvin Klein",
-"img": "Calvin Klein (фото 34)",
+"img": "Calvin Klein (снимок 34)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14488,14 +14488,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Calvin Klein",
-"img": "Calvin Klein (фото 35)",
+"img": "Calvin Klein (снимок 35)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14522,7 +14522,7 @@
 "photo"
 ],
 "brand": "Number (N)ine",
-"img": "Number (N)ine (фото 36)",
+"img": "Number (N)ine (снимок 36)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14549,7 +14549,7 @@
 "photo"
 ],
 "brand": "Number (N)ine",
-"img": "Number (N)ine (фото 37)",
+"img": "Number (N)ine (снимок 37)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14576,7 +14576,7 @@
 "photo"
 ],
 "brand": "Y-3",
-"img": "Y-3 (фото 38)",
+"img": "Y-3 (снимок 38)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14603,7 +14603,7 @@
 "photo"
 ],
 "brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (фото 39)",
+"img": "Hysteric Glamour (снимок 39)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14630,7 +14630,7 @@
 "photo"
 ],
 "brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (фото 40)",
+"img": "Hysteric Glamour (снимок 40)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14657,7 +14657,7 @@
 "photo"
 ],
 "brand": "Walter Van Beirendonck",
-"img": "Walter Van Beirendonck (фото 41)",
+"img": "Walter Van Beirendonck (снимок 41)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14677,14 +14677,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Palm Angels",
-"img": "Palm Angels (фото 42)",
+"img": "Palm Angels (снимок 42)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14704,14 +14704,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Palm Angels",
-"img": "Palm Angels (фото 43)",
+"img": "Palm Angels (снимок 43)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14731,14 +14731,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Dior",
-"img": "Dior (фото 44)",
+"img": "Dior (снимок 44)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14758,14 +14758,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Burberry",
-"img": "Burberry (фото 45)",
+"img": "Burberry (снимок 45)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14785,14 +14785,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Burberry",
-"img": "Burberry (фото 46)",
+"img": "Burberry (снимок 46)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14819,7 +14819,7 @@
 "photo"
 ],
 "brand": "Junya Watanabe",
-"img": "Junya Watanabe (фото 47)",
+"img": "Junya Watanabe (снимок 47)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14846,7 +14846,7 @@
 "photo"
 ],
 "brand": "Junya Watanabe",
-"img": "Junya Watanabe (фото 48)",
+"img": "Junya Watanabe (снимок 48)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14873,7 +14873,7 @@
 "photo"
 ],
 "brand": "Undercover",
-"img": "Undercover (фото 49)",
+"img": "Undercover (снимок 49)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14900,7 +14900,7 @@
 "photo"
 ],
 "brand": "Vivienne Westwood",
-"img": "Vivienne Westwood (фото 50)",
+"img": "Vivienne Westwood (снимок 50)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14927,7 +14927,7 @@
 "photo"
 ],
 "brand": "Undercover",
-"img": "Undercover (фото 51)",
+"img": "Undercover (снимок 51)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14954,7 +14954,7 @@
 "photo"
 ],
 "brand": "Undercover",
-"img": "Undercover (фото 52)",
+"img": "Undercover (снимок 52)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -14981,7 +14981,7 @@
 "photo"
 ],
 "brand": "A Bathing Ape",
-"img": "A Bathing Ape (фото 53)",
+"img": "A Bathing Ape (снимок 53)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15001,14 +15001,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Prada",
-"img": "Prada (фото 54)",
+"img": "Prada (снимок 54)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15028,14 +15028,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Prada",
-"img": "Prada (фото 55)",
+"img": "Prada (снимок 55)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15062,7 +15062,7 @@
 "photo"
 ],
 "brand": "Guidi",
-"img": "Guidi (фото 56)",
+"img": "Guidi (снимок 56)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15089,7 +15089,7 @@
 "photo"
 ],
 "brand": "Issey Miyake",
-"img": "Issey Miyake (фото 57)",
+"img": "Issey Miyake (снимок 57)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15116,7 +15116,7 @@
 "photo"
 ],
 "brand": "Junya Watanabe",
-"img": "Junya Watanabe (фото 58)",
+"img": "Junya Watanabe (снимок 58)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15143,7 +15143,7 @@
 "photo"
 ],
 "brand": "Junya Watanabe",
-"img": "Junya Watanabe (фото 59)",
+"img": "Junya Watanabe (снимок 59)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15170,7 +15170,7 @@
 "photo"
 ],
 "brand": "Vetements",
-"img": "Vetements (фото 60)",
+"img": "Vetements (снимок 60)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15197,7 +15197,7 @@
 "photo"
 ],
 "brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (фото 61)",
+"img": "Hysteric Glamour (снимок 61)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15224,7 +15224,7 @@
 "photo"
 ],
 "brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (фото 62)",
+"img": "Hysteric Glamour (снимок 62)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15251,7 +15251,7 @@
 "photo"
 ],
 "brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (фото 63)",
+"img": "Hysteric Glamour (снимок 63)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15278,7 +15278,7 @@
 "photo"
 ],
 "brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (фото 64)",
+"img": "Hysteric Glamour (снимок 64)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15305,7 +15305,7 @@
 "photo"
 ],
 "brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (фото 65)",
+"img": "Hysteric Glamour (снимок 65)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15332,7 +15332,7 @@
 "photo"
 ],
 "brand": "Mowalola",
-"img": "Mowalola (фото 66)",
+"img": "Mowalola (снимок 66)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15359,7 +15359,7 @@
 "photo"
 ],
 "brand": "Issey Miyake",
-"img": "Issey Miyake (фото 67)",
+"img": "Issey Miyake (снимок 67)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15386,7 +15386,7 @@
 "photo"
 ],
 "brand": "Jean Paul Gaultier",
-"img": "Jean Paul Gaultier (фото 68)",
+"img": "Jean Paul Gaultier (снимок 68)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15413,7 +15413,7 @@
 "photo"
 ],
 "brand": "Undercover",
-"img": "Undercover (фото 69)",
+"img": "Undercover (снимок 69)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15440,7 +15440,7 @@
 "photo"
 ],
 "brand": "Undercover",
-"img": "Undercover (фото 70)",
+"img": "Undercover (снимок 70)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15460,14 +15460,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Balenciaga",
-"img": "Balenciaga (фото 71)",
+"img": "Balenciaga (снимок 71)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15494,7 +15494,7 @@
 "photo"
 ],
 "brand": "Neighborhood",
-"img": "Neighborhood (фото 72)",
+"img": "Neighborhood (снимок 72)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15521,7 +15521,7 @@
 "photo"
 ],
 "brand": "Maison Margiela",
-"img": "Maison Margiela (фото 73)",
+"img": "Maison Margiela (снимок 73)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15548,7 +15548,7 @@
 "photo"
 ],
 "brand": "Comme des Garçons",
-"img": "Comme des Garçons (фото 74)",
+"img": "Comme des Garçons (снимок 74)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15575,7 +15575,7 @@
 "photo"
 ],
 "brand": "Yohji Yamamoto",
-"img": "Yohji Yamamoto (фото 75)",
+"img": "Yohji Yamamoto (снимок 75)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15602,7 +15602,7 @@
 "photo"
 ],
 "brand": "Issey Miyake",
-"img": "Issey Miyake (фото 76)",
+"img": "Issey Miyake (снимок 76)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15629,7 +15629,7 @@
 "photo"
 ],
 "brand": "Comme des Garçons",
-"img": "Comme des Garçons (фото 77)",
+"img": "Comme des Garçons (снимок 77)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15656,7 +15656,7 @@
 "photo"
 ],
 "brand": "Lanvin",
-"img": "Lanvin (фото 78)",
+"img": "Lanvin (снимок 78)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15683,7 +15683,7 @@
 "photo"
 ],
 "brand": "Undercover",
-"img": "Undercover (фото 79)",
+"img": "Undercover (снимок 79)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15703,14 +15703,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Dolce & Gabbana",
-"img": "Dolce & Gabbana (фото 80)",
+"img": "Dolce & Gabbana (снимок 80)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15737,7 +15737,7 @@
 "photo"
 ],
 "brand": "Issey Miyake",
-"img": "Issey Miyake (фото 81)",
+"img": "Issey Miyake (снимок 81)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15764,7 +15764,7 @@
 "photo"
 ],
 "brand": "Number (N)ine",
-"img": "Number (N)ine (фото 82)",
+"img": "Number (N)ine (снимок 82)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15791,7 +15791,7 @@
 "photo"
 ],
 "brand": "Number (N)ine",
-"img": "Number (N)ine (фото 83)",
+"img": "Number (N)ine (снимок 83)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15818,7 +15818,7 @@
 "photo"
 ],
 "brand": "Rick Owens",
-"img": "Rick Owens (фото 84)",
+"img": "Rick Owens (снимок 84)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15845,7 +15845,7 @@
 "photo"
 ],
 "brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (фото 85)",
+"img": "Hysteric Glamour (снимок 85)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15872,7 +15872,7 @@
 "photo"
 ],
 "brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (фото 86)",
+"img": "Hysteric Glamour (снимок 86)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15899,7 +15899,7 @@
 "photo"
 ],
 "brand": "Undercover",
-"img": "Undercover (фото 87)",
+"img": "Undercover (снимок 87)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15926,7 +15926,7 @@
 "photo"
 ],
 "brand": "TakahiroMiyashita TheSoloist",
-"img": "TakahiroMiyashita TheSoloist (фото 88)",
+"img": "TakahiroMiyashita TheSoloist (снимок 88)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15953,7 +15953,7 @@
 "photo"
 ],
 "brand": "Sacai",
-"img": "Sacai (фото 89)",
+"img": "Sacai (снимок 89)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15980,7 +15980,7 @@
 "photo"
 ],
 "brand": "Undercover",
-"img": "Undercover (фото 90)",
+"img": "Undercover (снимок 90)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16007,7 +16007,7 @@
 "photo"
 ],
 "brand": "Undercover",
-"img": "Undercover (фото 91)",
+"img": "Undercover (снимок 91)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16034,7 +16034,7 @@
 "photo"
 ],
 "brand": "Jean Paul Gaultier",
-"img": "Jean Paul Gaultier (фото 92)",
+"img": "Jean Paul Gaultier (снимок 92)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16061,7 +16061,7 @@
 "photo"
 ],
 "brand": "Undercover",
-"img": "Undercover (фото 93)",
+"img": "Undercover (снимок 93)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16088,7 +16088,7 @@
 "photo"
 ],
 "brand": "Junya Watanabe",
-"img": "Junya Watanabe (фото 94)",
+"img": "Junya Watanabe (снимок 94)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16115,7 +16115,7 @@
 "photo"
 ],
 "brand": "Junya Watanabe",
-"img": "Junya Watanabe (фото 95)",
+"img": "Junya Watanabe (снимок 95)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16135,14 +16135,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Stüssy",
-"img": "Stüssy (фото 96)",
+"img": "Stüssy (снимок 96)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16162,14 +16162,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Gucci",
-"img": "Gucci (фото 97)",
+"img": "Gucci (снимок 97)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16196,7 +16196,7 @@
 "photo"
 ],
 "brand": "Rick Owens",
-"img": "Rick Owens (фото 98)",
+"img": "Rick Owens (снимок 98)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16216,14 +16216,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Diesel",
-"img": "Diesel (фото 99)",
+"img": "Diesel (снимок 99)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16250,7 +16250,7 @@
 "photo"
 ],
 "brand": "Dries Van Noten",
-"img": "Dries Van Noten (фото 100)",
+"img": "Dries Van Noten (снимок 100)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16277,7 +16277,7 @@
 "photo"
 ],
 "brand": "Comme des Garçons",
-"img": "Comme des Garçons (фото 101)",
+"img": "Comme des Garçons (снимок 101)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16297,14 +16297,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Dior",
-"img": "Dior (фото 102)",
+"img": "Dior (снимок 102)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16331,7 +16331,7 @@
 "photo"
 ],
 "brand": "Junya Watanabe",
-"img": "Junya Watanabe (фото 103)",
+"img": "Junya Watanabe (снимок 103)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16351,14 +16351,14 @@
 },
 {
 "mode": "l",
-"fame": 2,
-"level": 2,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Balenciaga",
-"img": "Balenciaga (фото 104)",
+"img": "Balenciaga (снимок 104)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16385,7 +16385,7 @@
 "photo"
 ],
 "brand": "C2H4",
-"img": "C2H4 (фото 105)",
+"img": "C2H4 (снимок 105)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16412,7 +16412,7 @@
 "photo"
 ],
 "brand": "Guidi",
-"img": "Guidi (фото 106)",
+"img": "Guidi (снимок 106)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16439,7 +16439,7 @@
 "photo"
 ],
 "brand": "Evisu",
-"img": "Evisu (фото 107)",
+"img": "Evisu (снимок 107)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16459,14 +16459,14 @@
 },
 {
 "mode": "l",
-"fame": 1,
-"level": 1,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Reebok",
-"img": "Reebok (фото 108)",
+"img": "Reebok (снимок 108)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16486,14 +16486,14 @@
 },
 {
 "mode": "l",
-"fame": 1,
-"level": 1,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
 "brand": "Adidas",
-"img": "Adidas (фото 109)",
+"img": "Adidas (снимок 109)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16520,7 +16520,7 @@
 "photo"
 ],
 "brand": "MM6 Maison Margiela",
-"img": "MM6 Maison Margiela (фото 110)",
+"img": "MM6 Maison Margiela (снимок 110)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16547,7 +16547,7 @@
 "photo"
 ],
 "brand": "Junya Watanabe",
-"img": "Junya Watanabe (фото 111)",
+"img": "Junya Watanabe (снимок 111)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16574,7 +16574,7 @@
 "photo"
 ],
 "brand": "MM6 Maison Margiela",
-"img": "MM6 Maison Margiela (фото 112)",
+"img": "MM6 Maison Margiela (снимок 112)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -16601,7 +16601,7 @@
 "photo"
 ],
 "brand": "Alexander McQueen",
-"img": "Alexander McQueen (фото 113)",
+"img": "Alexander McQueen (снимок 113)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",

@@ -84,6 +84,14 @@ def init_db():
         pass
     q("UPDATE u3 SET diff=0 WHERE diff>4", fetch=None)
     q("CREATE TABLE IF NOT EXISTS logos3(brand TEXT PRIMARY KEY, file_id TEXT)", fetch=None)
+    q("CREATE TABLE IF NOT EXISTS xplog(uid INTEGER, day TEXT, xp INTEGER, PRIMARY KEY(uid,day))", fetch=None)
+    q("CREATE TABLE IF NOT EXISTS daily3(uid INTEGER, day TEXT, qid INTEGER, ok INTEGER, gain INTEGER, PRIMARY KEY(uid,day))", fetch=None)
+
+
+def log_xp(uid, n):
+    if n:
+        q("INSERT INTO xplog(uid,day,xp) VALUES(?,?,?) ON CONFLICT(uid,day) DO UPDATE SET xp=xp+excluded.xp",
+          (uid, str(date.today()), n), fetch=None)
 
 
 DIFF_NAMES = {0: "🎲 Авто (по рангу)", 1: "🟢 Лёгкий", 2: "🟡 Средний", 3: "🔴 Сложный", 4: "⚫ Нишевый"}
@@ -173,6 +181,7 @@ def award(uid: int, x: dict, frac: float, elapsed: float, mult: float = 1.0):
     extra = check_progress(uid)
     notes += extra[0]
     gain += extra[1]
+    log_xp(uid, gain)
     new_rank = rank_of(q("SELECT xp FROM u3 WHERE uid=?", (uid,), "one")["xp"])
     if new_rank > old_rank:
         notes.append(f"🏅 НОВЫЙ РАНГ: {RANKS[new_rank - 1][1]}!")
@@ -227,12 +236,13 @@ def menu_kb(uid):
     rank = rank_of(q("SELECT xp FROM u3 WHERE uid=?", (uid,), "one")["xp"])
     kb = InlineKeyboardBuilder()
     kb.button(text="🧠 Играть в квиз", callback_data="play:g")
+    kb.button(text="📅 Вопрос дня", callback_data="m:daily")
     kb.button(text="📚 Наборы", callback_data="m:sets")
     kb.button(text="👤 Профиль", callback_data="m:prof")
     kb.button(text="🗂 Коллекции", callback_data="m:coll")
     kb.button(text="🏆 Рейтинг", callback_data="m:top")
     kb.button(text=f"⚙️ Сложность: {DIFF_NAMES[get_diff(uid)]}", callback_data="m:diff")
-    kb.adjust(1, 2, 2, 1)
+    kb.adjust(1, 1, 2, 2, 1)
     return kb.as_markup()
 
 
@@ -248,10 +258,12 @@ def menu_text(uid, note=""):
 
 # ---------- вопросы ----------
 import base64
-try:
-    LOGO_FILES = json.loads((BASE / "logos_data.json").read_text(encoding="utf-8"))
-except Exception:
-    LOGO_FILES = {}
+LOGO_FILES = {}
+for _f in ("logos_data.json", "logos_data2.json", "logos_data3.json"):
+    try:
+        LOGO_FILES.update(json.loads((BASE / _f).read_text(encoding="utf-8")))
+    except Exception:
+        pass
 
 
 def logo_brands():
@@ -260,7 +272,7 @@ def logo_brands():
 
 async def send_logo(msg: Message, brand: str, kind: str, caption: str = "", kb=None):
     """kind: q — фрагмент логотипа, full — полный. file_id кэшируется."""
-    key = f"{brand}|{kind}"
+    key = f"v5|{brand}|{kind}"
     row = q("SELECT file_id FROM logos3 WHERE brand=?", (key,), "one")
     if row:
         return await msg.answer_photo(row["file_id"], caption=caption, reply_markup=kb)
@@ -404,11 +416,108 @@ async def menus(c: CallbackQuery):
         kb = InlineKeyboardBuilder(); kb.button(text="🏠 Меню", callback_data="m:menu")
         await c.message.answer(s, reply_markup=kb.as_markup())
     elif what == "top":
-        rows = q("SELECT name,xp FROM u3 ORDER BY xp DESC LIMIT 10")
-        s = "<b>🏆 Рейтинг по XP</b>\n" + "\n".join(
-            f"{i}. {html.escape(r['name'] or '—')} — {r['xp']} XP · {RANKS[rank_of(r['xp']) - 1][1]}" for i, r in enumerate(rows, 1))
-        kb = InlineKeyboardBuilder(); kb.button(text="🏠 Меню", callback_data="m:menu")
-        await c.message.answer(s, reply_markup=kb.as_markup())
+        await show_top(c.message, uid, "all")
+    elif what == "daily":
+        await daily_start(c.message, uid)
+
+
+TOP_TITLES = {"day": "за сегодня", "week": "за 7 дней", "all": "за всё время"}
+
+
+async def show_top(msg: Message, uid: int, per: str):
+    if per == "all":
+        rows = q("SELECT uid,name,xp FROM u3 WHERE total>0 ORDER BY xp DESC, uid LIMIT 10")
+        full = q("SELECT uid FROM u3 WHERE total>0 ORDER BY xp DESC, uid")
+    else:
+        since = str(date.today() if per == "day" else date.today() - timedelta(days=6))
+        sql = ("SELECT u3.uid AS uid, u3.name AS name, SUM(xplog.xp) AS pxp FROM xplog JOIN u3 ON u3.uid=xplog.uid "
+               "WHERE xplog.day>=? GROUP BY u3.uid HAVING pxp>0 ORDER BY pxp DESC, u3.uid")
+        rows = q(sql + " LIMIT 10", (since,))
+        full = q(sql, (since,))
+    medals = {1: "🥇", 2: "🥈", 3: "🥉"}
+    lines = []
+    val = "xp" if per == "all" else "pxp"
+    for i, r in enumerate(rows, 1):
+        me = " ← ты" if r["uid"] == uid else ""
+        lines.append(f"{medals.get(i, str(i) + '.')} {html.escape(r['name'] or '—')} — {r[val]} XP{me}")
+    s = f"<b>🏆 Таблица лидеров {TOP_TITLES[per]}</b>\n" + ("\n".join(lines) if lines else "Пока никого — стань первым!")
+    place = next((i for i, r in enumerate(full, 1) if r["uid"] == uid), None)
+    if place and place > 10:
+        mine = q("SELECT xp FROM u3 WHERE uid=?", (uid,), "one")["xp"] if per == "all" else next(r["pxp"] for r in full if r["uid"] == uid)
+        s += f"\n…\n{place}. ты — {mine} XP"
+    kb = InlineKeyboardBuilder()
+    for k, t in (("day", "Сегодня"), ("week", "Неделя"), ("all", "Всё время")):
+        kb.button(text=("• " if k == per else "") + t, callback_data=f"top:{k}")
+    kb.button(text="🏠 Меню", callback_data="m:menu")
+    kb.adjust(3, 1)
+    await msg.answer(s, reply_markup=kb.as_markup())
+
+
+@router.callback_query(F.data.startswith("top:"))
+async def top_cb(c: CallbackQuery):
+    ensure_user(c)
+    await c.answer()
+    await strip_kb(c)
+    await show_top(c.message, c.from_user.id, c.data[4:])
+
+
+# ---------- вопрос дня ----------
+DAILY_BONUS = 50
+DT0: dict[int, float] = {}
+
+
+def daily_question():
+    pool = sorted((x for x in QUESTIONS.values() if x["mode"] == "g" and x["level"] >= 2), key=lambda x: x["id"])
+    return random.Random(str(date.today())).choice(pool)
+
+
+async def daily_start(msg: Message, uid: int):
+    day = str(date.today())
+    x = daily_question()
+    done = q("SELECT * FROM daily3 WHERE uid=? AND day=?", (uid, day), "one")
+    kb = InlineKeyboardBuilder()
+    if done:
+        right = f"{'ABCD'[x['correct']]}) {html.escape(x['opts'][x['correct']])}"
+        n = q("SELECT COUNT(*) AS n, SUM(ok) AS k FROM daily3 WHERE day=?", (day,), "one")
+        kb.button(text="🧠 Играть в квиз", callback_data="play:g")
+        kb.button(text="🏠 Меню", callback_data="m:menu")
+        kb.adjust(1)
+        await msg.answer(f"📅 <b>Вопрос дня</b> уже пройден: {'✅ верно' if done['ok'] else '❌ неверно'}.\n"
+                         f"Правильный ответ: <b>{right}</b>\nОтветили сегодня: {n['n']}, верно: {n['k'] or 0}.\n\nНовый вопрос будет завтра.",
+                         reply_markup=kb.as_markup())
+        return
+    for i, o in enumerate(x["opts"]):
+        kb.button(text=f"{'ABCD'[i]}) {o}", callback_data=f"d:{x['id']}:{i}")
+    kb.adjust(1)
+    DT0[uid] = time.time()
+    await msg.answer(f"📅 <b>Вопрос дня</b> · {FAME[x['level']]} · бонус +{DAILY_BONUS} XP за верный ответ\n\n❓ {html.escape(x['q'])}",
+                     reply_markup=kb.as_markup())
+
+
+@router.callback_query(F.data.startswith("d:"))
+async def daily_answer(c: CallbackQuery):
+    uid = c.from_user.id
+    ensure_user(c)
+    _, qid, i = c.data.split(":")
+    qid, i = int(qid), int(i)
+    day = str(date.today())
+    x = daily_question()
+    if qid != x["id"] or q("SELECT 1 FROM daily3 WHERE uid=? AND day=?", (uid, day), "one"):
+        await c.answer("Этот вопрос дня уже закрыт."); return
+    ok = i == x["correct"]
+    elapsed = time.time() - DT0.get(uid, time.time())
+    gain, notes = award(uid, x, 1.0 if ok else 0.0, elapsed)
+    if ok:
+        q("UPDATE u3 SET xp=xp+? WHERE uid=?", (DAILY_BONUS, uid), fetch=None)
+        log_xp(uid, DAILY_BONUS)
+        gain += DAILY_BONUS
+        notes.append(f"📅 бонус вопроса дня +{DAILY_BONUS}")
+    q("INSERT INTO daily3(uid,day,qid,ok,gain) VALUES(?,?,?,?,?)", (uid, day, qid, 1 if ok else 0, gain), fetch=None)
+    await c.answer()
+    await strip_kb(c)
+    right = f"{'ABCD'[x['correct']]}) {html.escape(x['opts'][x['correct']])}"
+    head = "✅ <b>Верно!</b>" if ok else f"❌ <b>Неверно.</b> Правильный ответ: <b>{right}</b>"
+    await c.message.answer(result_text(x, head, gain, notes), reply_markup=next_kb(uid))
 
 
 @router.callback_query(F.data.startswith("diff:"))
