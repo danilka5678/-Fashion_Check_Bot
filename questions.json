@@ -18016,5 +18016,248 @@
 "plain": true,
 "id": 700,
 "correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Prada",
+"img": "Prada (набор P1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Prada",
+"Gucci",
+"Fendi",
+"Bottega Veneta"
+],
+"ex": "Это вещь Prada.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 701,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Prada",
+"img": "Prada (набор P2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Givenchy",
+"Prada",
+"Jil Sander",
+"Gucci"
+],
+"ex": "Это вещь Prada.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 702,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Prada",
+"img": "Prada (набор P3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Givenchy",
+"Bottega Veneta",
+"Prada",
+"Jil Sander"
+],
+"ex": "Это вещь Prada.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 703,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Prada",
+"img": "Prada (набор P4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Gucci",
+"Louis Vuitton",
+"Salvatore Ferragamo",
+"Prada"
+],
+"ex": "Это вещь Prada.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 704,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Prada",
+"img": "Prada (набор P5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Prada",
+"Celine",
+"Burberry",
+"Balenciaga"
+],
+"ex": "Это вещь Prada.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 705,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Prada",
+"img": "Prada (набор P6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Celine",
+"Prada",
+"Burberry",
+"Louis Vuitton"
+],
+"ex": "Это вещь Prada.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 706,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Prada",
+"img": "Prada (набор P7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Givenchy",
+"Burberry",
+"Prada",
+"Celine"
+],
+"ex": "Это вещь Prada.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 707,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Prada",
+"img": "Prada (набор P8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balenciaga",
+"Miu Miu",
+"Jil Sander",
+"Prada"
+],
+"ex": "Это вещь Prada.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 708,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Prada",
+"img": "Prada (набор P9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Prada",
+"Miu Miu",
+"Fendi",
+"Celine"
+],
+"ex": "Это вещь Prada.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 709,
+"correct": 0
 }
 ]
