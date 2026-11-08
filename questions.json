@@ -18259,5 +18259,545 @@
 "plain": true,
 "id": 709,
 "correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Givenchy",
+"Balenciaga",
+"Dior",
+"Maison Margiela"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 710,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Gucci",
+"Fendi",
+"Balenciaga",
+"Dior"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 711,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Dior",
+"Louis Vuitton",
+"Givenchy",
+"Balenciaga"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 712,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balenciaga",
+"Versace",
+"Fendi",
+"Off-White"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 713,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Fendi",
+"Balenciaga",
+"Louis Vuitton",
+"Off-White"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 714,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Versace",
+"Givenchy",
+"Balenciaga",
+"Saint Laurent"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 715,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Versace",
+"Off-White",
+"Maison Margiela",
+"Balenciaga"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 716,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balenciaga",
+"Versace",
+"Fendi",
+"Louis Vuitton"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 717,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vetements",
+"Balenciaga",
+"Louis Vuitton",
+"Givenchy"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 718,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Maison Margiela",
+"Off-White",
+"Balenciaga",
+"Saint Laurent"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 719,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B11)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vetements",
+"Versace",
+"Gucci",
+"Balenciaga"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 720,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B12)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balenciaga",
+"Versace",
+"Fendi",
+"Prada"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 721,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B13)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Gucci",
+"Balenciaga",
+"Rick Owens",
+"Saint Laurent"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 722,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B14)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Prada",
+"Fendi",
+"Balenciaga",
+"Dior"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 723,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B15)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Gucci",
+"Dior",
+"Givenchy",
+"Balenciaga"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 724,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B16)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balenciaga",
+"Gucci",
+"Saint Laurent",
+"Rick Owens"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 725,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B17)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Maison Margiela",
+"Balenciaga",
+"Givenchy",
+"Dior"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 726,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B18)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Givenchy",
+"Maison Margiela",
+"Balenciaga",
+"Dior"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 727,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B19)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vetements",
+"Prada",
+"Givenchy",
+"Balenciaga"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 728,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balenciaga",
+"img": "Balenciaga (набор B20)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balenciaga",
+"Saint Laurent",
+"Fendi",
+"Prada"
+],
+"ex": "Это вещь Balenciaga.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 729,
+"correct": 0
 }
 ]
