@@ -303,7 +303,8 @@ async def ask(msg: Message, uid: int, mode: str = "g", tag=None, x=None):
             kb.adjust(1)
             await send_logo(msg, x.get("img", x["brand"]), "full", text, kb.as_markup())
             return
-        kb.button(text="💡 Подсказка (меньше XP)", callback_data=f"h:{x['id']}")
+        if not x.get("blur"):
+            kb.button(text="💡 Подсказка (меньше XP)", callback_data=f"h:{x['id']}")
         kb.adjust(1)
         await send_logo(msg, x.get("img", x["brand"]), "q1", text, kb.as_markup())
         return
