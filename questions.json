@@ -12443,21 +12443,21 @@
 "photo"
 ],
 "brand": "Comme des Garçons",
-"img": "Comme des Garçons (вещь 1)",
+"img": "Comme des Garçons (набор 1)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Sacai",
+"Number (N)ine",
 "Comme des Garçons",
-"Issey Miyake",
-"Kapital"
+"Undercover",
+"Hysteric Glamour"
 ],
-"ex": "Это вещь бренда Comme des Garçons.",
+"ex": "Это Comme des Garçons.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 494,
 "correct": 1
 },
@@ -12469,49 +12469,49 @@
 "cats": [
 "photo"
 ],
-"brand": "Vivienne Westwood",
-"img": "Vivienne Westwood (вещь 2)",
+"brand": "A Bathing Ape",
+"img": "A Bathing Ape (набор 2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Supreme",
+"Neighborhood",
+"A Bathing Ape",
+"Billionaire Boys Club"
+],
+"ex": "Это A Bathing Ape.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 495,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Cav Empt",
+"img": "Cav Empt (набор 3)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
 "Undercover",
-"Jean Paul Gaultier",
-"Vivienne Westwood",
-"Alexander McQueen"
-],
-"ex": "Это вещь бренда Vivienne Westwood.",
-"archive_note": "",
-"blur": true,
-"plain": false,
-"id": 495,
-"correct": 2
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Supreme",
-"img": "Supreme (вещь 3)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Off-White",
 "A Bathing Ape",
-"Stüssy",
-"Supreme"
+"Neighborhood",
+"Cav Empt"
 ],
-"ex": "Это вещь бренда Supreme.",
+"ex": "Это Cav Empt.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 496,
 "correct": 3
 },
@@ -12523,22 +12523,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Junya Watanabe",
-"img": "Junya Watanabe (вещь 4)",
+"brand": "Hysteric Glamour",
+"img": "Hysteric Glamour (набор 4)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Junya Watanabe",
-"Comme des Garçons",
-"Yohji Yamamoto",
-"Undercover"
+"Hysteric Glamour",
+"Neighborhood",
+"Undercover",
+"Comme des Garçons"
 ],
-"ex": "Это вещь бренда Junya Watanabe.",
+"ex": "Это Hysteric Glamour.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 497,
 "correct": 0
 },
@@ -12550,19 +12550,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Vivienne Westwood",
-"img": "Vivienne Westwood (вещь 5)",
+"brand": "Comme des Garçons",
+"img": "Comme des Garçons (набор 5)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"Jean Paul Gaultier",
-"Vivienne Westwood",
-"Alexander McQueen",
-"Moschino"
+"Yohji Yamamoto",
+"Comme des Garçons",
+"Hysteric Glamour",
+"Neighborhood"
 ],
-"ex": "Это вещь бренда Vivienne Westwood.",
+"ex": "Это Comme des Garçons.",
 "archive_note": "",
 "blur": true,
 "plain": false,
@@ -12577,49 +12577,49 @@
 "cats": [
 "photo"
 ],
-"brand": "Prada",
-"img": "Prada (вещь 6)",
+"brand": "Off-White",
+"img": "Off-White (набор 6)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"Miu Miu",
-"Jil Sander",
-"Prada",
-"Gucci"
+"Palm Angels",
+"Heron Preston",
+"Off-White",
+"Vetements"
 ],
-"ex": "Это вещь бренда Prada.",
+"ex": "Это Off-White.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 499,
 "correct": 2
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "mastermind JAPAN",
-"img": "mastermind JAPAN (вещь 7)",
+"brand": "Gucci",
+"img": "Gucci (набор 7)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"WTAPS",
-"Number (N)ine",
-"Hysteric Glamour",
-"mastermind JAPAN"
+"Dolce & Gabbana",
+"Prada",
+"Fendi",
+"Gucci"
 ],
-"ex": "Это вещь бренда mastermind JAPAN.",
+"ex": "Это Gucci.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 500,
 "correct": 3
 },
@@ -12631,22 +12631,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Y-3",
-"img": "Y-3 (вещь 8)",
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 8)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Y-3",
-"Acronym",
-"C.P. Company",
-"Arc'teryx"
+"Jean Paul Gaultier",
+"Moschino",
+"Thierry Mugler",
+"Vivienne Westwood"
 ],
-"ex": "Это вещь бренда Y-3.",
+"ex": "Это Jean Paul Gaultier.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 501,
 "correct": 0
 },
@@ -12658,22 +12658,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Y-3",
-"img": "Y-3 (вещь 9)",
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 9)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Acronym",
-"Y-3",
-"Nike ACG",
-"C.P. Company"
+"Rick Owens",
+"Alexander McQueen",
+"Vivienne Westwood",
+"Givenchy"
 ],
-"ex": "Это вещь бренда Y-3.",
+"ex": "Это Alexander McQueen.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 502,
 "correct": 1
 },
@@ -12685,49 +12685,49 @@
 "cats": [
 "photo"
 ],
-"brand": "Number (N)ine",
-"img": "Number (N)ine (вещь 10)",
+"brand": "TakahiroMiyashita TheSoloist",
+"img": "TakahiroMiyashita TheSoloist (набор 10)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Junya Watanabe",
-"Undercover",
-"Number (N)ine",
-"Hysteric Glamour"
+"Comme des Garçons",
+"mastermind JAPAN",
+"TakahiroMiyashita TheSoloist",
+"Yohji Yamamoto"
 ],
-"ex": "Это вещь бренда Number (N)ine.",
+"ex": "Это TakahiroMiyashita TheSoloist.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 503,
 "correct": 2
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Number (N)ine",
-"img": "Number (N)ine (вещь 11)",
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор 11)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Neighborhood",
-"mastermind JAPAN",
-"Junya Watanabe",
-"Number (N)ine"
+"Issey Miyake",
+"Hysteric Glamour",
+"Undercover",
+"Yohji Yamamoto"
 ],
-"ex": "Это вещь бренда Number (N)ine.",
+"ex": "Это Yohji Yamamoto.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 504,
 "correct": 3
 },
@@ -12739,22 +12739,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Number (N)ine",
-"img": "Number (N)ine (вещь 12)",
+"brand": "Undercover",
+"img": "Undercover (набор 12)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Number (N)ine",
-"Hysteric Glamour",
+"Undercover",
+"Neighborhood",
 "Junya Watanabe",
-"Neighborhood"
+"Issey Miyake"
 ],
-"ex": "Это вещь бренда Number (N)ine.",
+"ex": "Это Undercover.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 505,
 "correct": 0
 },
@@ -12767,18 +12767,18 @@
 "photo"
 ],
 "brand": "Vivienne Westwood",
-"img": "Vivienne Westwood (вещь 13)",
+"img": "Vivienne Westwood (набор 13)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Moschino",
+"Jean Paul Gaultier",
 "Vivienne Westwood",
-"Undercover",
-"Alexander McQueen"
+"Alexander McQueen",
+"Moschino"
 ],
-"ex": "Это вещь бренда Vivienne Westwood.",
+"ex": "Это Vivienne Westwood.",
 "archive_note": "",
 "blur": true,
 "plain": false,
@@ -12793,46 +12793,46 @@
 "cats": [
 "photo"
 ],
-"brand": "Comme des Garçons",
-"img": "Comme des Garçons (вещь 14)",
+"brand": "1017 ALYX 9SM",
+"img": "1017 ALYX 9SM (набор 14)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"Kapital",
-"Junya Watanabe",
-"Comme des Garçons",
-"Sacai"
+"Acronym",
+"Off-White",
+"1017 ALYX 9SM",
+"Vetements"
 ],
-"ex": "Это вещь бренда Comme des Garçons.",
+"ex": "Это 1017 ALYX 9SM.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 507,
 "correct": 2
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (вещь 15)",
+"brand": "Supreme",
+"img": "Supreme (набор 15)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Neighborhood",
-"mastermind JAPAN",
-"A Bathing Ape",
-"Hysteric Glamour"
+"Kith",
+"Palace",
+"Off-White",
+"Supreme"
 ],
-"ex": "Это вещь бренда Hysteric Glamour.",
+"ex": "Это Supreme.",
 "archive_note": "",
 "blur": true,
 "plain": false,
@@ -12847,22 +12847,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Supreme",
-"img": "Supreme (вещь 16)",
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор 16)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Supreme",
-"Palace",
-"Carhartt WIP",
-"Off-White"
+"Yohji Yamamoto",
+"Kapital",
+"Sacai",
+"mastermind JAPAN"
 ],
-"ex": "Это вещь бренда Supreme.",
+"ex": "Это Yohji Yamamoto.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 509,
 "correct": 0
 },
@@ -12874,19 +12874,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Neighborhood",
-"img": "Neighborhood (вещь 17)",
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 17)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Undercover",
 "Neighborhood",
-"Human Made",
-"WTAPS"
+"Junya Watanabe",
+"Hysteric Glamour",
+"Number (N)ine"
 ],
-"ex": "Это вещь бренда Neighborhood.",
+"ex": "Это Junya Watanabe.",
 "archive_note": "",
 "blur": true,
 "plain": false,
@@ -12901,78 +12901,24 @@
 "cats": [
 "photo"
 ],
-"brand": "Palm Angels",
-"img": "Palm Angels (вещь 18)",
+"brand": "Y-3",
+"img": "Y-3 (набор 18)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Off-White",
-"Rhude",
-"Palm Angels",
-"Vetements"
+"Adidas Originals",
+"Stone Island",
+"Y-3",
+"Nike ACG"
 ],
-"ex": "Это вещь бренда Palm Angels.",
+"ex": "Это Y-3.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 511,
 "correct": 2
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Undercover",
-"img": "Undercover (вещь 19)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Number (N)ine",
-"Hysteric Glamour",
-"Junya Watanabe",
-"Undercover"
-],
-"ex": "Это вещь бренда Undercover.",
-"archive_note": "",
-"blur": true,
-"plain": false,
-"id": 512,
-"correct": 3
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Rassvet",
-"img": "Rassvet (вещь 20)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Rassvet",
-"Gosha Rubchinskiy",
-"Carhartt WIP",
-"Kith"
-],
-"ex": "Это вещь бренда Rassvet.",
-"archive_note": "",
-"blur": true,
-"plain": false,
-"id": 513,
-"correct": 0
 },
 {
 "mode": "l",
@@ -12982,22 +12928,76 @@
 "cats": [
 "photo"
 ],
-"brand": "Comme des Garçons",
-"img": "Comme des Garçons (вещь 21)",
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 19)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Junya Watanabe",
-"Comme des Garçons",
-"Yohji Yamamoto",
-"Issey Miyake"
+"Moschino",
+"Jean Paul Gaultier",
+"Alexander McQueen",
+"Vivienne Westwood"
 ],
-"ex": "Это вещь бренда Comme des Garçons.",
+"ex": "Это Vivienne Westwood.",
 "archive_note": "",
 "blur": true,
 "plain": false,
+"id": 512,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор 20)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Haider Ackermann",
+"Undercover",
+"Sacai"
+],
+"ex": "Это Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 513,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Human Made",
+"img": "Human Made (набор 21)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Neighborhood",
+"Human Made",
+"A Bathing Ape",
+"WTAPS"
+],
+"ex": "Это Human Made.",
+"archive_note": "",
+"blur": true,
+"plain": true,
 "id": 514,
 "correct": 1
 },
@@ -13009,19 +13009,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Yohji Yamamoto",
-"img": "Yohji Yamamoto (вещь 22)",
+"brand": "Prada",
+"img": "Prada (набор 22)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Comme des Garçons",
-"Issey Miyake",
-"Yohji Yamamoto",
-"Junya Watanabe"
+"Jil Sander",
+"Gucci",
+"Prada",
+"Bottega Veneta"
 ],
-"ex": "Это вещь бренда Yohji Yamamoto.",
+"ex": "Это Prada.",
 "archive_note": "",
 "blur": true,
 "plain": false,
@@ -13036,46 +13036,46 @@
 "cats": [
 "photo"
 ],
-"brand": "Number (N)ine",
-"img": "Number (N)ine (вещь 23)",
+"brand": "Beauty:Beast",
+"img": "Beauty:Beast (набор 23)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Neighborhood",
+"Number (N)ine",
+"Beauty:Beast"
+],
+"ex": "Это Beauty:Beast.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 516,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "mastermind JAPAN",
+"img": "mastermind JAPAN (набор 24)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
 "mastermind JAPAN",
-"Junya Watanabe",
 "Undercover",
-"Number (N)ine"
+"Neighborhood",
+"WTAPS"
 ],
-"ex": "Это вещь бренда Number (N)ine.",
-"archive_note": "",
-"blur": true,
-"plain": false,
-"id": 516,
-"correct": 3
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Comme des Garçons",
-"img": "Comme des Garçons (вещь 24)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Comme des Garçons",
-"Issey Miyake",
-"Yohji Yamamoto",
-"Undercover"
-],
-"ex": "Это вещь бренда Comme des Garçons.",
+"ex": "Это mastermind JAPAN.",
 "archive_note": "",
 "blur": true,
 "plain": false,
@@ -13090,49 +13090,49 @@
 "cats": [
 "photo"
 ],
-"brand": "Raf Simons",
-"img": "Raf Simons (вещь 25)",
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 25)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Dries Van Noten",
-"Raf Simons",
-"Helmut Lang",
-"Jil Sander"
+"Moschino",
+"Vivienne Westwood",
+"Alexander McQueen",
+"Jean Paul Gaultier"
 ],
-"ex": "Это вещь бренда Raf Simons.",
+"ex": "Это Vivienne Westwood.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 518,
 "correct": 1
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Undercover",
-"img": "Undercover (вещь 26)",
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор 26)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
 "Hysteric Glamour",
-"Number (N)ine",
-"Undercover",
-"Junya Watanabe"
+"Comme des Garçons",
+"Yohji Yamamoto",
+"Rick Owens"
 ],
-"ex": "Это вещь бренда Undercover.",
+"ex": "Это Yohji Yamamoto.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 519,
 "correct": 2
 },
@@ -13144,49 +13144,49 @@
 "cats": [
 "photo"
 ],
-"brand": "Undercover",
-"img": "Undercover (вещь 27)",
+"brand": "Mihara Yasuhiro",
+"img": "Mihara Yasuhiro (набор 27)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Number (N)ine",
-"Junya Watanabe",
-"mastermind JAPAN",
-"Undercover"
+"Miharayasuhiro",
+"Visvim",
+"Undercover",
+"Mihara Yasuhiro"
 ],
-"ex": "Это вещь бренда Undercover.",
+"ex": "Это Mihara Yasuhiro.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 520,
 "correct": 3
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Junya Watanabe",
-"img": "Junya Watanabe (вещь 28)",
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 28)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Junya Watanabe",
-"Comme des Garçons",
-"Kolor",
-"Yohji Yamamoto"
+"Alexander McQueen",
+"Givenchy",
+"Rick Owens",
+"Jean Paul Gaultier"
 ],
-"ex": "Это вещь бренда Junya Watanabe.",
+"ex": "Это Alexander McQueen.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 521,
 "correct": 0
 },
@@ -13198,22 +13198,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Comme des Garçons",
-"img": "Comme des Garçons (вещь 29)",
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 29)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Sacai",
-"Comme des Garçons",
-"Kapital",
-"Yohji Yamamoto"
+"Rick Owens",
+"Alexander McQueen",
+"Givenchy",
+"Jean Paul Gaultier"
 ],
-"ex": "Это вещь бренда Comme des Garçons.",
+"ex": "Это Alexander McQueen.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 522,
 "correct": 1
 },
@@ -13225,22 +13225,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Balmain",
-"img": "Balmain (вещь 30)",
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 30)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Philipp Plein",
-"Dolce & Gabbana",
-"Balmain",
-"Dsquared2"
+"Vivienne Westwood",
+"Rick Owens",
+"Alexander McQueen",
+"Jean Paul Gaultier"
 ],
-"ex": "Это вещь бренда Balmain.",
+"ex": "Это Alexander McQueen.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 523,
 "correct": 2
 },
@@ -13252,22 +13252,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Carhartt",
-"img": "Carhartt (вещь 31)",
+"brand": "Armani",
+"img": "Armani (набор 31)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Wrangler",
-"Patagonia",
-"Stüssy",
-"Carhartt"
+"Ralph Lauren",
+"Dolce & Gabbana",
+"Versace",
+"Armani"
 ],
-"ex": "Это вещь бренда Carhartt.",
+"ex": "Это Armani.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 524,
 "correct": 3
 },
@@ -13279,22 +13279,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Ann Demeulemeester",
-"img": "Ann Demeulemeester (вещь 32)",
+"brand": "Helmut Lang",
+"img": "Helmut Lang (набор 32)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"Ann Demeulemeester",
-"Yohji Yamamoto",
-"Maison Margiela",
-"Haider Ackermann"
+"Helmut Lang",
+"Rick Owens",
+"Raf Simons",
+"Jil Sander"
 ],
-"ex": "Это вещь бренда Ann Demeulemeester.",
+"ex": "Это Helmut Lang.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 525,
 "correct": 0
 },
@@ -13306,22 +13306,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Paul & Shark",
-"img": "Paul & Shark (вещь 33)",
+"brand": "Y-3",
+"img": "Y-3 (набор 33)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Ralph Lauren",
-"Paul & Shark",
+"Nike ACG",
+"Y-3",
 "Stone Island",
-"Lacoste"
+"Acronym"
 ],
-"ex": "Это вещь бренда Paul & Shark.",
+"ex": "Это Y-3.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 526,
 "correct": 1
 },
@@ -13333,49 +13333,49 @@
 "cats": [
 "photo"
 ],
-"brand": "Comme des Garçons",
-"img": "Comme des Garçons (вещь 34)",
+"brand": "Calvin Klein",
+"img": "Calvin Klein (набор 34)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"Sacai",
-"Yohji Yamamoto",
-"Comme des Garçons",
-"Junya Watanabe"
+"Hugo Boss",
+"Armani Exchange",
+"Calvin Klein",
+"Ralph Lauren"
 ],
-"ex": "Это вещь бренда Comme des Garçons.",
+"ex": "Это Calvin Klein.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 527,
 "correct": 2
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Y-3",
-"img": "Y-3 (вещь 35)",
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор 35)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"Stone Island",
-"C.P. Company",
-"Acronym",
-"Y-3"
+"Issey Miyake",
+"Comme des Garçons",
+"mastermind JAPAN",
+"Number (N)ine"
 ],
-"ex": "Это вещь бренда Y-3.",
+"ex": "Это Number (N)ine.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 528,
 "correct": 3
 },
@@ -13387,49 +13387,49 @@
 "cats": [
 "photo"
 ],
-"brand": "Helmut Lang",
-"img": "Helmut Lang (вещь 36)",
+"brand": "Y-3",
+"img": "Y-3 (набор 36)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Helmut Lang",
-"Jil Sander",
-"Prada",
-"Maison Margiela"
+"Y-3",
+"Stone Island",
+"Acronym",
+"Adidas Originals"
 ],
-"ex": "Это вещь бренда Helmut Lang.",
+"ex": "Это Y-3.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 529,
 "correct": 0
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Issey Miyake",
-"img": "Issey Miyake (вещь 37)",
+"brand": "Hysteric Glamour",
+"img": "Hysteric Glamour (набор 37)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"Mame Kurogouchi",
-"Issey Miyake",
-"Yohji Yamamoto",
-"Sacai"
+"mastermind JAPAN",
+"Hysteric Glamour",
+"Comme des Garçons",
+"Undercover"
 ],
-"ex": "Это вещь бренда Issey Miyake.",
+"ex": "Это Hysteric Glamour.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 530,
 "correct": 1
 },
@@ -13442,18 +13442,18 @@
 "photo"
 ],
 "brand": "Y-3",
-"img": "Y-3 (вещь 38)",
+"img": "Y-3 (набор 38)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Nike ACG",
-"C.P. Company",
+"Stone Island",
+"Acronym",
 "Y-3",
-"Arc'teryx"
+"Adidas Originals"
 ],
-"ex": "Это вещь бренда Y-3.",
+"ex": "Это Y-3.",
 "archive_note": "",
 "blur": true,
 "plain": false,
@@ -13468,19 +13468,19 @@
 "cats": [
 "photo"
 ],
-"brand": "MM6 Maison Margiela",
-"img": "MM6 Maison Margiela (вещь 39)",
+"brand": "Y-3",
+"img": "Y-3 (набор 39)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Jil Sander",
-"Acne Studios",
-"Maison Kitsuné",
-"MM6 Maison Margiela"
+"Adidas Originals",
+"Nike ACG",
+"Stone Island",
+"Y-3"
 ],
-"ex": "Это вещь бренда MM6 Maison Margiela.",
+"ex": "Это Y-3.",
 "archive_note": "",
 "blur": true,
 "plain": false,
@@ -13489,28 +13489,28 @@
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Versace",
-"img": "Versace (вещь 40)",
+"brand": "Walter Van Beirendonck",
+"img": "Walter Van Beirendonck (набор 40)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Versace",
-"Gucci",
-"Moschino",
-"Balmain"
+"Walter Van Beirendonck",
+"Dries Van Noten",
+"Dirk Bikkembergs",
+"Raf Simons"
 ],
-"ex": "Это вещь бренда Versace.",
+"ex": "Это Walter Van Beirendonck.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 533,
 "correct": 0
 },
@@ -13522,22 +13522,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Issey Miyake",
-"img": "Issey Miyake (вещь 41)",
+"brand": "Palm Angels",
+"img": "Palm Angels (набор 41)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"Yohji Yamamoto",
-"Issey Miyake",
-"Mame Kurogouchi",
-"Sacai"
+"Rhude",
+"Palm Angels",
+"Fear of God",
+"Amiri"
 ],
-"ex": "Это вещь бренда Issey Miyake.",
+"ex": "Это Palm Angels.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 534,
 "correct": 1
 },
@@ -13549,22 +13549,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Dolce & Gabbana",
-"img": "Dolce & Gabbana (вещь 42)",
+"brand": "Dior",
+"img": "Dior (набор 42)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Roberto Cavalli",
-"Armani",
-"Dolce & Gabbana",
-"Versace"
+"Givenchy",
+"Celine",
+"Dior",
+"Saint Laurent"
 ],
-"ex": "Это вещь бренда Dolce & Gabbana.",
+"ex": "Это Dior.",
 "archive_note": "",
 "blur": true,
-"plain": false,
+"plain": true,
 "id": 535,
 "correct": 2
 },
@@ -13576,19 +13576,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Comme des Garçons",
-"img": "Comme des Garçons (снимок 1)",
+"brand": "Burberry",
+"img": "Burberry (набор 43)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"Kapital",
-"Issey Miyake",
-"Number (N)ine",
-"Comme des Garçons"
+"Paul Smith",
+"Aquascutum",
+"Ralph Lauren",
+"Burberry"
 ],
-"ex": "Это Comme des Garçons.",
+"ex": "Это Burberry.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -13597,25 +13597,25 @@
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "A Bathing Ape",
-"img": "A Bathing Ape (снимок 2)",
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 44)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"A Bathing Ape",
-"Supreme",
-"Stüssy",
-"Neighborhood"
+"Junya Watanabe",
+"Sacai",
+"Undercover",
+"Yohji Yamamoto"
 ],
-"ex": "Это A Bathing Ape.",
+"ex": "Это Junya Watanabe.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -13630,23 +13630,131 @@
 "cats": [
 "photo"
 ],
-"brand": "Cav Empt",
-"img": "Cav Empt (снимок 3)",
+"brand": "Undercover",
+"img": "Undercover (набор 45)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Neighborhood",
-"Cav Empt",
-"A Bathing Ape",
-"Undercover"
+"Yohji Yamamoto",
+"Undercover",
+"Kapital",
+"Sacai"
 ],
-"ex": "Это Cav Empt.",
+"ex": "Это Undercover.",
 "archive_note": "",
 "blur": true,
 "plain": true,
 "id": 538,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 46)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Alexander McQueen",
+"Vivienne Westwood",
+"Undercover"
+],
+"ex": "Это Vivienne Westwood.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 539,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор 47)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Yohji Yamamoto",
+"Sacai",
+"Number (N)ine"
+],
+"ex": "Это Number (N)ine.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 540,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор 48)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Sacai",
+"Comme des Garçons",
+"Yohji Yamamoto"
+],
+"ex": "Это Number (N)ine.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 541,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор 49)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Hysteric Glamour",
+"Number (N)ine",
+"Neighborhood",
+"Issey Miyake"
+],
+"ex": "Это Number (N)ine.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 542,
 "correct": 1
 },
 {
@@ -13657,127 +13765,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (снимок 4)",
+"brand": "Undercover",
+"img": "Undercover (набор 50)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"Issey Miyake",
-"mastermind JAPAN",
-"Hysteric Glamour",
-"Undercover"
-],
-"ex": "Это Hysteric Glamour.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 539,
-"correct": 2
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Comme des Garçons",
-"img": "Comme des Garçons (снимок 5)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Hysteric Glamour",
-"Neighborhood",
-"Yohji Yamamoto",
-"Comme des Garçons"
-],
-"ex": "Это Comme des Garçons.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 540,
-"correct": 3
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Comme des Garçons",
-"img": "Comme des Garçons (снимок 6)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Comme des Garçons",
 "Kapital",
-"Sacai",
-"Junya Watanabe"
+"Number (N)ine",
+"Undercover",
+"Yohji Yamamoto"
 ],
-"ex": "Это Comme des Garçons.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 541,
-"correct": 0
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Off-White",
-"img": "Off-White (снимок 7)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Fear of God",
-"Off-White",
-"Heron Preston",
-"Vetements"
-],
-"ex": "Это Off-White.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 542,
-"correct": 1
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Off-White",
-"img": "Off-White (снимок 8)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Fear of God",
-"Heron Preston",
-"Off-White",
-"Palm Angels"
-],
-"ex": "Это Off-White.",
+"ex": "Это Undercover.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -13792,19 +13792,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Off-White",
-"img": "Off-White (снимок 9)",
+"brand": "A Bathing Ape",
+"img": "A Bathing Ape (набор 51)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Palm Angels",
-"Heron Preston",
-"Fear of God",
-"Off-White"
+"Supreme",
+"Stüssy",
+"Billionaire Boys Club",
+"A Bathing Ape"
 ],
-"ex": "Это Off-White.",
+"ex": "Это A Bathing Ape.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -13819,19 +13819,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Gucci",
-"img": "Gucci (снимок 10)",
+"brand": "Prada",
+"img": "Prada (набор 52)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"Gucci",
-"Versace",
 "Prada",
-"Fendi"
+"Jil Sander",
+"Gucci",
+"Bottega Veneta"
 ],
-"ex": "Это Gucci.",
+"ex": "Это Prada.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -13840,25 +13840,25 @@
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Jean Paul Gaultier",
-"img": "Jean Paul Gaultier (снимок 11)",
+"brand": "Guidi",
+"img": "Guidi (набор 53)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Vivienne Westwood",
-"Jean Paul Gaultier",
-"Alexander McQueen",
-"Thierry Mugler"
+"Rick Owens",
+"Guidi",
+"Carol Christian Poell",
+"Boris Bidjan Saberi"
 ],
-"ex": "Это Jean Paul Gaultier.",
+"ex": "Это Guidi.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -13873,51 +13873,24 @@
 "cats": [
 "photo"
 ],
-"brand": "Alexander McQueen",
-"img": "Alexander McQueen (снимок 12)",
+"brand": "Issey Miyake",
+"img": "Issey Miyake (набор 54)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Jean Paul Gaultier",
-"Vivienne Westwood",
-"Alexander McQueen",
-"Rick Owens"
+"Comme des Garçons",
+"Undercover",
+"Issey Miyake",
+"Junya Watanabe"
 ],
-"ex": "Это Alexander McQueen.",
+"ex": "Это Issey Miyake.",
 "archive_note": "",
 "blur": true,
 "plain": true,
 "id": 547,
 "correct": 2
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "TakahiroMiyashita TheSoloist",
-"img": "TakahiroMiyashita TheSoloist (снимок 13)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Issey Miyake",
-"Undercover",
-"mastermind JAPAN",
-"TakahiroMiyashita TheSoloist"
-],
-"ex": "Это TakahiroMiyashita TheSoloist.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 548,
-"correct": 3
 },
 {
 "mode": "l",
@@ -13927,24 +13900,24 @@
 "cats": [
 "photo"
 ],
-"brand": "Yohji Yamamoto",
-"img": "Yohji Yamamoto (снимок 14)",
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 55)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Yohji Yamamoto",
-"Rick Owens",
-"Haider Ackermann",
-"Sacai"
+"Jean Paul Gaultier",
+"Undercover",
+"Alexander McQueen",
+"Vivienne Westwood"
 ],
-"ex": "Это Yohji Yamamoto.",
+"ex": "Это Vivienne Westwood.",
 "archive_note": "",
 "blur": true,
-"plain": true,
-"id": 549,
-"correct": 0
+"plain": false,
+"id": 548,
+"correct": 3
 },
 {
 "mode": "l",
@@ -13954,22 +13927,49 @@
 "cats": [
 "photo"
 ],
-"brand": "Undercover",
-"img": "Undercover (снимок 15)",
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 56)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
+"opts": [
+"Junya Watanabe",
+"Yohji Yamamoto",
+"Number (N)ine",
+"Comme des Garçons"
+],
+"ex": "Это Junya Watanabe.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 549,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Comme des Garçons",
+"img": "Comme des Garçons (набор 57)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
 "Yohji Yamamoto",
-"Undercover",
-"Sacai",
-"Hysteric Glamour"
+"Comme des Garçons",
+"Junya Watanabe",
+"Undercover"
 ],
-"ex": "Это Undercover.",
+"ex": "Это Comme des Garçons.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 550,
 "correct": 1
 },
@@ -13981,19 +13981,19 @@
 "cats": [
 "photo"
 ],
-"brand": "1017 ALYX 9SM",
-"img": "1017 ALYX 9SM (снимок 16)",
+"brand": "Vetements",
+"img": "Vetements (набор 58)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Acronym",
+"Balenciaga",
 "Off-White",
-"1017 ALYX 9SM",
-"Heron Preston"
+"Vetements",
+"Gosha Rubchinskiy"
 ],
-"ex": "Это 1017 ALYX 9SM.",
+"ex": "Это Vetements.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14002,52 +14002,52 @@
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "1017 ALYX 9SM",
-"img": "1017 ALYX 9SM (снимок 17)",
+"brand": "Hysteric Glamour",
+"img": "Hysteric Glamour (набор 59)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Y-3",
-"Heron Preston",
-"Off-White",
-"1017 ALYX 9SM"
+"Junya Watanabe",
+"Undercover",
+"Number (N)ine",
+"Hysteric Glamour"
 ],
-"ex": "Это 1017 ALYX 9SM.",
+"ex": "Это Hysteric Glamour.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 552,
 "correct": 3
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Yohji Yamamoto",
-"img": "Yohji Yamamoto (снимок 18)",
+"brand": "Hysteric Glamour",
+"img": "Hysteric Glamour (набор 60)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
+"Hysteric Glamour",
 "Yohji Yamamoto",
-"Issey Miyake",
-"Junya Watanabe",
-"Number (N)ine"
+"Sacai",
+"Issey Miyake"
 ],
-"ex": "Это Yohji Yamamoto.",
+"ex": "Это Hysteric Glamour.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14056,25 +14056,25 @@
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Y-3",
-"img": "Y-3 (снимок 19)",
+"brand": "Hysteric Glamour",
+"img": "Hysteric Glamour (набор 61)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Stone Island",
-"Y-3",
-"Adidas Originals",
-"Acronym"
+"Kapital",
+"Hysteric Glamour",
+"Issey Miyake",
+"mastermind JAPAN"
 ],
-"ex": "Это Y-3.",
+"ex": "Это Hysteric Glamour.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14083,25 +14083,25 @@
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Yohji Yamamoto",
-"img": "Yohji Yamamoto (снимок 20)",
+"brand": "Hysteric Glamour",
+"img": "Hysteric Glamour (набор 62)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
+"Junya Watanabe",
 "Kapital",
-"Rick Owens",
-"Yohji Yamamoto",
-"Number (N)ine"
+"Hysteric Glamour",
+"mastermind JAPAN"
 ],
-"ex": "Это Yohji Yamamoto.",
+"ex": "Это Hysteric Glamour.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14116,19 +14116,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Human Made",
-"img": "Human Made (снимок 21)",
+"brand": "Hysteric Glamour",
+"img": "Hysteric Glamour (набор 63)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
+"mastermind JAPAN",
+"Kapital",
 "Neighborhood",
-"WTAPS",
-"A Bathing Ape",
-"Human Made"
+"Hysteric Glamour"
 ],
-"ex": "Это Human Made.",
+"ex": "Это Hysteric Glamour.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14143,19 +14143,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Beauty:Beast",
-"img": "Beauty:Beast (снимок 22)",
+"brand": "Hysteric Glamour",
+"img": "Hysteric Glamour (набор 64)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Beauty:Beast",
-"Undercover",
 "Hysteric Glamour",
-"Neighborhood"
+"Sacai",
+"Junya Watanabe",
+"Yohji Yamamoto"
 ],
-"ex": "Это Beauty:Beast.",
+"ex": "Это Hysteric Glamour.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14164,25 +14164,25 @@
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Vivienne Westwood",
-"img": "Vivienne Westwood (снимок 23)",
+"brand": "Mowalola",
+"img": "Mowalola (набор 65)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Jean Paul Gaultier",
-"Vivienne Westwood",
-"Undercover",
-"Moschino"
+"Vetements",
+"Mowalola",
+"Telfar",
+"Marine Serre"
 ],
-"ex": "Это Vivienne Westwood.",
+"ex": "Это Mowalola.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14197,19 +14197,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Yohji Yamamoto",
-"img": "Yohji Yamamoto (снимок 24)",
+"brand": "Issey Miyake",
+"img": "Issey Miyake (набор 66)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Ann Demeulemeester",
-"Undercover",
-"Yohji Yamamoto",
-"Comme des Garçons"
+"Sacai",
+"mastermind JAPAN",
+"Issey Miyake",
+"Yohji Yamamoto"
 ],
-"ex": "Это Yohji Yamamoto.",
+"ex": "Это Issey Miyake.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14224,51 +14224,24 @@
 "cats": [
 "photo"
 ],
-"brand": "Yohji Yamamoto",
-"img": "Yohji Yamamoto (снимок 25)",
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 67)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Issey Miyake",
-"Comme des Garçons",
-"Number (N)ine",
-"Yohji Yamamoto"
+"Vivienne Westwood",
+"Alexander McQueen",
+"Moschino",
+"Jean Paul Gaultier"
 ],
-"ex": "Это Yohji Yamamoto.",
+"ex": "Это Jean Paul Gaultier.",
 "archive_note": "",
 "blur": true,
 "plain": true,
 "id": 560,
 "correct": 3
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Mihara Yasuhiro",
-"img": "Mihara Yasuhiro (снимок 26)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Mihara Yasuhiro",
-"Kolor",
-"Miharayasuhiro",
-"Undercover"
-],
-"ex": "Это Mihara Yasuhiro.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 561,
-"correct": 0
 },
 {
 "mode": "l",
@@ -14278,22 +14251,49 @@
 "cats": [
 "photo"
 ],
-"brand": "Alexander McQueen",
-"img": "Alexander McQueen (снимок 27)",
+"brand": "Supreme",
+"img": "Supreme (набор 68)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Givenchy",
-"Alexander McQueen",
-"Jean Paul Gaultier",
-"Vivienne Westwood"
+"Supreme",
+"Stüssy",
+"Off-White",
+"Palace"
 ],
-"ex": "Это Alexander McQueen.",
+"ex": "Это Supreme.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
+"id": 561,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Neighborhood",
+"img": "Neighborhood (набор 69)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"mastermind JAPAN",
+"Neighborhood",
+"Sacai",
+"Junya Watanabe"
+],
+"ex": "Это Neighborhood.",
+"archive_note": "",
+"blur": true,
+"plain": false,
 "id": 562,
 "correct": 1
 },
@@ -14305,73 +14305,73 @@
 "cats": [
 "photo"
 ],
-"brand": "Alexander McQueen",
-"img": "Alexander McQueen (снимок 28)",
+"brand": "Palm Angels",
+"img": "Palm Angels (набор 70)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Rick Owens",
-"Vivienne Westwood",
-"Alexander McQueen",
-"Givenchy"
+"Amiri",
+"Rhude",
+"Palm Angels",
+"Off-White"
 ],
-"ex": "Это Alexander McQueen.",
+"ex": "Это Palm Angels.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 563,
 "correct": 2
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Alexander McQueen",
-"img": "Alexander McQueen (снимок 29)",
+"brand": "Undercover",
+"img": "Undercover (набор 71)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Jean Paul Gaultier",
-"Vivienne Westwood",
-"Givenchy",
-"Alexander McQueen"
+"Number (N)ine",
+"Sacai",
+"Kapital",
+"Undercover"
 ],
-"ex": "Это Alexander McQueen.",
+"ex": "Это Undercover.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 564,
 "correct": 3
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Armani",
-"img": "Armani (снимок 30)",
+"brand": "Undercover",
+"img": "Undercover (набор 72)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"Armani",
-"Ralph Lauren",
-"Hugo Boss",
-"Dolce & Gabbana"
+"Undercover",
+"Sacai",
+"Kapital",
+"Neighborhood"
 ],
-"ex": "Это Armani.",
+"ex": "Это Undercover.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14386,19 +14386,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Helmut Lang",
-"img": "Helmut Lang (снимок 31)",
+"brand": "Balenciaga",
+"img": "Balenciaga (набор 73)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Dries Van Noten",
-"Helmut Lang",
-"Jil Sander",
-"Maison Margiela"
+"Maison Margiela",
+"Balenciaga",
+"Off-White",
+"Vetements"
 ],
-"ex": "Это Helmut Lang.",
+"ex": "Это Balenciaga.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14407,25 +14407,25 @@
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Helmut Lang",
-"img": "Helmut Lang (снимок 32)",
+"brand": "Neighborhood",
+"img": "Neighborhood (набор 74)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Ann Demeulemeester",
-"Dries Van Noten",
-"Helmut Lang",
-"Raf Simons"
+"Undercover",
+"mastermind JAPAN",
+"Neighborhood",
+"Hysteric Glamour"
 ],
-"ex": "Это Helmut Lang.",
+"ex": "Это Neighborhood.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14434,28 +14434,28 @@
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Y-3",
-"img": "Y-3 (снимок 33)",
+"brand": "Rassvet",
+"img": "Rassvet (набор 75)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Nike ACG",
-"Acronym",
-"Yohji Yamamoto",
-"Y-3"
+"Kith",
+"Gosha Rubchinskiy",
+"Stüssy",
+"Rassvet"
 ],
-"ex": "Это Y-3.",
+"ex": "Это Rassvet.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 568,
 "correct": 3
 },
@@ -14467,22 +14467,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Calvin Klein",
-"img": "Calvin Klein (снимок 34)",
+"brand": "Comme des Garçons",
+"img": "Comme des Garçons (набор 76)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Calvin Klein",
-"Armani Exchange",
-"Tommy Hilfiger",
-"Hugo Boss"
+"Comme des Garçons",
+"Issey Miyake",
+"mastermind JAPAN",
+"Kapital"
 ],
-"ex": "Это Calvin Klein.",
+"ex": "Это Comme des Garçons.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 569,
 "correct": 0
 },
@@ -14494,46 +14494,46 @@
 "cats": [
 "photo"
 ],
-"brand": "Calvin Klein",
-"img": "Calvin Klein (снимок 35)",
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор 77)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Hugo Boss",
-"Calvin Klein",
-"Armani Exchange",
-"Ralph Lauren"
+"Sacai",
+"Yohji Yamamoto",
+"Ann Demeulemeester",
+"Kapital"
 ],
-"ex": "Это Calvin Klein.",
+"ex": "Это Yohji Yamamoto.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 570,
 "correct": 1
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Number (N)ine",
-"img": "Number (N)ine (снимок 36)",
+"brand": "Maison Margiela",
+"img": "Maison Margiela (набор 78)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Yohji Yamamoto",
-"Issey Miyake",
-"Number (N)ine",
-"Sacai"
+"Helmut Lang",
+"Dries Van Noten",
+"Maison Margiela",
+"Yohji Yamamoto"
 ],
-"ex": "Это Number (N)ine.",
+"ex": "Это Maison Margiela.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14542,25 +14542,25 @@
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Number (N)ine",
-"img": "Number (N)ine (снимок 37)",
+"brand": "Comme des Garçons",
+"img": "Comme des Garçons (набор 79)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Neighborhood",
-"Junya Watanabe",
-"Sacai",
-"Number (N)ine"
+"Number (N)ine",
+"Kapital",
+"Yohji Yamamoto",
+"Comme des Garçons"
 ],
-"ex": "Это Number (N)ine.",
+"ex": "Это Comme des Garçons.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14575,19 +14575,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Y-3",
-"img": "Y-3 (снимок 38)",
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор 80)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Y-3",
-"Stone Island",
-"Nike ACG",
-"Acronym"
+"Yohji Yamamoto",
+"Sacai",
+"Junya Watanabe",
+"Haider Ackermann"
 ],
-"ex": "Это Y-3.",
+"ex": "Это Yohji Yamamoto.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14596,25 +14596,25 @@
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (снимок 39)",
+"brand": "Issey Miyake",
+"img": "Issey Miyake (набор 81)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Junya Watanabe",
-"Hysteric Glamour",
-"Yohji Yamamoto",
-"Sacai"
+"mastermind JAPAN",
+"Issey Miyake",
+"Undercover",
+"Number (N)ine"
 ],
-"ex": "Это Hysteric Glamour.",
+"ex": "Это Issey Miyake.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14623,25 +14623,25 @@
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (снимок 40)",
+"brand": "Comme des Garçons",
+"img": "Comme des Garçons (набор 82)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
+"Sacai",
 "mastermind JAPAN",
-"Yohji Yamamoto",
-"Hysteric Glamour",
-"Comme des Garçons"
+"Comme des Garçons",
+"Junya Watanabe"
 ],
-"ex": "Это Hysteric Glamour.",
+"ex": "Это Comme des Garçons.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14650,25 +14650,25 @@
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Walter Van Beirendonck",
-"img": "Walter Van Beirendonck (снимок 41)",
+"brand": "Lanvin",
+"img": "Lanvin (набор 83)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Dries Van Noten",
-"Ann Demeulemeester",
-"Raf Simons",
-"Walter Van Beirendonck"
+"Celine",
+"Balmain",
+"Givenchy",
+"Lanvin"
 ],
-"ex": "Это Walter Van Beirendonck.",
+"ex": "Это Lanvin.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14677,52 +14677,52 @@
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Palm Angels",
-"img": "Palm Angels (снимок 42)",
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор 84)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Palm Angels",
-"Off-White",
-"Rhude",
-"Amiri"
+"Number (N)ine",
+"Junya Watanabe",
+"Kapital",
+"Hysteric Glamour"
 ],
-"ex": "Это Palm Angels.",
+"ex": "Это Number (N)ine.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 577,
 "correct": 0
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Palm Angels",
-"img": "Palm Angels (снимок 43)",
+"brand": "Undercover",
+"img": "Undercover (набор 85)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Fear of God",
-"Palm Angels",
-"Amiri",
-"Rhude"
+"Sacai",
+"Undercover",
+"mastermind JAPAN",
+"Yohji Yamamoto"
 ],
-"ex": "Это Palm Angels.",
+"ex": "Это Undercover.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14737,22 +14737,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Dior",
-"img": "Dior (снимок 44)",
+"brand": "Comme des Garçons",
+"img": "Comme des Garçons (набор 86)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Givenchy",
-"Chanel",
-"Dior",
-"Saint Laurent"
+"Hysteric Glamour",
+"Number (N)ine",
+"Comme des Garçons",
+"Yohji Yamamoto"
 ],
-"ex": "Это Dior.",
+"ex": "Это Comme des Garçons.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 579,
 "correct": 2
 },
@@ -14764,19 +14764,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Burberry",
-"img": "Burberry (снимок 45)",
+"brand": "Dolce & Gabbana",
+"img": "Dolce & Gabbana (набор 87)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Paul Smith",
-"Aquascutum",
-"Barbour",
-"Burberry"
+"Moschino",
+"Roberto Cavalli",
+"Gucci",
+"Dolce & Gabbana"
 ],
-"ex": "Это Burberry.",
+"ex": "Это Dolce & Gabbana.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14791,46 +14791,46 @@
 "cats": [
 "photo"
 ],
-"brand": "Burberry",
-"img": "Burberry (снимок 46)",
+"brand": "Raf Simons",
+"img": "Raf Simons (набор 88)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Burberry",
-"Aquascutum",
-"Ralph Lauren",
-"Barbour"
+"Raf Simons",
+"Helmut Lang",
+"Jil Sander",
+"Maison Margiela"
 ],
-"ex": "Это Burberry.",
+"ex": "Это Raf Simons.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 581,
 "correct": 0
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Junya Watanabe",
-"img": "Junya Watanabe (снимок 47)",
+"brand": "Issey Miyake",
+"img": "Issey Miyake (набор 89)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Hysteric Glamour",
-"Junya Watanabe",
 "Yohji Yamamoto",
-"Undercover"
+"Issey Miyake",
+"Comme des Garçons",
+"Kapital"
 ],
-"ex": "Это Junya Watanabe.",
+"ex": "Это Issey Miyake.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14845,22 +14845,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Junya Watanabe",
-"img": "Junya Watanabe (снимок 48)",
+"brand": "Undercover",
+"img": "Undercover (набор 90)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Hysteric Glamour",
-"Number (N)ine",
-"Junya Watanabe",
-"Undercover"
+"Kapital",
+"mastermind JAPAN",
+"Undercover",
+"Yohji Yamamoto"
 ],
-"ex": "Это Junya Watanabe.",
+"ex": "Это Undercover.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 583,
 "correct": 2
 },
@@ -14872,51 +14872,24 @@
 "cats": [
 "photo"
 ],
-"brand": "Undercover",
-"img": "Undercover (снимок 49)",
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор 91)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Comme des Garçons",
-"Hysteric Glamour",
+"Kapital",
+"mastermind JAPAN",
 "Issey Miyake",
-"Undercover"
+"Number (N)ine"
 ],
-"ex": "Это Undercover.",
+"ex": "Это Number (N)ine.",
 "archive_note": "",
 "blur": true,
 "plain": true,
 "id": 584,
 "correct": 3
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Vivienne Westwood",
-"img": "Vivienne Westwood (снимок 50)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Vivienne Westwood",
-"Jean Paul Gaultier",
-"Undercover",
-"Alexander McQueen"
-],
-"ex": "Это Vivienne Westwood.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 585,
-"correct": 0
 },
 {
 "mode": "l",
@@ -14926,19 +14899,46 @@
 "cats": [
 "photo"
 ],
-"brand": "Undercover",
-"img": "Undercover (снимок 51)",
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор 92)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
+"Number (N)ine",
+"Yohji Yamamoto",
 "Neighborhood",
-"Undercover",
-"mastermind JAPAN",
 "Kapital"
 ],
-"ex": "Это Undercover.",
+"ex": "Это Number (N)ine.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 585,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор 93)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Ann Demeulemeester",
+"Rick Owens",
+"Yohji Yamamoto",
+"Helmut Lang"
+],
+"ex": "Это Rick Owens.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14953,19 +14953,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Undercover",
-"img": "Undercover (снимок 52)",
+"brand": "Hysteric Glamour",
+"img": "Hysteric Glamour (набор 94)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"Number (N)ine",
-"mastermind JAPAN",
-"Undercover",
-"Issey Miyake"
+"Junya Watanabe",
+"Neighborhood",
+"Hysteric Glamour",
+"Yohji Yamamoto"
 ],
-"ex": "Это Undercover.",
+"ex": "Это Hysteric Glamour.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -14974,79 +14974,79 @@
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "A Bathing Ape",
-"img": "A Bathing Ape (снимок 53)",
+"brand": "Undercover",
+"img": "Undercover (набор 95)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
 "opts": [
-"Billionaire Boys Club",
-"Stüssy",
+"Hysteric Glamour",
+"Sacai",
 "Neighborhood",
-"A Bathing Ape"
+"Undercover"
 ],
-"ex": "Это A Bathing Ape.",
+"ex": "Это Undercover.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 588,
 "correct": 3
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Prada",
-"img": "Prada (снимок 54)",
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 96)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Prada",
-"Gucci",
-"Miu Miu",
-"Jil Sander"
+"Junya Watanabe",
+"Comme des Garçons",
+"Issey Miyake",
+"Sacai"
 ],
-"ex": "Это Prada.",
+"ex": "Это Junya Watanabe.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 589,
 "correct": 0
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Prada",
-"img": "Prada (снимок 55)",
+"brand": "TakahiroMiyashita TheSoloist",
+"img": "TakahiroMiyashita TheSoloist (набор 97)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Gucci",
-"Prada",
-"Bottega Veneta",
-"Jil Sander"
+"Sacai",
+"TakahiroMiyashita TheSoloist",
+"mastermind JAPAN",
+"Undercover"
 ],
-"ex": "Это Prada.",
+"ex": "Это TakahiroMiyashita TheSoloist.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15061,19 +15061,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Guidi",
-"img": "Guidi (снимок 56)",
+"brand": "Sacai",
+"img": "Sacai (набор 98)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Boris Bidjan Saberi",
-"Rick Owens",
-"Guidi",
-"Ann Demeulemeester"
+"Kapital",
+"Number (N)ine",
+"Sacai",
+"Issey Miyake"
 ],
-"ex": "Это Guidi.",
+"ex": "Это Sacai.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15082,25 +15082,25 @@
 },
 {
 "mode": "l",
-"fame": 3,
-"level": 3,
+"fame": 4,
+"level": 4,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Issey Miyake",
-"img": "Issey Miyake (снимок 57)",
+"brand": "Undercover",
+"img": "Undercover (набор 99)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"mastermind JAPAN",
-"Sacai",
-"Number (N)ine",
-"Issey Miyake"
+"Neighborhood",
+"Hysteric Glamour",
+"Yohji Yamamoto",
+"Undercover"
 ],
-"ex": "Это Issey Miyake.",
+"ex": "Это Undercover.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15115,19 +15115,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Junya Watanabe",
-"img": "Junya Watanabe (снимок 58)",
+"brand": "Undercover",
+"img": "Undercover (набор 100)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Junya Watanabe",
-"Yohji Yamamoto",
+"Undercover",
+"Comme des Garçons",
 "Number (N)ine",
-"Comme des Garçons"
+"mastermind JAPAN"
 ],
-"ex": "Это Junya Watanabe.",
+"ex": "Это Undercover.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15136,28 +15136,28 @@
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Junya Watanabe",
-"img": "Junya Watanabe (снимок 59)",
+"brand": "Comme des Garçons",
+"img": "Comme des Garçons (набор 101)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Issey Miyake",
-"Junya Watanabe",
-"Number (N)ine",
-"Kapital"
+"Kapital",
+"Comme des Garçons",
+"Neighborhood",
+"Hysteric Glamour"
 ],
-"ex": "Это Junya Watanabe.",
+"ex": "Это Comme des Garçons.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 594,
 "correct": 1
 },
@@ -15169,224 +15169,8 @@
 "cats": [
 "photo"
 ],
-"brand": "Vetements",
-"img": "Vetements (снимок 60)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Gosha Rubchinskiy",
-"Off-White",
-"Vetements",
-"Raf Simons"
-],
-"ex": "Это Vetements.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 595,
-"correct": 2
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (снимок 61)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Issey Miyake",
-"Yohji Yamamoto",
-"Comme des Garçons",
-"Hysteric Glamour"
-],
-"ex": "Это Hysteric Glamour.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 596,
-"correct": 3
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (снимок 62)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Hysteric Glamour",
-"mastermind JAPAN",
-"Neighborhood",
-"Sacai"
-],
-"ex": "Это Hysteric Glamour.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 597,
-"correct": 0
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (снимок 63)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Issey Miyake",
-"Hysteric Glamour",
-"Sacai",
-"mastermind JAPAN"
-],
-"ex": "Это Hysteric Glamour.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 598,
-"correct": 1
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (снимок 64)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Sacai",
-"Neighborhood",
-"Hysteric Glamour",
-"Issey Miyake"
-],
-"ex": "Это Hysteric Glamour.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 599,
-"correct": 2
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (снимок 65)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Issey Miyake",
-"Sacai",
-"Kapital",
-"Hysteric Glamour"
-],
-"ex": "Это Hysteric Glamour.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 600,
-"correct": 3
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Mowalola",
-"img": "Mowalola (снимок 66)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Mowalola",
-"Ludovic de Saint Sernin",
-"Marine Serre",
-"Vetements"
-],
-"ex": "Это Mowalola.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 601,
-"correct": 0
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Issey Miyake",
-"img": "Issey Miyake (снимок 67)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"mastermind JAPAN",
-"Issey Miyake",
-"Number (N)ine",
-"Neighborhood"
-],
-"ex": "Это Issey Miyake.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 602,
-"correct": 1
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
 "brand": "Jean Paul Gaultier",
-"img": "Jean Paul Gaultier (снимок 68)",
+"img": "Jean Paul Gaultier (набор 102)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
@@ -15401,7 +15185,115 @@
 "archive_note": "",
 "blur": true,
 "plain": true,
-"id": 603,
+"id": 595,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Balmain",
+"img": "Balmain (набор 103)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Philipp Plein",
+"Versace",
+"Dolce & Gabbana",
+"Balmain"
+],
+"ex": "Это Balmain.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 596,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carhartt",
+"img": "Carhartt (набор 104)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carhartt",
+"Patagonia",
+"Dickies",
+"Levi's"
+],
+"ex": "Это Carhartt.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 597,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (набор 105)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Undercover",
+"Kapital",
+"mastermind JAPAN"
+],
+"ex": "Это Undercover.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 598,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 106)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Yohji Yamamoto",
+"Junya Watanabe",
+"Comme des Garçons"
+],
+"ex": "Это Junya Watanabe.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 599,
 "correct": 2
 },
 {
@@ -15412,19 +15304,127 @@
 "cats": [
 "photo"
 ],
-"brand": "Undercover",
-"img": "Undercover (снимок 69)",
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 107)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Sacai",
 "Number (N)ine",
+"Neighborhood",
 "mastermind JAPAN",
-"Undercover"
+"Junya Watanabe"
 ],
-"ex": "Это Undercover.",
+"ex": "Это Junya Watanabe.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 600,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Ann Demeulemeester",
+"img": "Ann Demeulemeester (набор 108)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Ann Demeulemeester",
+"Rick Owens",
+"Dries Van Noten",
+"Maison Margiela"
+],
+"ex": "Это Ann Demeulemeester.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 601,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Paul & Shark",
+"img": "Paul & Shark (набор 109)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Lacoste",
+"Paul & Shark",
+"Fred Perry",
+"Stone Island"
+],
+"ex": "Это Paul & Shark.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 602,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Comme des Garçons",
+"img": "Comme des Garçons (набор 110)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Neighborhood",
+"Comme des Garçons",
+"mastermind JAPAN"
+],
+"ex": "Это Comme des Garçons.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 603,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Stüssy",
+"img": "Stüssy (набор 111)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Supreme",
+"Obey",
+"Carhartt WIP",
+"Stüssy"
+],
+"ex": "Это Stüssy.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15433,25 +15433,25 @@
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Undercover",
-"img": "Undercover (снимок 70)",
+"brand": "Gucci",
+"img": "Gucci (набор 112)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Undercover",
-"Issey Miyake",
-"Junya Watanabe",
-"Hysteric Glamour"
+"Gucci",
+"Fendi",
+"Dolce & Gabbana",
+"Prada"
 ],
-"ex": "Это Undercover.",
+"ex": "Это Gucci.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15466,46 +15466,46 @@
 "cats": [
 "photo"
 ],
-"brand": "Balenciaga",
-"img": "Balenciaga (снимок 71)",
+"brand": "Y-3",
+"img": "Y-3 (набор 113)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Givenchy",
-"Balenciaga",
-"Off-White",
-"Maison Margiela"
+"Stone Island",
+"Y-3",
+"Nike ACG",
+"Adidas Originals"
 ],
-"ex": "Это Balenciaga.",
+"ex": "Это Y-3.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 606,
 "correct": 1
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Neighborhood",
-"img": "Neighborhood (снимок 72)",
+"brand": "Rick Owens",
+"img": "Rick Owens (набор 114)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Sacai",
-"mastermind JAPAN",
-"Neighborhood",
-"Kapital"
+"Dries Van Noten",
+"Helmut Lang",
+"Rick Owens",
+"Raf Simons"
 ],
-"ex": "Это Neighborhood.",
+"ex": "Это Rick Owens.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15520,22 +15520,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Maison Margiela",
-"img": "Maison Margiela (снимок 73)",
+"brand": "Helmut Lang",
+"img": "Helmut Lang (набор 115)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Rick Owens",
-"Ann Demeulemeester",
+"Calvin Klein",
 "Jil Sander",
-"Maison Margiela"
+"Maison Margiela",
+"Helmut Lang"
 ],
-"ex": "Это Maison Margiela.",
+"ex": "Это Helmut Lang.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 608,
 "correct": 3
 },
@@ -15547,19 +15547,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Comme des Garçons",
-"img": "Comme des Garçons (снимок 74)",
+"brand": "Diesel",
+"img": "Diesel (набор 116)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Comme des Garçons",
-"Kapital",
-"mastermind JAPAN",
-"Undercover"
+"Diesel",
+"G-Star Raw",
+"Calvin Klein Jeans",
+"Replay"
 ],
-"ex": "Это Comme des Garçons.",
+"ex": "Это Diesel.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15574,22 +15574,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Yohji Yamamoto",
-"img": "Yohji Yamamoto (снимок 75)",
+"brand": "Issey Miyake",
+"img": "Issey Miyake (набор 117)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Sacai",
-"Yohji Yamamoto",
-"Rick Owens",
-"Undercover"
+"Hysteric Glamour",
+"Issey Miyake",
+"mastermind JAPAN",
+"Number (N)ine"
 ],
-"ex": "Это Yohji Yamamoto.",
+"ex": "Это Issey Miyake.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 610,
 "correct": 1
 },
@@ -15601,19 +15601,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Issey Miyake",
-"img": "Issey Miyake (снимок 76)",
+"brand": "Dries Van Noten",
+"img": "Dries Van Noten (набор 118)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Comme des Garçons",
-"mastermind JAPAN",
-"Issey Miyake",
-"Undercover"
+"Ann Demeulemeester",
+"Helmut Lang",
+"Dries Van Noten",
+"Yohji Yamamoto"
 ],
-"ex": "Это Issey Miyake.",
+"ex": "Это Dries Van Noten.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15628,22 +15628,22 @@
 "cats": [
 "photo"
 ],
-"brand": "Comme des Garçons",
-"img": "Comme des Garçons (снимок 77)",
+"brand": "Y-3",
+"img": "Y-3 (набор 119)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Undercover",
-"Junya Watanabe",
-"Kapital",
-"Comme des Garçons"
+"Adidas Originals",
+"Acronym",
+"Stone Island",
+"Y-3"
 ],
-"ex": "Это Comme des Garçons.",
+"ex": "Это Y-3.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 612,
 "correct": 3
 },
@@ -15655,51 +15655,24 @@
 "cats": [
 "photo"
 ],
-"brand": "Lanvin",
-"img": "Lanvin (снимок 78)",
+"brand": "Comme des Garçons",
+"img": "Comme des Garçons (набор 120)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Lanvin",
-"Dior",
-"Givenchy",
-"Celine"
+"Comme des Garçons",
+"Issey Miyake",
+"Yohji Yamamoto",
+"Undercover"
 ],
-"ex": "Это Lanvin.",
+"ex": "Это Comme des Garçons.",
 "archive_note": "",
 "blur": true,
 "plain": true,
 "id": 613,
 "correct": 0
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Undercover",
-"img": "Undercover (снимок 79)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"mastermind JAPAN",
-"Undercover",
-"Sacai",
-"Comme des Garçons"
-],
-"ex": "Это Undercover.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 614,
-"correct": 1
 },
 {
 "mode": "l",
@@ -15709,19 +15682,46 @@
 "cats": [
 "photo"
 ],
-"brand": "Dolce & Gabbana",
-"img": "Dolce & Gabbana (снимок 80)",
+"brand": "Dior",
+"img": "Dior (набор 121)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Moschino",
-"Roberto Cavalli",
-"Dolce & Gabbana",
-"Gucci"
+"Saint Laurent",
+"Dior",
+"Chanel",
+"Givenchy"
 ],
-"ex": "Это Dolce & Gabbana.",
+"ex": "Это Dior.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 614,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 122)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"mastermind JAPAN",
+"Junya Watanabe",
+"Sacai"
+],
+"ex": "Это Junya Watanabe.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15736,19 +15736,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Issey Miyake",
-"img": "Issey Miyake (снимок 81)",
+"brand": "Balenciaga",
+"img": "Balenciaga (набор 123)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Hysteric Glamour",
-"Junya Watanabe",
-"Undercover",
-"Issey Miyake"
+"Vetements",
+"Givenchy",
+"Off-White",
+"Balenciaga"
 ],
-"ex": "Это Issey Miyake.",
+"ex": "Это Balenciaga.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15763,19 +15763,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Number (N)ine",
-"img": "Number (N)ine (снимок 82)",
+"brand": "C2H4",
+"img": "C2H4 (набор 124)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Number (N)ine",
-"Undercover",
-"Issey Miyake",
-"Comme des Garçons"
+"C2H4",
+"Boris Bidjan Saberi",
+"Vetements",
+"Julius"
 ],
-"ex": "Это Number (N)ine.",
+"ex": "Это C2H4.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15790,19 +15790,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Number (N)ine",
-"img": "Number (N)ine (снимок 83)",
+"brand": "Guidi",
+"img": "Guidi (набор 125)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Issey Miyake",
-"Number (N)ine",
-"Hysteric Glamour",
-"Sacai"
+"Ann Demeulemeester",
+"Guidi",
+"Boris Bidjan Saberi",
+"Carol Christian Poell"
 ],
-"ex": "Это Number (N)ine.",
+"ex": "Это Guidi.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15817,19 +15817,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Rick Owens",
-"img": "Rick Owens (снимок 84)",
+"brand": "Evisu",
+"img": "Evisu (набор 126)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Jil Sander",
-"Yohji Yamamoto",
-"Rick Owens",
-"Ann Demeulemeester"
+"A Bathing Ape",
+"Diesel",
+"Evisu",
+"Levi's"
 ],
-"ex": "Это Rick Owens.",
+"ex": "Это Evisu.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15838,52 +15838,52 @@
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (снимок 85)",
+"brand": "MM6 Maison Margiela",
+"img": "MM6 Maison Margiela (набор 127)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Neighborhood",
-"Issey Miyake",
-"Comme des Garçons",
-"Hysteric Glamour"
+"Jil Sander",
+"A.P.C.",
+"Acne Studios",
+"MM6 Maison Margiela"
 ],
-"ex": "Это Hysteric Glamour.",
+"ex": "Это MM6 Maison Margiela.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 620,
 "correct": 3
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Hysteric Glamour",
-"img": "Hysteric Glamour (снимок 86)",
+"brand": "Reebok",
+"img": "Reebok (набор 128)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Hysteric Glamour",
-"Neighborhood",
-"Sacai",
-"Junya Watanabe"
+"Reebok",
+"Puma",
+"Nike",
+"Adidas"
 ],
-"ex": "Это Hysteric Glamour.",
+"ex": "Это Reebok.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15892,52 +15892,52 @@
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Undercover",
-"img": "Undercover (снимок 87)",
+"brand": "Versace",
+"img": "Versace (набор 129)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Issey Miyake",
-"Undercover",
-"Neighborhood",
-"Number (N)ine"
+"Moschino",
+"Versace",
+"Roberto Cavalli",
+"Balmain"
 ],
-"ex": "Это Undercover.",
+"ex": "Это Versace.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 622,
 "correct": 1
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "TakahiroMiyashita TheSoloist",
-"img": "TakahiroMiyashita TheSoloist (снимок 88)",
+"brand": "Adidas",
+"img": "Adidas (набор 130)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Neighborhood",
-"Sacai",
-"TakahiroMiyashita TheSoloist",
-"Issey Miyake"
+"Nike",
+"Puma",
+"Adidas",
+"Reebok"
 ],
-"ex": "Это TakahiroMiyashita TheSoloist.",
+"ex": "Это Adidas.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15946,25 +15946,25 @@
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Sacai",
-"img": "Sacai (снимок 89)",
+"brand": "MM6 Maison Margiela",
+"img": "MM6 Maison Margiela (набор 131)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Yohji Yamamoto",
-"Hysteric Glamour",
-"Neighborhood",
-"Sacai"
+"Jil Sander",
+"Comme des Garçons",
+"Acne Studios",
+"MM6 Maison Margiela"
 ],
-"ex": "Это Sacai.",
+"ex": "Это MM6 Maison Margiela.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -15979,19 +15979,19 @@
 "cats": [
 "photo"
 ],
-"brand": "Undercover",
-"img": "Undercover (снимок 90)",
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 132)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Undercover",
-"Kapital",
-"Neighborhood",
-"Number (N)ine"
+"Junya Watanabe",
+"Yohji Yamamoto",
+"Sacai",
+"Kapital"
 ],
-"ex": "Это Undercover.",
+"ex": "Это Junya Watanabe.",
 "archive_note": "",
 "blur": true,
 "plain": true,
@@ -16000,28 +16000,28 @@
 },
 {
 "mode": "l",
-"fame": 4,
-"level": 4,
+"fame": 3,
+"level": 3,
 "cx": 1,
 "cats": [
 "photo"
 ],
-"brand": "Undercover",
-"img": "Undercover (снимок 91)",
+"brand": "Issey Miyake",
+"img": "Issey Miyake (набор 133)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"mastermind JAPAN",
-"Undercover",
-"Yohji Yamamoto",
+"Junya Watanabe",
+"Issey Miyake",
+"Sacai",
 "Neighborhood"
 ],
-"ex": "Это Undercover.",
+"ex": "Это Issey Miyake.",
 "archive_note": "",
 "blur": true,
-"plain": true,
+"plain": false,
 "id": 626,
 "correct": 1
 },
@@ -16033,563 +16033,23 @@
 "cats": [
 "photo"
 ],
-"brand": "Jean Paul Gaultier",
-"img": "Jean Paul Gaultier (снимок 92)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Alexander McQueen",
-"Thierry Mugler",
-"Jean Paul Gaultier",
-"Moschino"
-],
-"ex": "Это Jean Paul Gaultier.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 627,
-"correct": 2
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Undercover",
-"img": "Undercover (снимок 93)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Sacai",
-"Yohji Yamamoto",
-"Junya Watanabe",
-"Undercover"
-],
-"ex": "Это Undercover.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 628,
-"correct": 3
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Junya Watanabe",
-"img": "Junya Watanabe (снимок 94)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Junya Watanabe",
-"Number (N)ine",
-"Comme des Garçons",
-"Hysteric Glamour"
-],
-"ex": "Это Junya Watanabe.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 629,
-"correct": 0
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Junya Watanabe",
-"img": "Junya Watanabe (снимок 95)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Yohji Yamamoto",
-"Junya Watanabe",
-"Number (N)ine",
-"Undercover"
-],
-"ex": "Это Junya Watanabe.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 630,
-"correct": 1
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Stüssy",
-"img": "Stüssy (снимок 96)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Palace",
-"Obey",
-"Stüssy",
-"Carhartt WIP"
-],
-"ex": "Это Stüssy.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 631,
-"correct": 2
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Gucci",
-"img": "Gucci (снимок 97)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Dolce & Gabbana",
-"Versace",
-"Prada",
-"Gucci"
-],
-"ex": "Это Gucci.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 632,
-"correct": 3
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Rick Owens",
-"img": "Rick Owens (снимок 98)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Rick Owens",
-"Yohji Yamamoto",
-"Maison Margiela",
-"Dries Van Noten"
-],
-"ex": "Это Rick Owens.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 633,
-"correct": 0
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Diesel",
-"img": "Diesel (снимок 99)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Calvin Klein Jeans",
-"Diesel",
-"G-Star Raw",
-"Replay"
-],
-"ex": "Это Diesel.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 634,
-"correct": 1
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Dries Van Noten",
-"img": "Dries Van Noten (снимок 100)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Raf Simons",
-"Helmut Lang",
-"Dries Van Noten",
-"Haider Ackermann"
-],
-"ex": "Это Dries Van Noten.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 635,
-"correct": 2
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Comme des Garçons",
-"img": "Comme des Garçons (снимок 101)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"mastermind JAPAN",
-"Issey Miyake",
-"Hysteric Glamour",
-"Comme des Garçons"
-],
-"ex": "Это Comme des Garçons.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 636,
-"correct": 3
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Dior",
-"img": "Dior (снимок 102)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Dior",
-"Chanel",
-"Givenchy",
-"Saint Laurent"
-],
-"ex": "Это Dior.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 637,
-"correct": 0
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Junya Watanabe",
-"img": "Junya Watanabe (снимок 103)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"mastermind JAPAN",
-"Junya Watanabe",
-"Issey Miyake",
-"Undercover"
-],
-"ex": "Это Junya Watanabe.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 638,
-"correct": 1
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Balenciaga",
-"img": "Balenciaga (снимок 104)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Maison Margiela",
-"Vetements",
-"Balenciaga",
-"Off-White"
-],
-"ex": "Это Balenciaga.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 639,
-"correct": 2
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "C2H4",
-"img": "C2H4 (снимок 105)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Vetements",
-"Chrome Hearts",
-"Julius",
-"C2H4"
-],
-"ex": "Это C2H4.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 640,
-"correct": 3
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Guidi",
-"img": "Guidi (снимок 106)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Guidi",
-"Boris Bidjan Saberi",
-"Rick Owens",
-"Ann Demeulemeester"
-],
-"ex": "Это Guidi.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 641,
-"correct": 0
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Evisu",
-"img": "Evisu (снимок 107)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Edwin",
-"Evisu",
-"Levi's",
-"Diesel"
-],
-"ex": "Это Evisu.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 642,
-"correct": 1
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Reebok",
-"img": "Reebok (снимок 108)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Puma",
-"Nike",
-"Reebok",
-"Adidas"
-],
-"ex": "Это Reebok.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 643,
-"correct": 2
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Adidas",
-"img": "Adidas (снимок 109)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Nike",
-"New Balance",
-"Puma",
-"Adidas"
-],
-"ex": "Это Adidas.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 644,
-"correct": 3
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
 "brand": "MM6 Maison Margiela",
-"img": "MM6 Maison Margiela (снимок 110)",
+"img": "MM6 Maison Margiela (набор 134)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"MM6 Maison Margiela",
-"Jil Sander",
 "Acne Studios",
+"Comme des Garçons",
+"MM6 Maison Margiela",
 "A.P.C."
 ],
 "ex": "Это MM6 Maison Margiela.",
 "archive_note": "",
 "blur": true,
 "plain": true,
-"id": 645,
-"correct": 0
-},
-{
-"mode": "l",
-"fame": 4,
-"level": 4,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "Junya Watanabe",
-"img": "Junya Watanabe (снимок 111)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Issey Miyake",
-"Junya Watanabe",
-"mastermind JAPAN",
-"Neighborhood"
-],
-"ex": "Это Junya Watanabe.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 646,
-"correct": 1
-},
-{
-"mode": "l",
-"fame": 3,
-"level": 3,
-"cx": 1,
-"cats": [
-"photo"
-],
-"brand": "MM6 Maison Margiela",
-"img": "MM6 Maison Margiela (снимок 112)",
-"archive": false,
-"photo_desc": "",
-"photo_query": "",
-"q": "Какой бренд выпустил эту вещь?",
-"opts": [
-"Acne Studios",
-"Comme des Garçons",
-"MM6 Maison Margiela",
-"Jil Sander"
-],
-"ex": "Это MM6 Maison Margiela.",
-"archive_note": "",
-"blur": true,
-"plain": true,
-"id": 647,
+"id": 627,
 "correct": 2
 },
 {
@@ -16601,22 +16061,49 @@
 "photo"
 ],
 "brand": "Alexander McQueen",
-"img": "Alexander McQueen (снимок 113)",
+"img": "Alexander McQueen (набор 135)",
 "archive": false,
 "photo_desc": "",
 "photo_query": "",
 "q": "Какой бренд выпустил эту вещь?",
 "opts": [
-"Givenchy",
 "Jean Paul Gaultier",
 "Rick Owens",
+"Givenchy",
 "Alexander McQueen"
 ],
 "ex": "Это Alexander McQueen.",
 "archive_note": "",
 "blur": true,
 "plain": true,
-"id": 648,
+"id": 628,
 "correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Dolce & Gabbana",
+"img": "Dolce & Gabbana (набор 136)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Dolce & Gabbana",
+"Moschino",
+"Versace",
+"Roberto Cavalli"
+],
+"ex": "Это Dolce & Gabbana.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 629,
+"correct": 0
 }
 ]

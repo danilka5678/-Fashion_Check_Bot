@@ -6,7 +6,7 @@ from pathlib import Path
 from aiogram import Bot, Dispatcher, F, Router
 from aiogram.client.default import DefaultBotProperties
 from aiogram.filters import Command, CommandStart
-from aiogram.types import BotCommand, CallbackQuery, BufferedInputFile, Message
+from aiogram.types import BotCommand, CallbackQuery, BufferedInputFile, InputMediaPhoto, Message
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 BASE = Path(__file__).parent
@@ -259,7 +259,7 @@ def menu_text(uid, note=""):
 # ---------- вопросы ----------
 import base64
 LOGO_FILES = {}
-for _f in ("logos_data.json", "logos_data2.json", "logos_data3.json"):
+for _f in sorted(p.name for p in BASE.glob("logos_data*.json")):
     try:
         LOGO_FILES.update(json.loads((BASE / _f).read_text(encoding="utf-8")))
     except Exception:
@@ -268,6 +268,16 @@ for _f in ("logos_data.json", "logos_data2.json", "logos_data3.json"):
 
 def logo_brands():
     return set(LOGO_FILES)
+
+
+async def send_img(msg: Message, key: str, kind: str, caption: str = "", kb=None):
+    """Несколько снимков вещи: альбом, а подпись с кнопками — отдельным сообщением."""
+    extra = LOGO_FILES[key].get(kind + "x")
+    if not extra:
+        return await send_logo(msg, key, kind, caption, kb)
+    pics = [LOGO_FILES[key][kind]] + extra
+    await msg.answer_media_group([InputMediaPhoto(media=BufferedInputFile(base64.b64decode(b), filename=f"{i}.jpg")) for i, b in enumerate(pics)])
+    return await msg.answer(caption, reply_markup=kb)
 
 
 async def send_logo(msg: Message, brand: str, kind: str, caption: str = "", kb=None):
@@ -313,12 +323,12 @@ async def ask(msg: Message, uid: int, mode: str = "g", tag=None, x=None):
     if x["mode"] == "l" and x.get("img", x["brand"]) in LOGO_FILES:
         if x.get("plain"):
             kb.adjust(1)
-            await send_logo(msg, x.get("img", x["brand"]), "full", text, kb.as_markup())
+            await send_img(msg, x.get("img", x["brand"]), "full", text, kb.as_markup())
             return
         if not x.get("blur"):
             kb.button(text="💡 Подсказка (меньше XP)", callback_data=f"h:{x['id']}")
         kb.adjust(1)
-        await send_logo(msg, x.get("img", x["brand"]), "q1", text, kb.as_markup())
+        await send_img(msg, x.get("img", x["brand"]), "q1", text, kb.as_markup())
         return
     await msg.answer(text, reply_markup=kb.as_markup())
 
@@ -611,7 +621,7 @@ async def answer_g(c: CallbackQuery):
     right = f"{'ABCD'[x['correct']]}) {html.escape(x['opts'][x['correct']])}"
     head = "✅ <b>Верно!</b>" if ok else f"❌ <b>Неверно.</b> Правильный ответ: <b>{right}</b>"
     if x["mode"] == "l" and x.get("img", x["brand"]) in LOGO_FILES and not x.get("plain"):
-        await send_logo(c.message, x.get("img", x["brand"]), "full", result_text(x, head, gain, notes), next_kb(uid))
+        await send_img(c.message, x.get("img", x["brand"]), "full", result_text(x, head, gain, notes), next_kb(uid))
     else:
         await c.message.answer(result_text(x, head, gain, notes), reply_markup=next_kb(uid))
 
