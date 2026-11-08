@@ -16639,5 +16639,194 @@
 "plain": true,
 "id": 649,
 "correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Maison Margiela",
+"img": "Maison Margiela (набор M1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Maison Margiela",
+"Haider Ackermann",
+"Dries Van Noten"
+],
+"ex": "Это вещь Maison Margiela.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 650,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Maison Margiela",
+"img": "Maison Margiela (набор M2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Raf Simons",
+"Yohji Yamamoto",
+"Maison Margiela",
+"Comme des Garçons"
+],
+"ex": "Это вещь Maison Margiela.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 651,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Maison Margiela",
+"img": "Maison Margiela (набор M3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Haider Ackermann",
+"Undercover",
+"Maison Margiela"
+],
+"ex": "Это вещь Maison Margiela.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 652,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Maison Margiela",
+"img": "Maison Margiela (набор M4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Maison Margiela",
+"Comme des Garçons",
+"Helmut Lang",
+"Acne Studios"
+],
+"ex": "Это вещь Maison Margiela.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 653,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Maison Margiela",
+"img": "Maison Margiela (набор M5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
+"opts": [
+"Yohji Yamamoto",
+"Maison Margiela",
+"Acne Studios",
+"Raf Simons"
+],
+"ex": "Это вещь Maison Margiela.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 654,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Maison Margiela",
+"img": "Maison Margiela (набор M6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Acne Studios",
+"Maison Margiela",
+"Ann Demeulemeester"
+],
+"ex": "Это вещь Maison Margiela.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 655,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Maison Margiela",
+"img": "Maison Margiela (набор M7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Raf Simons",
+"Jil Sander",
+"Acne Studios",
+"Maison Margiela"
+],
+"ex": "Это вещь Maison Margiela.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 656,
+"correct": 3
 }
 ]
