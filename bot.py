@@ -359,6 +359,24 @@ async def start(m: Message):
     await m.answer(menu_text(m.from_user.id, note), reply_markup=menu_kb(m.from_user.id))
 
 
+@router.message(Command("diag"))
+async def diag(m: Message):
+    raf = [x for x in QUESTIONS.values() if x["brand"] == "Raf Simons" and x.get("img")]
+    miss = [x for x in QUESTIONS.values() if x["mode"] == "l" and x.get("img", x["brand"]) not in LOGO_FILES]
+    await m.answer(f"Вопросов: {len(QUESTIONS)}\nКартинок: {len(LOGO_FILES)}\nВопросов Raf Simons: {len(raf)}\n"
+                   f"Вопросов без картинки: {len(miss)}\n\nПроверить фото Raf Simons: /raf")
+
+
+@router.message(Command("raf"))
+async def raf_test(m: Message):
+    ensure_user(m)
+    pool = [x for x in QUESTIONS.values() if x["brand"] == "Raf Simons" and x.get("img") and x["img"] in LOGO_FILES]
+    if not pool:
+        await m.answer("Фото Raf Simons не найдены: проверь, что на GitHub загружены questions.json и logos_data_17…24.json.")
+        return
+    await ask(m, m.from_user.id, "g", None, random.choice(pool))
+
+
 @router.message(Command("myid"))
 async def myid(m: Message):
     await m.answer(f"Твой ID: <code>{m.from_user.id}</code>")
