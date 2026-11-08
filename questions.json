@@ -16828,5 +16828,1193 @@
 "plain": true,
 "id": 656,
 "correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Maison Margiela",
+"Yohji Yamamoto",
+"Helmut Lang"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 657,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"1017 ALYX 9SM",
+"Rick Owens",
+"Helmut Lang",
+"Julius"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 658,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Maison Margiela",
+"Rick Owens",
+"Guidi"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 659,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Ann Demeulemeester",
+"Boris Bidjan Saberi",
+"Guidi",
+"Rick Owens"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 660,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Julius",
+"Undercover",
+"Boris Bidjan Saberi"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 661,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Rick Owens",
+"Carol Christian Poell",
+"Isaac Sellam"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 662,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"1017 ALYX 9SM",
+"Rick Owens",
+"Ann Demeulemeester"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 663,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"1017 ALYX 9SM",
+"Y-3",
+"Maison Margiela",
+"Rick Owens"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 664,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Undercover",
+"Maison Margiela",
+"Isaac Sellam"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 665,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"1017 ALYX 9SM",
+"Rick Owens",
+"Y-3",
+"Haider Ackermann"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 666,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O11)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Haider Ackermann",
+"Julius",
+"Rick Owens",
+"Dries Van Noten"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 667,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O12)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Helmut Lang",
+"Ann Demeulemeester",
+"Undercover",
+"Rick Owens"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 668,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O13)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Carol Christian Poell",
+"Julius",
+"Yohji Yamamoto"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 669,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O14)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Rick Owens",
+"Undercover",
+"Dries Van Noten"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 670,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O15)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Ann Demeulemeester",
+"Haider Ackermann",
+"Rick Owens",
+"Julius"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 671,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O16)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Y-3",
+"Helmut Lang",
+"Ann Demeulemeester",
+"Rick Owens"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 672,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O17)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Boris Bidjan Saberi",
+"Haider Ackermann",
+"Maison Margiela"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 673,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O18)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Rick Owens",
+"Raf Simons",
+"Helmut Lang"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 674,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O19)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Dries Van Noten",
+"Guidi",
+"Rick Owens",
+"Helmut Lang"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 675,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O20)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Ann Demeulemeester",
+"1017 ALYX 9SM",
+"Rick Owens"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 676,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O21)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Guidi",
+"Isaac Sellam",
+"Boris Bidjan Saberi"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 677,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O22)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Boris Bidjan Saberi",
+"Rick Owens",
+"Y-3",
+"Helmut Lang"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 678,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O23)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Maison Margiela",
+"1017 ALYX 9SM",
+"Rick Owens",
+"Boris Bidjan Saberi"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 679,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O24)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"1017 ALYX 9SM",
+"Dries Van Noten",
+"Helmut Lang",
+"Rick Owens"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 680,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O25)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"1017 ALYX 9SM",
+"Helmut Lang",
+"Y-3"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 681,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O26)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Isaac Sellam",
+"Rick Owens",
+"Haider Ackermann",
+"Helmut Lang"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 682,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O27)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Helmut Lang",
+"Raf Simons",
+"Rick Owens",
+"Y-3"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 683,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O28)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Raf Simons",
+"Undercover",
+"Isaac Sellam",
+"Rick Owens"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 684,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O29)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Yohji Yamamoto",
+"Carol Christian Poell",
+"Guidi"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 685,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O30)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Raf Simons",
+"Rick Owens",
+"Dries Van Noten",
+"Isaac Sellam"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 686,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O31)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"1017 ALYX 9SM",
+"Y-3",
+"Rick Owens",
+"Haider Ackermann"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 687,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O32)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Helmut Lang",
+"1017 ALYX 9SM",
+"Rick Owens"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 688,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O33)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Boris Bidjan Saberi",
+"Ann Demeulemeester",
+"Carol Christian Poell"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 689,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O34)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Boris Bidjan Saberi",
+"Rick Owens",
+"Guidi",
+"Dries Van Noten"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 690,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O35)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Isaac Sellam",
+"Rick Owens",
+"Dries Van Noten"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 691,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O36)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Y-3",
+"Yohji Yamamoto",
+"Helmut Lang",
+"Rick Owens"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 692,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O37)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Ann Demeulemeester",
+"Haider Ackermann",
+"Undercover"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 693,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O38)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Guidi",
+"Rick Owens",
+"Maison Margiela",
+"Julius"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 694,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O39)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Haider Ackermann",
+"Dries Van Noten",
+"Rick Owens",
+"Julius"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 695,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O40)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Helmut Lang",
+"Guidi",
+"Undercover",
+"Rick Owens"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 696,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O41)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"1017 ALYX 9SM",
+"Boris Bidjan Saberi",
+"Maison Margiela"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 697,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O42)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Isaac Sellam",
+"Rick Owens",
+"Boris Bidjan Saberi",
+"Y-3"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 698,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O43)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Raf Simons",
+"Rick Owens",
+"Julius"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 699,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Rick Owens",
+"img": "Rick Owens (набор O44)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
+"opts": [
+"Carol Christian Poell",
+"Dries Van Noten",
+"Y-3",
+"Rick Owens"
+],
+"ex": "Это вещь Rick Owens.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 700,
+"correct": 3
 }
 ]
