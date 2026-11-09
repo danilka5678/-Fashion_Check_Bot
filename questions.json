@@ -19096,5 +19096,950 @@
 "plain": true,
 "id": 740,
 "correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Sacai",
+"Neighborhood",
+"Comme des Garçons"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 741,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"mastermind JAPAN",
+"Number (N)ine",
+"Human Made",
+"Undercover"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 742,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Visvim",
+"Undercover",
+"Number (N)ine",
+"Comme des Garçons"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 743,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Human Made",
+"Kapital",
+"mastermind JAPAN",
+"Number (N)ine"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 744,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Neighborhood",
+"Hysteric Glamour",
+"mastermind JAPAN"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 745,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"WTAPS",
+"Number (N)ine",
+"mastermind JAPAN",
+"Kapital"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 746,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Comme des Garçons",
+"Number (N)ine",
+"Yohji Yamamoto"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 747,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"mastermind JAPAN",
+"Junya Watanabe",
+"Yohji Yamamoto",
+"Number (N)ine"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 748,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Hysteric Glamour",
+"Kapital",
+"Comme des Garçons"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 749,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Number (N)ine",
+"mastermind JAPAN",
+"Neighborhood"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 750,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N11)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Neighborhood",
+"Number (N)ine",
+"Human Made"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 751,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N12)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"mastermind JAPAN",
+"Undercover",
+"Neighborhood",
+"Number (N)ine"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 752,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N13)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Human Made",
+"Visvim",
+"Kapital"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 753,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N14)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Visvim",
+"Number (N)ine",
+"Undercover",
+"Kapital"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 754,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N15)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Sacai",
+"Number (N)ine",
+"Visvim"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 755,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N16)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Kapital",
+"Visvim",
+"Number (N)ine"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 756,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N17)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Hysteric Glamour",
+"Kapital",
+"mastermind JAPAN"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 757,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N18)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Number (N)ine",
+"Undercover",
+"mastermind JAPAN"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 758,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N19)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"mastermind JAPAN",
+"Sacai",
+"Number (N)ine",
+"Junya Watanabe"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 759,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N20)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Human Made",
+"Undercover",
+"Number (N)ine"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 760,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N21)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"mastermind JAPAN",
+"Hysteric Glamour",
+"Visvim"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 761,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N22)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Visvim",
+"Number (N)ine",
+"Hysteric Glamour",
+"Sacai"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 762,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N23)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Junya Watanabe",
+"Comme des Garçons",
+"Number (N)ine",
+"Neighborhood"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 763,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N24)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Comme des Garçons",
+"Visvim",
+"Number (N)ine"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 764,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N25)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Undercover",
+"Kapital",
+"Comme des Garçons"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 765,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N26)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"WTAPS",
+"Number (N)ine",
+"Comme des Garçons",
+"Yohji Yamamoto"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 766,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N27)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"WTAPS",
+"Yohji Yamamoto",
+"Number (N)ine",
+"Sacai"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 767,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N28)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"mastermind JAPAN",
+"Comme des Garçons",
+"Junya Watanabe",
+"Number (N)ine"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 768,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N29)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Human Made",
+"Sacai",
+"Visvim"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 769,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N30)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"WTAPS",
+"Number (N)ine",
+"Comme des Garçons",
+"Sacai"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 770,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N31)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Undercover",
+"Number (N)ine",
+"Junya Watanabe"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 771,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N32)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Neighborhood",
+"Yohji Yamamoto",
+"Number (N)ine"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 772,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N33)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Comme des Garçons",
+"Undercover",
+"Human Made"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 773,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N34)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Number (N)ine",
+"Neighborhood",
+"Visvim"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 774,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (набор N35)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Junya Watanabe",
+"Number (N)ine",
+"Hysteric Glamour"
+],
+"ex": "Это вещь Number (N)ine — японского бренда Такахиро Мияситы.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 775,
+"correct": 2
 }
 ]
