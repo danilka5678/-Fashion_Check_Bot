@@ -20041,5 +20041,464 @@
 "plain": true,
 "id": 775,
 "correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Ann Demeulemeester",
+"Undercover",
+"Yohji Yamamoto"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 776,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Issey Miyake",
+"Comme des Garçons",
+"Dries Van Noten"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 777,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Yohji Yamamoto",
+"Helmut Lang",
+"Issey Miyake"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 778,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Ann Demeulemeester",
+"Junya Watanabe",
+"Yohji Yamamoto",
+"Issey Miyake"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 779,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Maison Margiela",
+"Issey Miyake",
+"Helmut Lang",
+"Yohji Yamamoto"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 780,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Sacai",
+"Undercover",
+"Maison Margiela"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 781,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Yohji Yamamoto",
+"Rick Owens",
+"Maison Margiela"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 782,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Junya Watanabe",
+"Helmut Lang",
+"Yohji Yamamoto",
+"Undercover"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 783,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Issey Miyake",
+"Ann Demeulemeester",
+"Yohji Yamamoto"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 784,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Helmut Lang",
+"Ann Demeulemeester",
+"Dries Van Noten"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 785,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y11)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Yohji Yamamoto",
+"Comme des Garçons",
+"Ann Demeulemeester"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 786,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y12)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Dries Van Noten",
+"Helmut Lang",
+"Yohji Yamamoto",
+"Comme des Garçons"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 787,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y13)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Helmut Lang",
+"Sacai",
+"Dries Van Noten",
+"Yohji Yamamoto"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 788,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y14)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Helmut Lang",
+"Dries Van Noten",
+"Junya Watanabe"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 789,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y15)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Helmut Lang",
+"Yohji Yamamoto",
+"Issey Miyake",
+"Sacai"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 790,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y16)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Issey Miyake",
+"Yohji Yamamoto",
+"Dries Van Noten"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 791,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Yohji Yamamoto",
+"img": "Yohji Yamamoto (набор Y17)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Rick Owens",
+"Comme des Garçons",
+"Yohji Yamamoto"
+],
+"ex": "Это вещь Yohji Yamamoto.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 792,
+"correct": 3
 }
 ]
