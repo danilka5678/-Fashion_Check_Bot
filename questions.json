@@ -1856,31 +1856,6 @@
 "cats": [
 "west"
 ],
-"brand": "Vogue",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Vogue",
-"q": "Главным редактором какого журнала долгие годы является Анна Винтур?",
-"opts": [
-"Elle",
-"Harper's Bazaar",
-"Vogue",
-"Cosmopolitan"
-],
-"ex": "Анна Винтур возглавляет американский Vogue.",
-"archive_note": "",
-"force": 1,
-"level": 1,
-"id": 75,
-"correct": 2
-},
-{
-"mode": "g",
-"fame": 1,
-"cx": 1,
-"cats": [
-"west"
-],
 "brand": "Met Gala",
 "archive": false,
 "photo_desc": "",
@@ -1889,15 +1864,15 @@
 "opts": [
 "В Музее Гуггенхайма",
 "В MoMA",
-"В музее Уитни",
-"В Метрополитен-музее"
+"В Метрополитен-музее",
+"В музее Уитни"
 ],
 "ex": "Met Gala — ежегодный бал Института костюма при Метрополитен-музее.",
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 76,
-"correct": 3
+"id": 75,
+"correct": 2
 },
 {
 "mode": "g",
@@ -1912,17 +1887,17 @@
 "photo_query": "Fashion Week",
 "q": "Какой город НЕ входит в «большую четвёрку» недель моды?",
 "opts": [
-"Токио",
 "Нью-Йорк",
 "Лондон",
-"Париж"
+"Париж",
+"Токио"
 ],
 "ex": "Главные недели моды проходят в Нью-Йорке, Лондоне, Милане и Париже.",
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 77,
-"correct": 0
+"id": 76,
+"correct": 3
 },
 {
 "mode": "g",
@@ -1937,8 +1912,8 @@
 "photo_query": "Dior",
 "q": "Какой знаменитый мужской аромат Dior вышел в 2015 году?",
 "opts": [
-"Fahrenheit",
 "Sauvage",
+"Fahrenheit",
 "Eros",
 "Bleu"
 ],
@@ -1946,8 +1921,8 @@
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 78,
-"correct": 1
+"id": 77,
+"correct": 0
 },
 {
 "mode": "g",
@@ -1963,16 +1938,16 @@
 "q": "Как называется узкая сцена, по которой идут модели на показе?",
 "opts": [
 "Арена",
-"Подмостки",
 "Подиум",
+"Подмостки",
 "Мольберт"
 ],
 "ex": "Подиум (catwalk) — главная сцена показа.",
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 79,
-"correct": 2
+"id": 78,
+"correct": 1
 },
 {
 "mode": "g",
@@ -1989,15 +1964,15 @@
 "opts": [
 "Nike Dunk",
 "Nike Cortez",
-"Nike Blazer",
-"Nike Mag"
+"Nike Mag",
+"Nike Blazer"
 ],
 "ex": "Nike Mag стали реальными кроссовками спустя десятилетия.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 80,
-"correct": 3
+"id": 79,
+"correct": 2
 },
 {
 "mode": "g",
@@ -2012,17 +1987,17 @@
 "photo_query": "Manolo Blahnik",
 "q": "Какой бренд обуви стал символом героини Кэрри Брэдшоу в «Сексе в большом городе»?",
 "opts": [
-"Manolo Blahnik",
 "Christian Louboutin",
 "Jimmy Choo",
-"Nine West"
+"Nine West",
+"Manolo Blahnik"
 ],
 "ex": "Кэрри обожала туфли Manolo Blahnik.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 81,
-"correct": 0
+"id": 80,
+"correct": 3
 },
 {
 "mode": "g",
@@ -2037,8 +2012,8 @@
 "photo_query": "Supreme",
 "q": "С каким люксовым домом Supreme выпустил коллаборацию 2017 года, взорвавшую хайп-культуру?",
 "opts": [
-"Gucci",
 "Louis Vuitton",
+"Gucci",
 "Prada",
 "Balenciaga"
 ],
@@ -2046,8 +2021,8 @@
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 82,
-"correct": 1
+"id": 81,
+"correct": 0
 },
 {
 "mode": "g",
@@ -2063,16 +2038,16 @@
 "q": "С каким итальянским домом Adidas выпустил совместную версию Superstar в 2019 году?",
 "opts": [
 "Gucci",
-"Fendi",
 "Prada",
+"Fendi",
 "Versace"
 ],
 "ex": "Prada for Adidas — коллаборация с Superstar.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 83,
-"correct": 2
+"id": 82,
+"correct": 1
 },
 {
 "mode": "g",
@@ -2089,15 +2064,15 @@
 "opts": [
 "Gucci",
 "Prada",
-"Chanel",
-"Balenciaga"
+"Balenciaga",
+"Chanel"
 ],
 "ex": "Balenciaga сделала платформенные Crocs.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 84,
-"correct": 3
+"id": 83,
+"correct": 2
 },
 {
 "mode": "g",
@@ -2112,17 +2087,17 @@
 "photo_query": "Comme des Garçons",
 "q": "С каким брендом кед Comme des Garçons Play делает коллаборации с сердечком на щиколотке?",
 "opts": [
-"Converse",
 "Vans",
 "Nike",
-"Reebok"
+"Reebok",
+"Converse"
 ],
 "ex": "Converse × Comme des Garçons Play — один из бестселлеров.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 85,
-"correct": 0
+"id": 84,
+"correct": 3
 },
 {
 "mode": "g",
@@ -2137,8 +2112,8 @@
 "photo_query": "Hermès",
 "q": "Что изображено на логотипе Hermès?",
 "opts": [
-"Орёл",
 "Карета с лошадью",
+"Орёл",
 "Корона",
 "Лев"
 ],
@@ -2146,8 +2121,8 @@
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 86,
-"correct": 1
+"id": 85,
+"correct": 0
 },
 {
 "mode": "g",
@@ -2163,16 +2138,16 @@
 "q": "Какой фильм Ридли Скотта 2021 года рассказывает о семье Gucci?",
 "opts": [
 "«Гладиатор»",
-"«Чужой»",
 "«Дом Gucci»",
+"«Чужой»",
 "«Последняя дуэль»"
 ],
 "ex": "«Дом Gucci» — драма о династии Гуччи.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 87,
-"correct": 2
+"id": 86,
+"correct": 1
 },
 {
 "mode": "g",
@@ -2189,15 +2164,15 @@
 "opts": [
 "Levi's",
 "Carhartt",
-"Wrangler",
-"Schott"
+"Schott",
+"Wrangler"
 ],
 "ex": "Куртка Schott Perfecto стала символом бунтарей.",
 "archive_note": "",
 "force": 3,
 "level": 3,
-"id": 88,
-"correct": 3
+"id": 87,
+"correct": 2
 },
 {
 "mode": "g",
@@ -2212,17 +2187,17 @@
 "photo_query": "Giorgio Armani",
 "q": "Какой фильм 1980 года с Ричардом Гиром сделал Giorgio Armani звездой Голливуда?",
 "opts": [
-"«Американский жиголо»",
 "«Офицер и джентльмен»",
 "«Красотка»",
-"«Чикаго»"
+"«Чикаго»",
+"«Американский жиголо»"
 ],
 "ex": "Костюмы Armani в «Американском жиголо» принесли бренду известность.",
 "archive_note": "",
 "force": 3,
 "level": 3,
-"id": 89,
-"correct": 0
+"id": 88,
+"correct": 3
 },
 {
 "mode": "g",
@@ -2237,8 +2212,8 @@
 "photo_query": "Nike",
 "q": "Как называлась коллекция Nike × Off-White 2017 года из десяти моделей?",
 "opts": [
-"Ten Tens",
 "The Ten",
+"Ten Tens",
 "Blazer Ten",
 "Deconstructed"
 ],
@@ -2246,8 +2221,8 @@
 "archive_note": "",
 "force": 3,
 "level": 3,
-"id": 90,
-"correct": 1
+"id": 89,
+"correct": 0
 },
 {
 "mode": "g",
@@ -2263,16 +2238,16 @@
 "q": "Какой дом выпустил Air Jordan 1 тиражом в 8 500 пар в 2020 году?",
 "opts": [
 "Gucci",
-"Louis Vuitton",
 "Dior",
+"Louis Vuitton",
 "Balenciaga"
 ],
 "ex": "Dior × Air Jordan 1 стал одной из самых дорогих коллабораций.",
 "archive_note": "",
 "force": 3,
 "level": 3,
-"id": 91,
-"correct": 2
+"id": 90,
+"correct": 1
 },
 {
 "mode": "g",
@@ -2289,15 +2264,15 @@
 "opts": [
 "Blazer Low",
 "Air Max 90",
-"Zoom Vomero",
-"LDWaffle"
+"LDWaffle",
+"Zoom Vomero"
 ],
 "ex": "LDWaffle — гибрид Nike LDV и Waffle Racer.",
 "archive_note": "",
 "force": 3,
 "level": 3,
-"id": 92,
-"correct": 3
+"id": 91,
+"correct": 2
 },
 {
 "mode": "g",
@@ -2312,17 +2287,17 @@
 "photo_query": "Dior",
 "q": "По какому номеру дома на авеню Монтень находится Dior?",
 "opts": [
-"30",
 "10",
 "50",
-"24"
+"24",
+"30"
 ],
 "ex": "Дом Dior находится по адресу 30 avenue Montaigne.",
 "archive_note": "",
 "force": 3,
 "level": 3,
-"id": 93,
-"correct": 0
+"id": 92,
+"correct": 3
 },
 {
 "mode": "g",
@@ -2337,8 +2312,8 @@
 "photo_query": "Chanel",
 "q": "На какой улице Парижа находится первый бутик Коко Шанель, дом 31?",
 "opts": [
-"Rue de Rivoli",
 "Rue Cambon",
+"Rue de Rivoli",
 "Avenue Montaigne",
 "Rue Saint-Honoré"
 ],
@@ -2346,8 +2321,8 @@
 "archive_note": "",
 "force": 3,
 "level": 3,
-"id": 94,
-"correct": 1
+"id": 93,
+"correct": 0
 },
 {
 "mode": "g",
@@ -2363,16 +2338,16 @@
 "q": "Для каких команд изначально выпустили Nike Dunk в 1985 году?",
 "opts": [
 "Профессиональных футбольных клубов",
-"Олимпийской сборной",
 "Студенческих баскетбольных команд",
+"Олимпийской сборной",
 "Школьных хоккейных команд"
 ],
 "ex": "Nike Dunk выпускали в цветах студенческих команд.",
 "archive_note": "",
 "force": 3,
 "level": 3,
-"id": 95,
-"correct": 2
+"id": 94,
+"correct": 1
 },
 {
 "mode": "g",
@@ -2389,15 +2364,15 @@
 "opts": [
 "Stan Smith",
 "Gazelle",
-"Samba",
-"Superstar"
+"Superstar",
+"Samba"
 ],
 "ex": "Superstar появилась в 1969 году.",
 "archive_note": "",
 "force": 3,
 "level": 3,
-"id": 96,
-"correct": 3
+"id": 95,
+"correct": 2
 },
 {
 "mode": "g",
@@ -2412,17 +2387,17 @@
 "photo_query": "Schiaparelli",
 "q": "С каким художником-сюрреалистом Эльза Скиапарелли сделала платье с омаром?",
 "opts": [
-"Сальвадор Дали",
 "Рене Магритт",
 "Пабло Пикассо",
-"Марк Шагал"
+"Марк Шагал",
+"Сальвадор Дали"
 ],
 "ex": "Платье-омар придумали Скиапарелли и Дали в 1937 году.",
 "archive_note": "",
 "force": 3,
 "level": 3,
-"id": 97,
-"correct": 0
+"id": 96,
+"correct": 3
 },
 {
 "mode": "g",
@@ -2437,8 +2412,8 @@
 "photo_query": "Chanel",
 "q": "Какой фильм 2009 года рассказывает о юности Коко Шанель?",
 "opts": [
-"«Завтрак у Тиффани»",
 "«Коко до Шанель»",
+"«Завтрак у Тиффани»",
 "«Дьявол носит Prada»",
 "«Париж, я люблю тебя»"
 ],
@@ -2446,8 +2421,8 @@
 "archive_note": "",
 "force": 3,
 "level": 3,
-"id": 98,
-"correct": 1
+"id": 97,
+"correct": 0
 },
 {
 "mode": "g",
@@ -2463,16 +2438,16 @@
 "q": "Какой бренд Хироси Фудзивара известен логотипом из двух молний?",
 "opts": [
 "Neighborhood",
-"WTAPS",
 "Fragment Design",
+"WTAPS",
 "Undercover"
 ],
 "ex": "Fragment Design — лейбл Хироси Фудзивары с логотипом-молнией.",
 "archive_note": "",
 "force": 4,
 "level": 4,
-"id": 99,
-"correct": 2
+"id": 98,
+"correct": 1
 },
 {
 "mode": "g",
@@ -2489,15 +2464,15 @@
 "opts": [
 "Баскетболиста Чака Тейлора",
 "Американского президента",
-"Города в штате Индиана",
-"Основателя Маркиса Миллса Конверса"
+"Основателя Маркиса Миллса Конверса",
+"Города в штате Индиана"
 ],
 "ex": "Компанию основал Маркис Миллс Конверс в 1908 году.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 100,
-"correct": 3
+"id": 99,
+"correct": 2
 },
 {
 "mode": "g",
@@ -2512,17 +2487,17 @@
 "photo_query": "Puma",
 "q": "Какое животное изображено на логотипе Puma?",
 "opts": [
-"Пума",
 "Леопард",
 "Ягуар",
-"Тигр"
+"Тигр",
+"Пума"
 ],
 "ex": "Логотип Puma — прыгающая пума.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 101,
-"correct": 0
+"id": 100,
+"correct": 3
 },
 {
 "mode": "g",
@@ -2537,8 +2512,8 @@
 "photo_query": "Chanel",
 "q": "Что изображено на логотипе Chanel?",
 "opts": [
-"Камелия",
 "Две переплетённые буквы C",
+"Камелия",
 "Корона",
 "Жемчужная нить"
 ],
@@ -2546,8 +2521,8 @@
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 102,
-"correct": 1
+"id": 101,
+"correct": 0
 },
 {
 "mode": "g",
@@ -2563,16 +2538,16 @@
 "q": "Какого цвета фирменная плашка с логотипом Supreme?",
 "opts": [
 "Чёрного",
-"Синего",
 "Красного",
+"Синего",
 "Жёлтого"
 ],
 "ex": "Box Logo — белые буквы на красном прямоугольнике.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 103,
-"correct": 2
+"id": 102,
+"correct": 1
 },
 {
 "mode": "g",
@@ -2589,15 +2564,15 @@
 "opts": [
 "Лев",
 "Орёл",
-"Король",
-"Рыцарь на коне"
+"Рыцарь на коне",
+"Король"
 ],
 "ex": "Equestrian Knight — всадник со знаменем, на котором написано Prorsum.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 104,
-"correct": 3
+"id": 103,
+"correct": 2
 },
 {
 "mode": "g",
@@ -2612,17 +2587,17 @@
 "photo_query": "Общее",
 "q": "Для кого изначально создали куртки-бомберы?",
 "opts": [
-"Для военных лётчиков",
 "Для моряков",
 "Для водителей",
-"Для лыжников"
+"Для лыжников",
+"Для военных лётчиков"
 ],
 "ex": "Бомбер вырос из лётных курток первой половины XX века.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 105,
-"correct": 0
+"id": 104,
+"correct": 3
 },
 {
 "mode": "g",
@@ -2637,8 +2612,8 @@
 "photo_query": "Общее",
 "q": "Для кого изначально шили тельняшки?",
 "opts": [
-"Для лётчиков",
 "Для моряков",
+"Для лётчиков",
 "Для шахтёров",
 "Для спортсменов"
 ],
@@ -2646,8 +2621,8 @@
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 106,
-"correct": 1
+"id": 105,
+"correct": 0
 },
 {
 "mode": "g",
@@ -2663,16 +2638,16 @@
 "q": "Какая модель Nike 1982 года стала первой баскетбольной кроссовкой с технологией Air?",
 "opts": [
 "Air Max 1",
-"Air Jordan 3",
 "Air Force 1",
+"Air Jordan 3",
 "Air Huarache"
 ],
 "ex": "Air Force 1 создал дизайнер Брюс Килгор.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 107,
-"correct": 2
+"id": 106,
+"correct": 1
 },
 {
 "mode": "g",
@@ -2689,15 +2664,15 @@
 "opts": [
 "Toy Story",
 "Madagascar",
-"Cars",
-"Space Jam"
+"Space Jam",
+"Cars"
 ],
 "ex": "В Space Jam Джордан носил Air Jordan 11 «Concord».",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 108,
-"correct": 3
+"id": 107,
+"correct": 2
 },
 {
 "mode": "g",
@@ -2712,17 +2687,17 @@
 "photo_query": "Общее",
 "q": "Что означает слово «дроп» в мире уличной моды?",
 "opts": [
-"Ограниченный выпуск вещей",
 "Распродажа со скидкой",
 "Показ на подиуме",
-"Возврат товара"
+"Возврат товара",
+"Ограниченный выпуск вещей"
 ],
 "ex": "Дропы выходят небольшим тиражом в назначенное время.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 109,
-"correct": 0
+"id": 108,
+"correct": 3
 },
 {
 "mode": "g",
@@ -2737,8 +2712,8 @@
 "photo_query": "Общее",
 "q": "Как называют людей, которые коллекционируют кроссовки?",
 "opts": [
-"Шузхолики",
 "Сникерхеды",
+"Шузхолики",
 "Лоферы",
 "Кроссфиты"
 ],
@@ -2746,8 +2721,8 @@
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 110,
-"correct": 1
+"id": 109,
+"correct": 0
 },
 {
 "mode": "g",
@@ -2763,16 +2738,16 @@
 "q": "Какая собака изображена на логотипе обувного бренда Hush Puppies?",
 "opts": [
 "Бульдог",
-"Пудель",
 "Бассет-хаунд",
+"Пудель",
 "Такса"
 ],
 "ex": "Грустный бассет-хаунд — символ бренда.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 111,
-"correct": 2
+"id": 110,
+"correct": 1
 },
 {
 "mode": "g",
@@ -2789,15 +2764,15 @@
 "opts": [
 "Из натуральной кожи",
 "Из хлопка",
-"Из дерева",
-"Из специальной пены Croslite"
+"Из специальной пены Croslite",
+"Из дерева"
 ],
 "ex": "Croslite — лёгкий и мягкий пенный материал.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 112,
-"correct": 3
+"id": 111,
+"correct": 2
 },
 {
 "mode": "g",
@@ -2812,12 +2787,37 @@
 "photo_query": "Общее",
 "q": "Что означает французское выражение haute couture?",
 "opts": [
-"Высокое шитьё",
 "Готовая одежда",
 "Уличный стиль",
-"Лёгкая ткань"
+"Лёгкая ткань",
+"Высокое шитьё"
 ],
 "ex": "Haute couture — одежда ручной работы по индивидуальным меркам.",
+"archive_note": "",
+"force": 2,
+"level": 2,
+"id": 112,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 2,
+"cats": [
+"west"
+],
+"brand": "Общее",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Общее",
+"q": "Что такое капсульная коллекция?",
+"opts": [
+"Небольшая коллекция из нескольких вещей",
+"Коллекция только из таблеток",
+"Коллекция одного цвета",
+"Показ без зрителей"
+],
+"ex": "Капсулу часто делают ограниченным тиражом.",
 "archive_note": "",
 "force": 2,
 "level": 2,
@@ -2835,14 +2835,14 @@
 "archive": false,
 "photo_desc": "",
 "photo_query": "Общее",
-"q": "Что такое капсульная коллекция?",
+"q": "В каком итальянском городе проходит главная Неделя моды страны?",
 "opts": [
-"Коллекция только из таблеток",
-"Небольшая коллекция из нескольких вещей",
-"Коллекция одного цвета",
-"Показ без зрителей"
+"Рим",
+"Милан",
+"Венеция",
+"Неаполь"
 ],
-"ex": "Капсулу часто делают ограниченным тиражом.",
+"ex": "Миланская неделя моды — одна из «большой четвёрки».",
 "archive_note": "",
 "force": 2,
 "level": 2,
@@ -2860,44 +2860,19 @@
 "archive": false,
 "photo_desc": "",
 "photo_query": "Общее",
-"q": "В каком итальянском городе проходит главная Неделя моды страны?",
-"opts": [
-"Рим",
-"Венеция",
-"Милан",
-"Неаполь"
-],
-"ex": "Миланская неделя моды — одна из «большой четвёрки».",
-"archive_note": "",
-"force": 2,
-"level": 2,
-"id": 115,
-"correct": 2
-},
-{
-"mode": "g",
-"fame": 1,
-"cx": 2,
-"cats": [
-"west"
-],
-"brand": "Общее",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Общее",
 "q": "Какие четыре города называют главными столицами моды?",
 "opts": [
 "Париж, Берлин, Мадрид, Токио",
 "Рим, Вена, Лондон, Сидней",
-"Милан, Москва, Дубай, Сеул",
-"Париж, Милан, Лондон, Нью-Йорк"
+"Париж, Милан, Лондон, Нью-Йорк",
+"Милан, Москва, Дубай, Сеул"
 ],
 "ex": "В этих городах проходят крупнейшие недели моды.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 116,
-"correct": 3
+"id": 115,
+"correct": 2
 },
 {
 "mode": "g",
@@ -2912,17 +2887,17 @@
 "photo_query": "Louis Vuitton",
 "q": "Какой японский художник в 2003 году сделал для Louis Vuitton цветную монограмму?",
 "opts": [
-"Такаши Мураками",
 "Ёситомо Нара",
 "Хироси Фудзивара",
-"Хаяо Миядзаки"
+"Хаяо Миядзаки",
+"Такаши Мураками"
 ],
 "ex": "Мураками раскрасил монограмму в 33 цвета.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 117,
-"correct": 0
+"id": 116,
+"correct": 3
 },
 {
 "mode": "g",
@@ -2937,8 +2912,8 @@
 "photo_query": "Victoria's Secret",
 "q": "Как называли моделей бренда Victoria's Secret на показах?",
 "opts": [
-"Феи",
 "Ангелы",
+"Феи",
 "Музы",
 "Королевы"
 ],
@@ -2946,8 +2921,8 @@
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 118,
-"correct": 1
+"id": 117,
+"correct": 0
 },
 {
 "mode": "g",
@@ -2963,16 +2938,16 @@
 "q": "Как называли Наоми Кэмпбелл, Синди Кроуфорд, Линду Евангелисту и Кристи Тарлингтон в 1990-х?",
 "opts": [
 "Королевы подиума",
-"Топ-звёзды",
 "Супермодели",
+"Топ-звёзды",
 "Ангелы"
 ],
 "ex": "Это слово придумали для самых известных моделей эпохи.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 119,
-"correct": 2
+"id": 118,
+"correct": 1
 },
 {
 "mode": "g",
@@ -2989,15 +2964,15 @@
 "opts": [
 "Красный круг",
 "Зелёный треугольник",
-"Чёрный ромб",
-"Синий квадрат"
+"Синий квадрат",
+"Чёрный ромб"
 ],
 "ex": "Классический логотип — белые буквы на синем квадрате.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 120,
-"correct": 3
+"id": 119,
+"correct": 2
 },
 {
 "mode": "g",
@@ -3012,17 +2987,17 @@
 "photo_query": "Maison Margiela",
 "q": "Как называются ботинки Maison Margiela с раздвоенным носком?",
 "opts": [
-"Tabi",
 "GAT",
 "Derby",
-"Chelsea"
+"Chelsea",
+"Tabi"
 ],
 "ex": "Tabi вдохновлены японскими носками таби.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 121,
-"correct": 0
+"id": 120,
+"correct": 3
 },
 {
 "mode": "g",
@@ -3037,8 +3012,8 @@
 "photo_query": "Jordan Brand",
 "q": "Какие цвета у легендарных кроссовок Air Jordan 1 «Bred»?",
 "opts": [
-"Синий и белый",
 "Чёрный и красный",
+"Синий и белый",
 "Зелёный и жёлтый",
 "Розовый и серый"
 ],
@@ -3046,8 +3021,8 @@
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 122,
-"correct": 1
+"id": 121,
+"correct": 0
 },
 {
 "mode": "g",
@@ -3063,16 +3038,16 @@
 "q": "Какие цвета у популярных кроссовок Nike Dunk Low «Panda»?",
 "opts": [
 "Красный и жёлтый",
-"Синий и оранжевый",
 "Чёрный и белый",
+"Синий и оранжевый",
 "Зелёный и розовый"
 ],
 "ex": "Цвета напоминают панду.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 123,
-"correct": 2
+"id": 122,
+"correct": 1
 },
 {
 "mode": "g",
@@ -3089,15 +3064,15 @@
 "opts": [
 "Новая модель будущего",
 "Модель для бега",
-"Подделка оригинала",
-"Переиздание старой модели"
+"Переиздание старой модели",
+"Подделка оригинала"
 ],
 "ex": "Retro — повторный выпуск классики.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 124,
-"correct": 3
+"id": 123,
+"correct": 2
 },
 {
 "mode": "g",
@@ -3112,17 +3087,17 @@
 "photo_query": "Общее",
 "q": "Что означает слово «оверсайз» в моде?",
 "opts": [
-"Свободный, увеличенный крой",
 "Вещь из шерсти",
 "Одежда для спорта",
-"Очень короткая вещь"
+"Очень короткая вещь",
+"Свободный, увеличенный крой"
 ],
 "ex": "Oversize — одежда, которая крупнее обычного размера.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 125,
-"correct": 0
+"id": 124,
+"correct": 3
 },
 {
 "mode": "g",
@@ -3137,8 +3112,8 @@
 "photo_query": "Общее",
 "q": "Что означает слово streetwear?",
 "opts": [
-"Одежда для красной дорожки",
 "Уличная одежда в повседневном стиле",
+"Одежда для красной дорожки",
 "Рабочая форма",
 "Одежда для дома"
 ],
@@ -3146,8 +3121,8 @@
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 126,
-"correct": 1
+"id": 125,
+"correct": 0
 },
 {
 "mode": "g",
@@ -3163,16 +3138,16 @@
 "q": "Что такое лукбук в мире моды?",
 "opts": [
 "Список цен",
-"Название подиума",
 "Фотокаталог коллекции",
+"Название подиума",
 "Журнал для моделей"
 ],
 "ex": "В лукбуке показывают образы из новой коллекции.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 127,
-"correct": 2
+"id": 126,
+"correct": 1
 },
 {
 "mode": "g",
@@ -3189,15 +3164,15 @@
 "opts": [
 "Чёрного",
 "Золотого",
-"Белого",
-"Красного"
+"Красного",
+"Белого"
 ],
 "ex": "Красная подошва — фирменный знак Лабутена.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 128,
-"correct": 3
+"id": 127,
+"correct": 2
 },
 {
 "mode": "g",
@@ -3213,17 +3188,17 @@
 "photo_query": "Lacoste",
 "q": "Какое животное изображено на логотипе Lacoste?",
 "opts": [
-"Крокодил",
 "Змея",
 "Ящерица",
-"Динозавр"
+"Динозавр",
+"Крокодил"
 ],
 "ex": "Основатель Рене Лакост получил прозвище «Крокодил».",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 129,
-"correct": 0
+"id": 128,
+"correct": 3
 },
 {
 "mode": "g",
@@ -3239,8 +3214,8 @@
 "photo_query": "Fred Perry",
 "q": "Какое растение изображено на логотипе Fred Perry?",
 "opts": [
-"Роза",
 "Лавровый венок",
+"Роза",
 "Дубовый лист",
 "Клевер"
 ],
@@ -3248,8 +3223,8 @@
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 130,
-"correct": 1
+"id": 129,
+"correct": 0
 },
 {
 "mode": "g",
@@ -3265,16 +3240,16 @@
 "q": "Чья голова изображена на логотипе Versace?",
 "opts": [
 "Афины",
-"Зевса",
 "Медузы Горгоны",
+"Зевса",
 "Аполлона"
 ],
 "ex": "Медуза — символ бренда с 1978 года.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 131,
-"correct": 2
+"id": 130,
+"correct": 1
 },
 {
 "mode": "g",
@@ -3291,15 +3266,15 @@
 "opts": [
 "GC",
 "GU",
-"CG",
-"GG"
+"GG",
+"CG"
 ],
 "ex": "Двойная G — инициалы основателя Гуччо Гуччи.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 132,
-"correct": 3
+"id": 131,
+"correct": 2
 },
 {
 "mode": "g",
@@ -3314,17 +3289,17 @@
 "photo_query": "Rocawear",
 "q": "Какой знаменитый рэпер основал бренд одежды Rocawear?",
 "opts": [
-"Jay-Z",
 "Eminem",
 "50 Cent",
-"Snoop Dogg"
+"Snoop Dogg",
+"Jay-Z"
 ],
 "ex": "Rocawear основали Jay-Z и Деймон Дэш в 1999 году.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 133,
-"correct": 0
+"id": 132,
+"correct": 3
 },
 {
 "mode": "g",
@@ -3339,8 +3314,8 @@
 "photo_query": "Fenty",
 "q": "Как называется бренд Рианны, выпускающий косметику и одежду?",
 "opts": [
-"Ivy Park",
 "Fenty",
+"Ivy Park",
 "SKIMS",
 "Pleasing"
 ],
@@ -3348,8 +3323,8 @@
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 134,
-"correct": 1
+"id": 133,
+"correct": 0
 },
 {
 "mode": "g",
@@ -3365,16 +3340,16 @@
 "q": "Какой рэпер выпустил Air Jordan 1 с перевёрнутой галочкой Swoosh?",
 "opts": [
 "Дрейк",
-"Канье Уэст",
 "Трэвис Скотт",
+"Канье Уэст",
 "Лил Уэйн"
 ],
 "ex": "Travis Scott x Air Jordan 1 — одна из самых известных коллабораций.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 135,
-"correct": 2
+"id": 134,
+"correct": 1
 },
 {
 "mode": "g",
@@ -3391,15 +3366,15 @@
 "opts": [
 "Kelly",
 "Constance",
-"Evelyne",
-"Birkin"
+"Birkin",
+"Evelyne"
 ],
 "ex": "Сумку Birkin создали в 1984 году.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 136,
-"correct": 3
+"id": 135,
+"correct": 2
 },
 {
 "mode": "g",
@@ -3414,17 +3389,17 @@
 "photo_query": "Chanel",
 "q": "Какой узор у классических сумок Chanel?",
 "opts": [
-"Стёганый",
 "Клетка",
 "Полоска",
-"Горошек"
+"Горошек",
+"Стёганый"
 ],
 "ex": "Стёганая отделка — фирменный приём Chanel.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 137,
-"correct": 0
+"id": 136,
+"correct": 3
 },
 {
 "mode": "g",
@@ -3440,8 +3415,8 @@
 "photo_query": "Adidas",
 "q": "Сколько полос на логотипе Adidas?",
 "opts": [
-"Две",
 "Три",
+"Две",
 "Четыре",
 "Пять"
 ],
@@ -3449,8 +3424,8 @@
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 138,
-"correct": 1
+"id": 137,
+"correct": 0
 },
 {
 "mode": "g",
@@ -3466,16 +3441,16 @@
 "q": "Какого цвета фирменная коробка Tiffany & Co.?",
 "opts": [
 "Красного",
-"Зелёного",
 "Бирюзово-голубого",
+"Зелёного",
 "Розового"
 ],
 "ex": "Этот оттенок называют Tiffany Blue.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 139,
-"correct": 2
+"id": 138,
+"correct": 1
 },
 {
 "mode": "g",
@@ -3492,15 +3467,15 @@
 "opts": [
 "Lady",
 "Book Tote",
-"Bobby",
-"Saddle"
+"Saddle",
+"Bobby"
 ],
 "ex": "Saddle Bag создал Джон Гальяно в 1999 году.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 140,
-"correct": 3
+"id": 139,
+"correct": 2
 },
 {
 "mode": "g",
@@ -3516,17 +3491,17 @@
 "photo_query": "Nike",
 "q": "Как называется галочка на логотипе Nike?",
 "opts": [
-"Swoosh",
 "Tick",
 "Wave",
-"Flash"
+"Flash",
+"Swoosh"
 ],
 "ex": "Swoosh означает «свист» — звук быстрого движения.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 141,
-"correct": 0
+"id": 140,
+"correct": 3
 },
 {
 "mode": "g",
@@ -3541,8 +3516,8 @@
 "photo_query": "Levi's",
 "q": "Что вышито на заднем кармане джинсов Levi's?",
 "opts": [
-"Звезда",
 "Две дуги",
+"Звезда",
 "Корона",
 "Молния"
 ],
@@ -3550,8 +3525,8 @@
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 142,
-"correct": 1
+"id": 141,
+"correct": 0
 },
 {
 "mode": "g",
@@ -3568,16 +3543,16 @@
 "q": "Какой знаменитый футболист основал бренд CR7?",
 "opts": [
 "Лионель Месси",
-"Дэвид Бекхэм",
 "Криштиану Роналду",
+"Дэвид Бекхэм",
 "Неймар"
 ],
 "ex": "Название — инициалы и номер Роналду.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 143,
-"correct": 2
+"id": 142,
+"correct": 1
 },
 {
 "mode": "g",
@@ -3595,15 +3570,15 @@
 "opts": [
 "Звезда",
 "Корона",
-"Роза",
-"Сердце с глазками"
+"Сердце с глазками",
+"Роза"
 ],
 "ex": "Сердечко с глазами — знак линии Play.",
 "archive_note": "",
 "force": 2,
 "level": 2,
-"id": 144,
-"correct": 3
+"id": 143,
+"correct": 2
 },
 {
 "mode": "g",
@@ -3618,17 +3593,523 @@
 "photo_query": "Chanel",
 "q": "Кто придумал «маленькое чёрное платье»?",
 "opts": [
-"Коко Шанель",
 "Кристиан Диор",
 "Ив Сен-Лоран",
-"Джорджо Армани"
+"Джорджо Армани",
+"Коко Шанель"
 ],
 "ex": "Шанель представила его в 1926 году.",
 "archive_note": "",
 "force": 2,
 "level": 2,
+"id": 144,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"sneakers",
+"sport"
+],
+"brand": "Nike",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Nike",
+"q": "Какому бренду принадлежат кроссовки Air Max?",
+"opts": [
+"Nike",
+"Adidas",
+"Puma",
+"Reebok"
+],
+"ex": "Air Max — одна из главных линеек Nike.",
+"archive_note": "",
+"force": 1,
+"level": 1,
 "id": 145,
 "correct": 0
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"sneakers",
+"sport"
+],
+"brand": "Adidas",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Adidas",
+"q": "Какой бренд выпускает кроссовки Stan Smith и Superstar?",
+"opts": [
+"Nike",
+"Adidas",
+"Fila",
+"Converse"
+],
+"ex": "Обе модели — классика Adidas.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 146,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"sneakers",
+"street"
+],
+"brand": "Vans",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Vans",
+"q": "Какой бренд выпускает кеды Old Skool и Sk8-Hi?",
+"opts": [
+"Converse",
+"Nike SB",
+"Vans",
+"DC Shoes"
+],
+"ex": "Old Skool и Sk8-Hi — главные модели Vans.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 147,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"sneakers",
+"sport"
+],
+"brand": "Reebok",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Reebok",
+"q": "Какой бренд выпускает кроссовки Classic Leather и Club C?",
+"opts": [
+"Puma",
+"Asics",
+"New Balance",
+"Reebok"
+],
+"ex": "Classic Leather и Club C — классика Reebok.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 148,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"luxury"
+],
+"brand": "Louis Vuitton",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Louis Vuitton",
+"q": "Какой бренд известен сумками Speedy и Neverfull?",
+"opts": [
+"Louis Vuitton",
+"Prada",
+"Dior",
+"Fendi"
+],
+"ex": "Speedy и Neverfull — культовые сумки Louis Vuitton.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 149,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"west"
+],
+"brand": "Tommy Hilfiger",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Tommy Hilfiger",
+"q": "Какой бренд отмечает одежду красно-бело-синим флажком?",
+"opts": [
+"Lacoste",
+"Tommy Hilfiger",
+"Gap",
+"Levi's"
+],
+"ex": "Флажок — логотип Tommy Hilfiger.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 150,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"outerwear"
+],
+"brand": "The North Face",
+"archive": false,
+"photo_desc": "",
+"photo_query": "The North Face",
+"q": "Какой бренд известен пуховиками Nuptse?",
+"opts": [
+"Moncler",
+"Patagonia",
+"The North Face",
+"Columbia"
+],
+"ex": "Nuptse — легендарный пуховик The North Face.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 151,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"luxury"
+],
+"brand": "Fendi",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Fendi",
+"q": "Какой дом моды известен сумкой Baguette?",
+"opts": [
+"Gucci",
+"Chanel",
+"Dior",
+"Fendi"
+],
+"ex": "Baguette Fendi появилась в 1997 году.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 152,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"luxury"
+],
+"brand": "Hermès",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Hermès",
+"q": "Какой бренд известен шёлковыми платками-карре?",
+"opts": [
+"Hermès",
+"Gucci",
+"Burberry",
+"Prada"
+],
+"ex": "Шёлковые платки — визитная карточка Hermès.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 153,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"luxury"
+],
+"brand": "Prada",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Prada",
+"q": "Какой бренд прославили нейлоновые рюкзаки с треугольным знаком?",
+"opts": [
+"Gucci",
+"Prada",
+"Chanel",
+"Versace"
+],
+"ex": "Нейлон сделал Prada знаменитой в 1980-х.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 154,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"west"
+],
+"brand": "Calvin Klein",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Calvin Klein",
+"q": "Какой бренд известен бельём с логотипом на резинке?",
+"opts": [
+"Hugo Boss",
+"Armani",
+"Calvin Klein",
+"Diesel"
+],
+"ex": "Бельё Calvin Klein стало мировым хитом.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 155,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"luxury"
+],
+"brand": "Saint Laurent",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Saint Laurent",
+"q": "Какой дом моды использует логотип из букв YSL?",
+"opts": [
+"Gucci",
+"Yves Rocher",
+"Versace",
+"Saint Laurent"
+],
+"ex": "YSL — инициалы Ива Сен-Лорана.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 156,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"sneakers",
+"luxury"
+],
+"brand": "Balenciaga",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Balenciaga",
+"q": "Какой дом выпустил массивные кроссовки Triple S?",
+"opts": [
+"Balenciaga",
+"Prada",
+"Gucci",
+"Dior"
+],
+"ex": "Triple S появились в 2017 году.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 157,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"luxury"
+],
+"brand": "Rolex",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Rolex",
+"q": "Какой бренд часов известен короной на циферблате?",
+"opts": [
+"Omega",
+"Rolex",
+"Casio",
+"Tissot"
+],
+"ex": "Корона — символ Rolex.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 158,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"luxury"
+],
+"brand": "Chanel",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Chanel",
+"q": "Какой дом моды долгие годы возглавлял Карл Лагерфельд?",
+"opts": [
+"Dior",
+"Gucci",
+"Chanel",
+"Versace"
+],
+"ex": "Лагерфельд руководил Chanel с 1983 года.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 159,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"outerwear"
+],
+"brand": "Timberland",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Timberland",
+"q": "Какой бренд известен жёлтыми рабочими ботинками?",
+"opts": [
+"Dr. Martens",
+"Clarks",
+"Caterpillar",
+"Timberland"
+],
+"ex": "Жёлтые ботинки — символ Timberland.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 160,
+"correct": 3
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"luxury"
+],
+"brand": "Valentino",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Valentino",
+"q": "Какой цвет стал фирменным для дома Valentino?",
+"opts": [
+"Красный",
+"Синий",
+"Зелёный",
+"Жёлтый"
+],
+"ex": "Valentino Red — знаменитый оттенок бренда.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 161,
+"correct": 0
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"sport",
+"west"
+],
+"brand": "Lululemon",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Lululemon",
+"q": "Какой бренд известен леггинсами для йоги, которые называют «лулу»?",
+"opts": [
+"Nike",
+"Lululemon",
+"Gymshark",
+"Under Armour"
+],
+"ex": "Lululemon прославился одеждой для йоги.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 162,
+"correct": 1
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"outerwear"
+],
+"brand": "UGG",
+"archive": false,
+"photo_desc": "",
+"photo_query": "UGG",
+"q": "Какой бренд известен мягкими сапожками из овчины?",
+"opts": [
+"Timberland",
+"Crocs",
+"UGG",
+"Clarks"
+],
+"ex": "UGG — австралийские сапожки из овчины.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 163,
+"correct": 2
+},
+{
+"mode": "g",
+"fame": 1,
+"cx": 1,
+"cats": [
+"luxury"
+],
+"brand": "Dior",
+"archive": false,
+"photo_desc": "",
+"photo_query": "Dior",
+"q": "Какой бренд выпустил аромат Sauvage?",
+"opts": [
+"Chanel",
+"Versace",
+"Gucci",
+"Dior"
+],
+"ex": "Sauvage — мужской аромат Dior.",
+"archive_note": "",
+"force": 1,
+"level": 1,
+"id": 164,
+"correct": 3
 },
 {
 "mode": "g",
@@ -3643,8 +4124,8 @@
 "photo_query": "Levi's red tab jeans pocket",
 "q": "Какой бренд выпускает джинсы с красной вкладкой на заднем кармане?",
 "opts": [
-"Wrangler",
 "Levi's",
+"Wrangler",
 "Lee",
 "Diesel"
 ],
@@ -3652,8 +4133,8 @@
 "archive_note": "",
 "force": 0,
 "level": 1,
-"id": 146,
-"correct": 1
+"id": 165,
+"correct": 0
 },
 {
 "mode": "g",
@@ -3670,16 +4151,16 @@
 "q": "Какой бренд выпускает кроссовки с тремя полосками на боку?",
 "opts": [
 "Puma",
-"Reebok",
 "Adidas",
+"Reebok",
 "Under Armour"
 ],
 "ex": "Три полоски — знак Adidas.",
 "archive_note": "",
 "force": 0,
 "level": 1,
-"id": 147,
-"correct": 2
+"id": 166,
+"correct": 1
 },
 {
 "mode": "g",
@@ -3697,15 +4178,15 @@
 "opts": [
 "Under Armour",
 "Puma",
-"Reebok",
-"Nike"
+"Nike",
+"Reebok"
 ],
 "ex": "Галочка Swoosh — знак Nike, её нарисовала студентка Кэролин Дэвидсон.",
 "archive_note": "",
 "force": 0,
 "level": 1,
-"id": 148,
-"correct": 3
+"id": 167,
+"correct": 2
 },
 {
 "mode": "g",
@@ -3721,69 +4202,17 @@
 "photo_query": "Puma sneaker leaping cat",
 "q": "Какой бренд отмечает свои кроссовки прыгающей кошкой?",
 "opts": [
-"Puma",
 "Lacoste",
 "Fila",
-"Kappa"
+"Kappa",
+"Puma"
 ],
 "ex": "Прыгающая пума — эмблема Puma.",
 "archive_note": "",
 "force": 0,
 "level": 1,
-"id": 149,
-"correct": 0
-},
-{
-"mode": "g",
-"fame": 1,
-"cx": 1,
-"cats": [
-"bags",
-"luxury"
-],
-"brand": "Chanel",
-"archive": false,
-"photo_desc": "Чёрная стёганая сумка на цепочке",
-"photo_query": "Chanel quilted bag",
-"q": "Какой дом моды известен стёганой сумкой на цепочке с кожаным переплетением?",
-"opts": [
-"Hermès",
-"Chanel",
-"Prada",
-"Fendi"
-],
-"ex": "Стёганая сумка на цепочке — визитная карточка Chanel.",
-"archive_note": "",
-"force": 0,
-"level": 1,
-"id": 150,
-"correct": 1
-},
-{
-"mode": "g",
-"fame": 1,
-"cx": 1,
-"cats": [
-"bags",
-"luxury"
-],
-"brand": "Louis Vuitton",
-"archive": false,
-"photo_desc": "Фрагмент канвы с монограммой из цветов и букв",
-"photo_query": "Louis Vuitton monogram canvas",
-"q": "Какому дому принадлежит монограммный принт из переплетённых инициалов и цветочков, созданный в 1896 году?",
-"opts": [
-"Gucci",
-"Fendi",
-"Louis Vuitton",
-"Goyard"
-],
-"ex": "Монограмму Louis Vuitton придумал Жорж Вюиттон в 1896 году.",
-"archive_note": "",
-"force": 0,
-"level": 1,
-"id": 151,
-"correct": 2
+"id": 168,
+"correct": 3
 },
 {
 "mode": "g",
@@ -3799,41 +4228,16 @@
 "photo_query": "Gucci web stripe",
 "q": "Какой бренд известен зелёно-красной лентой на вещах?",
 "opts": [
+"Gucci",
 "Prada",
 "Versace",
-"Fendi",
-"Gucci"
+"Fendi"
 ],
 "ex": "Зелёно-красно-зелёная полоса — знак Gucci.",
 "archive_note": "",
 "force": 0,
 "level": 1,
-"id": 152,
-"correct": 3
-},
-{
-"mode": "g",
-"fame": 1,
-"cx": 1,
-"cats": [
-"street"
-],
-"brand": "Zara",
-"archive": false,
-"photo_desc": "Ряд вешалок в магазине с новинками",
-"photo_query": "clothing store racks",
-"q": "Какой испанский бренд известен «быстрой модой» и частым обновлением коллекций?",
-"opts": [
-"Zara",
-"Primark",
-"Desigual",
-"H&M"
-],
-"ex": "Zara славится тем, что новинки в магазинах появляются почти каждую неделю.",
-"archive_note": "",
-"force": 0,
-"level": 1,
-"id": 153,
+"id": 169,
 "correct": 0
 },
 {
@@ -3858,7 +4262,7 @@
 "archive_note": "",
 "force": 0,
 "level": 1,
-"id": 154,
+"id": 170,
 "correct": 1
 },
 {
@@ -3883,7 +4287,7 @@
 "archive_note": "",
 "force": 0,
 "level": 1,
-"id": 155,
+"id": 171,
 "correct": 2
 },
 {
@@ -3909,7 +4313,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 156,
+"id": 172,
 "correct": 3
 },
 {
@@ -3935,7 +4339,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 157,
+"id": 173,
 "correct": 0
 },
 {
@@ -3960,7 +4364,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 158,
+"id": 174,
 "correct": 1
 },
 {
@@ -3985,7 +4389,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 159,
+"id": 175,
 "correct": 2
 },
 {
@@ -4011,7 +4415,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 160,
+"id": 176,
 "correct": 3
 },
 {
@@ -4036,7 +4440,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 161,
+"id": 177,
 "correct": 0
 },
 {
@@ -4062,7 +4466,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 162,
+"id": 178,
 "correct": 1
 },
 {
@@ -4088,7 +4492,7 @@
 "archive_note": "1970-е, до технологии Air: ранняя беговая модель Nike.",
 "force": 0,
 "level": 2,
-"id": 163,
+"id": 179,
 "correct": 2
 },
 {
@@ -4114,7 +4518,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 164,
+"id": 180,
 "correct": 3
 },
 {
@@ -4139,7 +4543,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 165,
+"id": 181,
 "correct": 0
 },
 {
@@ -4165,7 +4569,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 166,
+"id": 182,
 "correct": 1
 },
 {
@@ -4190,7 +4594,7 @@
 "archive_note": "",
 "force": 0,
 "level": 1,
-"id": 167,
+"id": 183,
 "correct": 2
 },
 {
@@ -4216,33 +4620,8 @@
 "archive_note": "",
 "force": 0,
 "level": 1,
-"id": 168,
+"id": 184,
 "correct": 3
-},
-{
-"mode": "g",
-"fame": 2,
-"cx": 1,
-"cats": [
-"outerwear"
-],
-"brand": "The North Face",
-"archive": false,
-"photo_desc": "Куртка с логотипом из трёх дуг на груди",
-"photo_query": "The North Face jacket logo",
-"q": "Какой бренд отмечает куртки логотипом по мотивам горы Хаф-Доум?",
-"opts": [
-"The North Face",
-"Patagonia",
-"Columbia",
-"Arc'teryx"
-],
-"ex": "Логотип The North Face вдохновлён скалой Half Dome в Йосемити.",
-"archive_note": "",
-"force": 0,
-"level": 1,
-"id": 169,
-"correct": 0
 },
 {
 "mode": "g",
@@ -4257,8 +4636,8 @@
 "photo_query": "Dr. Martens boots",
 "q": "Какой британский бренд известен тяжёлыми ботинками с жёлтой строчкой?",
 "opts": [
-"Timberland",
 "Dr. Martens",
+"Timberland",
 "Clarks",
 "Caterpillar"
 ],
@@ -4266,8 +4645,8 @@
 "archive_note": "",
 "force": 0,
 "level": 1,
-"id": 170,
-"correct": 1
+"id": 185,
+"correct": 0
 },
 {
 "mode": "g",
@@ -4283,16 +4662,16 @@
 "q": "Какой бренд отмечает рубашки-поло игроком на лошади?",
 "opts": [
 "Lacoste",
-"Tommy Hilfiger",
 "Ralph Lauren",
+"Tommy Hilfiger",
 "Fred Perry"
 ],
 "ex": "Игрок в поло — знак Polo Ralph Lauren.",
 "archive_note": "",
 "force": 0,
 "level": 1,
-"id": 171,
-"correct": 2
+"id": 186,
+"correct": 1
 },
 {
 "mode": "g",
@@ -4309,15 +4688,15 @@
 "opts": [
 "Authentic",
 "Slip-On",
-"Era",
-"Old Skool"
+"Old Skool",
+"Era"
 ],
 "ex": "Old Skool — первая модель Vans с боковой полоской.",
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 172,
-"correct": 3
+"id": 187,
+"correct": 2
 },
 {
 "mode": "g",
@@ -4332,17 +4711,17 @@
 "photo_query": "Tommy Hilfiger rugby shirt",
 "q": "Какой рэпер надел одежду Tommy Hilfiger на шоу Saturday Night Live в 1994 году и сделал бренд модным в хип-хопе?",
 "opts": [
-"Snoop Dogg",
 "Jay-Z",
 "Tupac",
-"The Notorious B.I.G."
+"The Notorious B.I.G.",
+"Snoop Dogg"
 ],
 "ex": "После выступления Snoop Dogg одежда Tommy Hilfiger стала популярной среди хип-хоп-исполнителей.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 173,
-"correct": 0
+"id": 188,
+"correct": 3
 },
 {
 "mode": "g",
@@ -4357,8 +4736,8 @@
 "photo_query": "Ralph Lauren menswear",
 "q": "Как на самом деле звали Ральфа Лорена при рождении?",
 "opts": [
-"Ральф Лоренцо",
 "Ральф Лифшиц",
+"Ральф Лоренцо",
 "Рафаэль Лоренс",
 "Рэй Лоуренс"
 ],
@@ -4366,8 +4745,8 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 174,
-"correct": 1
+"id": 189,
+"correct": 0
 },
 {
 "mode": "g",
@@ -4384,16 +4763,16 @@
 "q": "Кто основал Human Made в 2010 году?",
 "opts": [
 "Фарелл Уильямс",
-"Такаши Мураками",
 "Ниго",
+"Такаши Мураками",
 "Хироси Фудзивара"
 ],
 "ex": "Human Made основал Ниго, основатель A Bathing Ape.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 175,
-"correct": 2
+"id": 190,
+"correct": 1
 },
 {
 "mode": "g",
@@ -4410,15 +4789,15 @@
 "opts": [
 "Год основания бренда",
 "Количество люверсов",
-"Артикул материала",
-"Дату выпуска: 1 апреля 1960 года"
+"Дату выпуска: 1 апреля 1960 года",
+"Артикул материала"
 ],
 "ex": "1460 — это 1.4.60: дата выхода первой модели.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 176,
-"correct": 3
+"id": 191,
+"correct": 2
 },
 {
 "mode": "g",
@@ -4433,17 +4812,17 @@
 "photo_query": "Converse Chuck Taylor All Star",
 "q": "В каком году появились кеды Chuck Taylor All Star?",
 "opts": [
-"1917",
 "1908",
 "1932",
-"1949"
+"1949",
+"1917"
 ],
 "ex": "Модель появилась в 1917 году, имя баскетболиста Чака Тейлора добавили позже.",
 "archive_note": "1917 год: баскетбольные кеды, ставшие уличной классикой.",
 "force": 0,
 "level": 3,
-"id": 177,
-"correct": 0
+"id": 192,
+"correct": 3
 },
 {
 "mode": "g",
@@ -4459,8 +4838,8 @@
 "photo_query": "Vans Slip-On checkerboard",
 "q": "Какую модель Vans носил Шон Пенн в фильме «Быстрые перемены в Ридгмонт-Хай» (1982)?",
 "opts": [
-"Era",
 "Slip-On",
+"Era",
 "Sk8-Hi",
 "Authentic"
 ],
@@ -4468,8 +4847,8 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 178,
-"correct": 1
+"id": 193,
+"correct": 0
 },
 {
 "mode": "g",
@@ -4485,16 +4864,16 @@
 "q": "В каком году основан New Balance?",
 "opts": [
 "1924",
-"1949",
 "1906",
+"1949",
 "1972"
 ],
 "ex": "New Balance основан в Бостоне в 1906 году.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 179,
-"correct": 2
+"id": 194,
+"correct": 1
 },
 {
 "mode": "g",
@@ -4511,15 +4890,15 @@
 "opts": [
 "Obsession",
 "Eternity",
-"Escape",
-"CK One"
+"CK One",
+"Escape"
 ],
 "ex": "CK One вышел в 1994 году.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 180,
-"correct": 3
+"id": 195,
+"correct": 2
 },
 {
 "mode": "g",
@@ -4534,17 +4913,17 @@
 "photo_query": "Tommy Hilfiger jacket",
 "q": "В каком году основан Tommy Hilfiger?",
 "opts": [
-"1985",
 "1969",
 "1992",
-"1978"
+"1978",
+"1985"
 ],
 "ex": "Tommy Hilfiger основан в 1985 году.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 181,
-"correct": 0
+"id": 196,
+"correct": 3
 },
 {
 "mode": "g",
@@ -4559,8 +4938,8 @@
 "photo_query": "1920s white suit",
 "q": "Для какого фильма 1974 года Ральф Лорен создал мужские костюмы?",
 "opts": [
-"«Бонни и Клайд»",
 "«Великий Гэтсби»",
+"«Бонни и Клайд»",
 "«Крёстный отец»",
 "«Доктор Живаго»"
 ],
@@ -4568,8 +4947,8 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 182,
-"correct": 1
+"id": 197,
+"correct": 0
 },
 {
 "mode": "g",
@@ -4586,16 +4965,16 @@
 "q": "Какой итальянский бренд известен нашивкой-компасом на рукаве?",
 "opts": [
 "C.P. Company",
-"Moncler",
 "Stone Island",
+"Moncler",
 "Napapijri"
 ],
 "ex": "Компас Stone Island крепится на рукаве.",
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 183,
-"correct": 2
+"id": 198,
+"correct": 1
 },
 {
 "mode": "g",
@@ -4612,15 +4991,15 @@
 "opts": [
 "H&M",
 "Ganni",
-"Our Legacy",
-"Acne Studios"
+"Acne Studios",
+"Our Legacy"
 ],
 "ex": "Смайлик Face — знак Acne Studios.",
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 184,
-"correct": 3
+"id": 199,
+"correct": 2
 },
 {
 "mode": "g",
@@ -4636,17 +5015,17 @@
 "photo_query": "Margiela Tabi boots",
 "q": "Какой дом моды известен ботинками с раздвоенным носком «таби»?",
 "opts": [
-"Maison Margiela",
 "Rick Owens",
 "Balenciaga",
-"Yohji Yamamoto"
+"Yohji Yamamoto",
+"Maison Margiela"
 ],
 "ex": "Таби Margiela появились в 1988 году по мотивам японских носков.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 185,
-"correct": 0
+"id": 200,
+"correct": 3
 },
 {
 "mode": "g",
@@ -4662,8 +5041,8 @@
 "photo_query": "Rick Owens drapery",
 "q": "В каком городе Рик Оуэнс основал свой бренд в 1994 году?",
 "opts": [
-"Нью-Йорк",
 "Лос-Анджелес",
+"Нью-Йорк",
 "Париж",
 "Антверпен"
 ],
@@ -4671,8 +5050,8 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 186,
-"correct": 1
+"id": 201,
+"correct": 0
 },
 {
 "mode": "g",
@@ -4688,16 +5067,16 @@
 "q": "Какие брюки с очень низкой посадкой прославили Александра Маккуина в 1990-х?",
 "opts": [
 "Палаццо",
-"Галифе",
 "Bumster",
+"Галифе",
 "Клёш"
 ],
 "ex": "Bumster стали знаком раннего Маккуина.",
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 187,
-"correct": 2
+"id": 202,
+"correct": 1
 },
 {
 "mode": "g",
@@ -4714,15 +5093,15 @@
 "opts": [
 "Альпака",
 "Мерино",
-"Ангора",
-"Викунья"
+"Викунья",
+"Ангора"
 ],
 "ex": "Loro Piana известна работой с шерстью викуньи.",
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 188,
-"correct": 3
+"id": 203,
+"correct": 2
 },
 {
 "mode": "g",
@@ -4738,17 +5117,17 @@
 "photo_query": "Jacquemus Le Chiquito",
 "q": "Как называется крошечная сумка Jacquemus, ставшая вирусной?",
 "opts": [
-"Le Chiquito",
 "Le Grand Bambino",
 "Le Papier",
-"Le Raphia"
+"Le Raphia",
+"Le Chiquito"
 ],
 "ex": "Le Chiquito — одна из самых маленьких сумок бренда.",
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 189,
-"correct": 0
+"id": 204,
+"correct": 3
 },
 {
 "mode": "g",
@@ -4764,8 +5143,8 @@
 "photo_query": "Salomon trail shoe",
 "q": "Из какой страны родом бренд Salomon?",
 "opts": [
-"Швейцария",
 "Франция",
+"Швейцария",
 "Австрия",
 "Германия"
 ],
@@ -4773,8 +5152,8 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 190,
-"correct": 1
+"id": 205,
+"correct": 0
 },
 {
 "mode": "g",
@@ -4791,16 +5170,16 @@
 "q": "В честь какого доисторического существа назван Arc'teryx?",
 "opts": [
 "Птеранодон",
-"Тираннозавр",
 "Археоптерикс",
+"Тираннозавр",
 "Диплодок"
 ],
 "ex": "Логотип Arc'teryx — окаменелость археоптерикса.",
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 191,
-"correct": 2
+"id": 206,
+"correct": 1
 },
 {
 "mode": "g",
@@ -4818,15 +5197,15 @@
 "opts": [
 "Монблан",
 "Шамони",
-"Куршевель",
-"Монестье-де-Клермон"
+"Монестье-де-Клермон",
+"Куршевель"
 ],
 "ex": "Moncler — сокращение от Monestier-de-Clermont, где в 1952 году основали бренд.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 192,
-"correct": 3
+"id": 207,
+"correct": 2
 },
 {
 "mode": "g",
@@ -4842,17 +5221,17 @@
 "photo_query": "Stone Island jacket",
 "q": "Кто основал Stone Island в 1982 году?",
 "opts": [
-"Массимо Ости",
 "Карло Риветти",
 "Ремо Руффини",
-"Джорджио Армани"
+"Джорджио Армани",
+"Массимо Ости"
 ],
 "ex": "Массимо Ости создал Stone Island, Карло Риветти позже стал владельцем.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 193,
-"correct": 0
+"id": 208,
+"correct": 3
 },
 {
 "mode": "g",
@@ -4868,8 +5247,8 @@
 "photo_query": "Stone Island Tela Stella",
 "q": "Из какого материала была сделана первая куртка Stone Island 1982 года (Tela Stella)?",
 "opts": [
-"Парашютный шёлк",
 "Брезент для грузовых тентов",
+"Парашютный шёлк",
 "Кожа",
 "Деним"
 ],
@@ -4877,8 +5256,8 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 194,
-"correct": 1
+"id": 209,
+"correct": 0
 },
 {
 "mode": "g",
@@ -4894,16 +5273,16 @@
 "q": "Как расшифровывается название Acne Studios?",
 "opts": [
 "Art, Culture and Nordic Elegance",
-"Always Cool, Never Expensive",
 "Ambition to Create Novel Expressions",
+"Always Cool, Never Expensive",
 "Apparel Created for New Era"
 ],
 "ex": "Acne расшифровывается как Ambition to Create Novel Expressions.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 195,
-"correct": 2
+"id": 210,
+"correct": 1
 },
 {
 "mode": "g",
@@ -4920,15 +5299,15 @@
 "opts": [
 "Dior",
 "Chanel",
-"Balenciaga",
-"Givenchy"
+"Givenchy",
+"Balenciaga"
 ],
 "ex": "Маккуин возглавил Givenchy в 1996 году.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 196,
-"correct": 3
+"id": 211,
+"correct": 2
 },
 {
 "mode": "g",
@@ -4944,17 +5323,17 @@
 "photo_query": "C.P. Company goggle jacket",
 "q": "Как называется куртка с линзами в капюшоне, ставшая символом C.P. Company?",
 "opts": [
-"Mille Miglia",
 "Tela Stella",
 "Nuptse",
-"Fishtail"
+"Fishtail",
+"Mille Miglia"
 ],
 "ex": "Mille Miglia — куртка с очками в капюшоне, появилась в 1988 году.",
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 197,
-"correct": 0
+"id": 212,
+"correct": 3
 },
 {
 "mode": "g",
@@ -4970,8 +5349,8 @@
 "photo_query": "Issey Miyake Pleats Please",
 "q": "Какой японский дизайнер прославился плиссированной одеждой линии Pleats Please?",
 "opts": [
-"Рей Кавакубо",
 "Исси Мияке",
+"Рей Кавакубо",
 "Йоджи Ямамото",
 "Кэндзо Такада"
 ],
@@ -4979,8 +5358,8 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 198,
-"correct": 1
+"id": 213,
+"correct": 0
 },
 {
 "mode": "g",
@@ -4997,16 +5376,16 @@
 "q": "Какой японский бренд известен камуфляжем и головой обезьяны на вещах?",
 "opts": [
 "Neighborhood",
-"Undercover",
 "A Bathing Ape (BAPE)",
+"Undercover",
 "Visvim"
 ],
 "ex": "BAPE основал Ниго в 1993 году в Харадзюку.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 199,
-"correct": 2
+"id": 214,
+"correct": 1
 },
 {
 "mode": "g",
@@ -5025,15 +5404,15 @@
 "opts": [
 "Edwin",
 "Momotaro",
-"Studio D'Artisan",
-"Evisu"
+"Evisu",
+"Studio D'Artisan"
 ],
 "ex": "Чайка на заднем кармане — знак Evisu.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 200,
-"correct": 3
+"id": 215,
+"correct": 2
 },
 {
 "mode": "g",
@@ -5049,17 +5428,17 @@
 "photo_query": "Kapital boro jeans",
 "q": "Какой японский город считается столицей денима и связан с Kapital?",
 "opts": [
-"Коджима (Окаяма)",
 "Осака",
 "Хиросима",
-"Токио"
+"Токио",
+"Коджима (Окаяма)"
 ],
 "ex": "Kapital родом из Коджимы, префектура Окаяма — центра японского денима.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 201,
-"correct": 0
+"id": 216,
+"correct": 3
 },
 {
 "mode": "g",
@@ -5075,8 +5454,8 @@
 "photo_query": "Visvim moccasin",
 "q": "Кто основал Visvim в 2000 году?",
 "opts": [
-"Ниго",
 "Хироки Накамура",
+"Ниго",
 "Дзюн Такахаси",
 "Хироси Фудзивара"
 ],
@@ -5084,8 +5463,8 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 202,
-"correct": 1
+"id": 217,
+"correct": 0
 },
 {
 "mode": "g",
@@ -5102,16 +5481,16 @@
 "q": "Какой дизайнер основал Undercover?",
 "opts": [
 "Дзюнъя Ватанабэ",
-"Читосэ Абэ",
 "Дзюн Такахаси",
+"Читосэ Абэ",
 "Рей Кавакубо"
 ],
 "ex": "Дзюн Такахаси основал Undercover в Токио.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 203,
-"correct": 2
+"id": 218,
+"correct": 1
 },
 {
 "mode": "g",
@@ -5129,15 +5508,15 @@
 "opts": [
 "Йоджи Ямамото",
 "Исси Мияке",
-"Кэндзо Такада",
-"Рей Кавакубо"
+"Рей Кавакубо",
+"Кэндзо Такада"
 ],
 "ex": "Дзюнъя Ватанабэ работал в Comme des Garçons и основал свою линию в 1992 году.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 204,
-"correct": 3
+"id": 219,
+"correct": 2
 },
 {
 "mode": "g",
@@ -5153,17 +5532,17 @@
 "photo_query": "Sacai hybrid jacket",
 "q": "Что считается фирменным приёмом Sacai?",
 "opts": [
-"Гибриды: две вещи в одной",
 "Только однотонные вещи",
 "Одежда без швов",
-"Только деним"
+"Только деним",
+"Гибриды: две вещи в одной"
 ],
 "ex": "Sacai Читосэ Абэ соединяет две вещи в одну.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 205,
-"correct": 0
+"id": 220,
+"correct": 3
 },
 {
 "mode": "g",
@@ -5179,8 +5558,8 @@
 "photo_query": "Neighborhood biker jacket",
 "q": "Какая субкультура — главное вдохновение Neighborhood?",
 "opts": [
-"Серферы",
 "Байкеры и военная одежда",
+"Серферы",
 "Скейтеры",
 "Хиппи"
 ],
@@ -5188,8 +5567,8 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 206,
-"correct": 1
+"id": 221,
+"correct": 0
 },
 {
 "mode": "g",
@@ -5206,16 +5585,16 @@
 "q": "Какой символ — главный знак mastermind JAPAN?",
 "opts": [
 "Сердце",
-"Звезда",
 "Череп",
+"Звезда",
 "Корона"
 ],
 "ex": "Череп — знак mastermind JAPAN.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 207,
-"correct": 2
+"id": 222,
+"correct": 1
 },
 {
 "mode": "g",
@@ -5233,15 +5612,15 @@
 "opts": [
 "Дзюн Такахаси",
 "Дзюнъя Ватанабэ",
-"Хироки Накамура",
-"Такахиро Миясита"
+"Такахиро Миясита",
+"Хироки Накамура"
 ],
 "ex": "Number (N)ine основан в 1997 году и закрылся в 2009-м.",
 "archive_note": "Бренд работал в 1997–2009 годах и считается архивным.",
 "force": 0,
 "level": 4,
-"id": 208,
-"correct": 3
+"id": 223,
+"correct": 2
 },
 {
 "mode": "g",
@@ -5257,17 +5636,17 @@
 "photo_query": "Issey Miyake A-POC",
 "q": "Как называется проект Issey Miyake конца 1990-х, где вещи вырезаются из одной бесшовной ткани?",
 "opts": [
-"A-POC",
 "Pleats Please",
 "Bao Bao",
-"Homme Plissé"
+"Homme Plissé",
+"A-POC"
 ],
 "ex": "A-POC расшифровывается как A Piece Of Cloth.",
 "archive_note": "1997 год: проект Issey Miyake про одежду из цельной ткани.",
 "force": 0,
 "level": 4,
-"id": 209,
-"correct": 0
+"id": 224,
+"correct": 3
 },
 {
 "mode": "g",
@@ -5283,8 +5662,8 @@
 "photo_query": "Comme des Garçons Lumps and Bumps",
 "q": "Как называется культовая коллекция Comme des Garçons весна-лето 1997 с наращёнными объёмами на теле?",
 "opts": [
-"Destroy",
 "Body Meets Dress, Dress Meets Body",
+"Destroy",
 "Hiroshima Chic",
 "Black Dress"
 ],
@@ -5292,8 +5671,8 @@
 "archive_note": "Весна-лето 1997: считается одной из самых влиятельных авангардных коллекций.",
 "force": 0,
 "level": 4,
-"id": 210,
-"correct": 1
+"id": 225,
+"correct": 0
 },
 {
 "mode": "g",
@@ -5310,16 +5689,16 @@
 "q": "В каком году Йоджи Ямамото впервые показал коллекцию в Париже?",
 "opts": [
 "1972",
-"1993",
 "1981",
+"1993",
 "2002"
 ],
 "ex": "Йоджи Ямамото и Рей Кавакубо показали коллекции в Париже в 1981 году.",
 "archive_note": "1981 год: парижский дебют, изменивший представления о моде.",
 "force": 0,
 "level": 4,
-"id": 211,
-"correct": 2
+"id": 226,
+"correct": 1
 },
 {
 "mode": "g",
@@ -5338,15 +5717,15 @@
 "opts": [
 "1998",
 "2005",
-"2010",
-"2002"
+"2002",
+"2010"
 ],
 "ex": "Партнёрство Y-3 появилось в 2002 году, первая коллекция вышла в 2003-м.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 212,
-"correct": 3
+"id": 227,
+"correct": 2
 },
 {
 "mode": "g",
@@ -5363,17 +5742,17 @@
 "photo_query": "Undercover Gyakusou",
 "q": "Что означает название линии Gyakusou, которую Undercover делает с Nike?",
 "opts": [
-"Бег в обратную сторону",
 "Ночной бег",
 "Тихий бег",
-"Бег по горам"
+"Бег по горам",
+"Бег в обратную сторону"
 ],
 "ex": "Gyakusou (逆走) — «бег в обратную сторону».",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 213,
-"correct": 0
+"id": 228,
+"correct": 3
 },
 {
 "mode": "g",
@@ -5389,8 +5768,8 @@
 "photo_query": "BAPE Shark hoodie",
 "q": "В каком году вышла культовая толстовка BAPE Shark Hoodie?",
 "opts": [
-"1998",
 "2004",
+"1998",
 "2001",
 "2008"
 ],
@@ -5398,8 +5777,8 @@
 "archive_note": "2004 год: самая известная вещь BAPE.",
 "force": 0,
 "level": 4,
-"id": 214,
-"correct": 1
+"id": 229,
+"correct": 0
 },
 {
 "mode": "g",
@@ -5416,16 +5795,16 @@
 "q": "Как называются кроссовки BAPE, вдохновлённые Nike Air Force 1?",
 "opts": [
 "Apeforce",
-"Monkey Dunk",
 "Bapesta",
+"Monkey Dunk",
 "Camo Max"
 ],
 "ex": "Bapesta появились в 2001 году.",
 "archive_note": "2001 год: ранняя модель BAPE.",
 "force": 0,
 "level": 4,
-"id": 215,
-"correct": 2
+"id": 230,
+"correct": 1
 },
 {
 "mode": "g",
@@ -5443,15 +5822,15 @@
 "opts": [
 "Хироки Накамура",
 "Синскэ Такидзава",
-"Нобухико Китамура",
-"Тосикиё Хирата"
+"Тосикиё Хирата",
+"Нобухико Китамура"
 ],
 "ex": "Kapital основал Тосикиё Хирата в Коджиме.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 216,
-"correct": 3
+"id": 231,
+"correct": 2
 },
 {
 "mode": "g",
@@ -5467,17 +5846,17 @@
 "photo_query": "Visvim shoes",
 "q": "В каком году основан Visvim?",
 "opts": [
-"2000",
 "1994",
 "2006",
-"2012"
+"2012",
+"2000"
 ],
 "ex": "Visvim основан в 2000 году Хироки Накамурой.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 217,
-"correct": 0
+"id": 232,
+"correct": 3
 },
 {
 "mode": "g",
@@ -5493,8 +5872,8 @@
 "photo_query": "Hysteric Glamour tee",
 "q": "Кто основал Hysteric Glamour?",
 "opts": [
-"Синскэ Такидзава",
 "Нобухико Китамура",
+"Синскэ Такидзава",
 "Масааки Хомма",
 "Дзюн Такахаси"
 ],
@@ -5502,8 +5881,8 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 218,
-"correct": 1
+"id": 233,
+"correct": 0
 },
 {
 "mode": "g",
@@ -5520,16 +5899,16 @@
 "q": "В каком году закрылся Number (N)ine?",
 "opts": [
 "2003",
-"2012",
 "2009",
+"2012",
 "2016"
 ],
 "ex": "Такахиро Миясита закрыл Number (N)ine в 2009 году и запустил TheSoloist.",
 "archive_note": "Бренд 1997–2009 годов: архивные вещи ценятся коллекционерами.",
 "force": 0,
 "level": 4,
-"id": 219,
-"correct": 2
+"id": 234,
+"correct": 1
 },
 {
 "mode": "g",
@@ -5547,15 +5926,15 @@
 "opts": [
 "Номер телефона магазина",
 "Год основания в обратном порядке",
-"Серию тканей",
-"Дату — 20 ноября 2047 года"
+"Дату — 20 ноября 2047 года",
+"Серию тканей"
 ],
 "ex": "Название-дата 2047年11月20日.",
 "archive_note": "Харадзюку 1990-х, сюрреализм и деконструкция.",
 "force": 0,
 "level": 4,
-"id": 220,
-"correct": 3
+"id": 235,
+"correct": 2
 },
 {
 "mode": "g",
@@ -5571,17 +5950,17 @@
 "photo_query": "20471120 archive jacket",
 "q": "В какие годы работал японский архивный бренд 20471120?",
 "opts": [
-"1992–2003",
 "1985–1994",
 "2000–2010",
-"1978–1989"
+"1978–1989",
+"1992–2003"
 ],
 "ex": "Бренд работал в 1992–2003 годах.",
 "archive_note": "Харадзюку 1990-х.",
 "force": 0,
 "level": 4,
-"id": 221,
-"correct": 0
+"id": 236,
+"correct": 3
 },
 {
 "mode": "g",
@@ -5597,8 +5976,8 @@
 "photo_query": "Antwerp Six designers",
 "q": "Какая группа бельгийских дизайнеров, выпускников Антверпенской академии, показала коллекции в Лондоне в 1986 году?",
 "opts": [
-"Парижская пятёрка",
 "Антверпенская шестёрка",
+"Парижская пятёрка",
 "Миланская семёрка",
 "Лондонская четвёрка"
 ],
@@ -5606,8 +5985,8 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 222,
-"correct": 1
+"id": 237,
+"correct": 0
 },
 {
 "mode": "g",
@@ -5624,16 +6003,16 @@
 "q": "Какой бельгийский дизайнер возглавлял Dior в 2012–2015 годах?",
 "opts": [
 "Дрис ван Нотен",
-"Анн Демельмейстер",
 "Раф Симонс",
+"Анн Демельмейстер",
 "Вальтер Ван Бейрендонк"
 ],
 "ex": "Раф Симонс возглавлял Dior в 2012–2015 годах.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 223,
-"correct": 2
+"id": 238,
+"correct": 1
 },
 {
 "mode": "g",
@@ -5651,15 +6030,15 @@
 "opts": [
 "Анн Демельмейстер",
 "Раф Симонс",
-"Дирк Биккембергс",
-"Дрис ван Нотен"
+"Дрис ван Нотен",
+"Дирк Биккембергс"
 ],
 "ex": "Dries Van Noten основал бренд в 1986 году.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 224,
-"correct": 3
+"id": 239,
+"correct": 2
 },
 {
 "mode": "g",
@@ -5675,17 +6054,17 @@
 "photo_query": "Dirk Bikkembergs football",
 "q": "Какой спорт стал важной темой Dirk Bikkembergs?",
 "opts": [
-"Футбол",
 "Теннис",
 "Хоккей",
-"Гольф"
+"Гольф",
+"Футбол"
 ],
 "ex": "Bikkembergs известен коллекциями, вдохновлёнными футболом.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 225,
-"correct": 0
+"id": 240,
+"correct": 3
 },
 {
 "mode": "g",
@@ -5701,8 +6080,8 @@
 "photo_query": "Walter Van Beirendonck W.&L.T.",
 "q": "Как расшифровывается W.&L.T., название линии Walter Van Beirendonck?",
 "opts": [
-"Wear and Lose Time",
 "Wild and Lethal Trash",
+"Wear and Lose Time",
 "World of Luxury Tailoring",
 "Wool and Leather Trade"
 ],
@@ -5710,8 +6089,8 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 226,
-"correct": 1
+"id": 241,
+"correct": 0
 },
 {
 "mode": "g",
@@ -5728,16 +6107,16 @@
 "q": "Из какой страны родом дизайнер Хельмут Ланг?",
 "opts": [
 "Германия",
-"Швейцария",
 "Австрия",
+"Швейцария",
 "Нидерланды"
 ],
 "ex": "Хельмут Ланг родом из Вены.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 227,
-"correct": 2
+"id": 242,
+"correct": 1
 },
 {
 "mode": "g",
@@ -5755,15 +6134,15 @@
 "opts": [
 "В музее Лувр",
 "На вокзале",
-"В цирке",
-"На детской площадке в Париже"
+"На детской площадке в Париже",
+"В цирке"
 ],
 "ex": "Первый показ Margiela прошёл на детской площадке в парижском районе.",
 "archive_note": "1989 год: показ в неформальном месте, ставший легендой.",
 "force": 0,
 "level": 4,
-"id": 228,
-"correct": 3
+"id": 243,
+"correct": 2
 },
 {
 "mode": "g",
@@ -5779,17 +6158,17 @@
 "photo_query": "Carol Christian Poell object dyed",
 "q": "Какая техника — один из фирменных приёмов Carol Christian Poell?",
 "opts": [
-"Окраска готовых изделий (object dyed)",
 "Печать на воде",
 "Бесшовная вязка",
-"Ручная вышивка"
+"Ручная вышивка",
+"Окраска готовых изделий (object dyed)"
 ],
 "ex": "Poell известен окраской готовых вещей целиком.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 229,
-"correct": 0
+"id": 244,
+"correct": 3
 },
 {
 "mode": "g",
@@ -5805,8 +6184,8 @@
 "photo_query": "Isaac Sellam leather",
 "q": "Какой материал — основа вещей французского дизайнера Isaac Sellam?",
 "opts": [
-"Деним",
 "Кожа",
+"Деним",
 "Шёлк",
 "Кашемир"
 ],
@@ -5814,8 +6193,8 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 230,
-"correct": 1
+"id": 245,
+"correct": 0
 },
 {
 "mode": "g",
@@ -5832,16 +6211,16 @@
 "q": "В каком году Рик Оуэнс переехал в Париж?",
 "opts": [
 "1998",
-"2008",
 "2003",
+"2008",
 "2013"
 ],
 "ex": "Рик Оуэнс переехал в Париж в 2003 году.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 231,
-"correct": 2
+"id": 246,
+"correct": 1
 },
 {
 "mode": "g",
@@ -5859,15 +6238,15 @@
 "opts": [
 "Три",
 "Пять",
-"Две",
-"Четыре"
+"Четыре",
+"Две"
 ],
 "ex": "Четыре цветные полосы — знак Thom Browne.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 232,
-"correct": 3
+"id": 247,
+"correct": 2
 },
 {
 "mode": "g",
@@ -5883,17 +6262,17 @@
 "photo_query": "Haider Ackermann draped coat",
 "q": "В каком городе родился Haider Ackermann?",
 "opts": [
-"Богота",
 "Антверпен",
 "Париж",
-"Тель-Авив"
+"Тель-Авив",
+"Богота"
 ],
 "ex": "Haider Ackermann родился в Боготе и учился в Антверпене.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 233,
-"correct": 0
+"id": 248,
+"correct": 3
 },
 {
 "mode": "g",
@@ -5909,8 +6288,8 @@
 "photo_query": "Ann Demeulemeester",
 "q": "В каком году Ann Demeulemeester основала свою компанию?",
 "opts": [
-"1976",
 "1985",
+"1976",
 "1992",
 "2001"
 ],
@@ -5918,8 +6297,8 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 234,
-"correct": 1
+"id": 249,
+"correct": 0
 },
 {
 "mode": "g",
@@ -5935,16 +6314,16 @@
 "q": "Как звали основателя Adidas?",
 "opts": [
 "Рудольф Дасслер",
-"Фил Найт",
 "Ади Дасслер",
+"Фил Найт",
 "Билл Бауэрман"
 ],
 "ex": "Название Adidas — от имени Adolf «Adi» Dassler.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 235,
-"correct": 2
+"id": 250,
+"correct": 1
 },
 {
 "mode": "g",
@@ -5961,15 +6340,15 @@
 "opts": [
 "Милан",
 "Рим",
-"Неаполь",
-"Флоренция"
+"Флоренция",
+"Неаполь"
 ],
 "ex": "Gucci основан во Флоренции в 1921 году.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 236,
-"correct": 3
+"id": 251,
+"correct": 2
 },
 {
 "mode": "g",
@@ -5984,67 +6363,17 @@
 "photo_query": "Chanel",
 "q": "Как на самом деле звали Коко Шанель?",
 "opts": [
-"Габриэль Шанель",
 "Жанна Ланвен",
 "Мадлен Вионне",
-"Эльза Скиапарелли"
+"Эльза Скиапарелли",
+"Габриэль Шанель"
 ],
 "ex": "Полное имя — Габриэль Бонёр Шанель.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 237,
-"correct": 0
-},
-{
-"mode": "g",
-"fame": 1,
-"cx": 1,
-"cats": [
-"street"
-],
-"brand": "H&M",
-"archive": false,
-"photo_desc": "",
-"photo_query": "H&M",
-"q": "Из какой страны родом H&M?",
-"opts": [
-"Дания",
-"Швеция",
-"Норвегия",
-"Финляндия"
-],
-"ex": "H&M основан в 1947 году в Вестеросе, Швеция.",
-"archive_note": "",
-"force": 0,
-"level": 1,
-"id": 238,
-"correct": 1
-},
-{
-"mode": "g",
-"fame": 1,
-"cx": 1,
-"cats": [
-"street"
-],
-"brand": "Uniqlo",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Uniqlo",
-"q": "Из какой страны родом Uniqlo?",
-"opts": [
-"Южная Корея",
-"Китай",
-"Япония",
-"Тайвань"
-],
-"ex": "Uniqlo принадлежит японской компании Fast Retailing.",
-"archive_note": "",
-"force": 0,
-"level": 1,
-"id": 239,
-"correct": 2
+"id": 252,
+"correct": 3
 },
 {
 "mode": "g",
@@ -6060,17 +6389,17 @@
 "photo_query": "Louis Vuitton",
 "q": "В каком году Louis Vuitton открыл первый магазин в Париже?",
 "opts": [
+"1854",
 "1821",
 "1896",
-"1924",
-"1854"
+"1924"
 ],
 "ex": "Первый магазин Louis Vuitton открылся в 1854 году.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 240,
-"correct": 3
+"id": 253,
+"correct": 0
 },
 {
 "mode": "g",
@@ -6085,8 +6414,8 @@
 "photo_query": "Levi's",
 "q": "Какая модель Levi's считается первой классической моделью джинсов?",
 "opts": [
-"501",
 "505",
+"501",
 "511",
 "550"
 ],
@@ -6094,8 +6423,8 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 241,
-"correct": 0
+"id": 254,
+"correct": 1
 },
 {
 "mode": "g",
@@ -6111,16 +6440,16 @@
 "q": "В каком году вышли духи Chanel №5?",
 "opts": [
 "1910",
-"1921",
 "1935",
+"1921",
 "1947"
 ],
 "ex": "Chanel №5 вышли в 1921 году.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 242,
-"correct": 1
+"id": 255,
+"correct": 2
 },
 {
 "mode": "g",
@@ -6137,15 +6466,15 @@
 "opts": [
 "1937",
 "1957",
-"1947",
-"1967"
+"1967",
+"1947"
 ],
 "ex": "Дом Dior открылся в 1946 году, первая коллекция — в 1947-м.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 243,
-"correct": 2
+"id": 256,
+"correct": 3
 },
 {
 "mode": "g",
@@ -6160,17 +6489,17 @@
 "photo_query": "Zara",
 "q": "В каком испанском городе открылся первый магазин Zara в 1975 году?",
 "opts": [
+"Ла-Корунья",
 "Мадрид",
 "Барселона",
-"Севилья",
-"Ла-Корунья"
+"Севилья"
 ],
 "ex": "Zara основана в 1975 году в Ла-Корунье.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 244,
-"correct": 3
+"id": 257,
+"correct": 0
 },
 {
 "mode": "g",
@@ -6186,8 +6515,8 @@
 "photo_query": "Nike",
 "q": "Кто был сооснователем Nike вместе с Филом Найтом?",
 "opts": [
-"Билл Бауэрман",
 "Ади Дасслер",
+"Билл Бауэрман",
 "Рудольф Дасслер",
 "Тинкер Хэтфилд"
 ],
@@ -6195,8 +6524,8 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 245,
-"correct": 0
+"id": 258,
+"correct": 1
 },
 {
 "mode": "g",
@@ -6213,16 +6542,16 @@
 "q": "Какой американец основал Vans в 1966 году?",
 "opts": [
 "Тони Хоук",
-"Пол Ван Дорен",
 "Шон Стюсси",
+"Пол Ван Дорен",
 "Фил Найт"
 ],
 "ex": "Vans основан Полом Ван Дореном в Анахайме.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 246,
-"correct": 1
+"id": 259,
+"correct": 2
 },
 {
 "mode": "g",
@@ -6240,15 +6569,15 @@
 "opts": [
 "Теннис",
 "Футбол",
-"Баскетбол",
-"Хоккей"
+"Хоккей",
+"Баскетбол"
 ],
 "ex": "All Star изначально были баскетбольными кедами.",
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 247,
-"correct": 2
+"id": 260,
+"correct": 3
 },
 {
 "mode": "g",
@@ -6263,17 +6592,17 @@
 "photo_query": "Patagonia",
 "q": "Кто основал Patagonia?",
 "opts": [
+"Ивон Шуинар",
 "Дуглас Томпкинс",
 "Ральф Лорен",
-"Фил Найт",
-"Ивон Шуинар"
+"Фил Найт"
 ],
 "ex": "Ивон Шуинар — альпинист и основатель Patagonia.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 248,
-"correct": 3
+"id": 261,
+"correct": 0
 },
 {
 "mode": "g",
@@ -6289,8 +6618,8 @@
 "photo_query": "Carhartt",
 "q": "Как расшифровывается WIP в названии Carhartt WIP?",
 "opts": [
-"Work In Progress",
 "Wear It Proud",
+"Work In Progress",
 "World Industrial Product",
 "Wild Inspired People"
 ],
@@ -6298,8 +6627,8 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 249,
-"correct": 0
+"id": 262,
+"correct": 1
 },
 {
 "mode": "g",
@@ -6315,16 +6644,16 @@
 "q": "Какая субкультура сделала ботинки Dr. Martens символом протеста?",
 "opts": [
 "Диско",
-"Панк",
 "Хиппи",
+"Панк",
 "Рэйв"
 ],
 "ex": "Dr. Martens стали знаком британской панк-сцены.",
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 250,
-"correct": 1
+"id": 263,
+"correct": 2
 },
 {
 "mode": "g",
@@ -6341,15 +6670,15 @@
 "opts": [
 "Джинсы",
 "Обувь",
-"Галстуки",
-"Сумки"
+"Сумки",
+"Галстуки"
 ],
 "ex": "Он выпустил широкие галстуки под маркой Polo.",
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 251,
-"correct": 2
+"id": 264,
+"correct": 3
 },
 {
 "mode": "g",
@@ -6364,17 +6693,17 @@
 "photo_query": "Lacoste",
 "q": "Каким прозвищем французского теннисиста вдохновлён логотип Lacoste?",
 "opts": [
+"Крокодил",
 "Ястреб",
 "Лев",
-"Тигр",
-"Крокодил"
+"Тигр"
 ],
 "ex": "Рене Лакост получил прозвище «Крокодил».",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 252,
-"correct": 3
+"id": 265,
+"correct": 0
 },
 {
 "mode": "g",
@@ -6389,8 +6718,8 @@
 "photo_query": "New Balance",
 "q": "В каком году вышла первая New Balance 990?",
 "opts": [
-"1982",
 "1976",
+"1982",
 "1988",
 "1994"
 ],
@@ -6398,58 +6727,8 @@
 "archive_note": "1982 год: первая 990, символ американского производства.",
 "force": 0,
 "level": 3,
-"id": 253,
-"correct": 0
-},
-{
-"mode": "g",
-"fame": 2,
-"cx": 2,
-"cats": [
-"sport"
-],
-"brand": "Fila",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Fila",
-"q": "Из какой страны родом Fila?",
-"opts": [
-"Южная Корея",
-"Италия",
-"США",
-"Франция"
-],
-"ex": "Fila основан в 1911 году в Италии.",
-"archive_note": "",
-"force": 0,
-"level": 1,
-"id": 254,
+"id": 266,
 "correct": 1
-},
-{
-"mode": "g",
-"fame": 2,
-"cx": 2,
-"cats": [
-"sport"
-],
-"brand": "Reebok",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Reebok",
-"q": "Из какой страны родом Reebok?",
-"opts": [
-"США",
-"Германия",
-"Великобритания",
-"Франция"
-],
-"ex": "Reebok основан в Болтоне, Англия.",
-"archive_note": "",
-"force": 0,
-"level": 1,
-"id": 255,
-"correct": 2
 },
 {
 "mode": "g",
@@ -6467,15 +6746,15 @@
 "opts": [
 "Быстрый как ветер",
 "Скорость и сила",
-"Всегда вперёд",
-"Здоровый дух в здоровом теле"
+"Здоровый дух в здоровом теле",
+"Всегда вперёд"
 ],
 "ex": "ASICS — аббревиатура латинской фразы Anima Sana In Corpore Sano.",
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 256,
-"correct": 3
+"id": 267,
+"correct": 2
 },
 {
 "mode": "g",
@@ -6491,17 +6770,17 @@
 "photo_query": "Timberland",
 "q": "В каком году вышли жёлтые ботинки Timberland?",
 "opts": [
-"1973",
 "1952",
 "1985",
-"1995"
+"1995",
+"1973"
 ],
 "ex": "Жёлтые водонепроницаемые ботинки Timberland вышли в 1973 году.",
 "archive_note": "1973 год: первая культовая модель, ставшая основой хип-хоп-моды.",
 "force": 0,
 "level": 3,
-"id": 257,
-"correct": 0
+"id": 268,
+"correct": 3
 },
 {
 "mode": "g",
@@ -6516,8 +6795,8 @@
 "photo_query": "Supreme",
 "q": "Кто основал Supreme в 1994 году?",
 "opts": [
-"Ниго",
 "Джеймс Джеббиа",
+"Ниго",
 "Вирджил Абло",
 "Шон Стюсси"
 ],
@@ -6525,8 +6804,8 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 258,
-"correct": 1
+"id": 269,
+"correct": 0
 },
 {
 "mode": "g",
@@ -6542,16 +6821,16 @@
 "q": "Кто основал Stüssy?",
 "opts": [
 "Джеймс Джеббиа",
-"Ниго",
 "Шон Стюсси",
+"Ниго",
 "Марк Эко"
 ],
 "ex": "Шон Стюсси начал с досок для сёрфинга в Калифорнии.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 259,
-"correct": 2
+"id": 270,
+"correct": 1
 },
 {
 "mode": "g",
@@ -6568,15 +6847,15 @@
 "opts": [
 "Ниго",
 "Канье Уэст",
-"Рик Оуэнс",
-"Вирджил Абло"
+"Вирджил Абло",
+"Рик Оуэнс"
 ],
 "ex": "Вирджил Абло запустил Off-White в 2013 году.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 260,
-"correct": 3
+"id": 271,
+"correct": 2
 },
 {
 "mode": "g",
@@ -6591,17 +6870,17 @@
 "photo_query": "Lacoste",
 "q": "В каком году основан Lacoste?",
 "opts": [
-"1933",
 "1911",
 "1947",
-"1958"
+"1958",
+"1933"
 ],
 "ex": "Lacoste основан Рене Лакостом в 1933 году.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 261,
-"correct": 0
+"id": 272,
+"correct": 3
 },
 {
 "mode": "g",
@@ -6616,8 +6895,8 @@
 "photo_query": "Fred Perry",
 "q": "Какой символ на логотипе Fred Perry?",
 "opts": [
-"Корона",
 "Лавровый венок",
+"Корона",
 "Орёл",
 "Якорь"
 ],
@@ -6625,33 +6904,8 @@
 "archive_note": "",
 "force": 0,
 "level": 1,
-"id": 262,
-"correct": 1
-},
-{
-"mode": "g",
-"fame": 2,
-"cx": 1,
-"cats": [
-"street"
-],
-"brand": "Birkenstock",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Birkenstock",
-"q": "Из какой страны родом Birkenstock?",
-"opts": [
-"Швейцария",
-"Австрия",
-"Германия",
-"Нидерланды"
-],
-"ex": "Birkenstock — немецкая обувь.",
-"archive_note": "",
-"force": 0,
-"level": 1,
-"id": 263,
-"correct": 2
+"id": 273,
+"correct": 0
 },
 {
 "mode": "g",
@@ -6667,16 +6921,16 @@
 "q": "Кто основал Under Armour?",
 "opts": [
 "Майкл Корс",
+"Кевин Плэнк",
 "Тед Бейкер",
-"Фил Найт",
-"Кевин Плэнк"
+"Фил Найт"
 ],
 "ex": "Under Armour основан в 1996 году.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 264,
-"correct": 3
+"id": 274,
+"correct": 1
 },
 {
 "mode": "g",
@@ -6691,67 +6945,16 @@
 "photo_query": "Gap",
 "q": "Какой бренд основали Дон и Дорис Фишер в 1969 году?",
 "opts": [
-"Gap",
 "Levi's",
 "Guess",
+"Gap",
 "Zara"
 ],
 "ex": "Gap основан в Сан-Франциско.",
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 265,
-"correct": 0
-},
-{
-"mode": "g",
-"fame": 2,
-"cx": 1,
-"cats": [
-"street"
-],
-"brand": "Fred Perry",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Fred Perry",
-"q": "Из какой страны родом Fred Perry?",
-"opts": [
-"США",
-"Великобритания",
-"Франция",
-"Италия"
-],
-"ex": "Бренд назван в честь британского теннисиста.",
-"archive_note": "",
-"force": 0,
-"level": 1,
-"id": 266,
-"correct": 1
-},
-{
-"mode": "g",
-"fame": 2,
-"cx": 1,
-"cats": [
-"sport",
-"sneakers"
-],
-"brand": "ASICS",
-"archive": false,
-"photo_desc": "",
-"photo_query": "ASICS",
-"q": "Из какой страны родом ASICS?",
-"opts": [
-"Южная Корея",
-"Китай",
-"Япония",
-"Германия"
-],
-"ex": "ASICS основан в 1949 году в Кобе.",
-"archive_note": "",
-"force": 0,
-"level": 1,
-"id": 267,
+"id": 275,
 "correct": 2
 },
 {
@@ -6776,7 +6979,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 268,
+"id": 276,
 "correct": 3
 },
 {
@@ -6802,7 +7005,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 269,
+"id": 277,
 "correct": 0
 },
 {
@@ -6828,7 +7031,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 270,
+"id": 278,
 "correct": 1
 },
 {
@@ -6853,7 +7056,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 271,
+"id": 279,
 "correct": 2
 },
 {
@@ -6879,7 +7082,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 272,
+"id": 280,
 "correct": 3
 },
 {
@@ -6905,7 +7108,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 273,
+"id": 281,
 "correct": 0
 },
 {
@@ -6931,7 +7134,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 274,
+"id": 282,
 "correct": 1
 },
 {
@@ -6956,7 +7159,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 275,
+"id": 283,
 "correct": 2
 },
 {
@@ -6982,7 +7185,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 276,
+"id": 284,
 "correct": 3
 },
 {
@@ -7008,7 +7211,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 277,
+"id": 285,
 "correct": 0
 },
 {
@@ -7034,7 +7237,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 278,
+"id": 286,
 "correct": 1
 },
 {
@@ -7059,7 +7262,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 279,
+"id": 287,
 "correct": 2
 },
 {
@@ -7085,7 +7288,7 @@
 "archive_note": "1984 год: нейлоновый рюкзак, ставший символом бренда.",
 "force": 0,
 "level": 2,
-"id": 280,
+"id": 288,
 "correct": 3
 },
 {
@@ -7110,7 +7313,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 281,
+"id": 289,
 "correct": 0
 },
 {
@@ -7135,7 +7338,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 282,
+"id": 290,
 "correct": 1
 },
 {
@@ -7160,7 +7363,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 283,
+"id": 291,
 "correct": 2
 },
 {
@@ -7185,7 +7388,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 284,
+"id": 292,
 "correct": 3
 },
 {
@@ -7210,7 +7413,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 285,
+"id": 293,
 "correct": 0
 },
 {
@@ -7235,7 +7438,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 286,
+"id": 294,
 "correct": 1
 },
 {
@@ -7261,7 +7464,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 287,
+"id": 295,
 "correct": 2
 },
 {
@@ -7286,7 +7489,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 288,
+"id": 296,
 "correct": 3
 },
 {
@@ -7312,7 +7515,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 289,
+"id": 297,
 "correct": 0
 },
 {
@@ -7338,7 +7541,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 290,
+"id": 298,
 "correct": 1
 },
 {
@@ -7363,7 +7566,7 @@
 "archive_note": "1995 год: ранняя скандальная коллекция Маккуина.",
 "force": 0,
 "level": 3,
-"id": 291,
+"id": 299,
 "correct": 2
 },
 {
@@ -7389,7 +7592,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 292,
+"id": 300,
 "correct": 3
 },
 {
@@ -7415,7 +7618,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 293,
+"id": 301,
 "correct": 0
 },
 {
@@ -7441,7 +7644,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 294,
+"id": 302,
 "correct": 1
 },
 {
@@ -7467,7 +7670,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 295,
+"id": 303,
 "correct": 2
 },
 {
@@ -7493,7 +7696,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 296,
+"id": 304,
 "correct": 3
 },
 {
@@ -7519,7 +7722,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 297,
+"id": 305,
 "correct": 0
 },
 {
@@ -7545,7 +7748,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 298,
+"id": 306,
 "correct": 1
 },
 {
@@ -7571,7 +7774,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 299,
+"id": 307,
 "correct": 2
 },
 {
@@ -7597,7 +7800,7 @@
 "archive_note": "1993 год: стартовая точка стритвир-сцены Ura-Harajuku.",
 "force": 0,
 "level": 4,
-"id": 300,
+"id": 308,
 "correct": 3
 },
 {
@@ -7623,7 +7826,7 @@
 "archive_note": "1981 год: парижский дебют, «Hiroshima chic».",
 "force": 0,
 "level": 4,
-"id": 301,
+"id": 309,
 "correct": 0
 },
 {
@@ -7649,7 +7852,7 @@
 "archive_note": "2001 год: молодёжный бунтарский период Раф Симонса.",
 "force": 0,
 "level": 4,
-"id": 302,
+"id": 310,
 "correct": 1
 },
 {
@@ -7674,7 +7877,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 303,
+"id": 311,
 "correct": 2
 },
 {
@@ -7700,7 +7903,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 304,
+"id": 312,
 "correct": 3
 },
 {
@@ -7726,7 +7929,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 305,
+"id": 313,
 "correct": 0
 },
 {
@@ -7752,7 +7955,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 306,
+"id": 314,
 "correct": 1
 },
 {
@@ -7778,7 +7981,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 307,
+"id": 315,
 "correct": 2
 },
 {
@@ -7804,7 +8007,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 308,
+"id": 316,
 "correct": 3
 },
 {
@@ -7830,7 +8033,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 309,
+"id": 317,
 "correct": 0
 },
 {
@@ -7855,7 +8058,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 310,
+"id": 318,
 "correct": 1
 },
 {
@@ -7880,7 +8083,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 311,
+"id": 319,
 "correct": 2
 },
 {
@@ -7905,7 +8108,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 312,
+"id": 320,
 "correct": 3
 },
 {
@@ -7930,7 +8133,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 313,
+"id": 321,
 "correct": 0
 },
 {
@@ -7956,7 +8159,7 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 314,
+"id": 322,
 "correct": 1
 },
 {
@@ -7981,7 +8184,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 315,
+"id": 323,
 "correct": 2
 },
 {
@@ -8007,7 +8210,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 316,
+"id": 324,
 "correct": 3
 },
 {
@@ -8033,7 +8236,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 317,
+"id": 325,
 "correct": 0
 },
 {
@@ -8058,7 +8261,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 318,
+"id": 326,
 "correct": 1
 },
 {
@@ -8083,7 +8286,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 319,
+"id": 327,
 "correct": 2
 },
 {
@@ -8109,7 +8312,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 320,
+"id": 328,
 "correct": 3
 },
 {
@@ -8135,7 +8338,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 321,
+"id": 329,
 "correct": 0
 },
 {
@@ -8160,7 +8363,7 @@
 "archive_note": "",
 "force": 0,
 "level": 1,
-"id": 322,
+"id": 330,
 "correct": 1
 },
 {
@@ -8185,7 +8388,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 323,
+"id": 331,
 "correct": 2
 },
 {
@@ -8210,7 +8413,7 @@
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 324,
+"id": 332,
 "correct": 3
 },
 {
@@ -8236,7 +8439,7 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 325,
+"id": 333,
 "correct": 0
 },
 {
@@ -8261,33 +8464,8 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 326,
+"id": 334,
 "correct": 1
-},
-{
-"mode": "g",
-"fame": 2,
-"cx": 2,
-"cats": [
-"street"
-],
-"brand": "Corteiz",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Corteiz",
-"q": "Какой слоган у бренда Corteiz?",
-"opts": [
-"Never Give Up",
-"Be Different",
-"Rules The World",
-"Street Kings"
-],
-"ex": "Rules The World — слоган бренда.",
-"archive_note": "",
-"force": 0,
-"level": 1,
-"id": 327,
-"correct": 2
 },
 {
 "mode": "g",
@@ -8304,15 +8482,15 @@
 "opts": [
 "Манчестер",
 "Париж",
-"Нью-Йорк",
-"Лондон"
+"Лондон",
+"Нью-Йорк"
 ],
 "ex": "Corteiz — британский уличный бренд из Лондона.",
 "archive_note": "",
 "force": 0,
 "level": 2,
-"id": 328,
-"correct": 3
+"id": 335,
+"correct": 2
 },
 {
 "mode": "g",
@@ -8327,17 +8505,17 @@
 "photo_query": "424",
 "q": "В каком городе основан бренд 424 (FourTwoFour)?",
 "opts": [
-"Лос-Анджелес",
 "Нью-Йорк",
 "Лондон",
-"Чикаго"
+"Чикаго",
+"Лос-Анджелес"
 ],
 "ex": "424 основал Гильермо Андраде.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 329,
-"correct": 0
+"id": 336,
+"correct": 3
 },
 {
 "mode": "g",
@@ -8352,8 +8530,8 @@
 "photo_query": "Carhartt",
 "q": "В каком году основан Carhartt?",
 "opts": [
-"1911",
 "1889",
+"1911",
 "1935",
 "1972"
 ],
@@ -8361,8 +8539,8 @@
 "archive_note": "",
 "force": 0,
 "level": 3,
-"id": 330,
-"correct": 1
+"id": 337,
+"correct": 0
 },
 {
 "mode": "g",
@@ -8378,16 +8556,16 @@
 "q": "Из какой страны родом бренд C2H4?",
 "opts": [
 "Япония",
-"Южная Корея",
 "Китай",
+"Южная Корея",
 "Тайвань"
 ],
 "ex": "C2H4 — китайский бренд из Шанхая.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 331,
-"correct": 2
+"id": 338,
+"correct": 1
 },
 {
 "mode": "g",
@@ -8405,15 +8583,15 @@
 "opts": [
 "Дзюн Такахаси",
 "Читосэ Абэ",
-"Ниго",
-"Масаюки Ино"
+"Масаюки Ино",
+"Ниго"
 ],
 "ex": "Doublet известен игривым подходом и юмором.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 332,
-"correct": 3
+"id": 339,
+"correct": 2
 },
 {
 "mode": "g",
@@ -8429,17 +8607,17 @@
 "photo_query": "Doublet",
 "q": "Какую награду получил Doublet в 2018 году?",
 "opts": [
-"Гран-при LVMH Prize",
 "Премию CFDA",
 "Приз «Золотая игла»",
-"Премию BFC"
+"Премию BFC",
+"Гран-при LVMH Prize"
 ],
 "ex": "Doublet выиграл LVMH Prize в 2018 году.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 333,
-"correct": 0
+"id": 340,
+"correct": 3
 },
 {
 "mode": "g",
@@ -8454,8 +8632,8 @@
 "photo_query": "MSCHF",
 "q": "Из какого города родом художественный коллектив MSCHF?",
 "opts": [
-"Лос-Анджелес",
 "Нью-Йорк (Бруклин)",
+"Лос-Анджелес",
 "Лондон",
 "Токио"
 ],
@@ -8463,8 +8641,8 @@
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 334,
-"correct": 1
+"id": 341,
+"correct": 0
 },
 {
 "mode": "g",
@@ -8480,16 +8658,16 @@
 "q": "Как называются вирусные красные ботинки MSCHF 2023 года?",
 "opts": [
 "Little Red Boots",
-"Red Wing Boots",
 "Big Red Boots",
+"Red Wing Boots",
 "Rocket Boots"
 ],
 "ex": "Big Red Boots стали интернет-мемом.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 335,
-"correct": 2
+"id": 342,
+"correct": 1
 },
 {
 "mode": "g",
@@ -8507,15 +8685,15 @@
 "opts": [
 "Дзюн Такахаси",
 "Хироки Накамура",
-"Синскэ Такидзава",
-"Такахиро Миясита"
+"Такахиро Миясита",
+"Синскэ Такидзава"
 ],
 "ex": "Миясита ранее основал Number (N)ine.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 336,
-"correct": 3
+"id": 343,
+"correct": 2
 },
 {
 "mode": "g",
@@ -8531,17 +8709,17 @@
 "photo_query": "Hysteric Glamour",
 "q": "В каком году основан Hysteric Glamour?",
 "opts": [
-"1984",
 "1971",
 "1992",
-"2001"
+"2001",
+"1984"
 ],
 "ex": "Hysteric Glamour основал Нобухико Китамура.",
 "archive_note": "",
 "force": 0,
 "level": 4,
-"id": 337,
-"correct": 0
+"id": 344,
+"correct": 3
 },
 {
 "mode": "g",
@@ -8556,8 +8734,8 @@
 "photo_query": "Nike",
 "q": "Какой бренд носит слоган «Just Do It»?",
 "opts": [
-"Adidas",
 "Nike",
+"Adidas",
 "Puma",
 "Reebok"
 ],
@@ -8565,33 +8743,8 @@
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 338,
-"correct": 1
-},
-{
-"mode": "g",
-"fame": 1,
-"cx": 1,
-"cats": [
-"sport"
-],
-"brand": "Adidas",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Adidas",
-"q": "Какой бренд известен слоганом «Impossible Is Nothing»?",
-"opts": [
-"Nike",
-"Puma",
-"Adidas",
-"Fila"
-],
-"ex": "Слоган Adidas появился в 2004 году.",
-"archive_note": "",
-"force": 1,
-"level": 1,
-"id": 339,
-"correct": 2
+"id": 345,
+"correct": 0
 },
 {
 "mode": "g",
@@ -8607,16 +8760,16 @@
 "q": "Какой бренд известен красной подошвой туфель?",
 "opts": [
 "Jimmy Choo",
+"Christian Louboutin",
 "Manolo Blahnik",
-"Gucci",
-"Christian Louboutin"
+"Gucci"
 ],
 "ex": "Красная подошва — фирменный знак Louboutin.",
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 340,
-"correct": 3
+"id": 346,
+"correct": 1
 },
 {
 "mode": "g",
@@ -8631,42 +8784,17 @@
 "photo_query": "Chanel",
 "q": "Какой дом моды использует логотип из двух переплетённых букв C?",
 "opts": [
-"Chanel",
 "Gucci",
 "Dior",
+"Chanel",
 "Celine"
 ],
 "ex": "Двойная C — знак Chanel.",
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 341,
-"correct": 0
-},
-{
-"mode": "g",
-"fame": 1,
-"cx": 1,
-"cats": [
-"luxury"
-],
-"brand": "Chanel",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Chanel",
-"q": "Из какой страны родом Chanel?",
-"opts": [
-"Италия",
-"Франция",
-"Великобритания",
-"Швейцария"
-],
-"ex": "Chanel основан в Париже.",
-"archive_note": "",
-"force": 1,
-"level": 1,
-"id": 342,
-"correct": 1
+"id": 347,
+"correct": 2
 },
 {
 "mode": "g",
@@ -8683,39 +8811,14 @@
 "opts": [
 "Франция",
 "Испания",
-"Италия",
-"Швейцария"
+"Швейцария",
+"Италия"
 ],
 "ex": "Gucci основан во Флоренции.",
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 343,
-"correct": 2
-},
-{
-"mode": "g",
-"fame": 1,
-"cx": 1,
-"cats": [
-"sport"
-],
-"brand": "Adidas",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Adidas",
-"q": "Из какой страны родом Adidas?",
-"opts": [
-"США",
-"Австрия",
-"Нидерланды",
-"Германия"
-],
-"ex": "Adidas основан в Херцогенауре.",
-"archive_note": "",
-"force": 1,
-"level": 1,
-"id": 344,
+"id": 348,
 "correct": 3
 },
 {
@@ -8740,58 +8843,8 @@
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 345,
+"id": 349,
 "correct": 0
-},
-{
-"mode": "g",
-"fame": 1,
-"cx": 1,
-"cats": [
-"luxury"
-],
-"brand": "Burberry",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Burberry",
-"q": "Из какой страны родом Burberry?",
-"opts": [
-"Италия",
-"Великобритания",
-"США",
-"Франция"
-],
-"ex": "Burberry основан в Англии.",
-"archive_note": "",
-"force": 1,
-"level": 1,
-"id": 346,
-"correct": 1
-},
-{
-"mode": "g",
-"fame": 1,
-"cx": 1,
-"cats": [
-"luxury"
-],
-"brand": "Prada",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Prada",
-"q": "Из какой страны родом Prada?",
-"opts": [
-"Франция",
-"Испания",
-"Италия",
-"Германия"
-],
-"ex": "Prada основан в Милане.",
-"archive_note": "",
-"force": 1,
-"level": 1,
-"id": 347,
-"correct": 2
 },
 {
 "mode": "g",
@@ -8807,16 +8860,16 @@
 "q": "Из какой страны родом Versace?",
 "opts": [
 "Франция",
+"Италия",
 "Греция",
-"Испания",
-"Италия"
+"Испания"
 ],
 "ex": "Versace основал Джанни Версаче в Милане.",
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 348,
-"correct": 3
+"id": 350,
+"correct": 1
 },
 {
 "mode": "g",
@@ -8831,42 +8884,17 @@
 "photo_query": "Levi's",
 "q": "Из какой страны родом Levi's?",
 "opts": [
-"США",
 "Великобритания",
 "Германия",
+"США",
 "Италия"
 ],
 "ex": "Levi's основан в Сан-Франциско.",
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 349,
-"correct": 0
-},
-{
-"mode": "g",
-"fame": 1,
-"cx": 1,
-"cats": [
-"sport"
-],
-"brand": "New Balance",
-"archive": false,
-"photo_desc": "",
-"photo_query": "New Balance",
-"q": "Какая буква изображена на кроссовках New Balance?",
-"opts": [
-"B",
-"N",
-"M",
-"W"
-],
-"ex": "Большая N — знак New Balance.",
-"archive_note": "",
-"force": 1,
-"level": 1,
-"id": 350,
-"correct": 1
+"id": 351,
+"correct": 2
 },
 {
 "mode": "g",
@@ -8883,15 +8911,15 @@
 "opts": [
 "Канада",
 "Великобритания",
-"США",
-"Германия"
+"Германия",
+"США"
 ],
 "ex": "Timberland — американский бренд.",
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 351,
-"correct": 2
+"id": 352,
+"correct": 3
 },
 {
 "mode": "g",
@@ -8906,17 +8934,17 @@
 "photo_query": "Zara",
 "q": "Из какой страны родом Zara?",
 "opts": [
+"Испания",
 "Италия",
 "Франция",
-"Португалия",
-"Испания"
+"Португалия"
 ],
 "ex": "Zara родом из Ла-Коруньи.",
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 352,
-"correct": 3
+"id": 353,
+"correct": 0
 },
 {
 "mode": "g",
@@ -8931,8 +8959,8 @@
 "photo_query": "Burberry",
 "q": "Какой узор — главный знак Burberry?",
 "opts": [
-"Клетка",
 "Полоска",
+"Клетка",
 "Горох",
 "Леопард"
 ],
@@ -8940,8 +8968,8 @@
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 353,
-"correct": 0
+"id": 354,
+"correct": 1
 },
 {
 "mode": "g",
@@ -8957,16 +8985,16 @@
 "q": "В какой стране находится компания Dr. Martens?",
 "opts": [
 "Германия",
-"Великобритания",
 "США",
+"Великобритания",
 "Австрия"
 ],
 "ex": "Компания Dr. Martens британская, хотя ботинок придумал немецкий врач Клаус Мартенс.",
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 354,
-"correct": 1
+"id": 355,
+"correct": 2
 },
 {
 "mode": "g",
@@ -8983,15 +9011,15 @@
 "opts": [
 "Oakley",
 "Persol",
-"Ray-Ban",
-"Police"
+"Police",
+"Ray-Ban"
 ],
 "ex": "Wayfarer — культовая модель Ray-Ban.",
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 355,
-"correct": 2
+"id": 356,
+"correct": 3
 },
 {
 "mode": "g",
@@ -9006,17 +9034,17 @@
 "photo_query": "Levi's",
 "q": "Какая ткань — основа джинсов?",
 "opts": [
+"Деним",
 "Бархат",
 "Вельвет",
-"Шифон",
-"Деним"
+"Шифон"
 ],
 "ex": "Джинсы шьют из денима.",
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 356,
-"correct": 3
+"id": 357,
+"correct": 0
 },
 {
 "mode": "g",
@@ -9031,8 +9059,8 @@
 "photo_query": "Burberry",
 "q": "Как называется длинный плащ с поясом и погонами, ставший классикой Burberry?",
 "opts": [
-"Тренч",
 "Кейп",
+"Тренч",
 "Пончо",
 "Бомбер"
 ],
@@ -9040,8 +9068,8 @@
 "archive_note": "",
 "force": 1,
 "level": 1,
-"id": 357,
-"correct": 0
+"id": 358,
+"correct": 1
 },
 {
 "mode": "g",
@@ -9057,36 +9085,11 @@
 "q": "Как называется короткая куртка с резинкой по низу и вороту?",
 "opts": [
 "Тренч",
-"Бомбер",
 "Пальто",
+"Бомбер",
 "Кейп"
 ],
 "ex": "Бомбер пришёл из лётной одежды.",
-"archive_note": "",
-"force": 1,
-"level": 1,
-"id": 358,
-"correct": 1
-},
-{
-"mode": "g",
-"fame": 1,
-"cx": 1,
-"cats": [
-"luxury"
-],
-"brand": "Chanel",
-"archive": false,
-"photo_desc": "",
-"photo_query": "Chanel",
-"q": "Кто популяризировал «маленькое чёрное платье» в 1920-х?",
-"opts": [
-"Кристиан Диор",
-"Ив Сен-Лоран",
-"Коко Шанель",
-"Донателла Версаче"
-],
-"ex": "Платье Chanel 1926 года стало классикой.",
 "archive_note": "",
 "force": 1,
 "level": 1,
