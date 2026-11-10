@@ -21048,5 +21048,6242 @@
 "plain": true,
 "id": 812,
 "correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Alexander McQueen",
+"Jean Paul Gaultier",
+"Comme des Garçons"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 813,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"John Galliano",
+"Vivienne Westwood",
+"Burberry",
+"Moschino"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 814,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Burberry",
+"Comme des Garçons",
+"Vivienne Westwood",
+"Moschino"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 815,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Burberry",
+"Moschino",
+"John Galliano",
+"Vivienne Westwood"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 816,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Alexander McQueen",
+"Burberry",
+"Comme des Garçons"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 817,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Alexander McQueen",
+"Vivienne Westwood",
+"Jean Paul Gaultier",
+"Comme des Garçons"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 818,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Moschino",
+"Alexander McQueen",
+"Vivienne Westwood",
+"Comme des Garçons"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 819,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Jean Paul Gaultier",
+"John Galliano",
+"Vivienne Westwood"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 820,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Moschino",
+"Jean Paul Gaultier",
+"Burberry"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 821,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Vivienne Westwood",
+"Moschino",
+"Alexander McQueen"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 822,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 11)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Jean Paul Gaultier",
+"Vivienne Westwood",
+"Alexander McQueen"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 823,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 12)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Burberry",
+"Comme des Garçons",
+"Jean Paul Gaultier",
+"Vivienne Westwood"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 824,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 13)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Jean Paul Gaultier",
+"Moschino",
+"John Galliano"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 825,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 14)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Vivienne Westwood",
+"Burberry",
+"Jean Paul Gaultier"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 826,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 15)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Alexander McQueen",
+"Jean Paul Gaultier",
+"Vivienne Westwood",
+"Burberry"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 827,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 16)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Moschino",
+"Comme des Garçons",
+"Alexander McQueen",
+"Vivienne Westwood"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 828,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 17)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Moschino",
+"Burberry",
+"Comme des Garçons"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 829,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 18)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Alexander McQueen",
+"Vivienne Westwood",
+"Moschino",
+"Burberry"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 830,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 19)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Moschino",
+"Burberry",
+"Vivienne Westwood",
+"Jean Paul Gaultier"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 831,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 20)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Moschino",
+"Burberry",
+"Comme des Garçons",
+"Vivienne Westwood"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 832,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 21)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Burberry",
+"Comme des Garçons",
+"Alexander McQueen"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 833,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 22)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Burberry",
+"Vivienne Westwood",
+"John Galliano",
+"Comme des Garçons"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 834,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Vivienne Westwood",
+"img": "Vivienne Westwood (набор 23)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Alexander McQueen",
+"Burberry",
+"Vivienne Westwood",
+"Comme des Garçons"
+],
+"ex": "Это Vivienne Westwood. Британский дом Вивьен Вествуд; фирменный знак — орб (держава с кольцом).",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 835,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"John Galliano",
+"Rick Owens",
+"Balmain",
+"Alexander McQueen"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 836,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Alexander McQueen",
+"Balmain",
+"Givenchy",
+"John Galliano"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 837,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Givenchy",
+"Alexander McQueen",
+"Vivienne Westwood",
+"Balmain"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 838,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"John Galliano",
+"Balmain",
+"Alexander McQueen",
+"Jean Paul Gaultier"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 839,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Balmain",
+"Jean Paul Gaultier",
+"Alexander McQueen"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 840,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Alexander McQueen",
+"Rick Owens",
+"John Galliano",
+"Balmain"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 841,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balmain",
+"Alexander McQueen",
+"John Galliano",
+"Givenchy"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 842,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"John Galliano",
+"Alexander McQueen",
+"Vivienne Westwood"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 843,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Givenchy",
+"Balmain",
+"Alexander McQueen"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 844,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Alexander McQueen",
+"Rick Owens",
+"Balmain",
+"Jean Paul Gaultier"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 845,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 11)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Givenchy",
+"Alexander McQueen",
+"Jean Paul Gaultier",
+"Balmain"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 846,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 12)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balmain",
+"Rick Owens",
+"Alexander McQueen",
+"John Galliano"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 847,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 13)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balmain",
+"Rick Owens",
+"Vivienne Westwood",
+"Alexander McQueen"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 848,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 14)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Alexander McQueen",
+"Jean Paul Gaultier",
+"John Galliano",
+"Balmain"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 849,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 15)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Alexander McQueen",
+"Balmain",
+"Jean Paul Gaultier"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 850,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 16)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balmain",
+"Givenchy",
+"Alexander McQueen",
+"John Galliano"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 851,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 17)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"John Galliano",
+"Balmain",
+"Vivienne Westwood",
+"Alexander McQueen"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 852,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 18)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Alexander McQueen",
+"John Galliano",
+"Jean Paul Gaultier",
+"Balmain"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 853,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 19)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Alexander McQueen",
+"Vivienne Westwood",
+"Givenchy"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 854,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 20)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"John Galliano",
+"Balmain",
+"Alexander McQueen",
+"Givenchy"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 855,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 21)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balmain",
+"Vivienne Westwood",
+"Rick Owens",
+"Alexander McQueen"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 856,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 22)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Alexander McQueen",
+"Vivienne Westwood",
+"Balmain",
+"John Galliano"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 857,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 23)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Alexander McQueen",
+"Givenchy",
+"John Galliano"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 858,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Alexander McQueen",
+"img": "Alexander McQueen (набор 24)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Rick Owens",
+"Alexander McQueen",
+"John Galliano"
+],
+"ex": "Это Alexander McQueen. Британский дом Ли Александра Маккуина; один из фирменных мотивов — череп.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 859,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balmain",
+"Mugler",
+"Dolce & Gabbana",
+"Jean Paul Gaultier"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 860,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Versace",
+"Moschino",
+"Mugler"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 861,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Dolce & Gabbana",
+"Jean Paul Gaultier",
+"Balmain",
+"Vivienne Westwood"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 862,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Dolce & Gabbana",
+"Versace",
+"Jean Paul Gaultier",
+"Balmain"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 863,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Balmain",
+"Versace",
+"Jean Paul Gaultier"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 864,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Balmain",
+"Dolce & Gabbana",
+"Mugler"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 865,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Moschino",
+"Jean Paul Gaultier",
+"Vivienne Westwood",
+"Versace"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 866,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Versace",
+"Balmain",
+"Jean Paul Gaultier",
+"Mugler"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 867,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balmain",
+"Vivienne Westwood",
+"Dolce & Gabbana",
+"Jean Paul Gaultier"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 868,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Versace",
+"Balmain",
+"Dolce & Gabbana"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 869,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 11)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Jean Paul Gaultier",
+"Moschino",
+"Balmain"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 870,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 12)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Moschino",
+"Jean Paul Gaultier",
+"Balmain"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 871,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 13)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Mugler",
+"Dolce & Gabbana",
+"Moschino",
+"Jean Paul Gaultier"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 872,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 14)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Moschino",
+"Balmain",
+"Vivienne Westwood"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 873,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 15)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Mugler",
+"Jean Paul Gaultier",
+"Dolce & Gabbana",
+"Vivienne Westwood"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 874,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 16)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Mugler",
+"Moschino",
+"Jean Paul Gaultier",
+"Vivienne Westwood"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 875,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 17)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Balmain",
+"Versace",
+"Jean Paul Gaultier"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 876,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 18)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Versace",
+"Balmain",
+"Dolce & Gabbana"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 877,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 19)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Jean Paul Gaultier",
+"Balmain",
+"Mugler"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 878,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 20)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Balmain",
+"Jean Paul Gaultier",
+"Versace"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 879,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 21)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Dolce & Gabbana",
+"Moschino",
+"Vivienne Westwood",
+"Jean Paul Gaultier"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 880,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 22)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Moschino",
+"Versace",
+"Balmain"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 881,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 23)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Moschino",
+"Jean Paul Gaultier",
+"Balmain",
+"Dolce & Gabbana"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 882,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 24)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Versace",
+"Jean Paul Gaultier",
+"Dolce & Gabbana"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 883,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 25)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Dolce & Gabbana",
+"Moschino",
+"Versace",
+"Jean Paul Gaultier"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 884,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 26)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Dolce & Gabbana",
+"Balmain",
+"Versace"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 885,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 27)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balmain",
+"Jean Paul Gaultier",
+"Versace",
+"Dolce & Gabbana"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 886,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 28)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Dolce & Gabbana",
+"Versace",
+"Jean Paul Gaultier",
+"Vivienne Westwood"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 887,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 29)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Mugler",
+"Vivienne Westwood",
+"Balmain",
+"Jean Paul Gaultier"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 888,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 30)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Moschino",
+"Vivienne Westwood",
+"Mugler"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 889,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 31)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Versace",
+"Jean Paul Gaultier",
+"Mugler",
+"Dolce & Gabbana"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 890,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 32)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Mugler",
+"Vivienne Westwood",
+"Jean Paul Gaultier",
+"Balmain"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 891,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 33)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Mugler",
+"Dolce & Gabbana",
+"Jean Paul Gaultier"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 892,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 34)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Versace",
+"Mugler",
+"Vivienne Westwood"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 893,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 35)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Jean Paul Gaultier",
+"Moschino",
+"Mugler"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 894,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 36)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Moschino",
+"Versace",
+"Jean Paul Gaultier",
+"Balmain"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 895,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 37)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Moschino",
+"Dolce & Gabbana",
+"Vivienne Westwood",
+"Jean Paul Gaultier"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 896,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 38)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Dolce & Gabbana",
+"Mugler",
+"Vivienne Westwood"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 897,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 39)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balmain",
+"Jean Paul Gaultier",
+"Versace",
+"Moschino"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 898,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 40)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Mugler",
+"Versace",
+"Jean Paul Gaultier",
+"Dolce & Gabbana"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 899,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 41)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balmain",
+"Dolce & Gabbana",
+"Versace",
+"Jean Paul Gaultier"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 900,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 42)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Moschino",
+"Balmain",
+"Mugler"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 901,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 43)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balmain",
+"Jean Paul Gaultier",
+"Dolce & Gabbana",
+"Versace"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 902,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 44)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Balmain",
+"Mugler",
+"Jean Paul Gaultier",
+"Dolce & Gabbana"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 903,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 45)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Dolce & Gabbana",
+"Balmain",
+"Versace",
+"Jean Paul Gaultier"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 904,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 46)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Jean Paul Gaultier",
+"Moschino",
+"Mugler",
+"Dolce & Gabbana"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 905,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 47)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Vivienne Westwood",
+"Jean Paul Gaultier",
+"Versace",
+"Moschino"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 906,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 3,
+"level": 3,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Jean Paul Gaultier",
+"img": "Jean Paul Gaultier (набор 48)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Dolce & Gabbana",
+"Moschino",
+"Jean Paul Gaultier",
+"Mugler"
+],
+"ex": "Это Jean Paul Gaultier. Французский дизайнер, известный принтами на сетчатых топах, тельняшками и корсетами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 907,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Undercover",
+"Comme des Garçons",
+"Junya Watanabe"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 908,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Junya Watanabe",
+"Sacai",
+"Yohji Yamamoto",
+"Issey Miyake"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 909,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Junya Watanabe",
+"Comme des Garçons",
+"Yohji Yamamoto"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 910,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Undercover",
+"Junya Watanabe",
+"Issey Miyake"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 911,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Comme des Garçons",
+"Sacai",
+"Junya Watanabe"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 912,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Junya Watanabe",
+"Kolor",
+"Yohji Yamamoto",
+"Issey Miyake"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 913,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Junya Watanabe",
+"Issey Miyake",
+"Sacai"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 914,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Comme des Garçons",
+"Junya Watanabe",
+"Yohji Yamamoto"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 915,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Issey Miyake",
+"Yohji Yamamoto",
+"Junya Watanabe"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 916,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Junya Watanabe",
+"Yohji Yamamoto",
+"Kolor",
+"Comme des Garçons"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 917,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 11)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kolor",
+"Junya Watanabe",
+"Yohji Yamamoto",
+"Undercover"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 918,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 12)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Kolor",
+"Junya Watanabe",
+"Issey Miyake"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 919,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 13)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Comme des Garçons",
+"Yohji Yamamoto",
+"Junya Watanabe"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 920,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 14)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Junya Watanabe",
+"Sacai",
+"Yohji Yamamoto",
+"Kolor"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 921,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 15)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Junya Watanabe",
+"Issey Miyake",
+"Comme des Garçons"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 922,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 16)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Kolor",
+"Junya Watanabe",
+"Comme des Garçons"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 923,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 17)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Issey Miyake",
+"Sacai",
+"Junya Watanabe"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 924,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 18)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Junya Watanabe",
+"Issey Miyake",
+"Comme des Garçons",
+"Yohji Yamamoto"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 925,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 19)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kolor",
+"Junya Watanabe",
+"Yohji Yamamoto",
+"Comme des Garçons"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 926,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 20)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Yohji Yamamoto",
+"Junya Watanabe",
+"Undercover"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 927,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 21)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Comme des Garçons",
+"Issey Miyake",
+"Junya Watanabe"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 928,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 22)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Junya Watanabe",
+"Undercover",
+"Sacai",
+"Comme des Garçons"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 929,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 23)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Junya Watanabe",
+"Issey Miyake",
+"Undercover"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 930,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Junya Watanabe",
+"img": "Junya Watanabe (набор 24)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Yohji Yamamoto",
+"Junya Watanabe",
+"Issey Miyake"
+],
+"ex": "Это Junya Watanabe. Японский дизайнер Дзюнъя Ватанабэ, ученик Рей Кавакубо; известен патчворком и коллабами.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 931,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Ann Demeulemeester",
+"img": "Ann Demeulemeester (набор 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Dries Van Noten",
+"Yohji Yamamoto",
+"Ann Demeulemeester"
+],
+"ex": "Это Ann Demeulemeester. Бельгийская дизайнерша, одна из «Антверпенской шестёрки»; известна тёмной поэтичной эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 932,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Ann Demeulemeester",
+"img": "Ann Demeulemeester (набор 2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Ann Demeulemeester",
+"Haider Ackermann",
+"Dries Van Noten",
+"Maison Margiela"
+],
+"ex": "Это Ann Demeulemeester. Бельгийская дизайнерша, одна из «Антверпенской шестёрки»; известна тёмной поэтичной эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 933,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Ann Demeulemeester",
+"img": "Ann Demeulemeester (набор 3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Dries Van Noten",
+"Ann Demeulemeester",
+"Yohji Yamamoto",
+"Helmut Lang"
+],
+"ex": "Это Ann Demeulemeester. Бельгийская дизайнерша, одна из «Антверпенской шестёрки»; известна тёмной поэтичной эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 934,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Ann Demeulemeester",
+"img": "Ann Demeulemeester (набор 4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Helmut Lang",
+"Yohji Yamamoto",
+"Ann Demeulemeester",
+"Maison Margiela"
+],
+"ex": "Это Ann Demeulemeester. Бельгийская дизайнерша, одна из «Антверпенской шестёрки»; известна тёмной поэтичной эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 935,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Ann Demeulemeester",
+"img": "Ann Demeulemeester (набор 5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Maison Margiela",
+"Rick Owens",
+"Ann Demeulemeester"
+],
+"ex": "Это Ann Demeulemeester. Бельгийская дизайнерша, одна из «Антверпенской шестёрки»; известна тёмной поэтичной эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 936,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Ann Demeulemeester",
+"img": "Ann Demeulemeester (набор 6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Ann Demeulemeester",
+"Helmut Lang",
+"Maison Margiela",
+"Dries Van Noten"
+],
+"ex": "Это Ann Demeulemeester. Бельгийская дизайнерша, одна из «Антверпенской шестёрки»; известна тёмной поэтичной эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 937,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Ann Demeulemeester",
+"img": "Ann Demeulemeester (набор 7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Haider Ackermann",
+"Ann Demeulemeester",
+"Yohji Yamamoto",
+"Maison Margiela"
+],
+"ex": "Это Ann Demeulemeester. Бельгийская дизайнерша, одна из «Антверпенской шестёрки»; известна тёмной поэтичной эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 938,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Ann Demeulemeester",
+"img": "Ann Demeulemeester (набор 8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Helmut Lang",
+"Ann Demeulemeester",
+"Haider Ackermann"
+],
+"ex": "Это Ann Demeulemeester. Бельгийская дизайнерша, одна из «Антверпенской шестёрки»; известна тёмной поэтичной эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 939,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Ann Demeulemeester",
+"img": "Ann Demeulemeester (набор 9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Maison Margiela",
+"Dries Van Noten",
+"Helmut Lang",
+"Ann Demeulemeester"
+],
+"ex": "Это Ann Demeulemeester. Бельгийская дизайнерша, одна из «Антверпенской шестёрки»; известна тёмной поэтичной эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 940,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Ann Demeulemeester",
+"img": "Ann Demeulemeester (набор 10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Ann Demeulemeester",
+"Haider Ackermann",
+"Helmut Lang",
+"Yohji Yamamoto"
+],
+"ex": "Это Ann Demeulemeester. Бельгийская дизайнерша, одна из «Антверпенской шестёрки»; известна тёмной поэтичной эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 941,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Ann Demeulemeester",
+"img": "Ann Demeulemeester (набор 11)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Helmut Lang",
+"Ann Demeulemeester",
+"Maison Margiela",
+"Rick Owens"
+],
+"ex": "Это Ann Demeulemeester. Бельгийская дизайнерша, одна из «Антверпенской шестёрки»; известна тёмной поэтичной эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 942,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Ann Demeulemeester",
+"img": "Ann Demeulemeester (набор 12)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Maison Margiela",
+"Ann Demeulemeester",
+"Rick Owens"
+],
+"ex": "Это Ann Demeulemeester. Бельгийская дизайнерша, одна из «Антверпенской шестёрки»; известна тёмной поэтичной эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 943,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Maison Margiela",
+"Ann Demeulemeester",
+"Boris Bidjan Saberi",
+"Carol Christian Poell"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 944,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Boris Bidjan Saberi",
+"Ann Demeulemeester",
+"Maison Margiela"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 945,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Guidi",
+"Carol Christian Poell",
+"Maison Margiela",
+"Rick Owens"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 946,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Guidi",
+"Carol Christian Poell",
+"Rick Owens"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 947,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Maison Margiela",
+"Ann Demeulemeester",
+"Rick Owens",
+"Carol Christian Poell"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 948,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Maison Margiela",
+"Julius",
+"Boris Bidjan Saberi"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 949,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Carol Christian Poell",
+"Ann Demeulemeester",
+"Boris Bidjan Saberi"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 950,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Boris Bidjan Saberi",
+"Rick Owens",
+"Carol Christian Poell",
+"Maison Margiela"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 951,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Boris Bidjan Saberi",
+"Julius",
+"Ann Demeulemeester",
+"Carol Christian Poell"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 952,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Ann Demeulemeester",
+"Julius",
+"Boris Bidjan Saberi"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 953,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 11)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Carol Christian Poell",
+"Maison Margiela",
+"Julius"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 954,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 12)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Julius",
+"Carol Christian Poell",
+"Guidi"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 955,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 13)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Boris Bidjan Saberi",
+"Ann Demeulemeester",
+"Julius",
+"Carol Christian Poell"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 956,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 14)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Guidi",
+"Rick Owens",
+"Maison Margiela"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 957,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 15)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Boris Bidjan Saberi",
+"Carol Christian Poell",
+"Maison Margiela",
+"Ann Demeulemeester"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 958,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 16)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Guidi",
+"Carol Christian Poell",
+"Ann Demeulemeester"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 959,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 17)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Ann Demeulemeester",
+"Rick Owens",
+"Boris Bidjan Saberi",
+"Carol Christian Poell"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 960,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 18)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Ann Demeulemeester",
+"Guidi",
+"Julius"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 961,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 19)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Carol Christian Poell",
+"Ann Demeulemeester",
+"Rick Owens"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 962,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 20)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Ann Demeulemeester",
+"Guidi",
+"Carol Christian Poell",
+"Maison Margiela"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 963,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 21)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Julius",
+"Boris Bidjan Saberi",
+"Carol Christian Poell"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 964,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 22)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Ann Demeulemeester",
+"Boris Bidjan Saberi",
+"Maison Margiela"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 965,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 23)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Guidi",
+"Carol Christian Poell",
+"Ann Demeulemeester",
+"Rick Owens"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 966,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 24)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Boris Bidjan Saberi",
+"Carol Christian Poell",
+"Ann Demeulemeester"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 967,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 25)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Ann Demeulemeester",
+"Boris Bidjan Saberi",
+"Maison Margiela",
+"Carol Christian Poell"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 968,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 26)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Rick Owens",
+"Julius",
+"Maison Margiela"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 969,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 27)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Maison Margiela",
+"Carol Christian Poell",
+"Guidi",
+"Julius"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 970,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 28)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Boris Bidjan Saberi",
+"Carol Christian Poell",
+"Rick Owens"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 971,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 29)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Maison Margiela",
+"Ann Demeulemeester",
+"Guidi",
+"Carol Christian Poell"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 972,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 30)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Rick Owens",
+"Boris Bidjan Saberi",
+"Maison Margiela"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 973,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 31)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Carol Christian Poell",
+"Guidi",
+"Ann Demeulemeester"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 974,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 32)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Ann Demeulemeester",
+"Guidi",
+"Carol Christian Poell",
+"Boris Bidjan Saberi"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 975,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 33)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Guidi",
+"Boris Bidjan Saberi",
+"Ann Demeulemeester",
+"Carol Christian Poell"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 976,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 34)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Rick Owens",
+"Ann Demeulemeester",
+"Maison Margiela"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 977,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 35)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Ann Demeulemeester",
+"Carol Christian Poell",
+"Maison Margiela",
+"Rick Owens"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 978,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 36)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Guidi",
+"Carol Christian Poell",
+"Boris Bidjan Saberi"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 979,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 37)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Guidi",
+"Ann Demeulemeester",
+"Carol Christian Poell"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 980,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 38)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Julius",
+"Boris Bidjan Saberi",
+"Ann Demeulemeester"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 981,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 39)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Maison Margiela",
+"Carol Christian Poell",
+"Guidi",
+"Boris Bidjan Saberi"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 982,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 40)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Maison Margiela",
+"Carol Christian Poell",
+"Guidi"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 983,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 41)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Ann Demeulemeester",
+"Maison Margiela",
+"Rick Owens",
+"Carol Christian Poell"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 984,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 42)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Boris Bidjan Saberi",
+"Julius",
+"Maison Margiela"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 985,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 43)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Guidi",
+"Carol Christian Poell",
+"Maison Margiela",
+"Ann Demeulemeester"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 986,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 44)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Boris Bidjan Saberi",
+"Carol Christian Poell",
+"Ann Demeulemeester"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 987,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 45)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Maison Margiela",
+"Rick Owens",
+"Ann Demeulemeester",
+"Carol Christian Poell"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 988,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 46)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Boris Bidjan Saberi",
+"Julius",
+"Maison Margiela"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 989,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 47)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Boris Bidjan Saberi",
+"Carol Christian Poell",
+"Julius",
+"Ann Demeulemeester"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 990,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 48)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Boris Bidjan Saberi",
+"Rick Owens",
+"Carol Christian Poell",
+"Ann Demeulemeester"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 991,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 49)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Rick Owens",
+"Boris Bidjan Saberi",
+"Carol Christian Poell"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 992,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 50)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Boris Bidjan Saberi",
+"Julius",
+"Ann Demeulemeester"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 993,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 51)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Rick Owens",
+"Carol Christian Poell",
+"Maison Margiela",
+"Julius"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 994,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 52)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Maison Margiela",
+"Ann Demeulemeester",
+"Carol Christian Poell",
+"Rick Owens"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 995,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 53)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Boris Bidjan Saberi",
+"Ann Demeulemeester",
+"Carol Christian Poell"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 996,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Carol Christian Poell",
+"img": "Carol Christian Poell (набор 54)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Carol Christian Poell",
+"Guidi",
+"Boris Bidjan Saberi",
+"Ann Demeulemeester"
+],
+"ex": "Это Carol Christian Poell. Авангардный бренд Кэрол Кристиан Поэлль; известен необычной обработкой кожи и конструкцией вещей.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 997,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "14th Addiction",
+"img": "14th Addiction (набор 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Hysteric Glamour",
+"14th Addiction",
+"Roen",
+"Guidi"
+],
+"ex": "Это 14th Addiction. Нишевый бренд, известный потёртыми кожаными вещами в дарк-стиле.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 998,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "14th Addiction",
+"img": "14th Addiction (набор 2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Chrome Hearts",
+"Roen",
+"14th Addiction",
+"Guidi"
+],
+"ex": "Это 14th Addiction. Нишевый бренд, известный потёртыми кожаными вещами в дарк-стиле.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 999,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "14th Addiction",
+"img": "14th Addiction (набор 3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Roen",
+"Guidi",
+"Julius",
+"14th Addiction"
+],
+"ex": "Это 14th Addiction. Нишевый бренд, известный потёртыми кожаными вещами в дарк-стиле.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1000,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "14th Addiction",
+"img": "14th Addiction (набор 4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"14th Addiction",
+"Roen",
+"Share Spirit",
+"Hysteric Glamour"
+],
+"ex": "Это 14th Addiction. Нишевый бренд, известный потёртыми кожаными вещами в дарк-стиле.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1001,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "14th Addiction",
+"img": "14th Addiction (набор 5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Share Spirit",
+"14th Addiction",
+"Hysteric Glamour",
+"Chrome Hearts"
+],
+"ex": "Это 14th Addiction. Нишевый бренд, известный потёртыми кожаными вещами в дарк-стиле.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1002,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "14th Addiction",
+"img": "14th Addiction (набор 6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Chrome Hearts",
+"14th Addiction",
+"Roen"
+],
+"ex": "Это 14th Addiction. Нишевый бренд, известный потёртыми кожаными вещами в дарк-стиле.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1003,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "14th Addiction",
+"img": "14th Addiction (набор 7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Share Spirit",
+"Hysteric Glamour",
+"Roen",
+"14th Addiction"
+],
+"ex": "Это 14th Addiction. Нишевый бренд, известный потёртыми кожаными вещами в дарк-стиле.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1004,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "14th Addiction",
+"img": "14th Addiction (набор 8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"14th Addiction",
+"Julius",
+"Hysteric Glamour",
+"Guidi"
+],
+"ex": "Это 14th Addiction. Нишевый бренд, известный потёртыми кожаными вещами в дарк-стиле.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1005,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "14th Addiction",
+"img": "14th Addiction (набор 9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Hysteric Glamour",
+"14th Addiction",
+"Roen",
+"Chrome Hearts"
+],
+"ex": "Это 14th Addiction. Нишевый бренд, известный потёртыми кожаными вещами в дарк-стиле.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1006,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "14th Addiction",
+"img": "14th Addiction (набор 10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Hysteric Glamour",
+"14th Addiction",
+"Guidi"
+],
+"ex": "Это 14th Addiction. Нишевый бренд, известный потёртыми кожаными вещами в дарк-стиле.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1007,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "20471120",
+"img": "20471120 (набор 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Hysteric Glamour",
+"Undercover",
+"Neighborhood",
+"20471120"
+],
+"ex": "Это 20471120. Японский бренд с названием из цифр — 20471120.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1008,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "20471120",
+"img": "20471120 (набор 2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"20471120",
+"A Bathing Ape",
+"Undercover",
+"Visvim"
+],
+"ex": "Это 20471120. Японский бренд с названием из цифр — 20471120.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1009,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "20471120",
+"img": "20471120 (набор 3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Visvim",
+"20471120",
+"Human Made",
+"Undercover"
+],
+"ex": "Это 20471120. Японский бренд с названием из цифр — 20471120.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1010,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "20471120",
+"img": "20471120 (набор 4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Hysteric Glamour",
+"Human Made",
+"20471120",
+"A Bathing Ape"
+],
+"ex": "Это 20471120. Японский бренд с названием из цифр — 20471120.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1011,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "20471120",
+"img": "20471120 (набор 5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Human Made",
+"Hysteric Glamour",
+"Undercover",
+"20471120"
+],
+"ex": "Это 20471120. Японский бренд с названием из цифр — 20471120.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1012,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "20471120",
+"img": "20471120 (набор 6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"20471120",
+"Undercover",
+"Hysteric Glamour",
+"A Bathing Ape"
+],
+"ex": "Это 20471120. Японский бренд с названием из цифр — 20471120.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1013,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "20471120",
+"img": "20471120 (набор 7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Visvim",
+"20471120",
+"Neighborhood",
+"Undercover"
+],
+"ex": "Это 20471120. Японский бренд с названием из цифр — 20471120.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1014,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "20471120",
+"img": "20471120 (набор 8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Neighborhood",
+"Undercover",
+"20471120",
+"Hysteric Glamour"
+],
+"ex": "Это 20471120. Японский бренд с названием из цифр — 20471120.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1015,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (набор 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Junya Watanabe",
+"Number (N)ine",
+"Undercover"
+],
+"ex": "Это Undercover. Японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1016,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (набор 2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Number (N)ine",
+"Junya Watanabe",
+"Comme des Garçons"
+],
+"ex": "Это Undercover. Японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1017,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (набор 3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Junya Watanabe",
+"Undercover",
+"Sacai",
+"Neighborhood"
+],
+"ex": "Это Undercover. Японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1018,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (набор 4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Junya Watanabe",
+"Undercover",
+"Comme des Garçons"
+],
+"ex": "Это Undercover. Японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1019,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (набор 5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Kapital",
+"Sacai",
+"Undercover"
+],
+"ex": "Это Undercover. Японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1020,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (набор 6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Neighborhood",
+"Kapital",
+"Junya Watanabe"
+],
+"ex": "Это Undercover. Японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1021,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (набор 7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Undercover",
+"Neighborhood",
+"Comme des Garçons"
+],
+"ex": "Это Undercover. Японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1022,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (набор 8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Number (N)ine",
+"Undercover",
+"Junya Watanabe"
+],
+"ex": "Это Undercover. Японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1023,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (набор 9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Neighborhood",
+"Junya Watanabe",
+"Undercover"
+],
+"ex": "Это Undercover. Японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1024,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (набор 10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Sacai",
+"Comme des Garçons",
+"Kapital"
+],
+"ex": "Это Undercover. Японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1025,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"L.G.B.",
+"Diesel",
+"Hysteric Glamour"
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1026,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Hysteric Glamour",
+"L.G.B.",
+"Diesel"
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1027,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Number (N)ine",
+"Hysteric Glamour",
+"L.G.B."
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1028,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"L.G.B.",
+"Julius",
+"Number (N)ine",
+"Hysteric Glamour"
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1029,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"L.G.B.",
+"Diesel",
+"Hysteric Glamour"
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1030,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Undercover",
+"L.G.B.",
+"Roen"
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1031,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Roen",
+"Hysteric Glamour",
+"Undercover",
+"L.G.B."
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1032,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"L.G.B.",
+"Julius",
+"Roen",
+"Number (N)ine"
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1033,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Hysteric Glamour",
+"L.G.B.",
+"Number (N)ine",
+"Undercover"
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1034,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Hysteric Glamour",
+"Roen",
+"L.G.B.",
+"Number (N)ine"
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1035,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 11)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Roen",
+"Diesel",
+"Undercover",
+"L.G.B."
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1036,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 12)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"L.G.B.",
+"Hysteric Glamour",
+"Undercover",
+"Roen"
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1037,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 13)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"L.G.B.",
+"Julius",
+"Number (N)ine"
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1038,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 14)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Roen",
+"Julius",
+"L.G.B.",
+"Undercover"
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1039,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 15)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Roen",
+"Diesel",
+"Hysteric Glamour",
+"L.G.B."
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1040,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 16)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"L.G.B.",
+"Diesel",
+"Number (N)ine",
+"Julius"
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1041,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 17)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"L.G.B.",
+"Hysteric Glamour",
+"Julius"
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1042,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "L.G.B.",
+"img": "L.G.B. (набор 18)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Julius",
+"Hysteric Glamour",
+"L.G.B.",
+"Diesel"
+],
+"ex": "Это L.G.B.. L.G.B. (Le Grand Bleu) — нишевый японский бренд.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1043,
+"correct": 2
 }
 ]
