@@ -1,12 +1,13 @@
 """Fashion Check Bot v4: один режим — Квиз (4 варианта, без фото). Известность × сложность, XP, 12 рангов."""
-import asyncio, html, json, logging, os, random, re, sqlite3, time
+import asyncio, html, json, urllib.parse, logging, os, random, re, sqlite3, time
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from aiogram import Bot, Dispatcher, F, Router
 from aiogram.client.default import DefaultBotProperties
-from aiogram.filters import Command, CommandStart
-from aiogram.types import BotCommand, CallbackQuery, BufferedInputFile, InputMediaPhoto, Message
+from aiogram.filters import Command, CommandObject, CommandStart
+from aiogram.types import (BotCommand, CallbackQuery, BufferedInputFile, InlineQuery, InlineQueryResultArticle,
+                           InputMediaPhoto, InputTextMessageContent, Message)
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 BASE = Path(__file__).parent
@@ -237,12 +238,13 @@ def menu_kb(uid):
     kb = InlineKeyboardBuilder()
     kb.button(text="🧠 Играть в квиз", callback_data="play:g")
     kb.button(text="📅 Вопрос дня", callback_data="m:daily")
+    kb.button(text="⚔️ Дуэль с другом", callback_data="m:duel")
     kb.button(text="📚 Наборы", callback_data="m:sets")
     kb.button(text="👤 Профиль", callback_data="m:prof")
     kb.button(text="🗂 Коллекции", callback_data="m:coll")
     kb.button(text="🏆 Рейтинг", callback_data="m:top")
     kb.button(text=f"⚙️ Сложность: {DIFF_NAMES[get_diff(uid)]}", callback_data="m:diff")
-    kb.adjust(1, 1, 2, 2, 1)
+    kb.adjust(1, 1, 1, 2, 2, 1)
     return kb.as_markup()
 
 
@@ -353,8 +355,12 @@ def result_text(x, ok_text, gain, notes):
 # ---------- хендлеры ----------
 @router.message(CommandStart())
 @router.message(Command("menu"))
-async def start(m: Message):
+async def start(m: Message, bot: Bot, command: CommandObject = None):
     ensure_user(m)
+    arg = (command.args or "") if command else ""
+    if arg.startswith("duel_"):
+        await duel_join(bot, arg[5:], m.from_user, m.chat.id)
+        return
     note = touch(m.from_user.id)
     await m.answer(menu_text(m.from_user.id, note), reply_markup=menu_kb(m.from_user.id))
 
@@ -429,6 +435,18 @@ async def menus(c: CallbackQuery):
         await show_top(c.message, uid, "all")
     elif what == "daily":
         await daily_start(c.message, uid)
+    elif what == "duel":
+        kb = InlineKeyboardBuilder()
+        kb.button(text="⚔️ Создать дуэль", callback_data="du:new")
+        kb.button(text="🏠 Меню", callback_data="m:menu")
+        kb.adjust(1)
+        await c.message.answer(
+            "<b>⚔️ Дуэль</b>\n15 вопросов: 2 лёгких, 3 средних, 5 сложных и 5 нишевых, среди них фото и логотипы. На каждый 25 секунд. "
+            "Верный ответ даёт очки, а чем быстрее — тем больше. Победитель получает +60 XP, проигравший +15 (до 5 дуэлей в день).\n\n"
+            "<b>Как вызвать друга:</b>\n• Прямо в вашем чате: напиши @" + BOT_USERNAME["v"] + " и выбери «Вызвать на дуэль». Друг нажмёт «Принять» — игра идёт в личке с ботом, а итог появится в вашем чате.\n"
+            "• Ссылкой: нажми «Создать дуэль» и отправь ссылку другу.\n"
+            "• В группе с ботом: напиши /duel — игра идёт прямо в группе.",
+            reply_markup=kb.as_markup())
 
 
 TOP_TITLES = {"day": "за сегодня", "week": "за 7 дней", "all": "за всё время"}
@@ -626,6 +644,322 @@ async def answer_g(c: CallbackQuery):
         await c.message.answer(result_text(x, head, gain, notes), reply_markup=next_kb(uid))
 
 
+# ---------- ДУЭЛИ ----------
+DUELS: dict[str, dict] = {}
+BOT_USERNAME = {"v": ""}
+DUEL_ROUNDS, DUEL_TIME = 15, 25
+DUEL_WIN_XP, DUEL_LOSE_XP, DUEL_DRAW_XP, DUEL_DAILY_CAP = 60, 15, 35, 5
+INLINE_USED: set = set()
+DUEL_DAYS: dict = {}
+
+
+def duel_questions():
+    """15 вопросов по нарастающей: 2 лёгких, 3 средних, 5 сложных, 5 нишевых; среди них фото и логотипы."""
+    lb = logo_brands()
+    pool = [x for x in QUESTIONS.values() if x["mode"] == "g" or x.get("img", x["brand"]) in lb]
+
+    def kind(x):
+        return "g" if x["mode"] == "g" else ("p" if x.get("img") else "l")
+    plan = [(1, "g"), (1, "g"), (2, "g"), (2, "g"), (2, "l"), (3, "g"), (3, "g"), (3, "g"), (3, "p"), (3, "p"),
+            (4, "g"), (4, "g"), (4, "g"), (4, "p"), (4, "p")]
+    out = []
+    for lv, k in plan:
+        c = [x for x in pool if x["level"] == lv and kind(x) == k and x["id"] not in out]
+        c = c or [x for x in pool if x["level"] == lv and x["id"] not in out]
+        out.append(random.choice(c)["id"])
+    return out
+
+
+def duel_busy(uid):
+    return any(uid in d["players"] and d["state"] in ("wait", "play") for d in DUELS.values())
+
+
+def dn(d, uid):
+    return html.escape(d["names"].get(uid, "Игрок"))
+
+
+async def duel_send_pic(bot: Bot, ch, key, kind, caption, kb=None):
+    extra = LOGO_FILES[key].get(kind + "x")
+    if extra:
+        pics = [LOGO_FILES[key][kind]] + extra
+        await bot.send_media_group(ch, [InputMediaPhoto(media=BufferedInputFile(base64.b64decode(p), filename=f"{i}.jpg")) for i, p in enumerate(pics)])
+        return await bot.send_message(ch, caption, reply_markup=kb)
+    ck = f"v5|{key}|{kind}"
+    row = q("SELECT file_id FROM logos3 WHERE brand=?", (ck,), "one")
+    if row:
+        return await bot.send_photo(ch, row["file_id"], caption=caption, reply_markup=kb)
+    sent = await bot.send_photo(ch, BufferedInputFile(base64.b64decode(LOGO_FILES[key][kind]), filename=f"{kind}.jpg"), caption=caption, reply_markup=kb)
+    q("INSERT OR REPLACE INTO logos3 VALUES(?,?)", (ck, sent.photo[-1].file_id), fetch=None)
+    return sent
+
+
+async def duel_say(bot: Bot, d, text, kb=None, pic=None):
+    out = []
+    for ch in dict.fromkeys(d["chats"].values()):
+        try:
+            if pic:
+                out.append(await duel_send_pic(bot, ch, pic[0], pic[1], text, kb))
+            else:
+                out.append(await bot.send_message(ch, text, reply_markup=kb))
+        except Exception:
+            logging.exception("duel_say")
+    return out
+
+
+async def inline_set(bot: Bot, d, text):
+    if d.get("inline"):
+        try:
+            await bot.edit_message_text(text=text, inline_message_id=d["inline"], reply_markup=None)
+        except Exception:
+            pass
+
+
+async def duel_create(bot: Bot, user, chat_id, private):
+    did = "".join(random.choices("abcdefghjkmnpqrstuvwxyz23456789", k=6))
+    d = {"id": did, "private": private, "players": [user.id], "names": {user.id: user.full_name},
+         "chats": {user.id: chat_id}, "state": "wait", "score": {user.id: 0}, "ans": {}, "round": 0, "qs": [], "ev": None, "t0": 0}
+    DUELS[did] = d
+    kb = InlineKeyboardBuilder()
+    if private:
+        link = f"https://t.me/{BOT_USERNAME['v']}?start=duel_{did}"
+        share = "https://t.me/share/url?url=" + urllib.parse.quote(link, safe="") + "&text=" + urllib.parse.quote("⚔️ Вызываю тебя на дуэль по моде! 15 вопросов, есть фото. Принимай:")
+        kb.button(text="📤 Отправить другу", url=share)
+        kb.button(text="❌ Отмена", callback_data=f"du:x:{did}")
+        kb.adjust(1)
+        await bot.send_message(chat_id, f"⚔️ <b>Дуэль создана!</b>\nНажми «Отправить другу», выбери чат — или перешли ему эту ссылку:\n\n{link}\n\nКак только друг откроет ссылку и нажмёт Start, игра начнётся у вас обоих. Ссылка живёт 30 минут.", reply_markup=kb.as_markup())
+    else:
+        kb.button(text="⚔️ Принять вызов", callback_data=f"du:j:{did}")
+        kb.button(text="❌ Отмена", callback_data=f"du:x:{did}")
+        kb.adjust(1)
+        await bot.send_message(chat_id, f"⚔️ <b>{dn(d, user.id)}</b> вызывает на дуэль по моде!\n15 вопросов, 5 из них нишевые, есть фото. Кто примет вызов?", reply_markup=kb.as_markup())
+    asyncio.create_task(duel_expire(bot, did))
+
+
+def d_private(did):
+    d = DUELS.get(did)
+    return bool(d and d['private'])
+
+
+async def duel_expire(bot: Bot, did):
+    await asyncio.sleep(1800 if d_private(did) else 300)
+    d = DUELS.get(did)
+    if d and d["state"] == "wait":
+        d["state"] = "dead"
+        await duel_say(bot, d, "⌛ Никто не принял вызов, дуэль отменена.")
+
+
+async def duel_join(bot: Bot, did, user, chat_id):
+    d = DUELS.get(did)
+    if not d or d["state"] == "dead":
+        await bot.send_message(chat_id, "Эта дуэль уже недоступна. Создай новую: /duel")
+        return "gone"
+    if d["state"] != "wait":
+        await bot.send_message(chat_id, "В этой дуэли уже играют.")
+        return "busy"
+    if user.id in d["players"]:
+        await bot.send_message(chat_id, "Это твоя собственная ссылка — отправь её другу, а не открывай сам.")
+        return "self"
+    if duel_busy(user.id):
+        await bot.send_message(chat_id, "Ты уже участвуешь в другой дуэли — доиграй её.")
+        return "busy"
+    d["players"].append(user.id)
+    d["names"][user.id] = user.full_name
+    d["chats"][user.id] = chat_id
+    d["score"][user.id] = 0
+    d["state"] = "play"
+    asyncio.create_task(run_duel(bot, d))
+    return "ok"
+
+
+def duel_points(d, uid):
+    a = d["ans"].get(uid)
+    x = QUESTIONS[d["qs"][d["cur"] - 1]]
+    if not a or a[0] != x["correct"]:
+        return 0
+    return 100 + int(50 * max(0.0, 1 - (a[1] - d["t0"]) / DUEL_TIME))
+
+
+async def run_duel(bot: Bot, d):
+    try:
+        a, b = d["players"]
+        d["qs"] = duel_questions()
+        await duel_say(bot, d, f"⚔️ <b>Дуэль!</b> {dn(d, a)} 🆚 {dn(d, b)}\n{DUEL_ROUNDS} вопросов (5 из них нишевые, есть фото и логотипы), на каждый {DUEL_TIME} сек. Верный ответ — 100 очков + бонус за скорость.\nГотовьтесь!")
+        await asyncio.sleep(4)
+        await inline_set(bot, d, f"⚔️ <b>Дуэль идёт!</b> {dn(d, a)} 🆚 {dn(d, b)}\nИграют в личке с ботом, результат появится здесь.")
+        for r in range(1, DUEL_ROUNDS + 1):
+            x = QUESTIONS[d["qs"][r - 1]]
+            d["cur"], d["ans"], d["ev"], d["t0"], d["round"] = r, {}, asyncio.Event(), time.time(), r
+            kb = InlineKeyboardBuilder()
+            for i, o in enumerate(x["opts"]):
+                kb.button(text=f"{'ABCD'[i]}) {o}", callback_data=f"du:a:{d['id']}:{r}:{i}")
+            kb.adjust(1)
+            pk = x.get("img", x["brand"]) if x["mode"] == "l" and x.get("img", x["brand"]) in LOGO_FILES else None
+            pic = (pk, "full" if x.get("plain") else "q1") if pk else None
+            tag = (" · 📸 фото" if x.get("img") else " · 🖼 логотип") if x["mode"] == "l" else ""
+            msgs = await duel_say(bot, d, f"<b>Раунд {r}/{DUEL_ROUNDS}</b> · {FAME[x['level']]}{tag} · ⏱ {DUEL_TIME} сек\n\n❓ {html.escape(x['q'])}", kb.as_markup(), pic)
+            try:
+                await asyncio.wait_for(d["ev"].wait(), DUEL_TIME)
+            except asyncio.TimeoutError:
+                pass
+            d["round"] = 0
+            for m in msgs:
+                try:
+                    await bot.edit_message_reply_markup(chat_id=m.chat.id, message_id=m.message_id, reply_markup=None)
+                except Exception:
+                    pass
+            lines = []
+            for u in (a, b):
+                pts = duel_points(d, u)
+                d["score"][u] += pts
+                ans = d["ans"].get(u)
+                if not ans:
+                    st = "⏳ не успел(а)"
+                elif ans[0] == x["correct"]:
+                    st = f"✅ +{pts} ({ans[1] - d['t0']:.1f} с)"
+                else:
+                    st = "❌ неверно"
+                lines.append(f"{dn(d, u)}: {st}")
+            right = f"{'ABCD'[x['correct']]}) {html.escape(x['opts'][x['correct']])}"
+            if pic and not x.get("plain"):
+                await duel_say(bot, d, "📸 А вот оригинал", None, (pk, "full"))
+            await duel_say(bot, d, f"Правильный ответ: <b>{right}</b>\n\n" + "\n".join(lines) +
+                           f"\n\n💡 {html.escape(x['ex'])}\n\n<b>Счёт:</b> {dn(d, a)} {d['score'][a]} : {d['score'][b]} {dn(d, b)}")
+            await asyncio.sleep(4)
+        sa, sb = d["score"][a], d["score"][b]
+        today = str(date.today())
+        res = []
+        for u, mine, other in ((a, sa, sb), (b, sb, sa)):
+            xp = DUEL_WIN_XP if mine > other else DUEL_DRAW_XP if mine == other else DUEL_LOSE_XP
+            n = DUEL_DAYS.get((u, today), 0)
+            if n < DUEL_DAILY_CAP:
+                DUEL_DAYS[(u, today)] = n + 1
+                q("UPDATE u3 SET xp=xp+? WHERE uid=?", (xp, u), fetch=None)
+                log_xp(u, xp)
+                res.append(f"{dn(d, u)}: +{xp} XP")
+            else:
+                res.append(f"{dn(d, u)}: лимит XP за дуэли на сегодня исчерпан")
+        title = "🤝 <b>Ничья!</b>" if sa == sb else f"🏆 <b>Победил(а) {dn(d, a if sa > sb else b)}!</b>"
+        d["state"] = "done"
+        kb = InlineKeyboardBuilder()
+        kb.button(text="🏠 Меню", callback_data="m:menu")
+        await inline_set(bot, d, f"{title}\n\n{dn(d, a)} — {sa} очков\n{dn(d, b)} — {sb} очков")
+        await duel_say(bot, d, f"{title}\n\n{dn(d, a)} — {sa} очков\n{dn(d, b)} — {sb} очков\n\n" + "\n".join(res) + "\n\nЕщё раз: /duel", kb.as_markup())
+    except Exception:
+        logging.exception("duel failed")
+        d["state"] = "dead"
+        await inline_set(bot, d, "Дуэль прервалась из-за ошибки.")
+        await duel_say(bot, d, "Дуэль прервалась из-за ошибки. Попробуйте ещё раз: /duel")
+    finally:
+        DUELS.pop(d["id"], None)
+
+
+@router.message(Command("duel"))
+async def duel_cmd(m: Message, bot: Bot):
+    ensure_user(m)
+    if duel_busy(m.from_user.id):
+        await m.answer("Ты уже участвуешь в дуэли — доиграй её.")
+        return
+    await duel_create(bot, m.from_user, m.chat.id, m.chat.type == "private")
+
+
+@router.callback_query(F.data.startswith("du:"))
+async def duel_cb(c: CallbackQuery, bot: Bot):
+    ensure_user(c)
+    p = c.data.split(":")
+    uid = c.from_user.id
+    if p[1] == "new":
+        await c.answer()
+        if duel_busy(uid):
+            await c.message.answer("Ты уже участвуешь в дуэли — доиграй её."); return
+        await duel_create(bot, c.from_user, c.message.chat.id, True)
+    elif p[1] == "j":
+        d = DUELS.get(p[2])
+        if d and uid in d["players"]:
+            await c.answer("Нужен другой игрок — ты сам создал дуэль.", show_alert=True); return
+        r = await duel_join(bot, p[2], c.from_user, c.message.chat.id)
+        await c.answer("Дуэль начинается!" if r == "ok" else "")
+        if r == "ok":
+            await strip_kb(c)
+    elif p[1] == "x":
+        d = DUELS.get(p[2])
+        if not d or d["state"] != "wait" or d["players"][0] != uid:
+            await c.answer("Отменить может только создатель до начала.", show_alert=True); return
+        d["state"] = "dead"
+        DUELS.pop(p[2], None)
+        await c.answer("Отменено")
+        await strip_kb(c)
+        await c.message.answer("Дуэль отменена.")
+    elif p[1] == "a":
+        d = DUELS.get(p[2])
+        r, i = int(p[3]), int(p[4])
+        if not d or uid not in d["players"]:
+            await c.answer("Ты не участвуешь в этой дуэли.", show_alert=True); return
+        if d["round"] != r:
+            await c.answer("Раунд уже закончился."); return
+        if uid in d["ans"]:
+            await c.answer("Ты уже ответил(а).", show_alert=False); return
+        d["ans"][uid] = (i, time.time())
+        await c.answer("Ответ принят ✅")
+        if len(d["ans"]) == 2:
+            d["ev"].set()
+
+
+@router.inline_query()
+async def duel_inline(iq: InlineQuery):
+    uid = iq.from_user.id
+    known = q("SELECT 1 FROM u3 WHERE uid=?", (uid,), "one")
+    kb = InlineKeyboardBuilder()
+    if known:
+        kb.button(text="⚔️ Принять вызов", callback_data=f"di:{uid}")
+        res = InlineQueryResultArticle(
+            id=f"duel{uid}", title="⚔️ Вызвать на дуэль", description="15 вопросов о моде, 5 нишевых, с фото",
+            input_message_content=InputTextMessageContent(
+                message_text=f"⚔️ <b>{html.escape(iq.from_user.full_name)}</b> вызывает тебя на дуэль по моде!\n15 вопросов, 5 из них нишевые, есть фото. Принимаешь?",
+                parse_mode="HTML"),
+            reply_markup=kb.as_markup())
+    else:
+        res = InlineQueryResultArticle(
+            id="start", title="Сначала запусти бота", description="Нажми Start в @" + BOT_USERNAME["v"] + ", потом вызывай на дуэль",
+            input_message_content=InputTextMessageContent(message_text=f"Чтобы играть в дуэли, открой https://t.me/{BOT_USERNAME['v']} и нажми Start."))
+    await iq.answer([res], cache_time=1, is_personal=True)
+
+
+@router.callback_query(F.data.startswith("di:"))
+async def duel_inline_accept(c: CallbackQuery, bot: Bot):
+    ensure_user(c)
+    iid = c.inline_message_id
+    creator_id = int(c.data[3:])
+    joiner = c.from_user
+    if not iid:
+        await c.answer(); return
+    if joiner.id == creator_id:
+        await c.answer("Нужен другой игрок — вызов отправил ты сам.", show_alert=True); return
+    if iid in INLINE_USED:
+        await c.answer("Этот вызов уже принят."); return
+    if duel_busy(joiner.id) or duel_busy(creator_id):
+        await c.answer("Один из игроков уже в дуэли — подождите.", show_alert=True); return
+    cr = q("SELECT name FROM u3 WHERE uid=?", (creator_id,), "one")
+    if not cr:
+        await c.answer("Автор вызова не запускал бота.", show_alert=True); return
+    try:
+        await bot.send_message(joiner.id, "⚔️ Принимаю вызов… сейчас начнём!")
+    except Exception:
+        await c.answer(url=f"https://t.me/{BOT_USERNAME['v']}?start=duel_hi")
+        return
+    try:
+        await bot.send_message(creator_id, f"⚔️ {html.escape(joiner.full_name)} принял(а) твой вызов!")
+    except Exception:
+        await c.answer("Автор вызова не открывал личку с ботом.", show_alert=True); return
+    INLINE_USED.add(iid)
+    did = "".join(random.choices("abcdefghjkmnpqrstuvwxyz23456789", k=6))
+    d = {"id": did, "private": True, "players": [creator_id, joiner.id], "names": {creator_id: cr["name"] or "Игрок", joiner.id: joiner.full_name},
+         "chats": {creator_id: creator_id, joiner.id: joiner.id}, "state": "play", "score": {creator_id: 0, joiner.id: 0},
+         "ans": {}, "round": 0, "qs": [], "ev": None, "t0": 0, "inline": iid}
+    DUELS[did] = d
+    await c.answer("Дуэль начинается — смотри личку с ботом!")
+    asyncio.create_task(run_duel(bot, d))
+
+
 # ---------- напоминание ----------
 async def daily_reminder(bot: Bot):
     last = None
@@ -651,7 +985,8 @@ async def main():
     bot = Bot(token, default=DefaultBotProperties(parse_mode="HTML"))
     dp = Dispatcher()
     dp.include_router(router)
-    await bot.set_my_commands([BotCommand(command="start", description="Меню"), BotCommand(command="myid", description="Мой ID")])
+    BOT_USERNAME["v"] = (await bot.get_me()).username
+    await bot.set_my_commands([BotCommand(command="start", description="Меню"), BotCommand(command="duel", description="Дуэль с другом"), BotCommand(command="myid", description="Мой ID")])
     asyncio.create_task(daily_reminder(bot))
     await dp.start_polling(bot)
 
