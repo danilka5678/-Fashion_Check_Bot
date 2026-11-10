@@ -776,7 +776,18 @@ def duel_points(d, uid):
     x = QUESTIONS[d["qs"][d["cur"] - 1]]
     if not a or a[0] != x["correct"]:
         return 0
-    return 100 + int(50 * max(0.0, 1 - (a[1] - d["t0"]) / DUEL_TIME))
+    base = 100 + int(50 * max(0.0, 1 - (a[1] - d["t0"]) / DUEL_TIME))
+    return int(base * {1: 1.0, 2: 0.7, 3: 0.4}[a[2]])
+
+
+def duel_kb(d, x, r, stage):
+    kb = InlineKeyboardBuilder()
+    for i, o in enumerate(x["opts"]):
+        kb.button(text=f"{'ABCD'[i]}) {o}", callback_data=f"du:a:{d['id']}:{r}:{i}")
+    if d.get("can_hint") and stage < 3:
+        kb.button(text=f"💡 Подсказка (очки ×{0.7 if stage == 1 else 0.4})", callback_data=f"du:h:{d['id']}:{r}")
+    kb.adjust(1)
+    return kb.as_markup()
 
 
 async def run_duel(bot: Bot, d):
@@ -789,20 +800,20 @@ async def run_duel(bot: Bot, d):
         for r in range(1, DUEL_ROUNDS + 1):
             x = QUESTIONS[d["qs"][r - 1]]
             d["cur"], d["ans"], d["ev"], d["t0"], d["round"] = r, {}, asyncio.Event(), time.time(), r
-            kb = InlineKeyboardBuilder()
-            for i, o in enumerate(x["opts"]):
-                kb.button(text=f"{'ABCD'[i]}) {o}", callback_data=f"du:a:{d['id']}:{r}:{i}")
-            kb.adjust(1)
             pk = x.get("img", x["brand"]) if x["mode"] == "l" and x.get("img", x["brand"]) in LOGO_FILES else None
             pic = (pk, "full" if x.get("plain") else "q1") if pk else None
+            d["pk"], d["stage"] = pk, 1
+            d["can_hint"] = bool(pk and not x.get("plain") and not x.get("blur") and "q2" in LOGO_FILES[pk] and "q3" in LOGO_FILES[pk])
+            kb = duel_kb(d, x, r, 1)
             tag = (" · 📸 фото" if x.get("img") else " · 🖼 логотип") if x["mode"] == "l" else ""
-            msgs = await duel_say(bot, d, f"<b>Раунд {r}/{DUEL_ROUNDS}</b> · {FAME[x['level']]}{tag} · ⏱ {DUEL_TIME} сек\n\n❓ {html.escape(x['q'])}", kb.as_markup(), pic)
+            msgs = await duel_say(bot, d, f"<b>Раунд {r}/{DUEL_ROUNDS}</b> · {FAME[x['level']]}{tag} · ⏱ {DUEL_TIME} сек\n\n❓ {html.escape(x['q'])}", kb, pic)
+            d["msgs"] = msgs
             try:
                 await asyncio.wait_for(d["ev"].wait(), DUEL_TIME)
             except asyncio.TimeoutError:
                 pass
             d["round"] = 0
-            for m in msgs:
+            for m in d.get("msgs", []):
                 try:
                     await bot.edit_message_reply_markup(chat_id=m.chat.id, message_id=m.message_id, reply_markup=None)
                 except Exception:
@@ -889,6 +900,26 @@ async def duel_cb(c: CallbackQuery, bot: Bot):
         await c.answer("Отменено")
         await strip_kb(c)
         await c.message.answer("Дуэль отменена.")
+    elif p[1] == "h":
+        d = DUELS.get(p[2])
+        r = int(p[3])
+        if not d or uid not in d["players"]:
+            await c.answer("Ты не участвуешь в этой дуэли.", show_alert=True); return
+        if d["round"] != r or not d.get("can_hint"):
+            await c.answer("Подсказка недоступна."); return
+        if d["stage"] >= 3:
+            await c.answer("Подсказок больше нет."); return
+        d["stage"] += 1
+        st = d["stage"]
+        x = QUESTIONS[d["qs"][r - 1]]
+        await c.answer("Открыл больше логотипа")
+        for m in d.get("msgs", []):
+            try:
+                await bot.edit_message_reply_markup(chat_id=m.chat.id, message_id=m.message_id, reply_markup=None)
+            except Exception:
+                pass
+        pen = {2: "×0.7", 3: "×0.4"}[st]
+        d["msgs"] = await duel_say(bot, d, f"<b>💡 Подсказка {st - 1}/2 · очки {pen}</b> (для верных ответов, данных после подсказки)\n\n❓ {html.escape(x['q'])}", duel_kb(d, x, r, st), (d["pk"], f"q{st}"))
     elif p[1] == "a":
         d = DUELS.get(p[2])
         r, i = int(p[3]), int(p[4])
@@ -898,7 +929,7 @@ async def duel_cb(c: CallbackQuery, bot: Bot):
             await c.answer("Раунд уже закончился."); return
         if uid in d["ans"]:
             await c.answer("Ты уже ответил(а).", show_alert=False); return
-        d["ans"][uid] = (i, time.time())
+        d["ans"][uid] = (i, time.time(), d.get("stage", 1))
         await c.answer("Ответ принят ✅")
         if len(d["ans"]) == 2:
             d["ev"].set()
