@@ -5,8 +5,9 @@ from pathlib import Path
 
 from aiogram import Bot, Dispatcher, F, Router
 from aiogram.client.default import DefaultBotProperties
+from aiogram.exceptions import TelegramForbiddenError, TelegramRetryAfter
 from aiogram.filters import Command, CommandObject, CommandStart
-from aiogram.types import (BotCommand, CallbackQuery, BufferedInputFile, InlineQuery, InlineQueryResultArticle,
+from aiogram.types import (BotCommand, FSInputFile, CallbackQuery, BufferedInputFile, InlineQuery, InlineQueryResultArticle,
                            InputMediaPhoto, InputTextMessageContent, Message)
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
@@ -368,6 +369,20 @@ async def start(m: Message, bot: Bot, command: CommandObject = None):
 @router.message(Command("myid"))
 async def myid(m: Message):
     await m.answer(f"Твой ID: <code>{m.from_user.id}</code>")
+
+
+@router.message(Command("backup"))
+async def backup(m: Message):
+    """Только для админов (ADMIN_IDS): присылает копию базы с прогрессом игроков."""
+    if m.from_user.id not in ADMIN_IDS:
+        return
+    tmp = DB_PATH.with_name("backup_copy.db")
+    src = sqlite3.connect(DB_PATH); dst = sqlite3.connect(tmp)
+    try:
+        src.backup(dst)
+    finally:
+        dst.close(); src.close()
+    await m.answer_document(FSInputFile(tmp, filename=f"fashion_{date.today()}.db"), caption="Копия базы игроков")
 
 
 @router.callback_query(F.data.startswith("m:"))
@@ -995,15 +1010,29 @@ async def duel_inline_accept(c: CallbackQuery, bot: Bot):
 async def daily_reminder(bot: Bot):
     last = None
     while True:
-        now = datetime.utcnow()
-        if now.hour == REMINDER_HOUR and last != now.date():
-            last = now.date()
-            rows = q("SELECT uid FROM u3 WHERE remind=1 AND (last_day IS NULL OR last_day != ?)", (str(date.today()),))
-            kb = InlineKeyboardBuilder(); kb.button(text="👗 Сыграть", callback_data="m:menu")
-            for r in rows:
-                try: await bot.send_message(r["uid"], "👗 Сегодня ещё не играл(а)! Продли серию дней.", reply_markup=kb.as_markup())
-                except Exception: pass
-                await asyncio.sleep(0.05)
+        try:
+            now = datetime.utcnow()
+            if now.hour == REMINDER_HOUR and last != now.date():
+                last = now.date()
+                rows = q("SELECT uid FROM u3 WHERE remind=1 AND (last_day IS NULL OR last_day != ?)", (str(date.today()),))
+                kb = InlineKeyboardBuilder(); kb.button(text="👗 Сыграть", callback_data="m:menu")
+                for r in rows:
+                    for attempt in range(3):
+                        try:
+                            await bot.send_message(r["uid"], "👗 Сегодня ещё не играл(а)! Продли серию дней.", reply_markup=kb.as_markup())
+                            break
+                        except TelegramRetryAfter as e:
+                            await asyncio.sleep(e.retry_after + 1)
+                        except TelegramForbiddenError:
+                            # пользователь заблокировал бота — больше не беспокоим
+                            try: q("UPDATE u3 SET remind=0 WHERE uid=?", (r["uid"],), fetch=None)
+                            except Exception: pass
+                            break
+                        except Exception:
+                            break
+                    await asyncio.sleep(0.05)
+        except Exception:
+            logging.exception("daily_reminder")
         await asyncio.sleep(60)
 
 
