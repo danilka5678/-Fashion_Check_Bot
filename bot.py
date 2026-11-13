@@ -261,12 +261,36 @@ def menu_text(uid, note=""):
 
 # ---------- вопросы ----------
 import base64
-LOGO_FILES = {}
-for _f in sorted(p.name for p in BASE.glob("logos_data*.json")):
-    try:
-        LOGO_FILES.update(json.loads((BASE / _f).read_text(encoding="utf-8")))
-    except Exception:
-        pass
+class LogoStore:
+    """Картинки лежат в logos_data*.json. В памяти держим только список ключей
+    и несколько последних файлов-пачек, остальное читаем с диска по требованию."""
+    def __init__(self, cache_size=4):
+        self.where = {}      # ключ -> имя файла
+        self.cache = {}      # имя файла -> содержимое (по порядку использования)
+        self.cache_size = cache_size
+        for f in sorted(p.name for p in BASE.glob("logos_data*.json")):
+            try:
+                for k in json.loads((BASE / f).read_text(encoding="utf-8")):
+                    self.where[k] = f
+            except Exception:
+                logging.exception("logos shard %s", f)
+
+    def _shard(self, f):
+        d = self.cache.pop(f, None)
+        if d is None:
+            d = json.loads((BASE / f).read_text(encoding="utf-8"))
+        self.cache[f] = d
+        while len(self.cache) > self.cache_size:
+            self.cache.pop(next(iter(self.cache)))
+        return d
+
+    def __contains__(self, k): return k in self.where
+    def __iter__(self): return iter(self.where)
+    def __len__(self): return len(self.where)
+    def __getitem__(self, k): return self._shard(self.where[k])[k]
+
+
+LOGO_FILES = LogoStore()
 
 
 def logo_brands():
