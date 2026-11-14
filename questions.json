@@ -51811,5 +51811,2894 @@
 "plain": true,
 "id": 1953,
 "correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Hysteric Glamour",
+"Number (N)ine",
+"Sacai",
+"Yohji Yamamoto"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1954,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Comme des Garçons",
+"Number (N)ine",
+"Sacai"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1955,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Hysteric Glamour",
+"mastermind JAPAN",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1956,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"mastermind JAPAN",
+"Hysteric Glamour",
+"Sacai"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1957,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"mastermind JAPAN",
+"Number (N)ine",
+"Hysteric Glamour",
+"Sacai"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1958,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Kapital",
+"Number (N)ine",
+"Comme des Garçons"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1959,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Issey Miyake",
+"Hysteric Glamour",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1960,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Hysteric Glamour",
+"Yohji Yamamoto",
+"mastermind JAPAN"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1961,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Number (N)ine",
+"Issey Miyake",
+"Yohji Yamamoto"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1962,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"mastermind JAPAN",
+"Number (N)ine",
+"Issey Miyake"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1963,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 11)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Comme des Garçons",
+"Sacai",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1964,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 12)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Issey Miyake",
+"Kapital",
+"Hysteric Glamour"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1965,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 13)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Number (N)ine",
+"Hysteric Glamour",
+"Undercover"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1966,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 14)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Undercover",
+"Number (N)ine",
+"Hysteric Glamour"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1967,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 15)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Kapital",
+"Hysteric Glamour",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1968,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 16)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Hysteric Glamour",
+"Kapital",
+"Sacai"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1969,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 17)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Number (N)ine",
+"mastermind JAPAN",
+"Sacai"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1970,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 18)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Undercover",
+"Number (N)ine",
+"Hysteric Glamour"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1971,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 19)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Sacai",
+"Hysteric Glamour",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1972,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 20)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Hysteric Glamour",
+"Undercover",
+"Issey Miyake"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1973,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 21)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Number (N)ine",
+"mastermind JAPAN",
+"Hysteric Glamour"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1974,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 22)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"mastermind JAPAN",
+"Number (N)ine",
+"Sacai"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1975,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 23)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Hysteric Glamour",
+"mastermind JAPAN",
+"Undercover",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1976,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 24)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Undercover",
+"Yohji Yamamoto",
+"Hysteric Glamour"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1977,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 25)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Number (N)ine",
+"Yohji Yamamoto",
+"mastermind JAPAN"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1978,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 26)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Yohji Yamamoto",
+"Number (N)ine",
+"Kapital"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1979,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 27)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
+"opts": [
+"mastermind JAPAN",
+"Comme des Garçons",
+"Kapital",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1980,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 28)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Hysteric Glamour",
+"Comme des Garçons",
+"Yohji Yamamoto"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1981,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 29)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Number (N)ine",
+"mastermind JAPAN",
+"Issey Miyake"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1982,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 30)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Hysteric Glamour",
+"Number (N)ine",
+"Comme des Garçons"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1983,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 31)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"mastermind JAPAN",
+"Kapital",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1984,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 32)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"mastermind JAPAN",
+"Sacai",
+"Comme des Garçons"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1985,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 33)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Number (N)ine",
+"Hysteric Glamour",
+"Kapital"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1986,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 34)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Hysteric Glamour",
+"Comme des Garçons",
+"Number (N)ine",
+"Undercover"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1987,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 35)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Comme des Garçons",
+"Hysteric Glamour",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1988,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 36)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Issey Miyake",
+"mastermind JAPAN",
+"Sacai"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1989,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 37)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Number (N)ine",
+"mastermind JAPAN",
+"Undercover"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1990,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 38)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Issey Miyake",
+"Number (N)ine",
+"mastermind JAPAN"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1991,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 39)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Issey Miyake",
+"Kapital",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1992,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 40)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Comme des Garçons",
+"Undercover",
+"Kapital"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1993,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 41)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь? (на фото — разные ракурсы)",
+"opts": [
+"Yohji Yamamoto",
+"Number (N)ine",
+"Hysteric Glamour",
+"mastermind JAPAN"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1994,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 42)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Hysteric Glamour",
+"Number (N)ine",
+"mastermind JAPAN"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1995,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 43)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"mastermind JAPAN",
+"Undercover",
+"Issey Miyake",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 1996,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 44)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Hysteric Glamour",
+"Kapital",
+"Comme des Garçons"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1997,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 45)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Number (N)ine",
+"Undercover",
+"Sacai"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1998,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 46)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"mastermind JAPAN",
+"Number (N)ine",
+"Undercover"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 1999,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 47)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Issey Miyake",
+"Hysteric Glamour",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2000,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 48)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Hysteric Glamour",
+"Issey Miyake",
+"Kapital"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2001,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 49)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Number (N)ine",
+"mastermind JAPAN",
+"Hysteric Glamour"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2002,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 50)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Hysteric Glamour",
+"Number (N)ine",
+"Yohji Yamamoto"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2003,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 51)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Sacai",
+"Issey Miyake",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2004,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 52)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Issey Miyake",
+"Comme des Garçons",
+"Yohji Yamamoto"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2005,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 53)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Number (N)ine",
+"Kapital",
+"mastermind JAPAN"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2006,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 54)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"mastermind JAPAN",
+"Number (N)ine",
+"Undercover"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2007,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 55)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"mastermind JAPAN",
+"Sacai",
+"Kapital",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2008,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 56)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Comme des Garçons",
+"mastermind JAPAN",
+"Sacai"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2009,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 57)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Number (N)ine",
+"Yohji Yamamoto",
+"Comme des Garçons"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2010,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 58)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Sacai",
+"Number (N)ine",
+"mastermind JAPAN"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2011,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 59)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"mastermind JAPAN",
+"Sacai",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2012,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 60)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Comme des Garçons",
+"Sacai",
+"Undercover"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2013,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 61)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Number (N)ine",
+"Issey Miyake",
+"Undercover"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2014,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 62)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Kapital",
+"Number (N)ine",
+"mastermind JAPAN"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2015,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 63)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Comme des Garçons",
+"Sacai",
+"Kapital",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2016,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 64)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Hysteric Glamour",
+"Undercover",
+"Issey Miyake"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2017,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 65)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Hysteric Glamour",
+"Number (N)ine",
+"Sacai",
+"Comme des Garçons"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2018,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 66)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Issey Miyake",
+"Number (N)ine",
+"Kapital"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2019,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 67)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Issey Miyake",
+"Hysteric Glamour",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2020,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 68)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Yohji Yamamoto",
+"mastermind JAPAN",
+"Issey Miyake"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2021,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 69)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Number (N)ine",
+"Comme des Garçons",
+"Issey Miyake"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2022,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 70)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Hysteric Glamour",
+"Number (N)ine",
+"Kapital"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2023,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 71)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"mastermind JAPAN",
+"Issey Miyake",
+"Comme des Garçons",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2024,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 72)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Issey Miyake",
+"mastermind JAPAN",
+"Undercover"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2025,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 73)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Hysteric Glamour",
+"Number (N)ine",
+"Undercover",
+"mastermind JAPAN"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2026,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 74)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Hysteric Glamour",
+"Comme des Garçons",
+"Number (N)ine",
+"Undercover"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2027,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 75)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"mastermind JAPAN",
+"Comme des Garçons",
+"Sacai",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2028,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 76)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Sacai",
+"mastermind JAPAN",
+"Yohji Yamamoto"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2029,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 77)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Number (N)ine",
+"Comme des Garçons",
+"Sacai"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2030,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 78)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"mastermind JAPAN",
+"Yohji Yamamoto",
+"Number (N)ine",
+"Sacai"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2031,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 79)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Kapital",
+"Issey Miyake",
+"mastermind JAPAN",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2032,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 80)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Issey Miyake",
+"Hysteric Glamour",
+"Undercover"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2033,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 81)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"mastermind JAPAN",
+"Number (N)ine",
+"Issey Miyake",
+"Undercover"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2034,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 82)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"mastermind JAPAN",
+"Yohji Yamamoto",
+"Number (N)ine",
+"Kapital"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2035,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 83)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Undercover",
+"Sacai",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2036,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 84)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Comme des Garçons",
+"Undercover",
+"Yohji Yamamoto"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2037,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 85)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Number (N)ine",
+"mastermind JAPAN",
+"Sacai"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2038,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 86)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Undercover",
+"Number (N)ine",
+"Yohji Yamamoto"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2039,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 87)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Comme des Garçons",
+"Undercover",
+"Number (N)ine"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2040,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 88)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Sacai",
+"Undercover",
+"Hysteric Glamour"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2041,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 89)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Number (N)ine",
+"Comme des Garçons",
+"Kapital"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2042,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Number (N)ine",
+"img": "Number (N)ine (подборка 90)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Hysteric Glamour",
+"Sacai",
+"Number (N)ine",
+"Yohji Yamamoto"
+],
+"ex": "Number (N)ine — японский бренд Такахиро Мияситы (закрыт в 2009 году); известен панк- и рок-эстетикой.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2043,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 1)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"A Bathing Ape",
+"Junya Watanabe",
+"Undercover"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2044,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 2)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Sacai",
+"Kapital",
+"Issey Miyake"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2045,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 3)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Undercover",
+"Junya Watanabe",
+"Kapital"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2046,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 4)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Yohji Yamamoto",
+"Kapital",
+"Undercover",
+"Number (N)ine"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2047,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 5)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"Kapital",
+"Yohji Yamamoto",
+"Undercover"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2048,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 6)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Kapital",
+"Neighborhood",
+"Junya Watanabe"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2049,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 7)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Junya Watanabe",
+"Undercover",
+"Kapital",
+"Neighborhood"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2050,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 8)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Junya Watanabe",
+"Number (N)ine",
+"Undercover",
+"Sacai"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2051,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 9)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"A Bathing Ape",
+"Junya Watanabe",
+"Issey Miyake",
+"Undercover"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2052,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 10)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Yohji Yamamoto",
+"A Bathing Ape",
+"Issey Miyake"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2053,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 11)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Sacai",
+"Undercover",
+"A Bathing Ape",
+"Number (N)ine"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2054,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 12)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Junya Watanabe",
+"Number (N)ine",
+"Undercover",
+"Issey Miyake"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2055,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 13)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Issey Miyake",
+"Neighborhood",
+"Yohji Yamamoto",
+"Undercover"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2056,
+"correct": 3
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 14)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Undercover",
+"Issey Miyake",
+"Neighborhood",
+"Sacai"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2057,
+"correct": 0
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 15)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"A Bathing Ape",
+"Undercover",
+"Sacai",
+"Junya Watanabe"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2058,
+"correct": 1
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 16)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Junya Watanabe",
+"Neighborhood",
+"Undercover",
+"A Bathing Ape"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": false,
+"id": 2059,
+"correct": 2
+},
+{
+"mode": "l",
+"fame": 4,
+"level": 4,
+"cx": 1,
+"cats": [
+"photo"
+],
+"brand": "Undercover",
+"img": "Undercover (подборка 17)",
+"archive": false,
+"photo_desc": "",
+"photo_query": "",
+"q": "Какой бренд выпустил эту вещь?",
+"opts": [
+"Number (N)ine",
+"A Bathing Ape",
+"Junya Watanabe",
+"Undercover"
+],
+"ex": "Undercover — японский бренд Дзюна Такахаси.",
+"archive_note": "",
+"blur": true,
+"plain": true,
+"id": 2060,
+"correct": 3
 }
 ]
